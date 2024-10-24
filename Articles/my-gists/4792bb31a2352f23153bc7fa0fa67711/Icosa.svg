@@ -1,0 +1,64 @@
+<svg width="400" height="400" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#0d1117" />  
+
+  <!-- 1 -->
+  <polygon points="250,250 250,100 380,170" stroke="white" fill="none"/>
+
+  <!-- 2 -->
+  <polygon points="250,250 250,100 120,170" stroke="white" fill="none"/>
+
+  <!-- 3 -->
+  <polygon points="250,250 380,170 250,100 120,170" stroke="white" fill="none"/>
+
+  <!-- 4 -->
+  <polygon points="250,250 380,170 320,280" stroke="white" fill="none"/>
+
+  <!-- 5 -->
+  <polygon points="250,250 120,170 60,280" stroke="white" fill="none"/>
+
+  <!-- 6 -->
+  <polygon points="250,250 120,170 250,100 380,170" stroke="white" fill="none"/>
+
+  <!-- 7 -->
+  <polygon points="250,250 320,280 380,170" stroke="white" fill="none"/>
+
+  <!-- 8 -->
+  <polygon points="250,250 60,280 120,170" stroke="white" fill="none"/>
+
+  <!-- 9 -->
+  <polygon points="250,250 320,420 380,330" stroke="white" fill="none"/>
+
+  <!-- 10 -->
+  <polygon points="250,250 60,220 120,330" stroke="white" fill="none"/>
+
+  <!-- 11 -->
+  <polygon points="250,250 320,420 250,480" stroke="white" fill="none"/>
+
+  <!-- 12 -->
+  <polygon points="250,250 60,220 250,480" stroke="white" fill="none"/>
+
+  <!-- 13 -->
+  <polygon points="250,250 380,330 320,420" stroke="white" fill="none"/>
+
+  <!-- 14 -->
+  <polygon points="250,250 380,330 500,250" stroke="white" fill="none"/>
+
+  <!-- 15 -->
+  <polygon points="250,250 320,420 500,250" stroke="white" fill="none"/>
+
+  <!-- 16 -->
+  <polygon points="250,250 60,220 0,250" stroke="white" fill="none"/>
+
+  <!-- 17 -->
+  <polygon points="250,250 60,220 -60,250" stroke="white" fill="none"/>
+
+  <!-- 18 -->
+  <polygon points="250,250 60,280 0,250" stroke="white" fill="none"/>
+
+  <!-- 19 -->
+  <polygon points="250,250 60,280 -60,250" stroke="white" fill="none"/>
+
+  <!-- 20 -->
+  <polygon points="250,250 380,330 440,250" stroke="white" fill="none"/>
+</svg>

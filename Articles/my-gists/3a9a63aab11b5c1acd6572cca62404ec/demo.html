@@ -1,0 +1,21 @@
+<html>
+
+<body>
+<p>Demo</p>
+</body>
+
+<gradio-app
+	space="gradio/Echocardiogram-Segmentation"
+	eager="true"
+	initial_height="0px"
+></gradio-app>
+	
+<script>
+	function handleLoadComplete() {
+		console.log("Embedded space has finished rendering");
+	}
+
+	const gradioApp = document.querySelector("gradio-app");
+	gradioApp.addEventListener("render", handleLoadComplete);
+</script>
+</html>

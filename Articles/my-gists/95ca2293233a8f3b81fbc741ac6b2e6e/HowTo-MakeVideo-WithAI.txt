@@ -1,0 +1,24 @@
+
+TXT -> SRT..
+
+ChatGPT:
+- Generate caption
+   - caption.txt
+- Generate info about topic, title, desc, credit, data, ...
+   - memo.txt
+
+TextEditor:
+- 不要記号削除。
+- 英単語・URLなどをカタカナへ。
+- 漢字をカタカナへ。
+- 80字以下で改行。
+
+Vrew: 
+- Generate Audio
+- Generate TimeCode SRT
+
+Davinci:
+- Merge
+- sub.srt, video.wav, bgm.wav, zundamon.png, img001.png, ...
+
+

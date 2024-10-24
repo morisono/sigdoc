@@ -1,0 +1,53 @@
+api_info:
+- base_link: https://www.db.yugioh-card.com/yugiohdb
+- cgid_base: /member_deck.action?cgid=
+- cid_base: /card_search.action?ope=2&cid=
+
+deck_overall:
+- title: aaa
+- code: 8wu72fb
+- rate: 9.0
+- cgid: 68a0e2059f45afb7fc0466e9630f1c85
+- type: "MD" # Type = ["OCG", "OCG2", "MD", "DL"]
+- style: "TMT" # Styles = ["CHA", "TMT", "CPT"]
+- category: "W.W." # Categories = [...]
+- tag: "Link" # Tags = ["Link", "Pendulum", "XYZ", "Syncro", ...]
+- created_at: "2024-01-01T09:00:00"
+- count: 
+  - main: 40
+  - side: 0
+  - extra: 15
+
+cards:
+- cid1: # CardID
+    - id: 9279
+    - name: "aaa"
+- cid2: 
+    - id: 9279
+    - name: "bbb"
+
+combos: 
+- cmb1:
+  - description: "..."
+  - prerequisites: 
+    - size: 3
+  - cod: lp # CauseOfDeath = ["lp", "deck-death", "sp-win"] 
+  - status: main_phase # ["draw_phase", "standby_phase", "main_phase", "battle_phase", "main2_phase", "end_phase"]
+  - actions: 
+    - a1: "ss" # Actions = ["ns", "fs", "ss", "sys", "fus", "xs", "rs", "ps", "ef", "ssef", "release", "flip", "open", "activate", "inactivate", "set", "offensive", "defensive", "battle", "destroy", "bounse", "peep", "resurrect", "return", "search", "survage", "recruit", "draw", "dump", "send", "negate", "banish", "target", "select", "chain"]
+
+- cmb2:
+  - description: "..."
+  - prerequisites: 
+    - size: 3
+  - cod: lp
+  - actions: 
+  - status: main_ph
+    - a1: "ss" 
+
+deck_weakness:
+- cid1: ...
+
+extra_info:
+- cid1: ...
+

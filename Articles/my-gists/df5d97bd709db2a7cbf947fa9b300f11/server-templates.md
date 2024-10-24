@@ -1,0 +1,1 @@
+- [CyberSec community in japan](https://discord.new/47HYjRPbpGrS)

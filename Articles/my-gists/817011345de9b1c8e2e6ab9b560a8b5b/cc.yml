@@ -1,0 +1,2413 @@
+- locale: global
+  issuers:
+    - issuer: Diners
+      code:
+        - ^(?:300|301|302|303|304|305|3095|36|38|39)
+    - issuer: American Express
+      code:
+        - ^(?:34|37)
+    - issuer: JCB
+      code:
+        - ^35[28-89]
+    - issuer: Visa
+      code:
+        - ^4
+    - issuer: MasterCard
+      code:
+        - ^5
+    - issuer: Discover
+      code:
+        - ^60110
+        - ^6011[2-4]
+        - ^60117[4-9]
+        - ^60118[6-9]
+        - ^64[4-9]
+        - ^65
+    - issuer: China UnionPay
+      code:
+        - ^622126[0-25]
+      code:
+        - ^62[4-6]
+      code:
+        - ^628[2-8]
+- locale: national
+  categories:
+    - category: ISO/TC 68 and other industry
+      category_code: ^0.*$
+      entries:
+        - cc_name: atre CARD
+          code:
+            - ^(0000)(69)
+        - cc_name: Keio Passport Card
+          code:
+            - ^(0015)(30)
+        - cc_name: VIEW
+          code:
+            - ^(0129)(01)
+        - cc_name: GRANDUO point card
+          code:
+            - ^(0129)(69)
+        - cc_name: "Ishimaru (Ai-Ai) card \u2192 Edion card"
+          code:
+            - ^(0140)(01)
+    - category: Airlines
+      category_code: ^1
+      entries:
+        - cc_name: Sony Finance International Edy
+          code:
+            - ^(1001)(00)
+        - cc_name: AMC Miyako Baska Edy
+          code:
+            - ^(1001)(90)
+        - cc_name: ANA MILEAGE CLUB Edy
+          code:
+            - ^(1001)(96)
+        - cc_name: Sumitomo Mitsui Card Edy
+          code:
+            - ^(1005)(00)
+        - cc_name: Rakuten Bank Super Loan Card
+          code:
+            - ^(1206)(11)
+        - cc_name: Mitsui Sumitomo Bank Card
+          code:
+            - ^(1276)(98)
+    - category: Airlines and other industry
+      category_code: ^2.*$
+      entries:
+        - cc_name: Izumiya Card (Proper)
+          code:
+            - ^(2000)(00)
+        - cc_name: Mac Chip (Sumitomo Mitsui Banking Corporation) Edy
+          code:
+            - ^(2001)(00)
+        - cc_name: D-ONE Card (Daiichi Specialty Store Association
+          code:
+            - ^(2101)(91)
+    - category: Travel and entertainment
+      category_code: ^3.*$
+      entries:
+        - cc_name: GAITAME.com (Bit Wallet) Edy
+          code:
+            - ^(3001)(00)
+        - cc_name: Rakuten Point Club Edy
+          code:
+            - ^(3001)(01)
+        - cc_name: Osaifu-Keitai (F) Edy
+          code:
+            - ^(3001)(40)
+        - cc_name: Osaifu-Keitai (SH) Edy
+          code:
+            - ^(3001)(40)
+        - cc_name: Osaifu-Keitai (SO) Edy
+          code:
+            - ^(3001)(50)
+        - cc_name: BIG ECHO MEMBERS CARD Edy
+          code:
+            - ^(3003)(00)
+        - cc_name: OMC(HOUS
+          code:
+            - ^(3070)(00)
+        - cc_name: JCB Showa Shell Business Card
+          code:
+            - ^(3100)(00)
+        - cc_name: Persona House
+          code:
+            - ^(3340)(21)
+        - cc_name: SAISON Postal Savings JCB
+          code:
+            - ^(3528)(24)
+        - cc_name: SAISON Loft JCBA
+          code:
+            - ^(3528)(30)
+        - cc_name: SAISON JCB
+          code:
+            - ^(3528)(55)
+        - cc_name: Idemitsu Credit Maido Card JCB
+          code:
+            - ^(3528)(59)
+        - cc_name: SAISON JAF JCB
+          code:
+            - ^(3528)(65)
+        - cc_name: SAISON MUJI JCB
+          code:
+            - ^(3528)(65)
+        - cc_name: SAISON Mei JCB
+          code:
+            - ^(3528)(67)
+        - cc_name: SAISON PEC JCB
+          code:
+            - ^(3528)(68)
+        - cc_name: Sakura Card JCB General
+          code:
+            - ^(3540)(02)
+        - cc_name: JCB Fukuoka Card
+          code:
+            - ^(3540)(06)
+        - cc_name: JCB
+          code:
+            - ^(3540)(08)
+        - cc_name: UFJ JCB SNOOPY-L
+          code:
+            - ^(3540)(09)
+        - cc_name: UFJ JCB
+          code:
+            - ^(3540)(12)
+        - cc_name: JCB Hokkaido/JCB Card
+          code:
+            - ^(3540)(14)
+        - cc_name: Saveon JCB
+          code:
+            - ^(3540)(16)
+        - cc_name: Resona JCB
+          code:
+            - ^(3540)(17)
+        - cc_name: UFJ JCB
+          code:
+            - ^(3540)(19)
+        - cc_name: Sakura Card JCB
+          code:
+            - ^(3540)(19)
+        - cc_name: JAF JCB
+          code:
+            - ^(3540)(20)
+        - cc_name: JCB NET PLUS
+          code:
+            - ^(3540)(20)
+        - cc_name: PIA JCB
+          code:
+            - ^(3540)(20)
+        - cc_name: Suruga Bank JCB
+          code:
+            - ^(3540)(21)
+        - cc_name: Tri Card JCB
+          code:
+            - ^(3540)(22)
+        - cc_name: ANA-SFC-JCB
+          code:
+            - ^(3540)(23)
+        - cc_name: JCB-LINDA
+          code:
+            - ^(3540)(23)
+        - cc_name: JCB Corporate General
+          code:
+            - ^(3540)(23)
+        - cc_name: JR JCB Business Plus Card
+          code:
+            - ^(3540)(23)
+        - cc_name: Financial One Members UFJ-JCB (Grande, Genera
+          code:
+            - ^(3540)(23)
+        - cc_name: Waseda Card JCB
+          code:
+            - ^(3540)(23)
+        - cc_name: ANA-JCB (WIDE, genera
+          code:
+            - ^(3540)(24)
+        - cc_name: FinancialOne-JCB
+          code:
+            - ^(3540)(24)
+        - cc_name: JCB
+          code:
+            - ^(3540)(24)
+        - cc_name: JAF-JCB
+          code:
+            - ^(3540)(24)
+        - cc_name: Keio JCB
+          code:
+            - ^(3540)(24)
+        - cc_name: ANA JCB General
+          code:
+            - ^(3540)(25)
+        - cc_name: JCB McDonald's
+          code:
+            - ^(3540)(25)
+        - cc_name: JCB-Arubara
+          code:
+            - ^(3540)(25)
+        - cc_name: U-29/JCB card
+          code:
+            - ^(3540)(25)
+        - cc_name: Sakura Grande
+          code:
+            - ^(3540)(25)
+        - cc_name: ANA-JCB General
+          code:
+            - ^(3540)(26)
+        - cc_name: JCB (Grande, Corporate Genera
+          code:
+            - ^(3540)(26)
+        - cc_name: MJC-JCB
+          code:
+            - ^(3540)(26)
+        - cc_name: ORIX Rent-A-Car Card JCB
+          code:
+            - ^(3540)(26)
+        - cc_name: U-29 card/JCB
+          code:
+            - ^(3540)(26)
+        - cc_name: UFJ-JCB
+          code:
+            - ^(3540)(26)
+        - cc_name: JCB E.GO
+          code:
+            - ^(3540)(27)
+        - cc_name: ANA-JCB (WIDE, genera
+          code:
+            - ^(3540)(27)
+        - cc_name: JCB Aruba
+          code:
+            - ^(3540)(27)
+        - cc_name: JCB Living Plus
+          code:
+            - ^(3540)(27)
+        - cc_name: JCB U-29
+          code:
+            - ^(3540)(27)
+        - cc_name: JCB-NetMile-Arubara
+          code:
+            - ^(3540)(27)
+        - cc_name: Financial One Members UFJ-JCB General
+          code:
+            - ^(3540)(27)
+        - cc_name: Waseda Card
+          code:
+            - ^(3540)(27)
+        - cc_name: Meiji University Student Card JCB
+          code:
+            - ^(3540)(27)
+        - cc_name: Sakura JCB-Arubara
+          code:
+            - ^(3540)(28)
+        - cc_name: Sakura Card General
+          code:
+            - ^(3540)(28)
+        - cc_name: Financial One Members UFJ-JCB Grande
+          code:
+            - ^(3540)(28)
+        - cc_name: JCB-UnitedAirline Co., Lt
+          code:
+            - ^(3540)(28)
+        - cc_name: Sakura Grande
+          code:
+            - ^(3540)(31)
+        - cc_name: Sakura TYPE SELECT
+          code:
+            - ^(3540)(33)
+        - cc_name: JCB EITT
+          code:
+            - ^(3540)(34)
+        - cc_name: Sakura TYPE SELECT
+          code:
+            - ^(3540)(35)
+        - cc_name: ANA JCB General
+          code:
+            - ^(3540)(36)
+        - cc_name: Recruit Card JCB
+          code:
+            - ^(3540)(3)x
+        - cc_name: University Co-op-JCB
+          code:
+            - ^(3540)(60)
+        - cc_name: JCB-ANA St
+          code:
+            - ^(3540)(62)
+        - cc_name: JCB
+          code:
+            - ^(3540)(68)
+        - cc_name: Microsoft Plus Sanwa JCB
+          code:
+            - ^(3540)(68)
+        - cc_name: JAL Card JCB (General, CLUB-A, JG
+          code:
+            - ^(3540)(69)
+        - cc_name: JCB Pia Card
+          code:
+            - ^(3540)(70)
+        - cc_name: JCB Central League Hanshin Tigers Card
+          code:
+            - ^(3540)(70)
+        - cc_name: JCB DRIVER'S PLUS/ETC
+          code:
+            - ^(3540)(72)
+        - cc_name: New Bank Tokyo Card JCB
+          code:
+            - ^(3540)(74)
+        - cc_name: Fukuoka Bank arecore-JCB
+          code:
+            - ^(3540)(74)
+        - cc_name: JCB Nexus
+          code:
+            - ^(3540)(77)
+        - cc_name: Financial One Members UFJ-JCB Nexus
+          code:
+            - ^(3540)(77)
+        - cc_name: JCB Synergy
+          code:
+            - ^(3540)(80)
+        - cc_name: JCB Hokkaido Grande
+          code:
+            - ^(3540)(82)
+        - cc_name: DoCoMo UFJ-JCB
+          code:
+            - ^(3540)(87)
+        - cc_name: Persona JCB
+          code:
+            - ^(3540)(88)
+        - cc_name: iWi Card JCB
+          code:
+            - ^(3540)(90)
+        - cc_name: iWi Card JCB
+          code:
+            - ^(3540)(93)
+        - cc_name: Nishigin JCB-G
+          code:
+            - ^(3541)(00)
+        - cc_name: ANA JCB GOLD (General, Wide, SuperFlyer
+          code:
+            - ^(3541)(01)
+        - cc_name: JCB
+          code:
+            - ^(3541)(01)
+        - cc_name: JCB GOLD Proper
+          code:
+            - ^(3541)(01)
+        - cc_name: JCB GOLD UNITED Mileage Plus
+          code:
+            - ^(3541)(01)
+        - cc_name: Keio JCB-Gold
+          code:
+            - ^(3541)(01)
+        - cc_name: Waseda GOLD Card
+          code:
+            - ^(3541)(01)
+        - cc_name: JCB
+          code:
+            - ^(3541)(02)
+        - cc_name: JCB Gold
+          code:
+            - ^(3541)(02)
+        - cc_name: ANA JCB Wide Gold
+          code:
+            - ^(3541)(02)
+        - cc_name: Financial One Members UFJ-JCB Gold
+          code:
+            - ^(3541)(02)
+        - cc_name: JAL Card CLUB-A JCB-G
+          code:
+            - ^(3541)(69)
+        - cc_name: JCB THE CLASS
+          code:
+            - ^(3541)(80)
+        - cc_name: JCB BUSINESS
+          code:
+            - ^(3541)(81)
+        - cc_name:  KKR (National Civil Service Mutual Aid Union Federation) JCB BUSINESS
+          code:
+            - ^(3541)(81)
+        - cc_name: JR-JCB-BUSINESS-Gold
+          code:
+            - ^(3541)(81)
+        - cc_name: JAL JCB
+          code:
+            - ^(3542)(58)
+        - cc_name: YAHOO!JAPAN JCB Card
+          code:
+            - ^(3542)(59)
+        - cc_name: Ario JCB Card
+          code:
+            - ^(3542)(77)
+        - cc_name: HANA PLUS JCB Card
+          code:
+            - ^(3542)(87)
+        - cc_name: Odakyu Point Credit Card
+          code:
+            - ^(3542)(90)
+        - cc_name: JCB Corporate Gold
+          code:
+            - ^(3551)(00)
+        - cc_name: Hitachi Card General
+          code:
+            - ^(3580)(10)
+        - cc_name: NOVA CARD JCB (Hitachi Card Servic
+          code:
+            - ^(3580)(14)
+        - cc_name: JR Tokai Express Card (JC
+          code:
+            - ^(3581)(80)
+        - cc_name: Nissen Ren Obihiro JCB
+          code:
+            - ^(3582)(01)
+        - cc_name: Nippon Senren JCB
+          code:
+            - ^(3582)(04)
+        - cc_name: dsp JCB
+          code:
+            - ^(3582)(73)
+        - cc_name: APLUS JCB (TSUTAYA, Namba CITY include
+          code:
+            - ^(3582)(77)
+        - cc_name: GE-JCB
+          code:
+            - ^(3582)(90)
+        - cc_name: GE CARD JCB
+          code:
+            - ^(3582)(98)
+        - cc_name: GE CARD JCB GOLD
+          code:
+            - ^(3582)(99)
+        - cc_name: nifty Orico-JCB
+          code:
+            - ^(3583)(05)
+        - cc_name: Mini Mini Orico-JCB
+          code:
+            - ^(3583)(05)
+        - cc_name: Monte Rosa Orico-JCB
+          code:
+            - ^(3583)(05)
+        - cc_name: Rakuten Card JCB
+          code:
+            - ^(3584)(03)
+        - cc_name: KC JCB
+          code:
+            - ^(3584)(03)
+        - cc_name: AEON JCB
+          code:
+            - ^(3584)(10)
+        - cc_name: AEON JCB
+          code:
+            - ^(3584)(11)
+        - cc_name: AEON JCB
+          code:
+            - ^(3584)(13)
+        - cc_name: AEON JCB (ETC, Sports Authority include
+          code:
+            - ^(3584)(19)
+        - cc_name: Panasonic-JCB
+          code:
+            - ^(3584)(81)
+        - cc_name: Panasonic-JCB
+          code:
+            - ^(3584)(88)
+        - cc_name: Takashimaya JCB
+          code:
+            - ^(3584)(90)
+        - cc_name: MUFG-JCB
+          code:
+            - ^(3586)(31)
+        - cc_name: GeGeGe no Kitaro Card
+          code:
+            - ^(3587)(01)
+        - cc_name: SC/JCB card
+          code:
+            - ^(3587)(01)
+        - cc_name: Hokusen JCB
+          code:
+            - ^(3587)(02)
+        - cc_name: Sapphire JCB
+          code:
+            - ^(3587)(03)
+        - cc_name: GE Consumer Finance
+          code:
+            - ^(3587)(08)
+        - cc_name: JACCS-JCB PC Depot Card
+          code:
+            - ^(3587)(11)
+        - cc_name: Yellowtail JACCS-JCB
+          code:
+            - ^(3587)(11)
+        - cc_name: JACCS-Yokohama Invitation Card-JCB
+          code:
+            - ^(3587)(11)
+        - cc_name: JACCS-Hakodate Card-JCB
+          code:
+            - ^(3587)(11)
+        - cc_name: JACCS-Collect additional points from a certain card
+          code:
+            - ^(3587)(11)
+        - cc_name: Ponta Premium Card
+          code:
+            - ^(3587)(11)
+        - cc_name: JACCS Kampo Style Club Card JCB
+          code:
+            - ^(3587)(11)
+        - cc_name: JUPI Card
+          code:
+            - ^(3587)(41)
+        - cc_name: UCS JCB (General, GOL
+          code:
+            - ^(3587)(42)
+        - cc_name: All Nippon Shinpan JCB
+          code:
+            - ^(3587)(43)
+        - cc_name: Yume JCB
+          code:
+            - ^(3587)(44)
+        - cc_name: OSAKA PiTaPa-Toyota TS3-JCB
+          code:
+            - ^(3587)(46)
+        - cc_name: JKJK
+          code:
+            - ^(3587)(46)
+        - cc_name: Toyota TS3 Card JCB-G
+          code:
+            - ^(3587)(47)
+        - cc_name: OMC JCB
+          code:
+            - ^(3587)(50)
+        - cc_name: OMC JCB
+          code:
+            - ^(3587)(51)
+        - cc_name: OMC JCB Gold
+          code:
+            - ^(3587)(59)
+        - cc_name: JCB
+          code:
+            - ^(3587)(61)
+        - cc_name: CF JCB
+          code:
+            - ^(3587)(81)
+        - cc_name: Cedyna JCB JR Tokai Express
+          code:
+            - ^(3587)(81)
+        - cc_name: JAL Card Suica JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: View-Suica-JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: Bic Camera Suica card JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: Lumine Card-JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: Adult Holiday Club Middle Card-JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: Adult Holiday Club Zipangu Card-JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: S-Parview Suica Card-JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: TYO View Watermelon Card-JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: Jexer View Suika Card-JCB
+          code:
+            - ^(3587)(87)
+        - cc_name: Izumiya Card-JCB
+          code:
+            - ^(3587)(93)
+        - cc_name: Shonai Bank Bank Card-JCB
+          code:
+            - ^(3588)(21)
+        - cc_name: b.
+          code:
+            - ^(3588)(74)
+        - cc_name: Flat eggplant (Thailan
+          code:
+            - ^(3648)(88)
+        - cc_name: Diners-Black
+          code:
+            - ^(3691)(15)
+        - cc_name: WASEDA Diners
+          code:
+            - ^(3691)(15)
+        - cc_name: Diners General
+          code:
+            - ^(3691)(16)
+        - cc_name: Diners partnership
+          code:
+            - ^(3691)(16)
+        - cc_name: Diners Affiliated JC
+          code:
+            - ^(3691)(16)
+        - cc_name: Diners Premium
+          code:
+            - ^(3691)(16)
+        - cc_name: Diners citigold
+          code:
+            - ^(3691)(17)
+        - cc_name: ANA Diners Super Flyers Card Premium
+          code:
+            - ^(3691)(17)
+        - cc_name: ANA Diners Super Flyers Card
+          code:
+            - ^(3691)(18)
+        - cc_name: DINERS NewOtaniClub
+          code:
+            - ^(3691)(50)
+        - cc_name: JAL Diners
+          code:
+            - ^(3691)(61)
+        - cc_name: JAL Global Club Diners
+          code:
+            - ^(3691)(63)
+        - cc_name: Diners General
+          code:
+            - ^(3695)(41)
+        - cc_name: Diners General
+          code:
+            - ^(3695)(54)
+        - cc_name: Diners Corporate
+          code:
+            - ^(3695)(63)
+        - cc_name: Diners General
+          code:
+            - ^(3695)(70)
+        - cc_name: Diners General
+          code:
+            - ^(3695)(71)
+        - cc_name: Diners General
+          code:
+            - ^(3695)(72)
+        - cc_name: Diners General
+          code:
+            - ^(3695)(74)
+        - cc_name: Diners General
+          code:
+            - ^(3695)(91)
+        - cc_name: AMEX GOLD
+          code:
+            - ^(3761)(01)
+        - cc_name: AMEX GOLD
+          code:
+            - ^(3761)(03)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(04)
+        - cc_name: AMEX GOLD
+          code:
+            - ^(3761)(07)
+        - cc_name: AMEX GOLD
+          code:
+            - ^(3761)(08)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(09)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(12)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(18)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(21)
+        - cc_name: Okura Club AMEX
+          code:
+            - ^(3761)(22)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(24)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(26)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(27)
+        - cc_name: New AMEX
+          code:
+            - ^(3761)(28)
+        - cc_name: AMEX
+          code:
+            - ^(3761)(32)
+        - cc_name: DELTA SKYMILES AMEX GOLD
+          code:
+            - ^(3761)(32)
+        - cc_name: ANA AMEX
+          code:
+            - ^(3761)(35)
+        - cc_name: AMEX Platinum
+          code:
+            - ^(3761)(35)
+        - cc_name: AMEX Cor
+          code:
+            - ^(3761)(53)
+        - cc_name: AMEX Cor
+          code:
+            - ^(3761)(68)
+        - cc_name: AMEX Business staff (GOL
+          code:
+            - ^(3761)(69)
+        - cc_name: AMEX Business owner (PLA
+          code:
+            - ^(3761)(70)
+        - cc_name: AMEX GOLD Cor
+          code:
+            - ^(3761)(71)
+        - cc_name: AMEX GOLD Cor
+          code:
+            - ^(3761)(74)
+        - cc_name: AMEX GOLD Cor
+          code:
+            - ^(3761)(76)
+        - cc_name: AMEX Centurion Card
+          code:
+            - ^(3761)(77)
+        - cc_name: AMEX Platinum
+          code:
+            - ^(3761)(77)
+        - cc_name: AMEX Centurion
+          code:
+            - ^(3761)(78)
+        - cc_name: AMEX Platinum
+          code:
+            - ^(3761)(79)
+        - cc_name: AMEX GOLD (Thailan
+          code:
+            - ^(3763)(10)
+        - cc_name: AMEX Companion
+          code:
+            - ^(3765)(11)
+        - cc_name: AMEX Companion (gray colo
+          code:
+            - ^(3765)(12)
+        - cc_name: SAISON AMEX
+          code:
+            - ^(3777)(81)
+        - cc_name: SAISON PLATINUM AMEX
+          code:
+            - ^(3777)(81)
+        - cc_name: SAISON JAF AMEX
+          code:
+            - ^(3777)(81)
+        - cc_name: SAISON PARCO AMEX
+          code:
+            - ^(3777)(81)
+        - cc_name: SAISON Tsurumi Hanaport Blossom AMEX
+          code:
+            - ^(3777)(81)
+        - cc_name: SAISON DoCoMo AMEX
+          code:
+            - ^(3777)(82)
+        - cc_name: MUFG Card Gold AMEX
+          code:
+            - ^(3778)(58)
+        - cc_name: AMEX GIFT CARD (Amex prepaid car
+          code:
+            - ^(3790)(29)
+    - category: Banking and financial
+      category_code: ^4.*$
+      entries:
+        - cc_name: CITIBANK Dollar VISA
+          code:
+            - ^(4028)(55)
+        - cc_name: BANK ONE
+          code:
+            - ^(4060)(42)
+        - cc_name: Nikko Platinum Debit Card (VISA Debi
+          code:
+            - ^(4153)(14)
+        - cc_name: AEON
+          code:
+            - ^(4205)(10)
+        - cc_name: AEON
+          code:
+            - ^(4205)(11)
+        - cc_name: AEON-GOLD-VISA
+          code:
+            - ^(4205)(11)
+        - cc_name: AEON-GOLD-VISA
+          code:
+            - ^(4205)(12)
+        - cc_name: AEON
+          code:
+            - ^(4205)(19)
+        - cc_name: AEON-VISA
+          code:
+            - ^(4205)(20)
+        - cc_name: AEON-VISA
+          code:
+            - ^(4205)(21)
+        - cc_name: AEON-VISA
+          code:
+            - ^(4205)(22)
+        - cc_name: AEON-VISA
+          code:
+            - ^(4205)(23)
+        - cc_name: AEON-VISA
+          code:
+            - ^(4205)(29)
+        - cc_name: AEON JMB VISA
+          code:
+            - ^(4205)(29)
+        - cc_name: AEON-Suica-VISA
+          code:
+            - ^(4205)(29)
+        - cc_name: AEON COSMO THE CARD Opus
+          code:
+            - ^(4205)(29)
+        - cc_name: AEON
+          code:
+            - ^(4205)(30)
+        - cc_name: Life-Life Card Gold VISA
+          code:
+            - ^(4220)(00)
+        - cc_name: Life-Life Card VISA
+          code:
+            - ^(4220)(02)
+        - cc_name: AEON-VISA
+          code:
+            - ^(4505)(90)
+        - cc_name: Suruga VISA Debit Card (VISA Debi
+          code:
+            - ^(4216)(14)
+        - cc_name: Suruga VISA Debit Card (VISA Debi
+          code:
+            - ^(4216)(15)
+        - cc_name: Banco BANTEC
+          code:
+            - ^(4259)(55)
+        - cc_name: V Preca (Virtual VISA Prepai
+          code:
+            - ^(4284)(85)
+        - cc_name: NEO MONEY (Saison VISA Prepai
+          code:
+            - ^(4284)(87)
+        - cc_name: Cocokara Club Card (VISA Prepai
+          code:
+            - ^(4284)(90)
+        - cc_name: Rakuten Card VISA
+          code:
+            - ^(4297)(69)
+        - cc_name: Rakuten Premium VISA
+          code:
+            - ^(4297)(70)
+        - cc_name: Sumitomo Mitsui International Cash Card
+          code:
+            - ^(4311)(26)
+        - cc_name: Wells Fargo Bank
+          code:
+            - ^(4323)(71)
+        - cc_name: SBI Card Plus Visa
+          code:
+            - ^(4363)(04)
+        - cc_name: Geo Ponta Visa
+          code:
+            - ^(4363)(04)
+        - cc_name: Banco BANTEC
+          code:
+            - ^(4384)(00)
+        - cc_name: Tokyo Mitsubishi Cash Card <Internationa
+          code:
+            - ^(4391)(02)
+        - cc_name: CALIFORNIA BANK & TRUST VISA
+          code:
+            - ^(4470)(57)
+        - cc_name: JACCS-VISA General
+          code:
+            - ^(4525)(81)
+        - cc_name: JACCS
+          code:
+            - ^(4525)(82)
+        - cc_name: JACCS VISA (switched from TSUTAYA partnershi
+          code:
+            - ^(4525)(84)
+        - cc_name: JACCS REX CARD Lite
+          code:
+            - ^(4525)(84)
+        - cc_name: JACCS-Yokohama Invitation Card-VISA
+          code:
+            - ^(4525)(85)
+        - cc_name: AEON-VISA
+          code:
+            - ^(4525)(90)
+        - cc_name: Yokohama Bank Bank Card (BC)-VISA
+          code:
+            - ^(4531)(38)
+        - cc_name: Fukuoka Bank-Bank Card-VISA
+          code:
+            - ^(4531)(77)
+        - cc_name: DC Card GOLD
+          code:
+            - ^(4534)(00)
+        - cc_name: DC Proper VISA (BTM withdrawa
+          code:
+            - ^(4534)(12)
+        - cc_name: DC-VISA
+          code:
+            - ^(4534)(19)
+        - cc_name: DC Waseda VISA
+          code:
+            - ^(4534)(22)
+        - cc_name: DC JAF VISA
+          code:
+            - ^(4534)(26)
+        - cc_name: DC-VISA Japanese Senren
+          code:
+            - ^(4534)(29)
+        - cc_name: DC-VISA JAL
+          code:
+            - ^(4534)(36)
+        - cc_name: DC-Jizail
+          code:
+            - ^(4534)(38)
+        - cc_name: DC MSN Card
+          code:
+            - ^(4534)(39)
+        - cc_name: DC-G-VISA
+          code:
+            - ^(4534)(50)
+        - cc_name: DC Proper-VISA-Gold-VINGT (BTM withdrawa
+          code:
+            - ^(4534)(50)
+        - cc_name: DC-VISA JAL CLUB-A GOLD
+          code:
+            - ^(4534)(50)
+        - cc_name: DC Japan Guide Dog Association Card General
+          code:
+            - ^(4534)(52)
+        - cc_name: DC NetMile VISA
+          code:
+            - ^(4534)(52)
+        - cc_name: Yupi JCB
+          code:
+            - ^(4534)(72)
+        - cc_name: DC Hirogin DC Card
+          code:
+            - ^(4534)(78)
+        - cc_name: DC Daishi Bank-DC-VISA General
+          code:
+            - ^(4534)(86)
+        - cc_name: DC Regional Bank DC Business Gold
+          code:
+            - ^(4534)(90)
+        - cc_name: NICOS VISA GOLD
+          code:
+            - ^(4538)(51)
+        - cc_name: NICOS VISA GOLD
+          code:
+            - ^(4538)(52)
+        - cc_name: NICOS VISA Drivers EDGE
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS VISA EDGE ON
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS VISA ENEOS Card
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS VISA
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS VIASO VISA
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS-DoCoMo-VISA
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS ebank
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS VISAS synergy
+          code:
+            - ^(4538)(65)
+        - cc_name: NICOS
+          code:
+            - ^(4538)(66)
+        - cc_name: NICOS VISA Soo
+          code:
+            - ^(4538)(68)
+        - cc_name: NICOS VISA Audrey
+          code:
+            - ^(4538)(68)
+        - cc_name: NICOS VISA WOWOW Pia
+          code:
+            - ^(4538)(68)
+        - cc_name: NICOS VISA BRIDGESTONE CARLIFE SUPPORT CARD
+          code:
+            - ^(4538)(68)
+        - cc_name: NICOS VISA Mitsubishi Estate Group
+          code:
+            - ^(4538)(70)
+        - cc_name: NICOS VISA Mitsubishi Estate Group Gold
+          code:
+            - ^(4538)(70)
+        - cc_name: Yahoo! JAPAN VISA
+          code:
+            - ^(4538)(87)
+        - cc_name: Yume Card VISA
+          code:
+            - ^(4538)(92)
+        - cc_name: GE-VISA (formerly issued by G
+          code:
+            - ^(4538)(93)
+        - cc_name: Takashimaya VISA
+          code:
+            - ^(4538)(97)
+        - cc_name: APLUS chobirich card
+          code:
+            - ^(4538)(98)
+        - cc_name: "SAISON Postal Savings Check Card (VISA check)"
+          code:
+            - ^(4541)(10)
+        - cc_name: SAISON Mitsui Outlet Park Card VISA
+          code:
+            - ^(4541)(10)
+        - cc_name: SAISON Lawson Ponta Card Visa
+          code:
+            - ^(4541)(10)
+        - cc_name: SAISON LaOX Member's Card/VISA
+          code:
+            - ^(4541)(11)
+        - cc_name: SAISON MONEXVISA
+          code:
+            - ^(4541)(12)
+        - cc_name: SAISON-VISA (Ikebukuro Seib
+          code:
+            - ^(4541)(14)
+        - cc_name: "SAISON CLUB ON card\u300ASaison\u300B VISA"
+          code:
+            - ^(4541)(15)
+        - cc_name: SAISON MONEX VISA
+          code:
+            - ^(4541)(15)
+        - cc_name: SAISON Shareholder Benefit VISA
+          code:
+            - ^(4541)(15)
+        - cc_name: SAISON LAWSON PASS VISA
+          code:
+            - ^(4541)(17)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(22)
+        - cc_name: SAISON MONEX-VISA
+          code:
+            - ^(4541)(23)
+        - cc_name: "SAISON Postal Savings\u300ASaison\u300BVISA"
+          code:
+            - ^(4541)(23)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(24)
+        - cc_name: SAISON Japan Post VISA
+          code:
+            - ^(4541)(25)
+        - cc_name: SAISON Sogo Millennium
+          code:
+            - ^(4541)(30)
+        - cc_name: SAISON Club On Card
+          code:
+            - ^(4541)(30)
+        - cc_name: SAISON-Four Beats
+          code:
+            - ^(4541)(30)
+        - cc_name: SAISON Gobankan (Hokkaido Seib
+          code:
+            - ^(4541)(31)
+        - cc_name: SAISON UA Airlines Mileage Plus
+          code:
+            - ^(4541)(31)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(32)
+        - cc_name: SAISON UA
+          code:
+            - ^(4541)(33)
+        - cc_name: SAISON Postal savings check
+          code:
+            - ^(4541)(33)
+        - cc_name: "SAISON JAF\u300ASaison\u300BVISA"
+          code:
+            - ^(4541)(40)
+        - cc_name: SAISON-@nifty
+          code:
+            - ^(4541)(40)
+        - cc_name: SAISON-Postal Savings VISA
+          code:
+            - ^(4541)(41)
+        - cc_name: U.
+          code:
+            - ^(4541)(41)
+        - cc_name: SAISON-MONEX-VISA
+          code:
+            - ^(4541)(42)
+        - cc_name: SAISON-VISA
+          code:
+            - ^(4541)(43)
+        - cc_name: SAISON Mizuho Mileage Club Card Saison Suica
+          code:
+            - ^(4541)(50)
+        - cc_name: SAISON Card VISA/Hokkaido Seiyu
+          code:
+            - ^(4541)(51)
+        - cc_name: SAISON CLUB ON SAISON Card VISA
+          code:
+            - ^(4541)(51)
+        - cc_name: "SAISON Postal Savings\u300ASaison\u300BVISA"
+          code:
+            - ^(4541)(52)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(53)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(54)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(55)
+        - cc_name: SAISON visa
+          code:
+            - ^(4541)(56)
+        - cc_name: SAISON Resona Card SAISON VISA
+          code:
+            - ^(4541)(58)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(59)
+        - cc_name: SAISON-VISA
+          code:
+            - ^(4541)(61)
+        - cc_name: SAISON @nifty VISA
+          code:
+            - ^(4541)(65)
+        - cc_name: SAISON @nifty VISA
+          code:
+            - ^(4541)(66)
+        - cc_name: SAISON Microsoft VISA
+          code:
+            - ^(4541)(66)
+        - cc_name: SAISON VISA L.L.Bean Club
+          code:
+            - ^(4541)(66)
+        - cc_name: SAISON WOWOW-VISA
+          code:
+            - ^(4541)(67)
+        - cc_name: SAISON Postal Savings VISA
+          code:
+            - ^(4541)(71)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(72)
+        - cc_name: SAISON
+          code:
+            - ^(4541)(73)
+        - cc_name: "Takashimaya Card\u300AGold\u300B"
+          code:
+            - ^(4541)(90)
+        - cc_name: SAISON Resona SAISON VISA GOLD
+          code:
+            - ^(4541)(96)
+        - cc_name: EBANK Money Card CLASSIC (VISA Debi
+          code:
+            - ^(4542)(02)
+        - cc_name: eBank Money Card GOLD (VISA Debi
+          code:
+            - ^(4542)(03)
+        - cc_name: Resona VISA Debit Card <JMB> (VISA Debi
+          code:
+            - ^(4542)(05)
+        - cc_name: UC Mizuho-G VISA
+          code:
+            - ^(4542)(14)
+        - cc_name: UC WWF VISA
+          code:
+            - ^(4542)(20)
+        - cc_name: UC Mizuho-VISA General
+          code:
+            - ^(4542)(20)
+        - cc_name: UC-VISA JAF
+          code:
+            - ^(4542)(24)
+        - cc_name: UC-VISA Nissan Card
+          code:
+            - ^(4542)(48)
+        - cc_name: UC-VISA Resona
+          code:
+            - ^(4542)(71)
+        - cc_name: U.
+          code:
+            - ^(4542)(72)
+        - cc_name: UC-VISA Honda C-card
+          code:
+            - ^(4542)(73)
+        - cc_name: UC-VISA Honda C-card (Resona Car
+          code:
+            - ^(4542)(74)
+        - cc_name: UC-VISA DoCoMo
+          code:
+            - ^(4542)(75)
+        - cc_name: UC VISA Mizuho
+          code:
+            - ^(4542)(75)
+        - cc_name: UC Big Card International
+          code:
+            - ^(4542)(75)
+        - cc_name: VIEW JR East
+          code:
+            - ^(4542)(85)
+        - cc_name: VIEW-VISA
+          code:
+            - ^(4542)(85)
+        - cc_name: VIEW-VISA
+          code:
+            - ^(4542)(86)
+        - cc_name: VIEW-VISA My City Shinjuku Card
+          code:
+            - ^(4542)(86)
+        - cc_name: VIEW-Suica-VISA LUMINE
+          code:
+            - ^(4542)(87)
+        - cc_name: VIEW Mizuho Suica
+          code:
+            - ^(4542)(87)
+        - cc_name: VIEW Suica VISA
+          code:
+            - ^(4542)(87)
+        - cc_name: VIEW Atre Club View Suica Card
+          code:
+            - ^(4542)(87)
+        - cc_name: VIEW we view watermelon card
+          code:
+            - ^(4542)(87)
+        - cc_name: ROP Pawnkin V (Thailan
+          code:
+            - ^(4543)(25)
+        - cc_name: Tokyu TOP&-VISA
+          code:
+            - ^(4543)(81)
+        - cc_name: Tokyu TOP&-VISA
+          code:
+            - ^(4543)(82)
+        - cc_name: Tokyu TOP&-VISA
+          code:
+            - ^(4543)(83)
+        - cc_name: MUFG-VISA
+          code:
+            - ^(4566)(00)
+        - cc_name: UFJ Card Premio VISA
+          code:
+            - ^(4566)(05)
+        - cc_name: UFJ One Pass VISA
+          code:
+            - ^(4566)(05)
+        - cc_name: MUFG Card Gold
+          code:
+            - ^(4566)(33)
+        - cc_name: Cedyna CF GOLD-VISA
+          code:
+            - ^(4566)(96)
+        - cc_name: able
+          code:
+            - ^(4575)(56)
+        - cc_name: TS3 CUBIC Lexus Card VISA Platinum
+          code:
+            - ^(4685)(12)
+        - cc_name: TS3-VISA teamTOYOTA
+          code:
+            - ^(4685)(17)
+        - cc_name: ISETAN-ICARD VISA
+          code:
+            - ^(4691)(10)
+        - cc_name: meitetsu-ICARD VISA
+          code:
+            - ^(4691)(10)
+        - cc_name: Daimaru loyal customer gold card (house, 11 digit)
+          code:
+            - ^(4700)(86)
+        - cc_name: Bank of China DREAMe W VISA
+          code:
+            - ^(4708)(01)
+        - cc_name: Yokohama Bank Card Suica Gold
+          code:
+            - ^(4708)(06)
+        - cc_name: Yokohama Bank Card Suica Young Gold
+          code:
+            - ^(4708)(06)
+        - cc_name: Yokohama Bank Card Suica
+          code:
+            - ^(4708)(07)
+        - cc_name: TOMIN CLUB CARD VISA (Tokyo Tomin Ban
+          code:
+            - ^(4708)(35)
+        - cc_name: Tenmaya Card VISA
+          code:
+            - ^(4708)(36)
+        - cc_name: Japan Post Bank
+          code:
+            - ^(4708)(91)
+        - cc_name: CALIFORNIA BANK & TRUST (Cash card/VISA debi
+          code:
+            - ^(4730)(63)
+        - cc_name: EPOS VISA
+          code:
+            - ^(4897)(83)
+        - cc_name: EPOS design card
+          code:
+            - ^(4897)(84)
+        - cc_name: EPOS SHIDAX
+          code:
+            - ^(4897)(84)
+        - cc_name: EPOS virtual card
+          code:
+            - ^(4897)(85)
+        - cc_name: EPOS Gold Card
+          code:
+            - ^(4897)(88)
+        - cc_name: EPOS Platinum Card
+          code:
+            - ^(4897)(89)
+        - cc_name: NW-CITI-VISA-Gold
+          code:
+            - ^(4901)(15)
+        - cc_name: Cedyna OMC-VISA
+          code:
+            - ^(4901)(20)
+        - cc_name: Cedyna OMC-VISA
+          code:
+            - ^(4901)(21)
+        - cc_name: Cedyna OMC GOLD VISA
+          code:
+            - ^(4901)(29)
+        - cc_name: Cedyna OMC-VISA
+          code:
+            - ^(4901)(29)
+        - cc_name: Mitsubishi Tokyo UFJ VISA GOLD PREMIUM
+          code:
+            - ^(4906)(43)
+        - cc_name: Mitsubishi Tokyo UFJ
+          code:
+            - ^(4906)(46)
+        - cc_name: Mitsubishi Tokyo UFJ
+          code:
+            - ^(4906)(47)
+        - cc_name: Citi-VISA NW
+          code:
+            - ^(4907)(14)
+        - cc_name: WQ
+          code:
+            - ^(4907)(14)
+        - cc_name: Citi-VISA student
+          code:
+            - ^(4907)(14)
+        - cc_name: Citi-VISA Amazon Credit Card
+          code:
+            - ^(4907)(14)
+        - cc_name: Citi Classic(A) VISA
+          code:
+            - ^(4907)(14)
+        - cc_name: NWA-Citi-WorldPerks-VISA-Gold
+          code:
+            - ^(4907)(15)
+        - cc_name: Citi VISA
+          code:
+            - ^(4907)(15)
+        - cc_name: Citi VISA ELITE
+          code:
+            - ^(4907)(15)
+        - cc_name: Citi VISA PLATINUM
+          code:
+            - ^(4922)(30)
+        - cc_name: Citi-VISA NW-CITI-VISA-Plt
+          code:
+            - ^(4922)(30)
+        - cc_name: NTT Group Card-VISA
+          code:
+            - ^(4922)(31)
+        - cc_name: 77 Card VISA
+          code:
+            - ^(4922)(32)
+        - cc_name: 77 Card VISA Gold
+          code:
+            - ^(4922)(33)
+        - cc_name: Sagin Moteka Card VISA
+          code:
+            - ^(4922)(42)
+        - cc_name: Hokkoku VISA Card
+          code:
+            - ^(4922)(53)
+        - cc_name: Tokyo VISA
+          code:
+            - ^(4922)(54)
+        - cc_name: Tokyo VISA GOLD
+          code:
+            - ^(4922)(55)
+        - cc_name: Northern VISA Gold
+          code:
+            - ^(4922)(56)
+        - cc_name: Gungin Card VISA
+          code:
+            - ^(4922)(57)
+        - cc_name: Gungin Card VISA Gold
+          code:
+            - ^(4922)(58)
+        - cc_name: Mie Silver Card VISA
+          code:
+            - ^(4922)(59)
+        - cc_name: Mie Silver Card VISA Gold
+          code:
+            - ^(4922)(60)
+        - cc_name: Sumishin VISA
+          code:
+            - ^(4922)(67)
+        - cc_name: Sumishin VISA Gold Card
+          code:
+            - ^(4922)(68)
+        - cc_name: Sumishin Road Service VISA-G
+          code:
+            - ^(4922)(68)
+        - cc_name: Asahi VISA
+          code:
+            - ^(4922)(69)
+        - cc_name: Asahi Delta VISA
+          code:
+            - ^(4922)(69)
+        - cc_name: Resona-VISA Toranoana
+          code:
+            - ^(4922)(69)
+        - cc_name: Resona
+          code:
+            - ^(4922)(69)
+        - cc_name: Resona Toyoko Inn 4 & 5
+          code:
+            - ^(4922)(69)
+        - cc_name: Resona
+          code:
+            - ^(4922)(71)
+        - cc_name: Resona Waseda Gold Card Alumni
+          code:
+            - ^(4922)(71)
+        - cc_name: Yamagin Credit VISA Gold
+          code:
+            - ^(4922)(73)
+        - cc_name: Shinkin VISA
+          code:
+            - ^(4922)(78)
+        - cc_name: Hokkaido Bank Card Hokkaido Bank VISA Card
+          code:
+            - ^(4922)(85)
+        - cc_name: Road Bank Card Road Bank VISA Gold Card
+          code:
+            - ^(4922)(86)
+        - cc_name: Fukuoka Bank arecore-VISA
+          code:
+            - ^(4922)(87)
+        - cc_name: NICOS-VISA
+          code:
+            - ^(4923)(13)
+        - cc_name: NICOS Postal Savings VISA
+          code:
+            - ^(4923)(13)
+        - cc_name: NICOS VISA Sakuraya
+          code:
+            - ^(4923)(13)
+        - cc_name: NICOS International Volunteer Savings Card-VISA
+          code:
+            - ^(4923)(13)
+        - cc_name: NICOS-VISA(nco
+          code:
+            - ^(4923)(14)
+        - cc_name: Whole day yellowtail
+          code:
+            - ^(4923)(39)
+        - cc_name: NICOS VISA Pia
+          code:
+            - ^(4923)(41)
+        - cc_name: NICOS VISA
+          code:
+            - ^(4923)(43)
+        - cc_name: NICOS VISA
+          code:
+            - ^(4923)(44)
+        - cc_name: NICOS VISA (Pi
+          code:
+            - ^(4923)(46)
+        - cc_name: NICOS Postal Savings Joint Card-VISA
+          code:
+            - ^(4923)(46)
+        - cc_name: LIFE-VISA
+          code:
+            - ^(4923)(58)
+        - cc_name: NICOS-VISA It's card
+          code:
+            - ^(4923)(80)
+        - cc_name: NICOS-VISA Postal Savings Joint Card
+          code:
+            - ^(4923)(86)
+        - cc_name: NICOS Pia Card
+          code:
+            - ^(4923)(87)
+        - cc_name: NICOS VISA Ena
+          code:
+            - ^(4923)(90)
+        - cc_name: NICOS VISA Showa Shell X-CARD
+          code:
+            - ^(4923)(91)
+        - cc_name: Orico @nifty Power Orico VISA
+          code:
+            - ^(4937)(95)
+        - cc_name: Orico VISA
+          code:
+            - ^(4937)(95)
+        - cc_name: Orico Kojima
+          code:
+            - ^(4937)(95)
+        - cc_name: Yodobashi Gold Point IC eLIO VISA
+          code:
+            - ^(4961)(12)
+        - cc_name: SMC
+          code:
+            - ^(4980)(00)
+        - cc_name: SMC ANA VISA G
+          code:
+            - ^(4980)(00)
+        - cc_name: SMC ANA Super Flyers Card VISA GOLD
+          code:
+            - ^(4980)(00)
+        - cc_name: SMC Hilton HHonors VISA GOLD
+          code:
+            - ^(4980)(00)
+        - cc_name: Panasonic-VISA
+          code:
+            - ^(4980)(00)
+        - cc_name: SMC-VISA-GOLD
+          code:
+            - ^(4980)(00)
+        - cc_name: Sumitomo Mitsui VISA Gold (Youn
+          code:
+            - ^(4980)(00)
+        - cc_name: SMC-VISA-Tuo
+          code:
+            - ^(4980)(01)
+        - cc_name: ANA elio-VISA
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC-VISA JNB
+          code:
+            - ^(4980)(01)
+        - cc_name: My Sony Card
+          code:
+            - ^(4980)(01)
+        - cc_name: SFC-ANA-VISA
+          code:
+            - ^(4980)(01)
+        - cc_name: SFC-VISA (plala car
+          code:
+            - ^(4980)(01)
+        - cc_name: SMBC ANA-VISA
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC unicef VISA
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC-ANA-VISA-St
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC-ANA-VISA-Suica
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC-VISA
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC-VISA Classic A
+          code:
+            - ^(4980)(01)
+        - cc_name: Diners partnership
+          code:
+            - ^(4980)(01)
+        - cc_name: Sony Finance Marunouchi VISA
+          code:
+            - ^(4980)(01)
+        - cc_name: Keio Card -st
+          code:
+            - ^(4980)(01)
+        - cc_name: GOLD POINT CARD + VISA
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC ALPS VISA (Local Government Employees Life Plan Association
+          code:
+            - ^(4980)(01)
+        - cc_name: SMC VISA
+          code:
+            - ^(4980)(03)
+        - cc_name: SMC Classic A (Student VISA)
+          code:
+            - ^(4980)(03)
+        - cc_name: Sumitomo Mitsui VISA mini classic card
+          code:
+            - ^(4980)(03)
+        - cc_name: Sumitomo Mitsui VISA Classic
+          code:
+            - ^(4980)(03)
+        - cc_name: Sumitomo Mitsui MJC-VISA
+          code:
+            - ^(4980)(05)
+        - cc_name: NKLDSAJK
+          code:
+            - ^(4980)(05)
+        - cc_name: Rakuten Card VISA
+          code:
+            - ^(4980)(05)
+        - cc_name: Sumitomo Mitsui VISA Appi
+          code:
+            - ^(4980)(05)
+        - cc_name: Sumitomo Mitsui VISA Wonder
+          code:
+            - ^(4980)(05)
+        - cc_name: Sumitomo Mitsui Card/MJC
+          code:
+            - ^(4980)(05)
+        - cc_name: Mitsukoshi VISA
+          code:
+            - ^(4980)(05)
+        - cc_name: Love Plusvisa card
+          code:
+            - ^(4980)(05)
+        - cc_name: iM@S VISA card
+          code:
+            - ^(4980)(05)
+        - cc_name: Sumitomo Mitsui HANA PLUS VISA
+          code:
+            - ^(4980)(06)
+        - cc_name: DCMX VISA
+          code:
+            - ^(4980)(07)
+        - cc_name: SMC VISA Platinum
+          code:
+            - ^(4980)(11)
+        - cc_name: JFR DAIMARU VISA
+          code:
+            - ^(4980)(13)
+        - cc_name: Sumitomo Mitsui VISA Business Card GOLD
+          code:
+            - ^(4980)(20)
+        - cc_name: SMC-VISA CORPORATE
+          code:
+            - ^(4980)(22)
+        - cc_name: Kyushu Card
+          code:
+            - ^(4980)(36)
+        - cc_name: Kyushu Card Kyushu VISA Card
+          code:
+            - ^(4980)(37)
+        - cc_name: NC Hokkai Specialty Store Association VISA
+          code:
+            - ^(4980)(60)
+        - cc_name: GECF-VISA
+          code:
+            - ^(4980)(61)
+        - cc_name: GECF-VISA JARL CARD/SMBC issued
+          code:
+            - ^(4980)(61)
+        - cc_name: NC Obihiro VISA
+          code:
+            - ^(4980)(61)
+        - cc_name: Daiichi Shinpan NC VISA
+          code:
+            - ^(4980)(61)
+        - cc_name: NC and Makomai
+          code:
+            - ^(4980)(62)
+        - cc_name: Sapporo credit sales VISA
+          code:
+            - ^(4980)(62)
+        - cc_name: Izumiya VISA card
+          code:
+            - ^(4980)(66)
+        - cc_name: pocket
+          code:
+            - ^(4980)(66)
+        - cc_name: Mycal VISA
+          code:
+            - ^(4980)(66)
+        - cc_name: Sumisho Card
+          code:
+            - ^(4980)(66)
+        - cc_name: Kyushu Card partnership
+          code:
+            - ^(4980)(73)
+        - cc_name: Kyushu Card Virtual Card
+          code:
+            - ^(4980)(73)
+        - cc_name: Kyushu Card Partnership Gold
+          code:
+            - ^(4980)(74)
+        - cc_name: visa card
+          code:
+            - ^(4980)(75)
+        - cc_name: Shinkin Credit Service Road Service Visa
+          code:
+            - ^(4980)(75)
+        - cc_name: Ito-Yokado VISA
+          code:
+            - ^(4986)(11)
+        - cc_name: Seven Card VISA
+          code:
+            - ^(4986)(12)
+        - cc_name: UFJ-VISA DoCoMo
+          code:
+            - ^(4986)(31)
+        - cc_name: UFJ-VISA au Jibun
+          code:
+            - ^(4986)(31)
+        - cc_name: UFJ-VISA APA-JRA
+          code:
+            - ^(4986)(32)
+        - cc_name: UFJ-VISA
+          code:
+            - ^(4986)(32)
+        - cc_name: UFJ-VISA K-power
+          code:
+            - ^(4986)(32)
+        - cc_name: UFJ all-one integrated type
+          code:
+            - ^(4986)(32)
+        - cc_name: UFJ-VISA Skymark
+          code:
+            - ^(4986)(32)
+        - cc_name: UFJ-FinancialOne-VISA
+          code:
+            - ^(4986)(51)
+        - cc_name: UFJ VISA J-WEST
+          code:
+            - ^(4986)(58)
+        - cc_name: UFJ
+          code:
+            - ^(4986)(60)
+        - cc_name: Cedyna CF-VISA
+          code:
+            - ^(4986)(94)
+        - cc_name: JR Tokai Express Card (Vis
+          code:
+            - ^(4986)(94)
+        - cc_name: Cedyna EXPO Eco Money Green Card
+          code:
+            - ^(4986)(94)
+    - category: Banking and financial
+      category_code: ^5.*$
+      entries:
+        - cc_name: Tokyu TOP White
+          code:
+            - ^(5010)(90)
+        - cc_name: Tokyu TOP (House)
+          code:
+            - ^(5010)(91)
+        - cc_name: Tokyu TOP QPoint
+          code:
+            - ^(5010)(98)
+        - cc_name: Mizuho Bank (formerly) M Town Branch/International Cash Card (Cirrus affiliated)
+          code:
+            - ^(5045)(72)
+        - cc_name: SBI
+          code:
+            - ^(5127)(80)
+        - cc_name: au Wallet/WebMoney Card
+          code:
+            - ^(5166)(45)
+        - cc_name: City National Bank of West Virginia Gold Debit Matercard
+          code:
+            - ^(5178)(95)
+        - cc_name: Sedina Quark-Master
+          code:
+            - ^(5183)(80)
+        - cc_name: Aiful e-Machi Town PPC MasterCard
+          code:
+            - ^(5186)(91)
+        - cc_name: "East\u2606Master"
+          code:
+            - ^(5201)(75)
+        - cc_name: UFJ-Financial One-MasterCard
+          code:
+            - ^(5208)(09)
+        - cc_name: UFJ General Master
+          code:
+            - ^(5208)(09)
+        - cc_name: UFJ Skymark Master
+          code:
+            - ^(5208)(09)
+        - cc_name: UFJ DoCoMo UFJ Card Master
+          code:
+            - ^(5208)(31)
+        - cc_name: UCS-MasterCard (genera
+          code:
+            - ^(5208)(40)
+        - cc_name: UFJ Master
+          code:
+            - ^(5208)(48)
+        - cc_name: UFJ vodafone card Tokai
+          code:
+            - ^(5208)(49)
+        - cc_name: J-WEST Express Master
+          code:
+            - ^(5208)(58)
+        - cc_name: J-WEST Basic Master
+          code:
+            - ^(5208)(58)
+        - cc_name: UCS enta Master
+          code:
+            - ^(5208)(82)
+        - cc_name: UCS-MasterCard (Gol
+          code:
+            - ^(5208)(82)
+        - cc_name: KC Card Master
+          code:
+            - ^(5210)(01)
+        - cc_name: Rakuten Card Master
+          code:
+            - ^(5210)(12)
+        - cc_name: Rakuten Card
+          code:
+            - ^(5210)(15)
+        - cc_name: Rakuten Card Master
+          code:
+            - ^(5210)(16)
+        - cc_name: NICOS ENEOS-MASTER
+          code:
+            - ^(5214)(65)
+        - cc_name: Yahoo! JAPAN Master
+          code:
+            - ^(5214)(87)
+        - cc_name: Yume Card youme-Master
+          code:
+            - ^(5214)(88)
+        - cc_name: Aplus Master Smile Personal
+          code:
+            - ^(5214)(98)
+        - cc_name: Cedyna CF-Master
+          code:
+            - ^(5219)(00)
+        - cc_name: JR Tokai Express Card (MasterCar
+          code:
+            - ^(5219)(00)
+        - cc_name: Cedyna CF-Bridgestone Master
+          code:
+            - ^(5219)(13)
+        - cc_name: Cedyna CF-Naster (JR Tokai EXPRESS CAR
+          code:
+            - ^(5219)(15)
+        - cc_name: Orico-Master FORCEA
+          code:
+            - ^(5248)(05)
+        - cc_name: ORICO-HUKU2PLUS card
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico-(Najav Club)-MASTER
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico-@nifty-Master
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico-Animate-Master
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico Trout TIPNESS
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico Yahoo!Japan-Master
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico iGold Master
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico Living Forest Asclas Gold Master
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico Club Alliance
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico sun card
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico-Master Futaba First
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico-Master Yellowtail
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico Skywalker(HIS)Gold CARD
+          code:
+            - ^(5248)(05)
+        - cc_name: Orico Gold Master Card UPty
+          code:
+            - ^(5248)(06)
+        - cc_name: Orico MasterCard UPty
+          code:
+            - ^(5248)(06)
+        - cc_name: Orico Lucky Star MasterCard UPty
+          code:
+            - ^(5248)(06)
+        - cc_name: Orico Puella Magi Madoka Magica MasterCard UPty
+          code:
+            - ^(5248)(06)
+        - cc_name: UC MIZUHO GOLD
+          code:
+            - ^(5250)(03)
+        - cc_name: UC-Master YamahaFeelingClub
+          code:
+            - ^(5250)(06)
+        - cc_name: UC Master Gold
+          code:
+            - ^(5250)(14)
+        - cc_name: UC JR UC BUSINESS Gold
+          code:
+            - ^(5250)(14)
+        - cc_name: UC mizuho master
+          code:
+            - ^(5250)(22)
+        - cc_name: UC-Master Gold (Mizuho Mileag
+          code:
+            - ^(5250)(35)
+        - cc_name: UC-Master (Mizuho Mileag
+          code:
+            - ^(5250)(36)
+        - cc_name: Mizuho Mileage Club (SELEC
+          code:
+            - ^(5250)(36)
+        - cc_name: NISSAN CARD MASTER
+          code:
+            - ^(5250)(48)
+        - cc_name: UC Master
+          code:
+            - ^(5250)(48)
+        - cc_name: UC Master JTB
+          code:
+            - ^(5250)(69)
+        - cc_name: UC Master @nifty
+          code:
+            - ^(5250)(71)
+        - cc_name: UC Master DoCoMo
+          code:
+            - ^(5250)(72)
+        - cc_name: UC Master MIZUHO UC select
+          code:
+            - ^(5250)(72)
+        - cc_name: U.
+          code:
+            - ^(5250)(72)
+        - cc_name: UC WWF Select MASTER
+          code:
+            - ^(5250)(72)
+        - cc_name: UC Master Translucent
+          code:
+            - ^(5250)(72)
+        - cc_name: UC Master Mizuho
+          code:
+            - ^(5250)(72)
+        - cc_name: UC Master biccard-international
+          code:
+            - ^(5250)(72)
+        - cc_name: Ginza Beef Trout
+          code:
+            - ^(5250)(72)
+        - cc_name: UC Master Mitsukoshi
+          code:
+            - ^(5250)(72)
+        - cc_name: UC MileagePlus Select Master
+          code:
+            - ^(5250)(73)
+        - cc_name: VIEW-Master LUMINE
+          code:
+            - ^(5250)(87)
+        - cc_name: VIEW Suica MasterCard
+          code:
+            - ^(5250)(87)
+        - cc_name: NICOS MASTER Pia
+          code:
+            - ^(5251)(13)
+        - cc_name: NICOS-MASTER-CAMPUS
+          code:
+            - ^(5251)(13)
+        - cc_name: SAISON Master
+          code:
+            - ^(5252)(10)
+        - cc_name: SAISON UA College
+          code:
+            - ^(5252)(10)
+        - cc_name: SAISON Master
+          code:
+            - ^(5252)(12)
+        - cc_name: SAISON UA Master
+          code:
+            - ^(5252)(14)
+        - cc_name: SAISON
+          code:
+            - ^(5252)(15)
+        - cc_name: SAISON-MASTER
+          code:
+            - ^(5252)(15)
+        - cc_name: SAISON Club on Saison Master
+          code:
+            - ^(5252)(15)
+        - cc_name: SAISON -Master
+          code:
+            - ^(5252)(24)
+        - cc_name: SAISON Master
+          code:
+            - ^(5252)(31)
+        - cc_name: SAISON
+          code:
+            - ^(5252)(36)
+        - cc_name: SAISON Master Mitsui Outlet Park
+          code:
+            - ^(5252)(40)
+        - cc_name: SAISON Idemitsu mydo plus Master
+          code:
+            - ^(5252)(59)
+        - cc_name: SAISON Master Vodafone
+          code:
+            - ^(5252)(65)
+        - cc_name: SAISON UA General
+          code:
+            - ^(5252)(65)
+        - cc_name: SAISON Master UA Card Gold
+          code:
+            - ^(5252)(90)
+        - cc_name: SAISON-MASTER SOGO-Millennium-GOLD
+          code:
+            - ^(5252)(91)
+        - cc_name: OMC-Mastercard
+          code:
+            - ^(5257)(01)
+        - cc_name: Tokyu TOP & GOLD DC Master
+          code:
+            - ^(5279)(16)
+        - cc_name: Tokyu TOP & DC Master
+          code:
+            - ^(5279)(16)
+        - cc_name: TOKYU TOP& GRANDBERRY DC Master
+          code:
+            - ^(5279)(18)
+        - cc_name: TOKYU TOP& TOKYU PLAZA CARD Plaza Plus Master
+          code:
+            - ^(5279)(18)
+        - cc_name: DC JALCard Master CLUB-A
+          code:
+            - ^(5279)(34)
+        - cc_name: DC JALCard Master General
+          code:
+            - ^(5279)(34)
+        - cc_name: DC Master GOLD
+          code:
+            - ^(5279)(35)
+        - cc_name: DC-Master Clubdon Pen Card
+          code:
+            - ^(5279)(39)
+        - cc_name: DC Mastercard Tokio Marine
+          code:
+            - ^(5279)(42)
+        - cc_name: DC GONZO Master GOLD
+          code:
+            - ^(5279)(51)
+        - cc_name: DC Master JAL CLUB-A Gold
+          code:
+            - ^(5279)(51)
+        - cc_name: DC Master JGC CLUB-A Gold
+          code:
+            - ^(5279)(51)
+        - cc_name: DC Master Japan Guide Dog Association Card Gold
+          code:
+            - ^(5279)(51)
+        - cc_name: DC
+          code:
+            - ^(5279)(70)
+        - cc_name: DoCoMo NTT-L Master
+          code:
+            - ^(5283)(71)
+        - cc_name: UC Master SCENE (NTT-
+          code:
+            - ^(5283)(71)
+        - cc_name: UC Chiba Kogin
+          code:
+            - ^(5283)(71)
+        - cc_name: UC Resona Card Master
+          code:
+            - ^(5283)(71)
+        - cc_name: Former Yamaichi Securities General (Transferred to direct control of UC due to closure of business)
+          code:
+            - ^(5283)(88)
+        - cc_name: Fukugin BANK CARD Master
+          code:
+            - ^(5285)(77)
+        - cc_name: MUFG-Master
+          code:
+            - ^(5296)(00)
+        - cc_name: UFJ Premio Card
+          code:
+            - ^(5296)(05)
+        - cc_name: HSBC PREMIER (Worl
+          code:
+            - ^(5296)(59)
+        - cc_name: Sumitomo Mitsui MasterCard GOLD
+          code:
+            - ^(5302)(30)
+        - cc_name: SMC MasterGold Platinum
+          code:
+            - ^(5302)(31)
+        - cc_name: SMC ANA Master Gold
+          code:
+            - ^(5302)(32)
+        - cc_name: Sagin Moteka Card Master Gold
+          code:
+            - ^(5302)(58)
+        - cc_name: Resona OMNI-master
+          code:
+            - ^(5306)(60)
+        - cc_name: ion
+          code:
+            - ^(5312)(80)
+        - cc_name: ion
+          code:
+            - ^(5312)(81)
+        - cc_name: ion
+          code:
+            - ^(5312)(82)
+        - cc_name: ion
+          code:
+            - ^(5312)(83)
+        - cc_name: Aeon Master
+          code:
+            - ^(5312)(84)
+        - cc_name: ion
+          code:
+            - ^(5312)(86)
+        - cc_name: AEON MJC-AEON-Master
+          code:
+            - ^(5312)(89)
+        - cc_name: Aeon I love Daikanyama
+          code:
+            - ^(5312)(89)
+        - cc_name: JACCS Card-Master
+          code:
+            - ^(5312)(91)
+        - cc_name: JACCS Gold Card-Master
+          code:
+            - ^(5312)(91)
+        - cc_name: JACCS Hokkaido Nippon-Ham Fighters FC Card-Master
+          code:
+            - ^(5312)(91)
+        - cc_name: JACCS Sofmap
+          code:
+            - ^(5312)(91)
+        - cc_name: JACCS
+          code:
+            - ^(5312)(92)
+        - cc_name: JACCS-Kojima Card
+          code:
+            - ^(5312)(93)
+        - cc_name: JTB-master
+          code:
+            - ^(5321)(71)
+        - cc_name: SMC-Master Classic A
+          code:
+            - ^(5334)(90)
+        - cc_name: SMC-ANA-Master student card
+          code:
+            - ^(5334)(91)
+        - cc_name: SMC-ANA-Master General
+          code:
+            - ^(5334)(91)
+        - cc_name: SMC-Pastown MASTER
+          code:
+            - ^(5334)(91)
+        - cc_name: SMC-ALPS VISA (Local Government Employees Life Plan Association
+          code:
+            - ^(5334)(91)
+        - cc_name: SMC-ANA-MASTER
+          code:
+            - ^(5334)(94)
+        - cc_name: SMC-Master
+          code:
+            - ^(5334)(96)
+        - cc_name: CITIBANK GOLD
+          code:
+            - ^(5406)(01)
+        - cc_name: UNION BANK OF CALIFORNIA (Master Debi
+          code:
+            - ^(5409)(97)
+        - cc_name: JACCS-YOSAKOI NET CARD
+          code:
+            - ^(5412)(75)
+        - cc_name: DC Ryugin DC Partner VISA
+          code:
+            - ^(5434)(72)
+        - cc_name: ACOM-Master
+          code:
+            - ^(5436)(16)
+        - cc_name: Takefuji Master
+          code:
+            - ^(5438)(16)
+        - cc_name: Citi Clear-Master
+          code:
+            - ^(5438)(17)
+        - cc_name: Pocket Card Kuraraku Card Master
+          code:
+            - ^(5442)(51)
+        - cc_name: Pocket Card Master
+          code:
+            - ^(5442)(54)
+        - cc_name: Pocket Card Master Yellow
+          code:
+            - ^(5442)(54)
+        - cc_name: Mycal Blue MasterCard
+          code:
+            - ^(5442)(54)
+        - cc_name: Pocket card P-one card Master
+          code:
+            - ^(5442)(54)
+        - cc_name: Life AOYAMA CAR
+          code:
+            - ^(5452)(85)
+        - cc_name: Life Dancing Large Scanning Line Master Card
+          code:
+            - ^(5452)(85)
+        - cc_name: Life-Master
+          code:
+          - ^(5452)(85)
+        - cc_name: TS3-M-G
+          code:
+            - ^(5578)(51)
+        - cc_name: TS3 Card [Business] MASTER General
+          code:
+            - ^(5578)(52)
+        - cc_name: organ Chas
+          code:
+            - ^(5610)(18)
+        - cc_name: Citi Bank cash card
+          code:
+            - ^(5889)(02)
+    - category: Merchandizing and banking
+      category_code: ^6.*$
+      entries:
+        - cc_name: Select Club Kuremu (JTB Benefit Welfar
+          code:
+            - ^(6000)(53)
+        - cc_name: JTB TRAVEL POINT CARD
+          code:
+            - ^(6101)(90)
+        - cc_name: Mitsui Sumitomo UnionPay
+          code:
+            - ^(6229)(20)
+        - cc_name: Tokyu TOP (cash onl
+          code:
+            - ^(6502)(30)
+        - cc_name: TS3 TRBM (International Unbranded House Car
+          code:
+            - ^(6900)(05)
+        - cc_name: PiTaPa Basic
+          code:
+            - ^(6900)(07)
+        - cc_name: Sumitomo Mitsui Card iD
+          code:
+            - ^(6900)(11)
+        - cc_name: DCMX mini
+          code:
+            - ^(6900)(11)
+        - cc_name: Marui's red card
+          code:
+            - ^(6901)(01)
+        - cc_name: Isetan iCard
+          code:
+            - ^(6911)(00)
+        - cc_name: Takashimaya Friendship Association (Rose Circl
+          code:
+            - ^(6911)(31)
+        - cc_name: Takashimaya Gold Card
+          code:
+            - ^(6922)(00)
+        - cc_name: Sumitomo Mitsui UnionPay Card
+          code:
+            - ^(6229)(20)
+        - cc_name: ion proper
+          code:
+            - ^(6930)(50)
+        - cc_name: Nikkei BP NICOS
+          code:
+            - ^(6950)(01)
+        - cc_name: NICOS Proper for domestic use only
+          code:
+            - ^(6950)(02)
+        - cc_name: NICOS-JRA
+          code:
+            - ^(6950)(02)
+        - cc_name: Eneos Nikos
+          code:
+            - ^(6950)(17)
+        - cc_name: Nikos
+          code:
+            - ^(6950)(17)
+        - cc_name: NICOS Smart Plus (card typ
+          code:
+            - ^(6950)(20)
+        - cc_name: JACCS-Club Endeavor
+          code:
+            - ^(6991)(10)
+        - cc_name: ML card
+          code:
+            - ^(6998)(76)
+    - category: Petroleum
+      category_code: ^7.*$
+      entries:
+        - cc_name: JCB ETC Suru~Card
+          code:
+            - ^(7000)(00)
+        - cc_name: Life ETC card
+          code:
+            - ^(7060)(21)
+        - cc_name: JACCS ETC card
+          code:
+            - ^(7060)(80)
+        - cc_name: GE CARD ETC
+          code:
+            - ^(7061)(80)
+        - cc_name: Pocket Card ETC
+          code:
+            - ^(7070)(20)
+        - cc_name: NICOS ETC-Plus (Parent card NICOS VIS
+          code:
+            - ^(7200)(11)
+        - cc_name: you me ETC card
+          code:
+            - ^(7250)(30)
+        - cc_name: JCB EXXONMOBILL Corporate Plus
+          code:
+            - ^(7500)(00)
+        - cc_name: AEON ETC card
+          code:
+            - ^(7611)(27)
+        - cc_name: Sumitomo Mitsui Card ETC Card
+          code:
+            - ^(7800)(01)
+        - cc_name: Resona Card ETC
+          code:
+            - ^(7800)(16)
+    - category: Telecommunications and other industry
+      category_code: ^8.*$
+      entries:
+        - cc_name: Nissan Card (Hous
+          code:
+            - ^(8001)(02)
+        - cc_name: UC ETC card
+          code:
+            - ^(8003)(75)
+        - cc_name: Exon Mobile (parent card JC
+          code:
+            - ^(8300)(88)
+        - cc_name: UFJ ETC card
+          code:
+            - ^(8401)(00)
+        - cc_name: JCB
+          code:
+            - ^(8500)(30)
+        - cc_name: SAISON ETC card
+          code:
+            - ^(8601)(00)
+        - cc_name: SAISON ETC card
+          code:
+            - ^(8612)(00)
+        - cc_name: ETC-OMC (no parent card relationshi
+          code:
+            - ^(8800)(12)
+    - category: National assignment
+      category_code: ^9.*$
+      entries:
+        - cc_name: Citi ETC CARD
+          code:
+            - ^(9005)(00)
+        - cc_name: Orico ETC card
+          code:
+            - ^(9100)(00)
+        - cc_name: CFETC
+          code:
+            - ^(9300)(00)

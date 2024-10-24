@@ -1,0 +1,81 @@
+data:
+- design:
+
+  - architecture:
+      - requirements:
+          - function
+          - performance
+          - security
+      - arch-design:
+          - sys-diagrams
+          - module-design
+          - data-flow-diagrams
+      - maintenance-ops:
+          - version-control
+          - log-management
+          - monitoring-system
+          - incident-response
+
+    abstract:
+      - methodology:
+          - agile
+          - waterfall
+          - devops
+
+    ops:
+      - code-review:
+          - code-style-guide
+          - code-review-checklist
+      - perf-tuning:
+          - cache-strategy
+          - perf-tuning
+      - testing-strategy:
+          - unit-testing
+          - integration-testing
+          - e2e-testing
+      - serverless-arch:
+          - serverless-patterns
+      - cost-optimization:
+          - cost-reduction-best-practices
+      - tech-debt-refactoring:
+          - tech-debt-mgmt
+          - refactoring-strategy
+      - auth-security:
+          - access-control-list
+          - security-best-practices
+
+  dev:
+
+  - support:
+      - code-validation-docs:
+          - data-validation-methods
+          - code-comments
+      - env-tools:
+          - editor-config
+          - debugging-methods
+          - doc-creation-tools
+      - testing-auto:
+          - test-auto-tools
+      - infra-setup:
+          - infra-as-code
+          - containerization
+
+    research:
+      - oss:
+          - frontend
+          - backend
+          - infra
+      - data-processing-analysis:
+          - search-engine-selection
+          - log-analysis-tools
+      - math-computing:
+          - math-libraries-usage
+      - auth-security:
+          - auth-protocols
+          - security-measures
+
+    educ:
+      - uiux:
+          - ui-design-principles
+          - design-fundamentals
+          - accessibility-guidelines

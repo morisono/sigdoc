@@ -1,0 +1,39 @@
+Id,Prompt,Purpose,Response (ChatGPT turbo3.5),Response (Claude),Score
+1,"Present test code, including normal and abnormal cases.",Conversion,,,10
+2,Present test code. import unittest,Conversion,,,10
+3,Refactor using classes. Explain the changes.,,,,10
+4,Draw a class diagram using mermaid notation.,Conversion,,,10
+5,Refactor using the State design pattern. Output in stages.,Conversion,,,10
+6,Consider the best design pattern for refactoring.,Conversion,, ,10
+7,Propose an algorithm that satisfies the following constraints.,Transformation,,,10
+8,Code review.,Transformation,,,10
+9,State the differences.,Transformation,,,10
+10,Give an example.,Transformation,,,10
+11,Transform.,Transformation,,,10
+12,Change function and variable names to more descriptive names.,Refactoring,,,10
+13,Improve readability. ,Refactoring,,,10
+14,Eliminate duplication and seek ways to consolidate into a single function or class if possible.,Refactoring,,,10
+15,Add appropriate comments.,Refactoring,,,10
+16,Generate Docstrings.,Refactoring,,,10
+17,"Check for potential vulnerabilities. If not, fix them.",Security,,,10
+18,"Check for proper exception handling. If not, fix them.",Security,,,10
+19,"Check for logical integrity. If not, fix them.",Security,,,10
+20,Output a sample proposal.,Documentation,,,10
+21,Output a configuration diagram using diagrams.,Documentation,,,10
+22,Convert the schema to DBML. ,Documentation,,,10
+23,Design a class based on the DDD philosophy. ,Development Method,,,10
+24,Persist using SQLAlchemy. ,Development Method,,,10
+25,Generate code that satisfies the test code. ,Development Method,,,10
+26,Explain in order of importance. ,Learning,,,10
+27,Explain by breaking it down. ,Learning,,,10
+28,Present the answer that best suits the requirements. ,API Utilization,,,10
+29,Summarize. ,API Utilization,,,10
+30,"Explanation is unnecessary, so hide it. ",API use,,,10
+31,,API use,,,10
+32,,Long text,,,10
+33,,Langchain,,,10
+34,,,,,10
+35,,,,,10
+36,,,,,10
+37,,,,,10
+38,,,,,10

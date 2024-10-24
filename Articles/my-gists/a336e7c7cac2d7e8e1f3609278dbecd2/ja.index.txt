@@ -1,0 +1,54 @@
+Chapter 01
+純粋関数の割合を最大化しよう
+Chapter 02
+早期ReturnでIF文の組み合わせを見やすくしよう
+Chapter 03
+ifの判定式に名前をつけよう
+Chapter 04
+For文を縦に分割する
+Chapter 05
+連想配列をclassでくるもう
+Chapter 06
+再代入は初期化の直後に限ろう
+Chapter 07
+処理の流れを型で表現しよう
+Chapter 08
+コマンド化して副作用を追い出そう
+Chapter 09
+switch case文の後に処理を続けないで
+Chapter 10
+現在時刻を外から入れよう
+Chapter 11
+複数の言語で開発する時は定数を一元管理できるようにしよう
+Chapter 12
+RESTful APIのエンドポイントを綺麗に設計しよう
+Chapter 13
+書き込み系のREST APIは、URLとBodyに無いデータを書き込まないようにしよう
+Chapter 14
+マイページ画面のURLにはユーザーIDを入れよう
+Chapter 15
+バッチ処理には必ずドライラン機能をつけよう
+Chapter 16
+キャッシュを設計する時に考えること
+Chapter 17
+元データとキャッシュデータが1:1で対応する時のコツ
+Chapter 18
+全体を集計した結果のキャッシュ
+Chapter 19
+インフラの設定を自動化しよう
+Chapter 20
+デプロイを自動化しよう
+Chapter 21
+常に最新のcreate table文を用意しておこう
+Chapter 22
+URLを文字列で組み立てない
+Chapter 23
+極力ログイン機能は自分で作らない
+Chapter 24
+ユーザーのHTTPリクエストが直接当たるHTTPサーバーはクラウド業者を使う
+Chapter 25
+ログについて
+Chapter 26
+ログに出すべきこと
+Chapter 27
+ログにユーザーの機密情報が流れないように（まだ書いてない

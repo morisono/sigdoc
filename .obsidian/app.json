@@ -1,0 +1,18 @@
+{
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "spellcheck": false,
+  "showInlineTitle": false,
+  "showRibbon": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Notes",
+  "showUnsupportedFiles": false,
+  "tabSize": 5
+}

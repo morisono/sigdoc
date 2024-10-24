@@ -1,0 +1,2 @@
+- https://github.com/kkrypt0nn/Python-Discord-Bot-Template
+- https://t.co/gL4np4JdLT

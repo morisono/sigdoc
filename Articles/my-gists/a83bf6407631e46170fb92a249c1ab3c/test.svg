@@ -1,0 +1,36 @@
+<svg width="400" height="400" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Style -->
+  <style>
+    .rotate {
+      animation: rotateAnimation 5s linear infinite;
+      transform-origin: center;
+      transform-style: preserve-3d;
+    }
+    @keyframes rotateAnimation {
+      0% { transform: rotateY(0deg); }
+      100% { transform: rotateY(360deg); }
+    }
+  </style>
+
+  <!-- Glow Filter -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood result="flood" flood-color="white" flood-opacity="1"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feGaussianBlur stdDeviation="12"/>
+      <feOffset dx="0" dy="0" result="offsetblur"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#0d1117" />
+
+  <!-- Tetra -->
+  <polygon points="250,100 400,400 100,400" stroke="green" fill="none" class="rotate" filter="url(#glow)"/>
+
+</svg>

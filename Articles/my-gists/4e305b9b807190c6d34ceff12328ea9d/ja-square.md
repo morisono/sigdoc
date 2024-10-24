@@ -1,0 +1,1 @@
+https://squareup.com/help/jp/ja/article/3807-deposit-options-with-square

@@ -1,0 +1,85 @@
+{
+  "version": 7,
+  "avatarVisible": false,
+  "vaultVisible": true,
+  "clockVisible": false,
+  "rxSeparatorVisible": true,
+  "otcSeparatorVisible": true,
+  "recentsCount": 10,
+  "postLogAction": "quietly",
+  "tagGroups": [],
+  "loggingPath": "",
+  "avatarPath": "",
+  "rxGroups": [
+    {
+      "groupName": "",
+      "collapsedFolders": [],
+      "isVisible": false,
+      "sortMethod": "alphabetical",
+      "sortAscending": true,
+      "logsFolderVisible": true,
+      "templatesFolderVisible": false,
+      "excludedFolders": [],
+      "isPinned": false,
+      "groupType": "dailies",
+      "openFolders": []
+    },
+    {
+      "groupName": "",
+      "collapsedFolders": [],
+      "isVisible": false,
+      "sortMethod": "type",
+      "sortAscending": true,
+      "logsFolderVisible": true,
+      "templatesFolderVisible": true,
+      "excludedFolders": [],
+      "isPinned": false,
+      "groupType": "files",
+      "openFolders": [
+        "//archive"
+      ]
+    },
+    {
+      "groupName": "",
+      "collapsedFolders": [],
+      "isVisible": true,
+      "sortMethod": "alphabetical",
+      "sortAscending": true,
+      "logsFolderVisible": true,
+      "templatesFolderVisible": true,
+      "excludedFolders": [],
+      "isPinned": false,
+      "groupType": "recents",
+      "openFolders": []
+    },
+    {
+      "groupName": "",
+      "collapsedFolders": [],
+      "isVisible": false,
+      "sortMethod": "alphabetical",
+      "sortAscending": true,
+      "logsFolderVisible": false,
+      "templatesFolderVisible": false,
+      "excludedFolders": [],
+      "isPinned": false,
+      "groupType": "untagged"
+    }
+  ],
+  "dailiesTag": "daily",
+  "otcGroups": [
+    {
+      "groupName": "tutorials",
+      "groupType": "tag_group",
+      "openFolders": [
+        "/"
+      ],
+      "isVisible": true,
+      "isPinned": false,
+      "sortMethod": "alphabetical",
+      "sortAscending": true,
+      "excludedFolders": [],
+      "logsFolderVisible": false,
+      "templatesFolderVisible": false
+    }
+  ]
+}

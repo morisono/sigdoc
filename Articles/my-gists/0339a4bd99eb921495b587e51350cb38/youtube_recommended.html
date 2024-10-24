@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended playlist</title>
+    <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      gap: 10px;
+    }
+    .item {
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .item h2 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .item p {
+      margin: 10px 0;
+    }
+    .rating {
+      display: flex;
+      align-items: center;
+    }
+    .rating span {
+      margin-right: 5px;
+    }
+    .rating input[type="radio"] {
+      display: none;
+    }
+    .rating label {
+      font-size: 24px;
+      color: #FFD700;
+      cursor: pointer;
+    }
+    .rating label:hover,
+    .rating label:hover ~ label {
+      color: #FFD700;
+    }
+    .rating input[type="radio"]:checked ~ label {
+      color: #FFD700;
+    }
+    </style>
+</head>
+<body>
+    <h1>Recommended playlist</h1>
+
+    <p>ギター音楽を楽しむためのおすすめのプレイリストを紹介します。ギター音楽愛好家にとって楽しい時間を提供します。</p>
+
+<div class="grid-container">
+
+    <div class="item">
+        <h2>1</h2>
+        <p>このプレイリストは最新のヒット曲で構成されています。さまざまなアーティストからの楽曲が含まれており、パーティーに最適です。</p>
+        <iframe src="https://www.youtube.com/embed/RsMP0ZssMs4?si=Mk8mHoFgbLEa-fGG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="rating">
+            <span>評価:</span>
+            <input type="radio" id="star5_1" name="rating_1" value="5" />
+            <label for="star5_1" title="5 stars">&#9733;</label>
+            <input type="radio" id="star4_1" name="rating_1" value="4" />
+            <label for="star4_1" title="4 stars">&#9733;</label>
+            <input type="radio" id="star3_1" name="rating_1" value="3" />
+            <label for="star3_1" title="3 stars">&#9733;</label>
+            <input type="radio" id="star2_1" name="rating_1" value="2" />
+            <label for="star2_1" title="2 stars">&#9733;</label>
+            <input type="radio" id="star1_1" name="rating_1" value="1" />
+            <label for="star1_1" title="1 star">&#9733;</label>
+        </div>
+    </div>
+
+    <div class="item">
+        <h2>2</h2>
+        <p>このプレイリストはさまざまなジャンルのクラシック曲で構成されています。リラックスした時間を楽しみたいときに最適です。</p>
+        <iframe src="https://www.youtube.com/embed/eAV3318yNoM?si=5fnlPCNftHAiFHAx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="rating">
+            <span>評価:</span>
+            <input type="radio" id="star5_2" name="rating_2" value="5" />
+            <label for="star5_2" title="5 stars">&#9733;</label>
+            <input type="radio" id="star4_2" name="rating_2" value="4" />
+            <label for="star4_2" title="4 stars">&#9733;</label>
+            <input type="radio" id="star3_2" name="rating_2" value="3" />
+            <label for="star3_2" title="3 stars">&#9733;</label>
+            <input type="radio" id="star2_2" name="rating_2" value="2" />
+            <label for="star2_2" title="2 stars">&#9733;</label>
+            <input type="radio" id="star1_2" name="rating_2" value="1" />
+            <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+    <div class="item">
+        <h2>3</h2>
+        <p>test</p>
+        <iframe src="https://www.youtube.com/embed/HxGT5z6d-GA?si=21nL0L3RXmhDEQBV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="rating">
+            <span>評価:</span>
+            <input type="radio" id="star5_2" name="rating_2" value="5" />
+            <label for="star5_2" title="5 stars">&#9733;</label>
+            <input type="radio" id="star4_2" name="rating_2" value="4" />
+            <label for="star4_2" title="4 stars">&#9733;</label>
+            <input type="radio" id="star3_2" name="rating_2" value="3" />
+            <label for="star3_2" title="3 stars">&#9733;</label>
+            <input type="radio" id="star2_2" name="rating_2" value="2" />
+            <label for="star2_2" title="2 stars">&#9733;</label>
+            <input type="radio" id="star1_2" name="rating_2" value="1" />
+            <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+    <div class="item">
+        <h2>4</h2>
+        <p></p>
+        <iframe src="https://www.youtube.com/embed/pIKp8dHo-VI?si=aYk2dckou16mkCtJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="rating">
+            <span>評価:</span>
+            <input type="radio" id="star5_2" name="rating_2" value="5" />
+            <label for="star5_2" title="5 stars">&#9733;</label>
+            <input type="radio" id="star4_2" name="rating_2" value="4" />
+            <label for="star4_2" title="4 stars">&#9733;</label>
+            <input type="radio" id="star3_2" name="rating_2" value="3" />
+            <label for="star3_2" title="3 stars">&#9733;</label>
+            <input type="radio" id="star2_2" name="rating_2" value="2" />
+            <label for="star2_2" title="2 stars">&#9733;</label>
+            <input type="radio" id="star1_2" name="rating_2" value="1" />
+            <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+    <div class="item">
+        <h2>5</h2>
+        <p></p>
+        <iframe src="https://www.youtube.com/embed/p_np_1P-To8?si=moz3OBVMmQs9p05g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="rating">
+        <span>評価:</span>
+        <input type="radio" id="star5_2" name="rating_2" value="5" />
+        <label for="star5_2" title="5 stars">&#9733;</label>
+        <input type="radio" id="star4_2" name="rating_2" value="4" />
+        <label for="star4_2" title="4 stars">&#9733;</label>
+        <input type="radio" id="star3_2" name="rating_2" value="3" />
+        <label for="star3_2" title="3 stars">&#9733;</label>
+        <input type="radio" id="star2_2" name="rating_2" value="2" />
+        <label for="star2_2" title="2 stars">&#9733;</label>
+        <input type="radio" id="star1_2" name="rating_2" value="1" />
+        <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+    <div class="item">
+        <h2>6</h2>
+        <p></p>
+        <iframe src="https://www.youtube.com/embed/p_np_1P-To8?si=moz3OBVMmQs9p05g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="rating">
+        <span>評価:</span>
+        <input type="radio" id="star5_2" name="rating_2" value="5" />
+        <label for="star5_2" title="5 stars">&#9733;</label>
+        <input type="radio" id="star4_2" name="rating_2" value="4" />
+        <label for="star4_2" title="4 stars">&#9733;</label>
+        <input type="radio" id="star3_2" name="rating_2" value="3" />
+        <label for="star3_2" title="3 stars">&#9733;</label>
+        <input type="radio" id="star2_2" name="rating_2" value="2" />
+        <label for="star2_2" title="2 stars">&#9733;</label>
+        <input type="radio" id="star1_2" name="rating_2" value="1" />
+        <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+    <div class="item">
+        <h2>7</h2>
+        <p></p>
+        <iframe src="https://www.youtube.com/embed/pIKp8dHo-VI?si=aYk2dckou16mkCtJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="rating">
+            <span>評価:</span>
+            <input type="radio" id="star5_2" name="rating_2" value="5" />
+            <label for="star5_2" title="5 stars">&#9733;</label>
+            <input type="radio" id="star4_2" name="rating_2" value="4" />
+            <label for="star4_2" title="4 stars">&#9733;</label>
+            <input type="radio" id="star3_2" name="rating_2" value="3" />
+            <label for="star3_2" title="3 stars">&#9733;</label>
+            <input type="radio" id="star2_2" name="rating_2" value="2" />
+            <label for="star2_2" title="2 stars">&#9733;</label>
+            <input type="radio" id="star1_2" name="rating_2" value="1" />
+            <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+    <div class="item">
+        <h2>8</h2>
+        <p></p>
+        <iframe src="https://www.youtube.com/embed/p_np_1P-To8?si=moz3OBVMmQs9p05g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="rating">
+        <span>評価:</span>
+        <input type="radio" id="star5_2" name="rating_2" value="5" />
+        <label for="star5_2" title="5 stars">&#9733;</label>
+        <input type="radio" id="star4_2" name="rating_2" value="4" />
+        <label for="star4_2" title="4 stars">&#9733;</label>
+        <input type="radio" id="star3_2" name="rating_2" value="3" />
+        <label for="star3_2" title="3 stars">&#9733;</label>
+        <input type="radio" id="star2_2" name="rating_2" value="2" />
+        <label for="star2_2" title="2 stars">&#9733;</label>
+        <input type="radio" id="star1_2" name="rating_2" value="1" />
+        <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+    <div class="item">
+        <h2>9</h2>
+        <p></p>
+        <iframe src="https://www.youtube.com/embed/p_np_1P-To8?si=moz3OBVMmQs9p05g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="rating">
+        <span>評価:</span>
+        <input type="radio" id="star5_2" name="rating_2" value="5" />
+        <label for="star5_2" title="5 stars">&#9733;</label>
+        <input type="radio" id="star4_2" name="rating_2" value="4" />
+        <label for="star4_2" title="4 stars">&#9733;</label>
+        <input type="radio" id="star3_2" name="rating_2" value="3" />
+        <label for="star3_2" title="3 stars">&#9733;</label>
+        <input type="radio" id="star2_2" name="rating_2" value="2" />
+        <label for="star2_2" title="2 stars">&#9733;</label>
+        <input type="radio" id="star1_2" name="rating_2" value="1" />
+        <label for="star1_2" title="1 star">&#9733;</label>
+        </div>
+    </div>
+</div>
+    <footer>
+        <p>Ref:</p>
+        <ul>
+            <li><a href="https://www.spotify.com/">Spotify</a></li>
+            <li><a href="https://www.apple.com/music/">Apple Music</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

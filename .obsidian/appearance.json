@@ -1,0 +1,11 @@
+{
+  "interfaceFontFamily": "Noto Serif JP",
+  "textFontFamily": "Noto Serif JP",
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "hide-property"
+  ],
+  "cssTheme": "Minimal",
+  "accentColor": "#000000",
+  "showViewHeader": true
+}

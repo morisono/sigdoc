@@ -1,0 +1,334 @@
+
+/**
+* import styles
+*/
+
+@import '';
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&family=Source+Serif+4:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'YuMincho';
+  src: url("./fonts/YuMin.ttf") format('truetype');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url("./fonts/NotoSerif\ CJK\ JP.otf");
+}
+
+@font-face {
+  font-family: 'MSMincho';
+  src: url("./fonts/MS\ Mincho.ttc");
+}
+
+@font-face {
+  font-family: 'Zen';
+  src: url("./fonts/ZenKurenaido-Regular.ttf");
+}
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  background-color: #fff;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* logo */
+
+img[title="logo"] {
+  height: 80px;
+  width: auto;
+  position: relative;
+  top: -1em;
+  right: -46em;
+  margin-top: -4em;
+}
+
+body {
+  font-size: 12pt;
+  font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", "MS PMincho", "Crimson Text", serif;
+  padding: 0 5px;
+}
+
+content.container {
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: auto;
+  height: 297mm;
+  width: 210mm;
+  padding: 20mm;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#write {
+  max-width: 60em;
+  padding: 5px;
+}
+
+/**
+* Block Elements
+*/
+
+h1 {
+    font: Zen;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    border-bottom-width: 0.5px;
+    border-bottom-style: none;
+}
+
+/* p::first-letter {
+  font-size: 14pt;
+  color: darkred;
+} */
+
+h1 {
+  font-size: 14pt;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 12pt;
+  margin-bottom: 5px;
+}
+
+h1, h2 {
+  margin-top: 20px;
+  padding: 0 0;
+}
+
+h3, h4{
+  font-size: 10pt;
+  margin: 5px 0;
+}
+
+h5, h6 {
+  font-size: 8pt;
+  margin: 5px 0;
+}
+
+h2, h4 {
+  font-weight: bold;
+}
+
+h1, em, .cm-keyword {
+    text-decoration: underline;
+    padding-bottom: 1px;
+    text-decoration-thickness: 0.5px;
+}
+
+blockquote, p, ul, ol, li, .cm-s-inner, .footnote-line, th, td, footer {
+  font-size: 8pt;
+  font: YuMincho;
+  margin: 0 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  table-layout: fixed;
+  border: 0.5px solid #333;
+}
+
+thead {
+  background-color: #eee;
+}
+
+
+th {
+  font-weight: bold;
+  text-align: center;
+  border: 0.5px solid #333;
+  border-bottom: 0.5px double #333;
+}
+
+td {
+  border-bottom: none;
+  border-right: 0.5px solid #333;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+
+blockquote, strong {
+    color: darkred;
+}
+
+blockquote {
+    background: none;
+    border-left: 1px solid #333;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-style: italic;
+}
+
+blockquote cite {
+
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+  color: darkgreen;
+  font-family: 'Crimson Text';
+  font-size: 8pt;
+}
+
+/**
+* Inline Elements
+*/
+
+a, .footnote-line {
+    color: #333;
+}
+
+em, strong {
+    font-style: normal;
+}
+
+s, del, strike {
+  text-decoration: line-through;
+  text-decoration-style: double;
+  text-underline-offset: -3pt;
+}
+
+#footer p {
+    border-top: 0.5px solid #333;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+hr {
+  padding: 2rem;
+  border: none;
+}
+
+/* Codes */
+
+code {
+  font-size: 6pt;
+  line-height: 12pt;
+}
+
+.cm-s-inner {
+    border-left: 0.5px solid #333;
+    padding-left: 1em;
+    margin: 5px 0;
+}
+
+.cm-s-inner * {
+    color: #333 !important;
+}
+
+/* Numbering */
+h1 {
+    counter-reset: h2;
+}
+
+h2 {
+    counter-reset: h3;
+}
+
+#write h2:before {
+    counter-increment: h2;
+    content: counter(h2) ". ";
+}
+
+#write h3:before {
+    counter-increment: h3;
+    content: counter(h2) "." counter(h3) ". ";
+}
+
+/**
+* Diagrams
+*/
+
+/**
+* Source Code Mode
+*/
+
+/**
+* Control UI (optional)
+*/
+
+/* Custom Class */
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+}
+
+.document-id, .timestamp, .from-group, .from-name, .from-mark, .closing-text, .closing, .signature {
+    text-align: right;
+}
+
+.subtitle, .memo-mark {
+    text-align: center;
+}
+
+.table-caption {
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.table-caption p {
+    text-align: center;
+    border-bottom: 0.5px double #333;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.table-caption-desc {
+    text-align: center;
+    width: 100%;
+}
+
+.date {
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.unit {
+  text-align: right;
+  display: inline-block;
+}
+
+@media print {
+  .container {
+      page-break-after: always;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+  #write {
+    max-width: 1100px;
+  }
+}
+
+@media print {
+  html {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,7 @@
+
+・NoScript - JavaScript無効化
+・UserAgent Switcher - UA偽造
+・Canvas Fingerprint Defender - Fingerprintランダム化
+・Wappalyzer - ページの情報取得
+・Onion Browser Button - アクセスにTorを経由
+・Location Guard - GPS情報偽造

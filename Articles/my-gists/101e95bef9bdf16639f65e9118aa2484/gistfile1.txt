@@ -1,0 +1,3 @@
+Google Dorksで実現できるのはドメインレベルでの制限です。
+では、CSEを使って、
+site:twitter.com//status/  のようなサブドメインレベルの制限を課す

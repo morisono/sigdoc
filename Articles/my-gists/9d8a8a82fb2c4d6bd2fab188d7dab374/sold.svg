@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#ffffff"/>
+  <polygon points="0,0 400,0 0,400" fill="#ff9999"/>
+  <text x="400" y="40" font-family="Arial" font-size="80" fill="#ffffff" transform="rotate(-45 500,500)">SOLD</text>
+</svg>

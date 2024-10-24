@@ -1,0 +1,9 @@
+<svg width="300" height="170" viewBox="0 0 300 170">
+  <defs>
+    <mask id="circles-cut-mask">
+      <rect x="0" y="0" width="300" height="170" fill="white"/>
+      <circle cx="150" cy="85" r="30"/>
+    </mask>
+  </defs>
+  <image href="../images/jquery/sample06.jpg" mask="url(#circles-cut-mask)" width="300" height="170"/>
+</svg>

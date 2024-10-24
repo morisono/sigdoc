@@ -1,0 +1,139 @@
+explanation: |md
+    # v0.0.1 1/31/2023 4:48 AM
+|
+
+# nodes
+g-colabo:一般社団法人Colabo {
+    style.font-size:42
+    style.fill:'#aaaaff'
+}
+g-pubres:公益財団法人パブリックリソース財団 休眠預金活用事業
+g-kyumin:休眠預金活用事業基金
+g-akai:赤い羽根共同募金 {
+    i-riji:理事に左翼活動家
+}
+g-kita:北朝鮮
+g-shamin:社民党 {
+    p-mhukushima:福島瑞穂
+}
+g-rikken:立憲民主党 {
+    p-renhou:蓮舫 {
+        text:もっとColaboにお金を使うべき。国会質疑で
+    }
+    p-tsujimoto:辻本清美
+}
+g-meidai:明治学院大 国際平和研究所
+p-tokuda:奥田知志 牧師
+p-mokuda:奥田愛基
+g-sealds:SEALDｓ
+g-crac:C.R.A.C. {
+    icon: https://static.tumblr.com/2e05e624ff53176d7e3c69cfb06a7607/mqb3mjq/DOlmty7w6/tumblr_static_crac_logo4.png
+}
+g-antifa:Antifa
+g-ukocha:ウコチャランケの会 {
+    p-pishii:石井ポンぺ
+    p-hatake:畠山敏 代表
+}
+g-norikoe:のりこえネット {
+    p-sshin:辛淑玉
+    p-tueno:上野千鶴子
+    p-kutsunomiya:宇都宮健児
+}
+g-pboat:ピースボート
+g-kyosan:日本共産党 {
+    p-sikeuchi:池内さおり
+    p-kseino:せいの恵子
+}
+g-hozana:NPO法人ホザナハウス {
+    g-ymori:森康彦
+}
+g-sasae:Colaboと仁藤夢乃さんを支える会 {
+    p-kadota:角田弁護士
+    p-kanbara:神原弁護士
+    p-ota:太田啓子弁護士
+    p-mkitahara:北原みのり
+}
+g-enjo:資金援助 {
+    g-seigi:正義連
+    i-ianhu:慰安婦問題
+    i-seiji:政治活動
+    i-henoko:辺野古埋立反対
+}
+g-kourou:厚生労働省 {
+    i-jakunen:若年女性等支援事業
+}
+g-tosien:東京都若年女性支援事業
+g-yushiki:有識者会議
+g-bond:BONDプロジェクト
+g-pappusu:ぱっぷす
+g-kansa:東京都監査委員
+g-wakakusa:若草プロジェクト {
+    p-tmuraki:村木太郎 理事
+}
+
+g-russia:ロシア {
+    p-putin:プーチン {
+        text:アイヌ民族はロシアの先住民族発言
+    }
+}
+p-amuraki:村木厚子
+p-taso:阿蘇敏文 {
+    i-kaiduka:三里塚連動
+}
+
+# edges
+g-colabo -- g-sasae:弁護団
+g-colabo -- g-kyosan.p-sikeuchi:対談
+g-colabo -- g-akai:連帯
+g-colabo -- g-yushiki:参加
+g-colabo -- g-hozana:賛同
+g-colabo -- g-shamin:賛同
+g-colabo -- g-kyosan:連携
+g-colabo -- g-enjo:資金援助
+g-colabo -- g-norikoe:韓国研修水曜集会参加
+g-colabo -- g-sealds:知人
+g-colabo -- g-kyumin:1億円
+g-colabo -- p-taso
+g-colabo <- p-tokuda:理事
+
+g-tosien -> g-colabo:委託
+g-tosien -> g-bond:委託
+g-tosien -> g-pappusu:委託
+g-tosien -> g-wakakusa:委託
+
+g-akai -> g-colabo:助成金2,680万円
+g-akai -> g-wakakusa:助成金500万
+g-akai -> g-bond:840万
+g-akai -> g-pappusu:2,700万
+g-akai -> g-colabo:助成金2,680万
+g-akai -- g-pboat
+g-akai -- g-rikken.p-renhou:知人
+
+g-yushiki -> g-bond:委託
+g-tosien -> g-wakakusa:委託
+g-wakakusa -> g-yushiki:参加
+g-pboat -> g-rikken.p-renhou
+
+g-kourou <- p-amuraki:元厚労省次官
+
+g-crac -- g-antifa
+g-crac -> g-sealds
+
+g-sealds -> p-mokuda
+
+g-meidai -- p-mokuda
+g-meidai -- p-tokuda
+
+g-pubres -- p-mokuda:住宅弱者のサポート
+
+g-norikoe -> g-ukocha.p-pishii
+
+g-ukocha -> g-russia:嘆願書
+
+g-kita -> g-shamin
+g-kita -> g-enjo.g-seigi
+
+p-amuraki -- g-wakakusa.p-tmuraki:夫婦
+p-amuraki -> g-kansa:委託
+
+

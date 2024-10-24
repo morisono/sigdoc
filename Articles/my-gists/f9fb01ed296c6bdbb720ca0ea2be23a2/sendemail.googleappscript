@@ -1,0 +1,30 @@
+function sendEmail() {
+
+  // now datetime
+
+  // calendar
+
+  // schedule of
+
+  // text
+
+  //iterate
+
+  // allday or not
+
+  // if not
+
+  // date format
+
+  // title, start, end
+
+  // merge text
+
+  //eventText
+
+  // subject
+
+  // body text
+
+  Mailapp.sendEmail(email, subject, body)
+}

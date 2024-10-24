@@ -1,0 +1,109 @@
+# マイクロソルダリング用語
+- **Axial Lead Component**: 電子部品の一種で、両端から引き出されたリードを持つ。通常、スルーホールはんだ付けに使用される。
+- **Ion Migration**: 物質内でイオンが移動する現象で、電気的な不安定性や故障を引き起こすことがある。
+- **In-circle Test**: はんだ接合部の品質を評価するためのテスト方法で、通常は円形のはんだ接合部に対して実施される。
+- **Printing Mask**: はんだペーストの印刷プロセスで、はんだペーストが適用されるべき領域を定義するためのステンシル。
+- **Wicking Wire**: 余分なはんだを引き出すためのワイヤーで、はんだブリッジを防ぐのに役立つ。
+- **Wetting Balance Method**: 表面張力を測定する技術で、適切な密着を確保するために使用される。
+- **Liquid Phase**: 物質が液体の状態に存在する相。
+- **Temperature Profile**: はんだ付けプロセス中の温度変動で、適切なはんだ付け結果を得るために重要。
+- **Interfacial Tension**: 2つの物質の界面で作用する力で、表面積を最小化しようとする。
+- **Diffusion Overheating Method**: 特定の目的のために原子の拡散を利用して過熱を引き起こす方法。
+- **Activation**: 表面を化学的に活性化して密着性を向上させるプロセス。
+- **Cup Terminal**: カップのような形状の端子で、電子部品でよく使用される。
+- **Vaporization Latent Heat**: 液体から蒸気への変換に必要な潜熱。
+- **Eutectic Solder**: 特定の組成を持つ、融点が最も低いはんだ合金。
+- **Silver Leaching**: 環境条件により銀イオンが材料から溶出する現象。
+- **Intermetallic Compound**: はんだ付け中に2つの金属の界面で形成される化合物。
+- **Metallic Combination**: 異なる金属の合金または複合材料の組み合わせ。
+- **Random Failure**: パターンがなく、予測できない故障。
+- **Creep**: 一定の応力のもとで材料が徐々に変形する現象。
+- **Creep Destructive**: 持続的な応力下での材料変形の破壊的な結果。
+- **Clinch Mounting**: 電子部品のリードを曲げて取り付ける方法。
+- **Crosstalk**: 隣接する導体間の望ましくない電気的干渉。
+- **Crystal Structure Lattice**: 結晶質材料内の原子の繰り返しパターン。
+- **Defect**: 材料または部品の欠陥や不具合。
+- **Cold Joint**: 十分な加熱がないために形成されなかったはんだ接合部。
+- **Solid Phase Extraction**: 混合物から化合物を分離・濃縮するための手法。
+- **Cross Contamination**: 異なる部品または表面間で汚染物質が意図せず移動すること。
+- **Submicron**: 1マイクロン未満の寸法を持つ。
+- **Oxide Coating**: 表面に形成される酸化物の層で、はんだ付け性に影響を与えることがある。
+- **Seeds Heater**: 結晶成長のために制御された加熱を提供するデバイス。
+- **Free Electron**: 原子に結びついていない自由な電子。
+- **Initial Failure**: 運転寿命の初めに発生する故障。
+- **Dip**: 物体を液体に浸す塗布またはクリーニングの方法。
+- **Dip Soldering**: 部品を溶融はんだに浸すはんだ付けプロセス。
+- **Vibration Destruction**: 機械的振動による部品の劣化や故障。
+- **Squeegee**: 印刷プロセス中にはんだペーストを広げて均一にするための道具。
+- **Straight Mounting**: 部品を基板に直線的に取り付ける方法。
+- **Infrared Soldering**: 赤外線放射を使用したはんだ付け技術。
+- **Contact Angle**: 固体表面上の液滴の角度で、濡れ性の挙動を示す。
+- **Latent Degradation Factor**: 材料内で遅延または隠れた劣化を引き起こす要因。
+- **Cleaning Solvent**: 表面から汚染物質を取り除くための溶剤。
+- **Rosin-Cored Soldering**: ロジンをフラックスとして含むはんだ芯を使用したはんだ付け。
+- **Interaction Diffusion**: 異なる材料間での原子の拡散。
+- **Solder Leaching**: 環境要因によるはんだの欠損。
+- **Solderability**: 表面が溶融はんだに濡れる能力。
+- **Solder Paste**: はんだ粒子とフラックスの混合物で、はんだ付けに使用される。
+- **Solder Ball**: 小さなはんだの球で、はんだ付けプロセスで使用されることがある。
+- **Die Bonding**: 半導体ダイを基板に取り付けるプロセス。
+- **Immersion Silver Plating**: 浸炭酸銀めっきプロセス。
+- **Thixotropy Properties**: 特定の材料がかき混ぜられるときに粘性が低くなる性質。
+- **Teaching Pendant**: ロボットシステムをプログラムおよび制御するための手持ち型デバイス。
+- **Dewetting**: 冷却中に表面からはんだが引きこもる望ましくない現象。
+- **Dispenser System**: 液体やペーストを制御された量でディスペンスするためのシステム。
+- **Conduction**: 材料を通じての熱または電気の伝導。
+- **Copper Leaching**: 環境条件により銅イオンが材料から溶出する現象。
+- **Dross**: 溶融はんだの表面に形成される不純物および酸化物。
+- **Lead-Free Soldering**: 鉛を含まないはんだを使用したはんだ付け。
+- **Binary Alloy Phase Diagram**: 2成分合金の相図のグラフィカルな表現。
+- **Wetting**: 液体が固体表面に広がり、密着する能力。
+- **Heat Vibration**: 熱と機械的振動が部品に影響を与えること。
+- **Thermal Damage**: 高温への露出による材料の損傷。
+- **Thermal Fatigue Destruction**: 周期的な熱応力による材料の劣化。
+- **Heat Balance**: システム内の熱の入出力の均衡。
+- **Thermal Capacity**: 材料が有意な温度変化なしに吸収できる熱の量。
+- **Package Component**: 保護と取り扱いのためにカプセル化された部品。
+- **Packaging**: 電子部品を保護し、取り扱いやすくするためのプロセス。
+- **Pulse Heat Soldering**: 高エネルギー熱の短いバーストを使用したはんだ付け技術。
+- **Optical Soldering**: 正確な制御のために光学的手法を使用したはんだ付け。
+- **Fume**: はんだ付けなどのプロセス中に発生する空気中の粒子またはガス。
+- **Tension Strength**: 材料が壊れる前に耐えることができる最大の応力。
+- **Surface Tension**: 液体の表面での凝集力。
+- **Outgrowth Test Method**: 特定の条件下での材料の成長または拡張をテストする方法。
+- **Fatigue Fracture**: 反復されるサイクル荷重による材料の破壊。
+- **Pin Contractive**: ピンを圧縮して電気的な接触を得る接続方法。
+- **Pin Transcription System**: ピンの構成を介して情報を変換するシステム。
+- **Function Test**: 部品またはシステムの機能をテストすること。
+- **Fillet**: はんだ付け後の部品リードと基板表面との曲線状の接合部。
+- **Inert Gas**: はんだ付け中に制御された雰囲気を作り出すために使用される反応性のないガス。
+- **Corrosion**: 材料が環境との化学反応によって徐々に劣化する現象。
+- **Flux**: はんだ付けプロセスを助けるために使用される物質。
+- **Perform Solder**: はんだ付けプロセスを実行すること。
+- **Buoyancy**: 浸されたまたは浮いている物体による上向きの力。
+- **Flexible Printed Circuit Board**: 曲がりやすく柔軟な素材でできた回路基板。
+- **Flow Soldering**: 部品が溶融はんだの波を通過するはんだ付けプロセス。
+- **Fluorocarbon Restriction**: フルオロカーボン材料の使用に関連する制約。
+- **Wave Soldering**: 部品が流れる溶融はんだの波を使用したはんだ付け方法。
+- **Bare Chip Mounting**: カバーのない半導体チップを基板に取り付けること。
+- **Radiation**: エネルギーの放射と伝播、例えば電磁波。
+- **Coated Electrode**: パフォーマンスと耐久性を向上させるために保護コーティングされた電極。
+- **Hot Air Soldering**: 熱風を使用してのはんだ付け。
+- **Hot Ram**:制御された力と温度を使用したはんだ付けの手法。
+- **Wear-Out Failure**: 素材の徐々の劣化による故障。
+- **No Cleaning**: はんだ付け後にクリーニングが不要なプロセスまたは方法。
+- **Electroless Nickel and Gold Plating**: 電気を使用せずにニッケルと金を表面にめっきする方法。
+- **Layer to Metalize**: 基板に金属層を適用し、その後の金属化のためのプロセス。
+- **Module Components**: 電子モジュール内の個々のコンポーネント。
+- **Toxic Dangerous**: 健康や環境に危険をもたらす材料や物質。
+- **Organic Solvent**: 炭素を含む化合物からなる溶媒。
+- **Dissolution**: 物質を液体中に溶解させるプロセス。
+- **Radial Lead Component**: 中心から伸びるリードを持つコンポーネントで、一般的にラジアル構成で使用される。
+- **Land**: 電子コンポーネントを取り付けるための基板上の導電領域。
+- **Lift-Off**: 基板から材料層を取り除くプロセス。
+- **Reflow Soldering**: 事前に適用されたはんだペーストを使用してコンポーネントを取り付けるはんだ付けの方法。
+- **Flame Retardant Grade**: 燃焼に対する耐性があり、通常は難燃等級で分類される材料。
+- **Military Standard**: 軍隊によって電子コンポーネントの設計と製造のために設定された標準。
+- **Small Outline Package**: 集積回路のためのコンパクトなパッケージングデザイン。
+- **Volatile Organic Compounds**: 大気中に揮発する有機化合物。
+- **Vapor Phase Soldering**: 制御された効率的な加熱のために蒸気化されたはんだを使用するはんだ付けプロセス。

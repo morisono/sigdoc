@@ -1,0 +1,51 @@
+<svg width="85.6mm" height="53.98mm" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Credit Card outline -->
+  <rect x="0mm" y="0mm" width="85.6mm" height="53.98mm" rx="3mm" ry="3mm" fill="#ffffff" stroke="#000000" stroke-width="0"/>
+
+  <!-- Lockpick handles -->
+  <rect x="2.68mm" y="10.71mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="2.68mm" y="19.42mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="2.68mm" y="28.13mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="2.68mm" y="36.84mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+
+  <!-- Tension Wrench -->
+  <rect x="2.68mm" y="2.0mm" width="80.24mm" height="6.0mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="77mm" y="2.0mm" width="6.0mm" height="15mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+
+  <rect x="2.68mm" y="45.55mm" width="80.24mm" height="6.0mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="77mm" y="36.55mm" width="6.0mm" height="15mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+
+
+  <!-- Lockpick keys with adjusted margin-y -->
+  <rect x="3.68mm" y="11.71mm" width="70.24mm" height="4.0mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="3.68mm" y="20.42mm" width="79.24mm" height="4.0mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="3.68mm" y="29.13mm" width="79.24mm" height="4.0mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+  <rect x="3.68mm" y="37.84mm" width="70.24mm" height="4.0mm" fill="#a0a0a0" stroke="#a0a0a0" stroke-width="0"/>
+
+
+  <!-- Circle in the center of each semicircle -->
+  <circle cx="8.92mm" cy="5.0mm" r="1mm" fill="#ffffff"  stroke="#a0a0a0" stroke-width="0"/>
+  <circle cx="8.92mm" cy="13.71mm" r="1mm" fill="#ffffff"  stroke="#a0a0a0" stroke-width="0"/>
+  <circle cx="8.92mm" cy="22.42mm" r="1mm" fill="#ffffff"  stroke="#a0a0a0" stroke-width="0"/>
+  <circle cx="8.92mm" cy="31.13mm" r="1mm" fill="#ffffff"  stroke="#a0a0a0" stroke-width="0"/>
+  <circle cx="8.92mm" cy="39.84mm" r="1mm" fill="#ffffff"  stroke="#a0a0a0" stroke-width="0"/>
+  <circle cx="8.92mm" cy="48.55mm" r="1mm" fill="#ffffff"  stroke="#a0a0a0" stroke-width="0"/>
+
+
+  <!-- Text "N8CH" in the center of each rectangle using "sevenfold.ttf" font -->
+  <text x="18.92mm" y="5.5mm" font-family="sevenfold.ttf" font-size="3mm" fill="#000000" text-anchor="middle" dominant-baseline="middle">N8CH</text>
+  <text x="18.92mm" y="14.21mm" font-family="sevenfold.ttf" font-size="3mm" fill="#000000" text-anchor="middle" dominant-baseline="middle">N8CH</text>
+  <text x="18.92mm" y="22.92mm" font-family="sevenfold.ttf" font-size="3mm" fill="#000000" text-anchor="middle" dominant-baseline="middle">N8CH</text>
+  <text x="18.92mm" y="31.63mm" font-family="sevenfold.ttf" font-size="3mm" fill="#000000" text-anchor="middle" dominant-baseline="middle">N8CH</text>
+  <text x="18.92mm" y="40.34mm" font-family="sevenfold.ttf" font-size="3mm" fill="#000000" text-anchor="middle" dominant-baseline="middle">N8CH</text>
+  <text x="18.92mm" y="49.05mm" font-family="sevenfold.ttf" font-size="3mm" fill="#000000" text-anchor="middle" dominant-baseline="middle">N8CH</text>
+
+  <!-- Numbers -->
+  <text x="24.92mm" y="5.0mm" font-size="2mm" fill="#000000" text-anchor="start" dominant-baseline="hanging">W01</text>
+  <text x="24.92mm" y="13.71mm" font-size="2mm" fill="#000000" text-anchor="start" dominant-baseline="hanging">P01S</text>
+  <text x="24.92mm" y="22.42mm" font-size="2mm" fill="#000000" text-anchor="start" dominant-baseline="hanging">P01</text>
+  <text x="24.92mm" y="31.13mm" font-size="2mm" fill="#000000" text-anchor="start" dominant-baseline="hanging">P02</text>
+  <text x="24.92mm" y="39.84mm" font-size="2mm" fill="#000000" text-anchor="start" dominant-baseline="hanging">P02S</text>
+  <text x="24.92mm" y="48.55mm" font-size="2mm" fill="#000000" text-anchor="start" dominant-baseline="hanging">W02</text>
+
+</svg>

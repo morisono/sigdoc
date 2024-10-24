@@ -1,0 +1,264 @@
+# (New-Object System.Drawing.Text.InstalledFontCollection).Families
+
+Add-Type -AssemblyName System.Drawing
+(New-Object System.Drawing.Text.InstalledFontCollection).Families | ForEach-Object { $_.Name }
+
+
+Name
+----
+Arial
+Arial Black
+Arial Narrow
+Arial Unicode MS
+Bahnschrift
+Bahnschrift Condensed
+Bahnschrift Light
+Bahnschrift Light Condensed
+Bahnschrift Light SemiCondensed
+Bahnschrift SemiBold
+Bahnschrift SemiBold Condensed
+Bahnschrift SemiBold SemiConden
+Bahnschrift SemiCondensed
+Bahnschrift SemiLight
+Bahnschrift SemiLight Condensed
+Bahnschrift SemiLight SemiConde
+BIZ UDGothic
+BIZ UDMincho Medium
+BIZ UDPGothic
+BIZ UDPMincho Medium
+Book Antiqua
+Bookman Old Style
+Bookshelf Symbol 7
+Bradley Hand ITC
+Calibri
+Calibri Light
+Cambria
+Cambria Math
+Candara
+Candara Light
+Cascadia Code
+Cascadia Code ExtraLight
+Cascadia Code Light
+Cascadia Code SemiBold
+Cascadia Code SemiLight
+Cascadia Mono
+Cascadia Mono ExtraLight
+Cascadia Mono Light
+Cascadia Mono SemiBold
+Cascadia Mono SemiLight
+Century
+Century Gothic
+Comic Sans MS
+Consolas
+Constantia
+Corbel
+Corbel Light
+Courier New
+Dubai
+Dubai Light
+Dubai Medium
+Ebrima
+FiraCode Nerd Font
+FiraCode Nerd Font Mono
+FiraCode NF
+Franklin Gothic Medium
+Freestyle Script
+French Script MT
+Gabriola
+Gadugi
+Garamond
+Georgia
+Haettenschweiler
+HanaMinA
+HanaMinB
+Hannari
+HannariMincho
+HGGothicE
+HGGothicM
+HGGyoshotai
+HGKyokashotai
+HGMaruGothicMPRO
+HGMinchoB
+HGMinchoE
+HGPGothicE
+HGPGothicM
+HGPGyoshotai
+HGPKyokashotai
+HGPMinchoB
+HGPMinchoE
+HGPSoeiKakugothicUB
+HGPSoeiKakupoptai
+HGPSoeiPresenceEB
+HGSeikaishotaiPRO
+HGSGothicE
+HGSGothicM
+HGSGyoshotai
+HGSKyokashotai
+HGSMinchoB
+HGSMinchoE
+HGSoeiKakugothicUB
+HGSoeiKakupoptai
+HGSoeiPresenceEB
+HGSSoeiKakugothicUB
+HGSSoeiKakupoptai
+HGSSoeiPresenceEB
+HoloLens MDL2 Assets
+Impact
+Ink Free
+Javanese Text
+Juice ITC
+Kristen ITC
+Lato
+Lato Black
+Lato Hairline
+Lato Light
+Leelawadee UI
+Leelawadee UI Semilight
+Limelight
+Lucida Console
+Lucida Handwriting
+Lucida Sans Unicode
+Malgun Gothic
+Malgun Gothic Semilight
+Marlett
+Meiryo
+Meiryo UI
+Microsoft Himalaya
+Microsoft JhengHei
+Microsoft JhengHei Light
+Microsoft JhengHei UI
+Microsoft JhengHei UI Light
+Microsoft New Tai Lue
+Microsoft PhagsPa
+Microsoft Sans Serif
+Microsoft Tai Le
+Microsoft YaHei
+Microsoft YaHei Light
+Microsoft YaHei UI
+Microsoft YaHei UI Light
+Microsoft Yi Baiti
+MingLiU-ExtB
+MingLiU_HKSCS-ExtB
+Mistral
+Mongolian Baiti
+Monoton
+Monotype Corsiva
+MotoyaLMaru
+MS Gothic
+MS Mincho
+MS Outlook
+MS PGothic
+MS PMincho
+MS Reference Sans Serif
+MS Reference Specialty
+MS UI Gothic
+MT Extra
+MV Boli
+Myanmar Text
+NicoKaku
+Nirmala UI
+Nirmala UI Semilight
+Noto Sans CJK JP Black
+Noto Sans CJK JP Bold
+Noto Sans CJK JP DemiLight
+Noto Sans CJK JP Light
+Noto Sans CJK JP Medium
+Noto Sans CJK JP Regular
+Noto Sans CJK JP Thin
+Noto Sans JP
+Noto Sans JP Black
+Noto Sans JP Light
+Noto Sans JP Medium
+Noto Sans JP Thin
+Noto Sans Mono CJK JP Bold
+Noto Sans Mono CJK JP Regular
+NSimSun
+OCRB
+Pacifico
+Palatino Linotype
+Papyrus
+PMingLiU-ExtB
+Pristina
+qtquickcontrols
+Sans Serif Collection
+Sazanami-Hanazono Mincho
+Segoe Fluent Icons
+Segoe MDL2 Assets
+Segoe Print
+Segoe Script
+Segoe UI
+Segoe UI Black
+Segoe UI Emoji
+Segoe UI Historic
+Segoe UI Light
+Segoe UI Semibold
+Segoe UI Semilight
+Segoe UI Symbol
+Segoe UI Variable Display
+Segoe UI Variable Display Light
+Segoe UI Variable Display Semib
+Segoe UI Variable Display Semil
+Segoe UI Variable Small
+Segoe UI Variable Small Light
+Segoe UI Variable Small Semibol
+Segoe UI Variable Small Semilig
+Segoe UI Variable Text
+Segoe UI Variable Text Light
+Segoe UI Variable Text Semibold
+Segoe UI Variable Text Semiligh
+SenshuTK
+shakuhachi18
+ShakuhachiFingeringNotationToza
+ShakuhachiFingeringTozan
+ShakuhachiKinko
+ShakuhachiO
+ShakuhachiTozan1
+SimSun
+SimSun-ExtB
+Sitka Banner
+Sitka Banner Semibold
+Sitka Display
+Sitka Display Semibold
+Sitka Heading
+Sitka Heading Semibold
+Sitka Small
+Sitka Small Semibold
+Sitka Subheading
+Sitka Subheading Semibold
+Sitka Text
+Sitka Text Semibold
+Source Han Code JP EL
+Source Han Code JP H
+Source Han Code JP L
+Source Han Code JP M
+Source Han Code JP N
+Source Han Code JP R
+Sylfaen
+Symbol
+Tahoma
+Tempus Sans ITC
+Times New Roman
+Trebuchet MS
+TtsNote
+UD Digi Kyokasho N-B
+UD Digi Kyokasho N-R
+UD Digi Kyokasho NK-B
+UD Digi Kyokasho NK-R
+UD Digi Kyokasho NP-B
+UD Digi Kyokasho NP-R
+VAG Rounded
+Verdana
+Webdings
+Wingdings
+Wingdings 2
+Wingdings 3
+Yu Gothic
+Yu Gothic Light
+Yu Gothic Medium
+Yu Gothic UI
+Yu Gothic UI Light
+Yu Gothic UI Semibold
+Yu Gothic UI Semilight
+Yu Mincho
+Yu Mincho Demibold
+Yu Mincho Light

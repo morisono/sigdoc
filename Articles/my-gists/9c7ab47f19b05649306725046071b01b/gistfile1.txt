@@ -1,0 +1,7 @@
+https://scratch.mit.edu/projects/804912739/
+
+・デジタル署名 pqNTRUSign
+Cong Chen, Jeffrey Hoffstein, William Whyte, and Zhenfei Zhang. NIST PQ Submission: pqNTRUSign
+A modular lattice signature scheme
+・ハッシュ関数 SHAKE256
+Keccak https://keccak.team/index.html

@@ -1,0 +1,7 @@
+"用語","説明"
+Tactics,"攻撃者が達成したいゴールを端的に表したものです。1つのTacticsには複数のTechniquesが関連付けられ、Tacticsの下に並べられます。つまり「Tactics」は、攻撃者がこれらの「Techniques」を使用する理由と言い換えても良いでしょう。これらには「TAxxxx」のような番号が付与されています。"
+Techniques,"そのTechniqueが属している「Tactics」を達成するための個々の方法のことです。大分類と小分類があり、それぞれを「Technique」、「Sub-Technique」と呼んでいます。また、各Techniquesには「Txxxx」、Sub-Techniquesには「Txxxx.yyy」のような番号が付与されています。"
+Groups,"既知の攻撃者の情報を表します。例としてAPT3、Black Tech、Lazarus Group、menuPassといった攻撃グループが挙げられます。これらには「Gxxxx」のような番号が付与されます。"
+Software,"Techniqueを具体的に実現するための道具や手法のことです。マルウェアの名称や商用のリモートアクセスツール、ペネトレーションテストツールの名称があげられており、あわせてそれを使用するGroupの情報が整理されている場合もあります。これらには「Sxxxx」のような番号が付与されます。"
+"Data Source","それぞれのTechniqueを検出するために利用可能な情報のことです。ATT&CKに定義された各Techniqueには「Detection」という項目があり、発見に役立つData Sourceが記載されています。各Data Sourceには「DSxxxx」のような番号が付与されています。"
+Mitigation,"Techniqueによって実行される攻撃を緩和するための方法のことです。Techniqueが実行されるのを妨げるものや、事前に講じておくことでTechniqueを無効にするようなものが、各Techniqueに紐づけられて整理されています。これらには「Mxxxx」のような番号が付与されます。"

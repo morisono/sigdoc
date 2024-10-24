@@ -1,0 +1,14 @@
+- user_info:
+    - id: user1
+      pass: pass1
+    - id: user2
+      pass: pass2
+    - id: user3
+      pass: pass3
+- licenses:
+    - name: License1
+      type: open-source
+      url: https://example.com/license1
+    - name: License2
+      type: proprietary
+      url: https://example.com/license2

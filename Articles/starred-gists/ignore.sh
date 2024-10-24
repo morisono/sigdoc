@@ -1,0 +1,1 @@
+curl http://monoroch.net/kinshi/kinshi.csv | nkf -u | grep '^"' | ruby -lane 'puts $_.split(/,/)[0].scan(/"(.+)"/)[0]' | sort | uniq

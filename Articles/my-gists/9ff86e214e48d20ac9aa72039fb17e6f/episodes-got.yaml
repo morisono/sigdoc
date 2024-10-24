@@ -1,0 +1,100 @@
+- season: 1
+  episodes:
+    - title: Winter Is Coming
+    - title: The Kingsroad
+    - title: Lord Snow
+    - title: Cripples, Bastards, and Broken Things
+    - title: The Wolf and the Lion
+    - title: A Golden Crown
+    - title: You Win or You Die
+    - title: The Pointy End
+    - title: Baelor
+    - title: Fire and Blood
+
+- season: 2
+  episodes:
+    - title: The North Remembers
+    - title: The Night Lands
+    - title: What Is Dead May Never Die
+    - title: Garden of Bones
+    - title: The Ghost of Harrenhal
+    - title: The Old Gods and the New
+    - title: A Man Without Honor
+    - title: The Prince of Winterfell
+    - title: Blackwater
+    - title: Valar Morghulis
+
+- season: 3
+  episodes:
+    - title: Valar Dohaeris
+    - title: Dark Wings, Dark Words
+    - title: Walk of Punishment
+    - title: And Now His Watch Is Ended
+    - title: Kissed by Fire
+    - title: The Climb
+    - title: The Bear and the Maiden Fair
+    - title: Second Sons
+    - title: The Rains of Castamere
+    - title: Mhysa
+
+- season: 4
+  episodes:
+    - title: Two Swords
+    - title: The Lion and the Rose
+    - title: Breaker of Chains
+    - title: Oathkeeper
+    - title: First of His Name
+    - title: The Laws of Gods and Men
+    - title: Mockingbird
+    - title: The Mountain and the Viper
+    - title: The Watchers on the Wall
+    - title: The Children
+
+- season: 5
+  episodes:
+    - title: The Wars To Come
+    - title: The House of Black and White
+    - title: High Sparrow
+    - title: Sons of the Harpy
+    - title: Kill the Boy
+    - title: Unbowed, Unbent, Unbroken
+    - title: The Gift
+    - title: Hardhome
+    - title: The Dance of Dragons
+    - title: Mother's Mercy
+
+- season: 6
+  episodes:
+    - title: The Red Woman
+    - title: Home
+    - title: Oathbreaker
+    - title: Book of the Stranger
+    - title: The Door
+    - title: Blood of My Blood
+    - title: The Broken Man
+    - title: No One
+    - title: Battle of the Bastards
+    - title: The Winds of Winter
+
+- season: 7
+  episodes:
+    - title: Dragonstone
+    - title: Stormborn
+    - title: The Queen's Justice
+    - title: The Spoils of War
+    - title: Eastwatch
+    - title: Beyond the Wall
+    - title: The Dragon and the Wolf
+
+- season: 8
+  episodes:
+    - title: Winterfell
+    - title: A Knight of the Seven Kingdoms
+    - title: The Long Night
+    - title: The Last of the Starks
+    - title: The Bells
+    - title: The Iron Throne
+
+- deaths: []
+- kill_counts: []
+- navigation: []

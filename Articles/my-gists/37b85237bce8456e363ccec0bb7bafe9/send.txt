@@ -1,0 +1,3 @@
+
+※セキュリティチェック結果を添付いたします。
+- VirusTotal: https://www.virustotal.com/gui/file/b66fc6e71965c297c04745d5c9a4250209fb25c7e5667400d8c03294fa2b01f3?nocache=1

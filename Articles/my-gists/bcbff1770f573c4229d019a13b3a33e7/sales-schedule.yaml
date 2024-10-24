@@ -1,0 +1,84 @@
+year_round_campaigns:
+  - event: New Year Sale
+    start: '0 0 1 1 *' # midnight on January 1st
+    end: '0 0 4 1 *' # midnight on January 4th each year
+    promotion:
+      - discount: 15
+        eligible_products:
+          - Chocolate
+          - Bouquets
+          - Gift Sets
+    target_items: <EAN>
+
+  - event: Valentine's Day Sale
+    start: '0 0 1 2 *' # midnight on February 1st
+    end: '0 0 14 2 *' # midnight on February 14th each year
+    promotion:
+      - discount: 15
+        eligible_products:
+          - Chocolate
+          - Bouquets
+          - Gift Sets
+    target_items: <EAN>
+
+  - event: Golden Week Sale
+    start: '0 0 29 4 *' # midnight on April 29th
+    end: '0 0 5 5 *' # midnight on May 5th each year
+    promotion:
+      - perks:
+        - Free Shipping
+        - Double Reward Points
+    target_items: <EAN>
+
+  - event: Summer Sale
+    start: '0 0 1 7 *' # midnight on July 1st
+    end: '0 0 31 8 *' # midnight on August 31st each year
+    promotion:
+      - discount: 20
+        eligible_products:
+          - Swimwear
+          - Sunscreen
+          - Sunglasses
+    target_items: <EAN>
+
+  - event: Halloween Sale
+    start: '0 0 1 10 *' # midnight on October 1st
+    end: '0 0 31 10 *' # midnight on October 31st each year
+    promotion:
+      - campaign_code: HALLOWEEN20
+        eligible_products:
+          - Costume Items
+          - Party Supplies
+    target_items: <EAN>
+
+  - event: Black Friday Sale
+    start: '0 0 23 11 *' # midnight on November 23rd
+    end: '0 0 23 11 *' # midnight on November 23rd each year
+    promotion:
+      - campaign_code: BLACKFRIDAY25
+        eligible_products:
+          - Electronics
+          - Fashion
+          - Home Appliances
+    target_items: <EAN>
+
+  - event: Cyber Monday Sale
+    start: '0 0 26 11 *' # midnight on November 26th
+    end: '0 0 26 11 *' # midnight on November 26th each year
+    promotion:
+      - campaign_code: CYBERMONDAY30
+        eligible_products:
+          - Electronics
+          - Gadgets
+          - Software
+    target_items: <EAN>
+
+  - event: Christmas Sale
+    start: '0 0 1 12 *' # midnight on December 1st
+    end: '0 0 25 12 *' # midnight on December 25th each year
+    promotion:
+      - free_gift_wrapping: true
+      - perks:
+        - Gourmet Gift Sets
+        - Christmas Trees
+    target_items: <EAN>

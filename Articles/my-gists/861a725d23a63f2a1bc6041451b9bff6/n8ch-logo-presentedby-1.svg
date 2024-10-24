@@ -1,0 +1,34 @@
+<svg fill="none" viewBox="0 0 1000 500" width="1000" height="500" xmlns="http://www.w3.org/2000/svg" class="generated-svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+     <defs>
+      <style>
+        .container {
+          background: #000;
+          background-size: 400% 400%;
+          width: 100%;
+          height: 500px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #9498d0;
+          font-size: 60px;
+          font-family: "Sevenfold Regular", "Tekex Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+        h1 {
+          padding: 10px 10px;
+        }
+        h2 {
+          padding: 10px 10px;
+          color: #fff;
+          font-size: 40px;
+        }
+      </style>
+     </defs>
+      <div class="container">
+        <h2>Presented by </h2>
+        <h1>N8CH</h1>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

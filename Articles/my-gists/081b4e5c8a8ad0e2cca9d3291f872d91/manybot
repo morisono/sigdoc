@@ -1,0 +1,25 @@
+Welcome to the OTP Auto-Issuance (Bot) Channel. Here, you can easily generate things like one-time codes through simple command inputs. Make use of this channel to perform the desired authentication with ease.
+
+
+📢 Posting
+/newpost - send a post to your subscribers
+/schedule - view your scheduled posts
+/subscribers - see how many subscribers you have
+
+👾 Commands and Bot Menu
+/commands - manage custom commands and user menues
+
+🔧 Settings
+/botlang - set up your bot language
+/setdescription - change the description of your bot
+/autoposting - set up autoposting from Twitter, YouTube, RSS, VK
+/channels - automate posting from your bot to a Telegram channel
+/admins - manage admins of your bots
+
+📚 Tutorials
+/tutorials - discover how to create and manage your bots
+
+💢 Other
+/help - this menu
+
+Have further questions? You can always reach us at hello@manybot.io

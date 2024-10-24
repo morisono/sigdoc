@@ -1,0 +1,22 @@
+<!--
+  <form autocomplete="off"> will turn off autocomplete for the form in most browsers
+  except for username/email/password fields
+  -->
+<form autocomplete="off">
+  
+  <!--  fake fields are a workaround for chrome/opera autofill getting the wrong fields -->
+  <input id="username" style="display:none" type="text" name="fakeusernameremembered">
+  <input id="password" style="display:none" type="password" name="fakepasswordremembered">
+  
+  <!--
+    <input autocomplete="nope"> turns off autocomplete on many other browsers that don't respect
+    the form's "off", but not for "password" inputs.
+  -->
+  <input id="real-username" type="text" autocomplete="nope">
+  
+  <!--
+    <input type="password" autocomplete="new-password" will turn it off for passwords everywhere
+    -->
+  <input id="real-password" type="password" autocomplete="new-password">
+  
+</form>

@@ -1,0 +1,2 @@
+- https://betterdiscord.app/plugin/Translator
+- https://www.deepl.com/translator

@@ -1,0 +1,33 @@
+mindmap
+    root((Software Documentation))
+        Software documentation
+            Written text or illustration
+            Accompanies software or embedded in source code
+            Explains software operation or usage
+            Different meanings for different roles
+        Importance
+            Important part of software engineering
+        Types of documentation
+            Requirements
+                Identify attributes, capabilities, characteristics, or qualities
+                Foundation for implementation
+            Architecture/Design 
+                ::icon(fa fa-cogs)
+                Overview of software
+                Relations to environment
+                Construction principles for software components
+            Technical ::icon(fa fa-code)
+                Documentation of code
+                Algorithms
+                Interfaces
+                APIs
+            End user 
+            ::icon(fa fa-user)
+                Manuals for
+                    End-users
+                    System administrators
+                    Support staff
+            Marketing 
+            ::icon(fa fa-bullhorn)
+                How to market the product
+                Analysis of market demand

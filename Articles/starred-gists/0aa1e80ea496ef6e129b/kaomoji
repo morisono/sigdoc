@@ -1,0 +1,102 @@
+#!/bin/sh
+# -*- tab-width: 30 -*-
+# list shamelessly stolen from http://unicodeemoticons.com/
+
+selecta <<'EOF' | cut -f 1 | tr -d '\n' | tr '\a' '\n' | pbcopy
+☺	smiley face
+☻	smiley face
+✌	V sign
+☹	unhappy
+♡	heart
+♥	heart
+❤	big heart
+⚘	flower
+❀	flower
+❃	flower
+❁	flower
+✼	flower
+☀	sun
+✌	V sign
+♫	music note / singing
+♪	music note / singing
+☃	snowman
+❄	snowflake
+❅	snowflake
+❆	snowflake
+☕	cup of cofee / tea
+☂	umbrella
+★	star
+💋	kiss
+◕‿◕	smiling
+｡◕‿◕｡	surprised and smiling
+｡◕‿‿◕｡	smiling catface
+^̮^	happy
+(◕‿◕)	smiling
+(｡◕‿◕｡)	surprised and smiling
+(｡◕‿‿◕｡)	smiling catface
+(^̮^)	happy
+ʘ‿ʘ	smiling
+ಠ_ಠ	look of disapproval
+ಠ⌣ಠ	devious smile
+ಠ‿ಠ	devious face
+(ʘ‿ʘ)	smiling
+(ಠ_ಠ)	look of disapproval with face
+(ಠ⌣ಠ)	devious smile
+(ಠ‿ಠ)	devious face
+♥‿♥	enamored
+◔̯◔	eye roll
+٩◔̯◔۶	eye roll with hands up
+⊙﹏⊙	worried
+ ̳ ̳ ̳ ̳ ͙ ڪ 	cigarette / smoking break
+Ƹ̵̡Ӝ̵̨̄Ʒ	butterfly
+(¬_¬)	tired / annoyed
+(；一_一)	shame
+(･.◤)	emo
+◕‿↼	wink
+(¬‿¬)	happy / dreaming
+(づ￣ ³￣)づ	want to kiss
+ب_ب	serious / frown face
+(ಥ_ಥ)	crying
+(ಥ﹏ಥ)	crying
+ლ(ಠ益ಠლ)	raging
+ʕ•ᴥ•ʔ	bear
+°Д°	loud
+﴾͡๏̯͡๏﴿ O RLY?	o rly owl
+(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧	throwing sparkles / gratz
+(ᵔᴥᵔ)	happy animal face
+(•ω•)	animal
+☜(⌒▽⌒)☞	angel
+〆(・∀・＠)	taking a memo
+◔ ⌣ ◔	smiling eye roll
+ლ(´ڡ`ლ)	very happy, licking lips
+ლ,ᔑ•ﺪ͟͠•ᔐ.ლ	angry mom / woman
+ᕙ(⇀‸↼‶)ᕗ	mighty
+[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]	money
+(づ｡◕‿‿◕｡)づ	hey / cheer up
+ᄽὁȍ ̪ őὀᄿ	spider
+▄︻̷̿┻̿═━一	sniper rifle
+(╯°□°）╯︵ ┻━┻	table flip, angry
+┻━┻ ︵ヽ(`Д´)ﾉ︵ ┻━┻	double table flip
+┬──┬ ノ( ゜-゜ノ)	put table back
+(ノಠ益ಠ)ノ彡┻━┻	table flip, raging
+（╯°□°）╯︵(\ .o.)\	flip person
+┬─┬﻿ ︵ /(.□. \）	table flips person
+╭∩╮(-_-)╭∩╮	double middle finger
+凸(-_-)凸	double middle finger
+ ̿ ̿ ̿'̿'\̵͇̿̿\з=(•_•)=ε/̵͇̿̿/'̿'̿ ̿ 	dual pistols
+⌐╦╦═─	submachine gun
+(´・ω・)っ由	here is a gift from me
+（´・ω・ `）	face with eyebrows
+٩(⁎❛ᴗ❛⁎)۶	happy face with blush and hands up
+(͡° ͜ʖ ͡°)	le lenny face
+¯\_(ツ)_/¯	shrug / smiling
+͡° ͜ʖ ͡°	le meme face
+¯\(°_o)/¯	shrug / i dunno lol
+( ﾟヮﾟ)	happy / open mouth
+ヽ༼ຈل͜ຈ༽ﾉ	raise your dongers
+(︺︹︺)	no smile
+┌─┐┴─┴>ಠ_ರ>	tophat and monocle
+~~~ ╔͎═͓═͙╗~~~ ╚̨̈́═̈́﴾ ̥̂˖̫˖̥  ̂ )	nyan cat
+( •_•)( •_•)>⌐■-■(⌐■_■)	puts on sunglasses
+／人 ◕ ‿‿ ◕ 人＼	kyubey
+EOF

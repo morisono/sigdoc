@@ -1,0 +1,39 @@
+- name: The Hound
+  reason: Mycah, the butcher's boyを殺したため
+  status: Dead
+- name: Meryn Trant
+  reason: Syrio Forelを殺したため
+  status: Dead
+- name: Cersei Lannister
+  reason: Ned Stark's deathに関与したため
+  status: Dead
+- name: Joffrey
+  reason: Ned Stark's executionを命じたため
+  status: Dead
+- name: Ilyn Payne
+  reason: Ned Starkを処刑したため
+  status: Alive
+- name: Polliver
+  reason: Lommyを殺し、Needleを盗み、Harrenhalでの拷問のため
+  status: Dead
+- name: The Mountain
+  reason: Harrenhalでの拷問のため
+  status: Dead
+- name: Rorge
+  reason: Harrenhalでの拷問と彼女への強姦の脅威のため
+  status: Dead
+- name: Walder Frey
+  reason: Red Weddingを組織したため
+  status: Dead
+- name: Tywin Lannister
+  reason: Red Weddingを組織したため
+  status: Dead
+- name: Melisandre
+  reason: Gendryを誘拐したため
+  status: Dead
+- name: Beric Dondarrion
+  reason: GendryをMelisandreに売ったため
+  status: Dead
+- name: Thoros of Myr
+  reason: GendryをMelisandreに売ったため
+  status: Dead

@@ -1,0 +1,75 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Notes/jp/binary-exploitation",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 247
+              },
+              "path": {
+                "width": 365
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#000000",
+                "condition": {
+                  "field": "name",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4095861e-1f73-41eb-ad65-419ee6313611",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "49bc0fe5-75e4-47e1-8ba0-4a5ee0f47ad7",
+      "name": "Untitled project"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [
+      {
+        "project": "49bc0fe5-75e4-47e1-8ba0-4a5ee0f47ad7",
+        "view": "4095861e-1f73-41eb-ad65-419ee6313611"
+      }
+    ],
+    "linkBehavior": "open-editor"
+  }
+}

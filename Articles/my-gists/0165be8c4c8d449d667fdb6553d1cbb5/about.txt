@@ -1,0 +1,25 @@
+
+Our robust product offering a one-time purchase license. 
+You can receive continuous updates throughout the lifetime.
+
+These series provides a user-friendly graphical interface (GUI),
+making it accessible not only from desktop systems but also from your mobile devices. 
+Enjoy the convenience of utilizing our product seamlessly across various platforms.
+
+- **Phone Validator**
+  - Description: Validates and verifies phone numbers, ensuring they adhere to a specified format or criteria.
+
+- **Email Validator**
+  - Description: Verifies the validity of email addresses, checking for correct syntax and domain existence.
+
+- **Exif Extractor**
+  - Description: Extracts metadata (Exchangeable image file format) from digital files, providing details about the file's creation and properties.
+
+- **Credit Card Checker**
+  - Description: Validates credit card numbers to ensure they meet the required format and potentially perform basic checks on the validity of the card.
+
+- **Subdomain Finder**
+  - Description: Searches for and identifies subdomains associated with a given domain, providing a comprehensive list of subdomains.
+
+- **Uscrapper Details**
+  - Description: Details about a web scraping tool named "Uscrapper" (assuming there might be a typo and it's intended to be "Web Scraper").

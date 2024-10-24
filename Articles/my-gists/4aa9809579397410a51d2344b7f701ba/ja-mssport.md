@@ -1,0 +1,1 @@
+https://support.microsoft.com/ja-jp/account-billing/microsoft-store-%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E3%81%AB%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E3%82%8B-4f615f2a-6bbd-fd69-6695-ae213d63eef0

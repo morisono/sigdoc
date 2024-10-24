@@ -1,0 +1,54 @@
+- regex_categories:
+  - url:
+     - ^[\w\d]+@[\w\d]+\.[com|jp|net]$
+     - ^[http|https];/{2}(?=w{3}\.)[\w\d]+\.[com|jp|net]$
+
+  - kutoten:
+      - '[]+[\u3000-\u303F]+ﾞﾟ'
+
+  - hira:
+      - '[ぁ-ん]+[\u3040-\u309F]+'
+
+  - kata:
+      - '[ァ-ヶ]+[\u30A0-\u30FF]+'
+
+  - cjk_shift_jis:
+      - '[亜-熙]'
+
+  - cjk_integrated_kanji:
+      - '[一-龠]+'
+      - '\u4E00-\u9FA0'
+      - '\u4E00-\u9FFF'
+      - '\u3005 々'
+      - '\u3006 〆'
+      - '\u3007 〇'
+      - '[\u4E00-\u9FFF\u3005-\u3007]+'
+
+  - kata_han:
+      - '[ｦ-ﾝ]+[\uFF61-\uFF9F]+'
+
+  - ancient_chinese:
+      - '\u4e00-\u9fa5'
+
+  - japanese:
+      - '[\u3000-\u303F\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF\u3005-\u3007\uFF61-\uFF9F]+'
+      - '[\u2E80-\u2FDF\u3005-\u3007\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF\U00020000-\U0002EBEF]+'
+
+  - cjk_perl:
+      - '[\p{Block=CJK_Compatibility}\p{Block=CJK_Compatibility_Forms}\p{Block=CJK_Compatibility_Ideographs}\p{Block=CJK_Compatibility_Ideographs_Supplement}\p{Block=CJK_Radicals_Supplement}\p{Block=CJK_Strokes}\p{Block=CJK_Symbols_And_Punctuation}\p{Block=CJK_Unified_Ideographs}\p{Block=CJK_Unified_Ideographs_Extension_A}\p{Block=CJK_Unified_Ideographs_Extension_B}\p{Block=CJK_Unified_Ideographs_Extension_C}\p{Block=CJK_Unified_Ideographs_Extension_D}\p{Block=CJK_Unified_Ideographs_Extension_E}\p{Block=CJK_Unified_Ideographs_Extension_F}\p{Block=Enclosed_CJK_Letters_And_Months}]'
+      - '(?<= [\p{L}\p{N}] )(?<! \p{General_Category=Unassigned} )'
+
+  - unicode_props:
+      - hiragana: '\p{Hiragana}'
+      - katakana: '\p{Katakana}'
+      - kanji: '\p{Han}'
+
+  - ascii:
+      - '[0x21-0x7e\s]+'
+      - '[0x20-0x7e]'
+      - '[\x00-\x7F]'
+
+  - posix_char_class:
+      - alpha: '[:alpha:]'
+      - ascii: '[:ascii:]'
+      - blank: '[:blank:]'

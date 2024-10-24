@@ -1,0 +1,1 @@
+https://jp.cointelegraph.com/news/microstrategy-listing-sp-500-index-exposes-millions-bitcoin

@@ -1,0 +1,28 @@
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg" style="perspective: 1000px;">
+    <rect x="0" y="0" width="1000" height="500" fill="#0d1117" />
+    <g stroke="white">
+    <path
+    fill="none"
+    stroke-width="2" d="
+    M0 370 H100 V350 H140 V370 H180 V320 H220 V370 H260 V300 H300 V370 H340 V270 H380 V370 H420 V300 H460 V370 H500 V320 H540 V370 H580 V340 H620 V370 H660 V270 H700 V370 H740 V300 H780 V370 H820 V320 H860 V370 H900 V340 H940 V370 H1000
+  " />
+  <path id="path-1" stroke="none" d="M-500 250 H1000" transform="scale(1.2) translate(50, 50) translateZ(20) rotate(20deg)" />
+
+  <path id="path-2" stroke="none" d="M-1000 400 H100 H2000 V400 " transform="scale(1.2) translate(50, 50) translateZ(20) rotate(20deg)" />
+
+  <text x="0">
+    <textPath href="#path-1">
+      <animate attributeName="startOffset" values="0%;100%" dur="30s" repeatCount="indefinite" />
+      Quick brown fox jumps over the lazy dog.
+    </textPath>
+  </text>
+
+  <text x="0">
+    <textPath href="#path-2">
+      <animate attributeName="startOffset" values="100%;0%" dur="10s" repeatCount="indefinite" />
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas
+    </textPath>
+  </text>
+
+</g>
+</svg>

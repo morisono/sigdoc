@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Login Page</title>
+</head>
+<body>
+  <h1>Test Login Page</h1>
+  
+  <form id="login-form" action="" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    <button type="submit" id="submit-login">Login</button>
+  </form>
+
+  <div id="login-message" style="display: none;"></div>
+
+  <?php
+  // 初期のユーザー名とパスワード
+  $initial_username = 'admin';
+  $initial_password = '0000';
+
+  // フォームからの送信を処理
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = htmlspecialchars($_POST["username"]);
+    $password = htmlspecialchars($_POST["password"]);
+
+    // ユーザー名とパスワードが一致した場合にログイン成功とする
+    if ($username === $initial_username && $password === $initial_password) {
+      echo htmlspecialchars('<script>showSuccessMessage();</script>';, ENT_QUOTES)
+    } else {
+      echo htmlspecialchars('<script>showFailureMessage();</script>';, ENT_QUOTES)
+    }
+  }
+  ?>
+
+  <script>
+    // ログイン成功時の表示
+    function showSuccessMessage() {
+      const loginMessage = document.querySelector('#login-message');
+      loginMessage.textContent = 'Login successful!';
+      loginMessage.style.color = 'green';
+      loginMessage.style.display = 'block';
+    }
+
+    // ログイン失敗時の表示
+    function showFailureMessage() {
+      const loginMessage = document.querySelector('#login-message');
+      loginMessage.textContent = 'Login failed. Please try again.';
+      loginMessage.style.color = 'red';
+      loginMessage.style.display = 'block';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Service,Storage Capacity,File Size Limit,File Versioning,Collaboration Features,Mobile Apps,Encryption,Pricing,File Recovery,Security Protocols,File Sharing,Support
+Box,Unlimited,5GB,Yes,Advanced,Yes,At-rest and in-transit,Free plan with 10GB; paid plans start at $5/user/month,Yes,SSL/TLS,Yes,24/7
+Dropbox,Unlimited,Unlimited,Yes,Basic,Yes,At-rest and in-transit,"Free plan with 2GB, paid plans start at $9.99/user/month",Yes,SSL/TLS,Yes,24/7
+Google Drive,Unlimited,5TB,Yes,Advanced,Yes,In-transit only,"Free with 15GB shared across Google services, paid plans start at $1.99/month for 100GB",Yes,SSL/TLS,Yes,24/7
+OneDrive,Unlimited,100GB,Yes,Basic,Yes,At-rest and in-transit,"Free with 5GB, paid plans start at $1.99/month for 100GB",Yes,SSL/TLS,Yes,24/7
+Backblaze B2,Unlimited,No limit,Yes,No,No,At-rest and in-transit,$0.005/GB/month with free download,Yes,SSL/TLS,Limited,Email/Web

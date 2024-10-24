@@ -1,0 +1,60 @@
+h1: |`
+    # Git cheat sheet
+`|
+
+Repository(Project) action:{
+    origin -> myrepo: clone
+    origin -> myrepo: fork
+    origin <- myrepo: pull-request
+}
+
+Commmit action:{
+
+    local
+    remote
+    main
+    docs
+    publish
+    side
+    stage
+    trash: {shape: cylinder}
+    file: {shape: page}
+    node: {shape: circle}
+    folder: {shape: package}
+    tmp
+    commit
+
+    folder <- file: init
+    folder -> stage: add
+    stage -> trash: rm
+    stage <- trash: restore
+    stage -> tmp: stash
+    stage -> commit: commit
+    stage <- commit: revert
+    stage -> trash: reset
+    commit -> remote: push
+    local <- remote: pull
+    folder <- remote: fetch
+    folder -> stage: merge
+    commit -> branch: rebase
+}
+
+Other action: {
+    main -> remote: search (grep)
+    main -> remote: show
+    main -> remote: log
+    main -> remote: diff
+    main -> remote: status
+    main -> remote: switch
+    main -> remote: tag
+    main -> remote: branch
+    main -> remote: checkout
+    main -> remote: mv
+    main -> remote: rm
+    main -> remote: restore
+    main -> remote: co-authors
+    main -> remote: cherry-pick
+    main -> remote: history
+    main -> remote: blame
+    main -> remote: squash
+}

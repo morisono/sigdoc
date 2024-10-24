@@ -1,0 +1,49 @@
+// GAS script property
+key = "key"
+const apiKey = PropertiesService.getScriptProperties().getProperty(key)
+
+Logger.log(apiKey)
+
+function requestchatGPT() {
+
+  const apiKey = PropertiesService.getScriptProperties().getProperty(key)
+  const apiUrl = 'https://api.openai.com/v1/chat/completions'
+
+
+  const content = "Tell me what we can using google app script."
+
+  // payload
+  const requestBody = {
+    "model": "gpt-3.5-turbo",
+    "messages": [{"role": "user", "content": content}]
+
+  }
+
+  const payload = JSON.stringify(requestBody)
+
+  // options
+  const options = {
+    "method": "POST",
+    "muteHTTPExceptions": true,
+    "headers": {
+      "contentType": "application/json",
+      "Authorization": `Bearer ${apiKey}`
+    },
+    "payload": payload
+  }
+
+  // make the request
+  const response = UrlFetchApp.fetch(apiUrl, options)
+
+  // parse the response
+  // const responseData = JSON.parse(response.getContentText())
+
+  // log the response
+  Logger.log(response)
+
+
+  // convert the response to JS Object
+  const outputMessage = jsonResponse.choices[0].message.content
+  Logger.log(outputMessage)
+
+}

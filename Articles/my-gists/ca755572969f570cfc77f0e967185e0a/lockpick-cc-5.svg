@@ -1,0 +1,27 @@
+<svg width="85.6mm" height="53.98mm" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Credit Card outline -->
+  <rect x="0mm" y="0mm" width="85.6mm" height="53.98mm" rx="3mm" ry="3mm" fill="#ffffff" stroke="#000000" stroke-width="0"/>
+
+  <!-- Lockpick handles -->
+  <rect x="2.68mm" y="2.0mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="10.71mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="19.42mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="28.13mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="36.84mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="45.55mm" width="35.24mm" height="6.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+
+
+  <!-- Lockpick keys with adjusted margin-y -->
+  <rect x="2.68mm" y="3.0mm" width="80.24mm" height="4.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="11.71mm" width="80.24mm" height="4.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="20.42mm" width="80.24mm" height="4.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="29.13mm" width="80.24mm" height="4.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="37.84mm" width="80.24mm" height="4.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <rect x="2.68mm" y="46.55mm" width="80.24mm" height="4.0mm" rx="3mm" ry="3mm" fill="#000000" stroke="#000000" stroke-width="0"/>
+
+
+  <!-- concave -->
+  <rect x="16.28mm" y="0" width="10mm" height="100%" fill="#000000" stroke-width="0" />
+
+</svg>
+

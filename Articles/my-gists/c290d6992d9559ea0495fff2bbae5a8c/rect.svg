@@ -1,0 +1,13 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" style="perspective: 1000px; margin: 10px;">
+    <path id="MyPath"
+    fill="none"
+    stroke="red"
+    d="M100 100 L300 100 L300 300 L100 300 Z" transform="scale(1.2) translate(50, 50) translateZ(20) rotate(20deg)" />
+
+    <text x="0">
+    <textPath href="#MyPath">
+        <animate attributeName="startOffset" values="0%;100%" dur="5s" repeatCount="indefinite" />
+        Quick brown fox jumps over the lazy dog.
+    </textPath>
+    </text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "includeFolders": [
+    "/"
+  ],
+  "useHeader": false,
+  "useFirstLine": false,
+  "isTitleHidden": true,
+  "supportYAML": true,
+  "charCount": 30,
+  "checkInterval": 500
+}

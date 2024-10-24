@@ -1,0 +1,41 @@
+Item: 
+- name: 'A5, Color, Single, Flyer '
+- 1: 
+  - url: https://printrider.jp/
+  - price: 3888
+  - Qty: 100
+  - last_update: 2024-2-24
+  - delivery: 7
+  - MOQ: 10
+  - 
+- 2: 
+  - url: https://raksul.com/
+  - price: 5748
+  - Qty: 100
+  - last_update: 2024-2-24
+  - delivery: 5
+  - MOQ: 10
+- 3: 
+  - url: https://printpac.jp/
+  - price: 3888
+  - Qty: 100
+  - last_update: 2024-2-24
+  - delivery: 7
+  - MOQ: 10
+- 4: 
+  - url: http://print03.jp/
+  - price: 3888
+  - Qty: 100
+  - last_update: 2024-2-24
+  - delivery: 7
+  - MOQ: 10
+- 5:
+  - url: http://www.kasugap.jp/
+  - price: 3888
+  - Qty: 100
+  - last_update: 2024-2-24
+  - delivery: 7
+  - MOQ: 10
+
+
+

@@ -1,0 +1,1 @@
+https://reinfolib.mlit.go.jp/api/request/

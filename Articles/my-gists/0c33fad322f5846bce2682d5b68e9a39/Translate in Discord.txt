@@ -1,0 +1,14 @@
+#  Translate in Discord
+
+Mobile:
+
+「Google Chromeの設定」（三点リーダーのアイコン）をタップしてメニューを開き、「PC版サイト」をONにしましょう。
+再度、「Google Chromeの設定」をタップしてメニューを開き、「PC版サイト」をOFFに戻します。
+翻訳したいページに移動して、「Google Chromeの設定」をタップしてメニューを開き、今度は「翻訳」を選択する
+
+PC:
+
+ブラウザ版は右クリックが捕捉されているので、次の拡張を導入して、回避する。
+- https://chromewebstore.google.com/detail/ofgdcdohlhjfdhbnfkikfeakhpojhpgm
+一部翻訳でよければDeepL
+- https://chromewebstore.google.com/detail/cofdbpoegempjloogbagkncekinflcnj

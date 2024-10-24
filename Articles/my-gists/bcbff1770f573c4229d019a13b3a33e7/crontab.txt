@@ -1,0 +1,29 @@
+# New Year Sale
+0 0 1 1 * /path/to/script.sh "New Year Sale" "discount=15" "eligible_products=Chocolate,Bouquets,Gift Sets"
+0 0 4 1 * /path/to/script.sh "New Year Sale End"
+
+# Valentine's Day Sale
+0 0 1 2 * /path/to/script.sh "Valentine's Day Sale" "discount=15" "eligible_products=Chocolate,Bouquets,Gift Sets"
+0 0 14 2 * /path/to/script.sh "Valentine's Day Sale End"
+
+# Golden Week Sale
+0 0 29 4 * /path/to/script.sh "Golden Week Sale" "perks=Free Shipping,Double Reward Points"
+0 0 5 5 * /path/to/script.sh "Golden Week Sale End"
+
+# Summer Sale 
+0 0 1 7 * /path/to/script.sh "Summer Sale" "discount=20" "eligible_products=Swimwear,Sunscreen,Sunglasses"
+0 0 31 8 * /path/to/script.sh "Summer Sale End"
+
+# Halloween Sale
+0 0 1 10 * /path/to/script.sh "Halloween Sale" "campaign_code=HALLOWEEN20" "eligible_products=Costume Items,Party Supplies"
+0 0 31 10 * /path/to/script.sh "Halloween Sale End"
+
+# Black Friday Sale
+0 0 23 11 * /path/to/script.sh "Black Friday Sale" "campaign_code=BLACKFRIDAY25" "eligible_products=Electronics,Fashion,Home Appliances"
+
+# Cyber Monday Sale
+0 0 26 11 * /path/to/script.sh "Cyber Monday Sale" "campaign_code=CYBERMONDAY30" "eligible_products=Electronics,Gadgets,Software"
+
+# Christmas Sale
+0 0 1 12 * /path/to/script.sh "Christmas Sale" "free_gift_wrapping=true" "perks=Gourmet Gift Sets,Christmas Trees"
+0 0 25 12 * /path/to/script.sh "Christmas Sale End"

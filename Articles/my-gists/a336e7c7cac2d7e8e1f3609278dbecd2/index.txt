@@ -1,0 +1,54 @@
+Chapter 01
+Maximize the proportion of pure functions
+Chapter 02
+Make combinations of IF statements easier to see by returning early
+Chapter 03
+Name the if test
+Chapter 04
+Divide FOR statements vertically
+Chapter 05
+Wrap associative arrays in classes
+Chapter 06
+Limit reassignment to just after initialization
+Chapter 07
+Express the process flow with types
+Chapter 08
+Make it a command and eliminate side effects
+Chapter 09
+Don't continue processing after a switch case statement
+Chapter 10
+Input the current time from outside
+Chapter 11
+When developing in multiple languages, make sure to centrally manage constants
+Chapter 12
+Design RESTful API endpoints neatly
+Chapter 13
+For write-based REST APIs, avoid writing data that is not in the URL or Body
+Chapter 14
+Include the user ID in the URL of the My Page screen
+Chapter 15
+Always add a dry run function to batch processing
+Chapter 16
+Things to consider when designing a cache
+Chapter 17
+Tips for when the original data and cache data correspond 1:1
+Chapter 18
+Cache the results of total aggregation
+Chapter 19
+Automate infrastructure configuration
+Chapter 20
+Automate deployment
+Chapter 21
+Always prepare the latest create table statement
+Chapter 22
+Do not construct URLs with strings
+Chapter 23
+Avoid creating login functions yourself as much as possible
+Chapter 24
+Use a cloud service provider for the HTTP server that directly receives user HTTP requests
+Chapter 25
+About logs
+Chapter 26
+What should be logged
+Chapter 27
+Prevent confidential user information from leaking in logs (not written yet)

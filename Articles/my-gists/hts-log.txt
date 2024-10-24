@@ -1,0 +1,13 @@
+HTTrack3.49-2 launched on Mon, 01 Jul 2024 21:57:28 at demo
+(httrack -o demo )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:57:30	Error: 	"Unable to get server's address: Non-recoverable failure in name resolution" (-5) after 2 retries at link demo/robots.txt (from primary/primary)
+21:57:30	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link demo/ (from primary/primary)
+21:57:30	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link demo/ (from primary/primary)
+21:57:30	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link demo/ (from primary/primary)
+21:57:30	Warning: 	No data seems to have been transferred during this session! : restoring previous one!

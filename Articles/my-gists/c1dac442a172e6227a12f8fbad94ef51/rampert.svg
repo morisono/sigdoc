@@ -1,0 +1,82 @@
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg" style="perspective: 1000px;">
+    <rect x="0" y="0" width="1000" height="500" fill="#0d1117" />
+
+  <!-- Glow Filter -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood result="flood" flood-color="white" flood-opacity="1"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feGaussianBlur stdDeviation="12"/>
+      <feOffset dx="0" dy="0" result="offsetblur"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Circle -->
+  <circle cx="500" cy="200" r="140" fill="re" class="rotate" filter="url(#glow)"/>
+
+  <!-- Coverage -->
+  <!-- <rect x="0" y="200" width="100%" height="100%" fill="#0d1117" /> -->
+
+  <!-- Logo -->
+  <defs>
+    <font id="customFont" horiz-adv-x="500">
+      <font-face font-family="Sevenfold" units-per-em="500" />
+      <glyph unicode="N" d="M20 80l50-80h120v200h40v-200h120l50 80h-50l-20-40h-120v200h-40v-200h-120l-50 80h50l20-40z"/>
+    </font>
+  </defs>
+  <text x="500" y="200" text-anchor="middle" font-family="Sevenfold" dominant-baseline="central" font-size="40" fill="#9498d0">N8CH</text>
+
+
+    <g stroke="white">
+    <path
+    fill="black" stroke="none"
+    stroke-width="2" d="
+    M0 370
+    H100 V350 H100 V270 L200 200 L300 270 H300 V370
+    H460 V270 H500 V270 L580 200 L660 270 H660 V370
+    H780 V370 H820 V270 L900 200 L980 270 H980 V270
+    H980 V370 H1001 V501 H-1 V1001 H-1 V371
+  " />
+  <path id="path-0" stroke="none" d="M-500 50 H2000" />
+
+  <path id="path-1" stroke="none" d="M-500 100 H2000" />
+
+  <path id="path-2" stroke="none" d="M-1000 150 H2000" />
+
+  <path id="path-3" stroke="none" d="M-1000 200 H2000" />
+
+
+<g fill="#555" stroke-width="0" font-family="Sevenfold" text-anchor="middle" dominant-baseline="middle">
+  <text font-size="40">
+    <textPath href="#path-0">
+      <animate attributeName="startOffset" values="0%;100%" dur="15s" repeatCount="indefinite" />
+      Beyond the wall
+    </textPath>
+  </text>
+  <text font-size="30">
+    <textPath href="#path-1">
+      <animate attributeName="startOffset" values="100%;0%" dur="20s" repeatCount="indefinite" />
+      翻过墙
+    </textPath>
+  </text>
+
+  <text font-size="20">
+    <textPath href="#path-2">
+      <animate attributeName="startOffset" values="0%;100%" dur="30s" repeatCount="indefinite" />
+      壁を超えよ
+    </textPath>
+  </text>
+
+  <text font-size="18">
+    <textPath href="#path-3">
+      <animate attributeName="startOffset" values="100%;0%" dur="30s" repeatCount="indefinite" />
+      벽을 넘어라
+    </textPath>
+  </text>
+</g>
+</g>
+</svg>

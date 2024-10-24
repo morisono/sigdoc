@@ -1,0 +1,2 @@
+You can use [regrex](https://github.com/morisono/regrex), a powerful string generator based on regex patterns. With features to generate strings based on regex patterns, and then check their validity through parallel URL access, or match strings with regex patterns, regrex is a versatile tool. Whether you're developing, testing, or exploring regex patterns, regrex simplifies the process with its intuitive CLI interface and robust features. Enhance your regex workflow and unleash your creativity with regrex.
+

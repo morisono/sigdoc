@@ -1,0 +1,115 @@
+{
+    "id": "ctx.author.id",
+    "name": "",
+    "age": "",
+    "gender": "",
+    "dateOfBirth": "",
+    "placeOfBirth": "",
+    "email": "",
+    "phone": "",
+    "address": {
+        "current": {
+            "street": "",
+            "city": "",
+            "state": "",
+            "zip": ""
+        },
+        "previous": [
+            {
+                "street": "",
+                "city": "",
+                "state": "",
+                "zip": "",
+                "moveInDate": "",
+                "moveOutDate": ""
+            }
+        ]
+    },
+    "nationality": "",
+    "occupation": "",
+    "company": "",
+    "education": [
+        {
+            "degree": "",
+            "school": "",
+            "year": "",
+            "major": ""
+        }
+    ],
+    "maritalStatus": "",
+    "familyStructure": [
+        {
+            "relation": "",
+            "name": "",
+            "age": "",
+            "gender": ""
+        }
+    ],
+    "hobbies": "",
+    "skills": "",
+    "languages": "",
+    "hairColor": "",
+    "skinColor": "",
+    "characterTraits": "",
+    "personalityProfile": "",
+    "literacyLevels": {
+        "digitalLiteracy": "",
+        "financialLiteracy": "",
+        "healthLiteracy": ""
+    },
+    "servicesUsed": [
+        {
+            "serviceName": "",
+            "serviceType": "",
+            "startDate": "",
+            "endDate": ""
+        }
+    ],
+    "investmentTrusts": [
+        {
+            "trustName": "",
+            "investmentAmount": "",
+            "investmentDate": ""
+        }
+    ],
+    "utilities": {
+        "water": "",
+        "electricity": "",
+        "gas": ""
+    },
+    "bankAccounts": [
+        {
+            "bankName": "",
+            "accountNumber": "",
+            "accountType": ""
+        }
+    ],
+    "creditCards": [
+        {
+            "cardType": "",
+            "cardNumber": "",
+            "expiryDate": ""
+        }
+    ],
+    "nearestStation": "",
+    "commuteRoute": "",
+    "purchaseHistory": [
+        {
+            "item": "",
+            "purchaseDate": "",
+            "amount": ""
+        }
+    ],
+    "affairs": [
+        {
+            "partnerName": "",
+            "startDate": "",
+            "endDate": ""
+        }
+    ],
+    "criminalRecord": {
+        "sexOffenses": "",
+        "fraudOffenses": "",
+        "drugOffenses": ""
+    }
+}

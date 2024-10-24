@@ -1,0 +1,217 @@
+> livedl 'https://live.nicovideo.jp/watch/lv341880709?zroute=subscribe' -d2m
+chdir: D:\home\.local\bin
+Conf(ExtractChunks): false
+Conf(NicoConvForceConcat): false
+Conf(ConvExt): ""
+Conf(NicoSkipHb): false
+Conf(NicoAdjustVpos): false
+Conf(YtEmoji): true
+Conf(HttpSkipVerify): false
+Conf(HttpTimeout): 5
+livedl (20221122.42-windows-amd64)
+Usage:
+livedl [COMMAND] options... [--] FILE
+
+COMMAND:
+  -nico    ニコニコ生放送の録画
+  -tcas    ツイキャスの録画
+  -yt      YouTube Liveの録画
+  -d2m     録画済みのdb(.sqlite3)をmp4に変換する(-db-to-mp4)
+  -dbinfo  録画済みのdb(.sqlite3)の各種情報を表示する
+           e.g. $ livedl -dbinfo -- 'C:/home/hogehoge/livedl/rec/lvxxxxxxxx.sqlite3'
+  -d2h     [実験的] 録画済みのdb(.sqlite3)を視聴するためのHLSサーバを立てる(-db-to-hls)
+           開始シーケンス番号は（変換ではないが） -nico-conv-seqno-start で指定
+           使用例：$ livedl lvXXXXXXXXX.sqlite3 -d2h -nico-hls-port 12345 -nico-conv-seqno-start 2780
+
+オプション/option:
+  -h         ヘルプを表示
+  -vh        全てのオプションを表示
+  -v         バージョンを表示
+  -no-chdir  起動する時chdirしない(conf.dbは起動したディレクトリに作成されます)
+  --         後にオプションが無いことを指定
+
+ニコニコ生放送録画用オプション:
+  -nico-login <id>,<password>    (+) ニコニコのIDとパスワードを指定する
+                                 2段階認証(MFA)に対応しています
+  -nico-session <session>        Cookie[user_session]を指定する
+  -nico-login-only=on            (+) 必ずログイン状態で録画する
+  -nico-login-only=off           (+) 非ログインでも録画可能とする(デフォルト)
+  -nico-cookies firefox[:profile|cookiefile]
+                                 firefoxのcookieを使用する(デフォルトはdefault-release)
+                                 profileまたはcookiefileを直接指定も可能
+                                 スペースが入る場合はquoteで囲む
+  -nico-hls-port <portnum>       [実験的] ローカルなHLSサーバのポート番号
+  -nico-limit-bw <bandwidth>     (+) HLSのBANDWIDTHの上限値を指定する。0=制限なし
+                                 audio_high or audio_only = 音声のみ
+  -nico-format "FORMAT"          (+) 保存時のファイル名を指定する
+  -nico-fast-ts                  倍速タイムシフト録画を行う(新配信タイムシフト)
+  -nico-fast-ts=on               (+) 上記を有効に設定
+  -nico-fast-ts=off              (+) 上記を無効に設定(デフォルト)
+  -nico-auto-convert=on          (+) 録画終了後自動的にMP4に変換するように設定
+  -nico-auto-convert=off         (+) 上記を無効に設定
+  -nico-auto-delete-mode 0       (+) 自動変換後にデータベースファイルを削除しないように設定(デフォルト)
+  -nico-auto-delete-mode 1       (+) 自動変換でMP4が分割されなかった場合のみ削除するように設定
+  -nico-auto-delete-mode 2       (+) 自動変換でMP4が分割されても削除するように設定
+  -nico-force-reservation=on     (+) 視聴にタイムシフト予約が必要な場合に自動的に上書きする
+  -nico-force-reservation=off    (+) 自動的にタイムシフト予約しない(デフォルト)
+  -nico-skip-hb=on               (+) コメント書き出し時に/hbコマンドを出さない
+  -nico-skip-hb=off              (+) コメント書き出し時に/hbコマンドも出す(デフォルト)
+  -nico-adjust-vpos=on           (+) コメント書き出し時にvposの値を補正する
+                                 vposの値が-1000より小さい場合はコメント出力しない
+  -nico-adjust-vpos=off          (+) コメント書き出し時にvposの値をそのまま出力する(デフォルト)
+  -nico-ts-start <num>           タイムシフトの録画を指定した再生時間（秒）から開始する
+  -nico-ts-stop <num>            タイムシフトの録画を指定した再生時間（秒）で停止する
+                                 上記2つは ＜分＞:＜秒＞ | ＜時＞:＜分＞:＜秒＞ の形式でも指定可能
+  -nico-ts-start-min <num>       タイムシフトの録画を指定した再生時間（分）から開始する
+  -nico-ts-stop-min <num>        タイムシフトの録画を指定した再生時間（分）で停止する
+                                 上記2つは ＜時＞:＜分＞ の形式でも指定可能
+  -nico-conv-seqno-start <num>   MP4への変換を指定したセグメント番号から開始する
+  -nico-conv-seqno-end <num>     MP4への変換を指定したセグメント番号で終了する
+  -nico-conv-force-concat        MP4への変換で画質変更または抜けがあっても分割しないように設定
+  -nico-conv-force-concat=on     (+) 上記を有効に設定
+  -nico-conv-force-concat=off    (+) 上記を無効に設定(デフォルト)
+
+ツイキャス録画用オプション:
+  -tcas-retry=on                 (+) 録画終了後に再試行を行う
+  -tcas-retry=off                (+) 録画終了後に再試行を行わない
+  -tcas-retry-timeout            (+) 再試行を開始してから終了するまでの時間（分)
+                                     -1で無限ループ。デフォルト: 5分
+  -tcas-retry-interval           (+) 再試行を行う間隔（秒）デフォルト: 60秒
+
+Youtube live録画用オプション:
+  -yt-api-key <key>              (+) YouTube Data API v3 keyを設定する(未使用)
+  -yt-no-streamlink=on           (+) Streamlinkを使用しない
+  -yt-no-streamlink=off          (+) Streamlinkを使用する(デフォルト)
+  -yt-no-youtube-dl=on           (+) youtube-dlを使用しない
+  -yt-no-youtube-dl=off          (+) youtube-dlを使用する(デフォルト)
+  -yt-comment-start              YouTube Liveアーカイブでコメント取得開始時間（秒）を指定
+                                 ＜分＞:＜秒＞ | ＜時＞:＜分＞:＜秒＞ の形式でも指定可能
+                                 0：続きからコメント取得  1：最初からコメント取得
+  -yt-emoji=on                   (+) コメントにemojiを表示する(デフォルト)
+  -yt-emoji=off                  (+) コメントにemojiを表示しない
+
+変換オプション:
+  -extract-chunks=off            (+) -d2mで動画ファイルに書き出す(デフォルト)
+  -extract-chunks=on             (+) [上級者向] 各々のフラグメントを書き出す(大量のファイルが生成される)
+  -conv-ext=mp4                  (+) -d2mで出力の拡張子を.mp4とする(デフォルト)
+  -conv-ext=ts                   (+) -d2mで出力の拡張子を.tsとする
+
+HTTP関連
+  -http-skip-verify=on           (+) TLS証明書の認証をスキップする (32bit版対策)
+  -http-skip-verify=off          (+) TLS証明書の認証をスキップしない (デフォルト)
+  -http-timeout <num>            (+) タイムアウト時間（秒）デフォルト: 5秒（最低値）
+
+
+(+)のついたオプションは、次回も同じ設定が使用されることを示す。
+
+FILE:
+  ニコニコ生放送/nicolive:
+    https://live.nicovideo.jp/watch/lvXXXXXXXXX
+    lvXXXXXXXXX
+  ツイキャス/twitcasting:
+    https://twitcasting.tv/XXXXX
+mori@win11 /w/U/h/u/c/g/h/livedl (master)> livedl -d2m 'https://live.nicovideo.jp/watch/lv341880709?zroute=subscribe'
+chdir: D:\home\.local\bin
+Use "--" option for FILE for DB2MP4
+livedl (20221122.42-windows-amd64)
+Usage:
+livedl [COMMAND] options... [--] FILE
+
+COMMAND:
+  -nico    ニコニコ生放送の録画
+  -tcas    ツイキャスの録画
+  -yt      YouTube Liveの録画
+  -d2m     録画済みのdb(.sqlite3)をmp4に変換する(-db-to-mp4)
+  -dbinfo  録画済みのdb(.sqlite3)の各種情報を表示する
+           e.g. $ livedl -dbinfo -- 'C:/home/hogehoge/livedl/rec/lvxxxxxxxx.sqlite3'
+  -d2h     [実験的] 録画済みのdb(.sqlite3)を視聴するためのHLSサーバを立てる(-db-to-hls)
+           開始シーケンス番号は（変換ではないが） -nico-conv-seqno-start で指定
+           使用例：$ livedl lvXXXXXXXXX.sqlite3 -d2h -nico-hls-port 12345 -nico-conv-seqno-start 2780
+
+オプション/option:
+  -h         ヘルプを表示
+  -vh        全てのオプションを表示
+  -v         バージョンを表示
+  -no-chdir  起動する時chdirしない(conf.dbは起動したディレクトリに作成されます)
+  --         後にオプションが無いことを指定
+
+ニコニコ生放送録画用オプション:
+  -nico-login <id>,<password>    (+) ニコニコのIDとパスワードを指定する
+                                 2段階認証(MFA)に対応しています
+  -nico-session <session>        Cookie[user_session]を指定する
+  -nico-login-only=on            (+) 必ずログイン状態で録画する
+  -nico-login-only=off           (+) 非ログインでも録画可能とする(デフォルト)
+  -nico-cookies firefox[:profile|cookiefile]
+                                 firefoxのcookieを使用する(デフォルトはdefault-release)
+                                 profileまたはcookiefileを直接指定も可能
+                                 スペースが入る場合はquoteで囲む
+  -nico-hls-port <portnum>       [実験的] ローカルなHLSサーバのポート番号
+  -nico-limit-bw <bandwidth>     (+) HLSのBANDWIDTHの上限値を指定する。0=制限なし
+                                 audio_high or audio_only = 音声のみ
+  -nico-format "FORMAT"          (+) 保存時のファイル名を指定する
+  -nico-fast-ts                  倍速タイムシフト録画を行う(新配信タイムシフト)
+  -nico-fast-ts=on               (+) 上記を有効に設定
+  -nico-fast-ts=off              (+) 上記を無効に設定(デフォルト)
+  -nico-auto-convert=on          (+) 録画終了後自動的にMP4に変換するように設定
+  -nico-auto-convert=off         (+) 上記を無効に設定
+  -nico-auto-delete-mode 0       (+) 自動変換後にデータベースファイルを削除しないように設定(デフォルト)
+  -nico-auto-delete-mode 1       (+) 自動変換でMP4が分割されなかった場合のみ削除するように設定
+  -nico-auto-delete-mode 2       (+) 自動変換でMP4が分割されても削除するように設定
+  -nico-force-reservation=on     (+) 視聴にタイムシフト予約が必要な場合に自動的に上書きする
+  -nico-force-reservation=off    (+) 自動的にタイムシフト予約しない(デフォルト)
+  -nico-skip-hb=on               (+) コメント書き出し時に/hbコマンドを出さない
+  -nico-skip-hb=off              (+) コメント書き出し時に/hbコマンドも出す(デフォルト)
+  -nico-adjust-vpos=on           (+) コメント書き出し時にvposの値を補正する
+                                 vposの値が-1000より小さい場合はコメント出力しない
+  -nico-adjust-vpos=off          (+) コメント書き出し時にvposの値をそのまま出力する(デフォルト)
+  -nico-ts-start <num>           タイムシフトの録画を指定した再生時間（秒）から開始する
+  -nico-ts-stop <num>            タイムシフトの録画を指定した再生時間（秒）で停止する
+                                 上記2つは ＜分＞:＜秒＞ | ＜時＞:＜分＞:＜秒＞ の形式でも指定可能
+  -nico-ts-start-min <num>       タイムシフトの録画を指定した再生時間（分）から開始する
+  -nico-ts-stop-min <num>        タイムシフトの録画を指定した再生時間（分）で停止する
+                                 上記2つは ＜時＞:＜分＞ の形式でも指定可能
+  -nico-conv-seqno-start <num>   MP4への変換を指定したセグメント番号から開始する
+  -nico-conv-seqno-end <num>     MP4への変換を指定したセグメント番号で終了する
+  -nico-conv-force-concat        MP4への変換で画質変更または抜けがあっても分割しないように設定
+  -nico-conv-force-concat=on     (+) 上記を有効に設定
+  -nico-conv-force-concat=off    (+) 上記を無効に設定(デフォルト)
+
+ツイキャス録画用オプション:
+  -tcas-retry=on                 (+) 録画終了後に再試行を行う
+  -tcas-retry=off                (+) 録画終了後に再試行を行わない
+  -tcas-retry-timeout            (+) 再試行を開始してから終了するまでの時間（分)
+                                     -1で無限ループ。デフォルト: 5分
+  -tcas-retry-interval           (+) 再試行を行う間隔（秒）デフォルト: 60秒
+
+Youtube live録画用オプション:
+  -yt-api-key <key>              (+) YouTube Data API v3 keyを設定する(未使用)
+  -yt-no-streamlink=on           (+) Streamlinkを使用しない
+  -yt-no-streamlink=off          (+) Streamlinkを使用する(デフォルト)
+  -yt-no-youtube-dl=on           (+) youtube-dlを使用しない
+  -yt-no-youtube-dl=off          (+) youtube-dlを使用する(デフォルト)
+  -yt-comment-start              YouTube Liveアーカイブでコメント取得開始時間（秒）を指定
+                                 ＜分＞:＜秒＞ | ＜時＞:＜分＞:＜秒＞ の形式でも指定可能
+                                 0：続きからコメント取得  1：最初からコメント取得
+  -yt-emoji=on                   (+) コメントにemojiを表示する(デフォルト)
+  -yt-emoji=off                  (+) コメントにemojiを表示しない
+
+変換オプション:
+  -extract-chunks=off            (+) -d2mで動画ファイルに書き出す(デフォルト)
+  -extract-chunks=on             (+) [上級者向] 各々のフラグメントを書き出す(大量のファイルが生成される)
+  -conv-ext=mp4                  (+) -d2mで出力の拡張子を.mp4とする(デフォルト)
+  -conv-ext=ts                   (+) -d2mで出力の拡張子を.tsとする
+
+HTTP関連
+  -http-skip-verify=on           (+) TLS証明書の認証をスキップする (32bit版対策)
+  -http-skip-verify=off          (+) TLS証明書の認証をスキップしない (デフォルト)
+  -http-timeout <num>            (+) タイムアウト時間（秒）デフォルト: 5秒（最低値）
+
+
+(+)のついたオプションは、次回も同じ設定が使用されることを示す。
+
+FILE:
+  ニコニコ生放送/nicolive:
+    https://live.nicovideo.jp/watch/lvXXXXXXXXX
+    lvXXXXXXXXX
+  ツイキャス/twitcasting:
+    https://twitcasting.tv/XXXXX

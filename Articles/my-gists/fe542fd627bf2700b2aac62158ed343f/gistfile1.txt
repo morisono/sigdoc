@@ -1,0 +1,88 @@
+  DBは特定のprompt、よく使われるのはsksとかのワードに学習してるものの特徴を入れ込む、そのためにunet、わかりやすくいえば
+、モデル本体を学習させてる
+
+  HNは常に全体に一定の補正をかけるためのもの、特定のpromptとかは存在しないので画風に向いてる
+  DBと大きな違いはTIと同様にある程度ほかのモデルでも流用可能
+  目安はモデルごとのpromptの互換性がどの程度あるのかを参考にするとわかりやすいと思う
+  キャラの精度あげるならDB+TIが多分最強
+  画風の精度をあげるならDB+HNが最強
+
+注意点
+- DDIM と PLMSでは、x AND x 構文を使用することができない。
+Euler a
+ほかと比べてディティール薄めでコントラストの優しい絵になりがち？
+DPM fast
+低いステップ数ではまともな絵にならない。
+上画像では、50ステップ版も生成した。
+Euler a系列の構図に、パキっとした塗りになっている。
+DPM adaptive
+特に遅い。
+このサンプラーは、ステップ数に関係なく動作する(1stepも100stepも同じ結果になる)。
+1. VMX ... 仮想化技術の情報。
+    1. Lenovo 
+        https://support.lenovo.com/jp/ja/solutions/ht500006-how-to-enable-virtualization-technology-on-lenovo-computers
+    1. Acer
+        https://community.acer.com/en/kb/articles/14750-how-to-enable-virtualization-technology-on-acer-products
+    1. HP
+        https://support.hp.com/jp-ja/document/c03836690
+    1. MSI
+        https://www.msi.com/faq/faq-5390
+    1. ASUS
+        https://www.asus.com/jp/support/FAQ/1043786/
+
+ngrok config add-authtoken 2PRCPeKT1nlKisaABz0CktQV0YI_3nvMKzHXeZ9mo7DWcmfW
+
+ magick convert input.png -blur 0x1 -noise 1 -attenuate 0.5 output.pngmagick convert input.png -blur 0x1 -noise 1 -attenuate 0.5 output.png^C
+
+magick convert -size 256x1 -depth 8 'colormap.txt' colormap.png^C
+
+
+
+filtered_df = st.data_editor(df)
+
+query = 'df.loc[~df["status"], ["name", "stream_id"]]'
+# query = 'SELECT name, stream_id,FROM df, WHERE status = False'
+filter = st.text_input("Filter", query)
+# url = 'https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf'
+url = 'https://www.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf'
+st.markdown(f'Ref. {url}')
+
+_df = eval(filter)
+st.markdown(f"{_df}")
+st.table(_df)
+
+
+
+// fix flatten_nest.jq jq command,
+// explain in japanese.
+// However,there is not one "news" object, but several. in actual issue.
+
+
+// from:
+// {
+//   "news": {
+//     "rss": {
+//         "url": [
+//         "url_1",
+//         "url_2"
+//         ],
+//         "tag": [
+//         "tag_1",
+//         "tag_2"
+//         ]
+//     }
+//     }
+// }
+
+// to:
+// {
+//   "items":[
+//     {
+//       "category": "news",
+//       "tag": "tag_1",
+//       "source": "rss",
+//       "url": "url_1",
+//       "language": "en"
+//     }
+//   ]
+// }

@@ -1,0 +1,56 @@
+
+Our team gained access to the Kadokawa network almost a month ago. It took some time, because of the language, to figure out that Kadokawa subsidiaries' networks were connected to each other and to get through all the mess Kadokawa's IT department made there. We have discovered that Kadokawa networks architecture was not organised properly. It was different networks connected to the one big Kadokawas infrastructure being controlled through global control points, such as eSXI and V-sphere. Once we have gained access to the control center we have encrypted the whole network (Dwango, NicoNico, Kadokawa, other subsidiaries).
+
+The second part of our Team downloaded about TB1,5 of data from the networks.
+
+Quickscope of downloaded data:
+
+-contracts
+
+-DocuSigned papers
+
+-various legal papers
+
+-platform users related data (emails, data usage, links opened, etc)
+
+-employee related data (personal info, payments, contracts, emails, etc)
+
+-business planning (presentations, emails, offers, etc)
+
+-projects related data (coding, emails, payments, etc)
+
+-financial data (payments, transfers, planning, etc)
+
+-other internal-use-only papers and confidential data
+
+Once the network was encrypted we contacted Kadokawas management to make a deal with them regarding data protection and network decryption.
+
+As everyone can see the company is suffering right now and its business processes are being interrupted. Kadokawa and its subsidiaries' services were suspended and the approximate time of recovery was set to the end of July.
+
+It is good to see that Kadokawas management is updating public announcements regarding this situation almost every day. It is very good that Kadokawas management decided to tell the "truth" to calm down the public.
+
+But, it is not good that Kadokawa decided to hide some details. Maybe its own IT department decided not to tell all the truth to its own management, anyways, we can prove Kadokawa statements wrong.
+
+First of all, Kadokawas IT department detected our presence within the network 3 days before we had encrypted the network. Admins tried to kick us out from the network, one of our server IP"s was blocked, they have tried to change admin credentials, but we have managed to set undetectable access to the network. We have continued downloading even after Kadokawa admins detected us. They were unable to detect and stop outgoing traffic, because our downloading scripts kept working even after the server's IP was blocked. 1 day before encryption we have detected enormous Kadokawa admins activity trying to stop us unsuccessfully.
+
+We still have more details to share with the public if needed, but we prefer not to show all the aces we have prepared within the sleeve.
+
+Since we are people of business we are only interested in money. Kadokawa is trying to settle the deal, but the amount of money they have offered is extremely low for this company. This network incident will lead to full network architecture rework, that is why Kadokawas customers had to wait until the IT department reconfigures the whole network. The thing they didn't know is that Kadokawas IT department doesn't have enough experience in hacktivism to understand all the weak spots within its own network, which will lead to another cyber incident in the future. And the other thing is that in case if leaked data go public Kadokawa would have to change not just its network infrastructure, but the whole way they are doing business, because a lot of confidential business related data would be disclosed also.
+
+We are offering our help to make Kadokawa's network better, based upon our life lasting experience, in addition to network decryption and deletion of leaked data.
+
+Long story short, we have gained access to very personal information regarding Japanese citizens. Those people would definitely like to keep the data related to their private life confidential, no one would like to see "things they are doing in the night" going public including their emails and browsing history.
+
+Kadokawas' management should understand one thing, is that everything will go public if we will not make a deal until the end of this week.
+
+Right now the confidential life details of many Japanese citizens depend upon Kadokawas' management decision.
+
+We dont think that Kadokawa's top management would like to spend the following few months bending in excuses. Such exercises do not fit them at all.
+
+It would be much easier to pay and keep moving forward for such a company as Kadokawa is.
+
+ALL DATA will be released on July 1st.
+
+
+あなたがたの涙ぐましい努力は意味をなさないでしょう
+

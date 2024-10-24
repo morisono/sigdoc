@@ -1,0 +1,30 @@
+Skip to content
+
+Save for later
+Activate payments
+In progress
+Progress saved
+Questions concerning the Revised Installment Sales Act
+In order to comply with Japan’s Revised Installment Sales Act, please respond to these questions about how you plan to accept online payments through Stripe.
+Will your business handle your customers’ card numbers?
+
+
+Answer "Yes" if you plan to keep card numbers on your own servers, or collect card numbers over the phone. If all card details for payments on Stripe are solely collected via Checkout, Elements, Invoices, or our mobile SDKs, answer "No".
+Are there plans for you, or for connected applications acting on your behalf (Connect Standard), to use any kind of additional authentication methods to check customer identities?
+
+
+Example: 3D Secure
+Are there plans for you, or for connected applications creating payments on your behalf (Connect Standard), to require card security codes for every payment?
+
+
+We always recommend that you send card security codes, also known as card verification codes (CVC), to Stripe. Checkout, Elements, and our mobile SDK all support security code collection by default.
+Are there plans for you, or for connected applications acting on your behalf (Connect Standard), to use any countermeasures to detect suspicious delivery addresses?
+
+
+Example: This could include maintaining a list of addresses associated with past fraudulent transactions or using a third-party service to detect potentially fraudulent addresses.
+Has your business violated either the Specified Commercial Transaction Act (特定商取引法) in the past five years or the Consumer Contract Act (消費者契約法) and lost a lawsuit due to these violations in the past?
+
+
+Read more about the Specified Commercial Transaction Act and the Consumer Contract Act.
+
+Continue

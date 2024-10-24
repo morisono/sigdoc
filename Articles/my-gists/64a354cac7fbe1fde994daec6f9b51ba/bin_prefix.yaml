@@ -1,0 +1,1603 @@
+- global:
+   - issuers:
+     - Diners:
+       - 300-305
+       - 3095
+       - 36
+       - 38-39
+     - American Express:
+       - 34
+       - 37
+     - JCB:
+       - 3528-3589
+     - Visa:
+       - Four
+     - MasterCard:
+       - Five
+     - Discover:
+       - 60110
+       - 60112-60114
+       - 601174-601179
+       - 601186-601199
+       - 644-649
+       - 65
+     - China UnionPay:
+       - 622126-622925
+       - 624-626
+       - 6282-6288
+- domestic:
+   - 0-ISO/TC 68 and other industry assignments:
+     - atre CARD
+      - 0000-69
+     - Keio Passport Card
+      - 0015-30
+     - VIEW
+      - 0129-01
+     - GRANDUO point card
+      - 0129-69
+     - Ishimaru (Ai-Ai) card → Edion card
+      - 0140-01
+   - 1-Airlines:
+     - Sony Finance International Edy
+      - 1001-00
+     - AMC Miyako Baska Edy
+      - 1001-90
+     - ANA MILEAGE CLUB Edy
+      - 1001-96
+     - Sumitomo Mitsui Card Edy
+      - 1005-00
+     - Rakuten Bank Super Loan Card
+      - 1206-11
+     - Mitsui Sumitomo Bank Card
+      - 1276-98
+   - 2-Airlines and other industry assignments:
+     - Izumiya Card (Proper)
+      - 2000-00
+     - Mac Chip (Sumitomo Mitsui Banking Corporation) Edy
+      - 2001-00
+     - D-ONE Card (Daiichi Specialty Store Association)
+      - 2101-91
+   - 3-Travel and entertainment:
+     - GAITAME.com (Bit Wallet) Edy
+      - 3001-00
+     - Rakuten Point Club Edy
+      - 3001-01
+     - Osaifu-Keitai (F) Edy
+      - 3001-40
+     - Osaifu-Keitai (SH) Edy
+      - 3001-40
+     - Osaifu-Keitai (SO) Edy
+      - 3001-50
+     - BIG ECHO MEMBERS CARD Edy
+      - 3003-00
+     - OMC(HOUSE)
+      - 3070-00
+     - JCB Showa Shell Business Card
+      - 3100-00
+     - Persona House
+      - 3340-21
+     - SAISON Postal Savings JCB
+      - 3528-24
+     - SAISON Loft JCBA
+      - 3528-30
+     - SAISON JCB
+      - 3528-55
+     - Idemitsu Credit Maido Card JCB
+      - 3528-59
+     - SAISON JAF JCB
+      - 3528-65
+     - SAISON MUJI JCB
+      - 3528-65
+     - SAISON Mei JCB
+      - 3528-67
+     - SAISON PEC JCB
+      - 3528-68
+     - Sakura Card JCB General
+      - 3540-02
+     - JCB Fukuoka Card
+      - 3540-06
+     - JCB
+      - 3540-08
+     - UFJ JCB SNOOPY-L
+      - 3540-09
+     - UFJ JCB
+      - 3540-12
+     - JCB Hokkaido/JCB Card
+      - 3540-14
+     - Saveon JCB
+      - 3540-16
+     - Resona JCB
+      - 3540-17
+     - UFJ JCB
+      - 3540-19
+     - Sakura Card JCB
+      - 3540-19
+     - JAF JCB
+      - 3540-20
+     - JCB NET PLUS
+      - 3540-20
+     - PIA JCB
+      - 3540-20
+     - Suruga Bank JCB
+      - 3540-21
+     - Tri Card JCB
+      - 3540-22
+     - ANA-SFC-JCB
+      - 3540-23
+     - JCB-LINDA
+      - 3540-23
+     - JCB Corporate General
+      - 3540-23
+     - JR JCB Business Plus Card
+      - 3540-23
+     - Financial One Members UFJ-JCB (Grande, General)
+      - 3540-23
+     - Waseda Card JCB
+      - 3540-23
+     - ANA-JCB (WIDE, general)
+      - 3540-24
+     - FinancialOne-JCB
+      - 3540-24
+     - JCB
+      - 3540-24
+     - JAF-JCB
+      - 3540-24
+     - Keio JCB
+      - 3540-24
+     - ANA JCB General
+      - 3540-25
+     - JCB McDonald's
+      - 3540-25
+     - JCB-Arubara
+      - 3540-25
+     - U-29/JCB card
+      - 3540-25
+     - Sakura Grande
+      - 3540-25
+     - ANA-JCB General
+      - 3540-26
+     - JCB (Grande, Corporate General)
+      - 3540-26
+     - MJC-JCB
+      - 3540-26
+     - ORIX Rent-A-Car Card JCB
+      - 3540-26
+     - U-29 card/JCB
+      - 3540-26
+     - UFJ-JCB
+      - 3540-26
+     - JCB E.GO
+      - 3540-27
+     - ANA-JCB (WIDE, general)
+      - 3540-27
+     - JCB Aruba
+      - 3540-27
+     - JCB Living Plus
+      - 3540-27
+     - JCB U-29
+      - 3540-27
+     - JCB-NetMile-Arubara
+      - 3540-27
+     - Financial One Members UFJ-JCB General
+      - 3540-27
+     - Waseda Card
+      - 3540-27
+     - Meiji University Student Card JCB
+      - 3540-27
+     - Sakura JCB-Arubara
+      - 3540-28
+     - Sakura Card General
+      - 3540-28
+     - Financial One Members UFJ-JCB Grande
+      - 3540-28
+     - JCB-UnitedAirline Co., Ltd.
+      - 3540-28
+     - Sakura Grande
+      - 3540-31
+     - Sakura TYPE SELECT
+      - 3540-33
+     - JCB EITT
+      - 3540-34
+     - Sakura TYPE SELECT
+      - 3540-35
+     - ANA JCB General
+      - 3540-36
+     - Recruit Card JCB
+      - 3540-3x
+     - University Co-op-JCB
+      - 3540-60
+     - JCB-ANA St
+      - 3540-62
+     - JCB
+      - 3540-68
+     - Microsoft Plus Sanwa JCB
+      - 3540-68
+     - JAL Card JCB (General, CLUB-A, JGC)
+      - 3540-69
+     - JCB Pia Card
+      - 3540-70
+     - JCB Central League Hanshin Tigers Card
+      - 3540-70
+     - JCB DRIVER'S PLUS/ETC
+      - 3540-72
+     - New Bank Tokyo Card JCB
+      - 3540-74
+     - Fukuoka Bank arecore-JCB
+      - 3540-74
+     - JCB Nexus
+      - 3540-77
+     - Financial One Members UFJ-JCB Nexus
+      - 3540-77
+     - JCB Synergy
+      - 3540-80
+     - JCB Hokkaido Grande
+      - 3540-82
+     - DoCoMo UFJ-JCB
+      - 3540-87
+     - Persona JCB
+      - 3540-88
+     - iWi Card JCB
+      - 3540-90
+     - iWi Card JCB
+      - 3540-93
+     - Nishigin JCB-G
+      - 3541-00
+     - ANA JCB GOLD (General, Wide, SuperFlyers)
+      - 3541-01
+     - JCB
+      - 3541-01
+     - JCB GOLD Proper
+      - 3541-01
+     - JCB GOLD UNITED Mileage Plus
+      - 3541-01
+     - Keio JCB-Gold
+      - 3541-01
+     - Waseda GOLD Card
+      - 3541-01
+     - JCB
+      - 3541-02
+     - JCB Gold
+      - 3541-02
+     - ANA JCB Wide Gold
+      - 3541-02
+     - Financial One Members UFJ-JCB Gold
+      - 3541-02
+     - JAL Card CLUB-A JCB-G
+      - 3541-69
+     - JCB THE CLASS
+      - 3541-80
+     - JCB BUSINESS
+      - 3541-81
+     - KKR (National Civil Service Mutual Aid Union Federation) JCB BUSINESS
+      - 3541-81
+     - JR-JCB-BUSINESS-Gold
+      - 3541-81
+     - JAL JCB
+      - 3542-58
+     - YAHOO!JAPAN JCB Card
+      - 3542-59
+     - Ario JCB Card
+      - 3542-77
+     - HANA PLUS JCB Card
+      - 3542-87
+     - Odakyu Point Credit Card
+      - 3542-90
+     - JCB Corporate Gold
+      - 3551-00
+     - Hitachi Card General
+      - 3580-10
+     - NOVA CARD JCB (Hitachi Card Service)
+      - 3580-14
+     - JR Tokai Express Card (JCB)
+      - 3581-80
+     - Nissen Ren Obihiro JCB
+      - 3582-01
+     - Nippon Senren JCB
+      - 3582-04
+     - dsp JCB
+      - 3582-73
+     - APLUS JCB (TSUTAYA, Namba CITY included)
+      - 3582-77
+     - GE-JCB
+      - 3582-90
+     - GE CARD JCB
+      - 3582-98
+     - GE CARD JCB GOLD
+      - 3582-99
+     - @nifty Orico-JCB
+      - 3583-05
+     - Mini Mini Orico-JCB
+      - 3583-05
+     - Monte Rosa Orico-JCB
+      - 3583-05
+     - Rakuten Card JCB
+      - 3584-03
+     - KC JCB
+      - 3584-03
+     - AEON JCB
+      - 3584-10
+     - AEON JCB
+      - 3584-11
+     - AEON JCB
+      - 3584-13
+     - AEON JCB (ETC, Sports Authority included)
+      - 3584-19
+     - Panasonic-JCB
+      - 3584-81
+     - Panasonic-JCB
+      - 3584-88
+     - Takashimaya JCB
+      - 3584-90
+     - MUFG-JCB
+      - 3586-31
+     - GeGeGe no Kitaro Card
+      - 3587-01
+     - SC/JCB card
+      - 3587-01
+     - Hokusen JCB
+      - 3587-02
+     - Sapphire JCB
+      - 3587-03
+     - GE Consumer Finance
+      - 3587-08
+     - JACCS-JCB PC Depot Card
+      - 3587-11
+     - Yellowtail JACCS-JCB
+      - 3587-11
+     - JACCS-Yokohama Invitation Card-JCB
+      - 3587-11
+     - JACCS-Hakodate Card-JCB
+      - 3587-11
+     - JACCS-Collect additional points from a certain card
+      - 3587-11
+     - Ponta Premium Card
+      - 3587-11
+     - JACCS Kampo Style Club Card JCB
+      - 3587-11
+     - JUPI Card
+      - 3587-41
+     - UCS JCB (General, GOLD)
+      - 3587-42
+     - All Nippon Shinpan JCB
+      - 3587-43
+     - Yume JCB
+      - 3587-44
+     - OSAKA PiTaPa-Toyota TS3-JCB
+      - 3587-46
+     - JKJK
+      - 3587-46
+     - Toyota TS3 Card JCB-G
+      - 3587-47
+     - OMC JCB
+      - 3587-50
+     - OMC JCB
+      - 3587-51
+     - OMC JCB Gold
+      - 3587-59
+     - JCB
+      - 3587-61
+     - CF JCB
+      - 3587-81
+     - Cedyna JCB JR Tokai Express
+      - 3587-81
+     - JAL Card Suica JCB
+      - 3587-87
+     - View-Suica-JCB
+      - 3587-87
+     - Bic Camera Suica card JCB
+      - 3587-87
+     - Lumine Card-JCB
+      - 3587-87
+     - Adult Holiday Club Middle Card-JCB
+      - 3587-87
+     - Adult Holiday Club Zipangu Card-JCB
+      - 3587-87
+     - S-Parview Suica Card-JCB
+      - 3587-87
+     - TYO View Watermelon Card-JCB
+      - 3587-87
+     - Jexer View Suika Card-JCB
+      - 3587-87
+     - Izumiya Card-JCB
+      - 3587-93
+     - Shonai Bank Bank Card-JCB
+      - 3588-21
+     - b.c.
+      - 3588-74
+     - Flat eggplant (Thailand)
+      - 3648-88
+     - Diners-Black
+      - 3691-15
+     - WASEDA Diners
+      - 3691-15
+     - Diners General
+      - 3691-16
+     - Diners partnership
+      - 3691-16
+     - Diners Affiliated JC
+      - 3691-16
+     - Diners Premium
+      - 3691-16
+     - Diners citigold
+      - 3691-17
+     - ANA Diners Super Flyers Card Premium
+      - 3691-17
+     - ANA Diners Super Flyers Card
+      - 3691-18
+     - DINERS NewOtaniClub
+      - 3691-50
+     - JAL Diners
+      - 3691-61
+     - JAL Global Club Diners
+      - 3691-63
+     - Diners General
+      - 3695-41
+     - Diners General
+      - 3695-54
+     - Diners Corporate
+      - 3695-63
+     - Diners General
+      - 3695-70
+     - Diners General
+      - 3695-71
+     - Diners General
+      - 3695-72
+     - Diners General
+      - 3695-74
+     - Diners General
+      - 3695-91
+     - AMEX GOLD
+      - 3761-01
+     - AMEX GOLD
+      - 3761-03
+     - AMEX
+      - 3761-04
+     - AMEX GOLD
+      - 3761-07
+     - AMEX GOLD
+      - 3761-08
+     - AMEX
+      - 3761-09
+     - AMEX
+      - 3761-12
+     - AMEX
+      - 3761-18
+     - AMEX
+      - 3761-21
+     - Okura Club AMEX
+      - 3761-22
+     - AMEX
+      - 3761-24
+     - AMEX
+      - 3761-26
+     - AMEX
+      - 3761-27
+     - New AMEX
+      - 3761-28
+     - AMEX
+      - 3761-32
+     - DELTA SKYMILES AMEX GOLD
+      - 3761-32
+     - ANA AMEX
+      - 3761-35
+     - AMEX Platinum
+      - 3761-35
+     - AMEX Corp.
+      - 3761-53
+     - AMEX Corp.
+      - 3761-68
+     - AMEX Business staff (GOLD)
+      - 3761-69
+     - AMEX Business owner (PLAT)
+      - 3761-70
+     - AMEX GOLD Corp.
+      - 3761-71
+     - AMEX GOLD Corp.
+      - 3761-74
+     - AMEX GOLD Corp.
+      - 3761-76
+     - AMEX Centurion Card
+      - 3761-77
+     - AMEX Platinum
+      - 3761-77
+     - AMEX Centurion
+      - 3761-78
+     - AMEX Platinum
+      - 3761-79
+     - AMEX GOLD (Thailand)
+      - 3763-10
+     - AMEX Companion
+      - 3765-11
+     - AMEX Companion (gray color)
+      - 3765-12
+     - SAISON AMEX
+      - 3777-81
+     - SAISON PLATINUM AMEX
+      - 3777-81
+     - SAISON JAF AMEX
+      - 3777-81
+     - SAISON PARCO AMEX
+      - 3777-81
+     - SAISON Tsurumi Hanaport Blossom AMEX
+      - 3777-81
+     - SAISON DoCoMo AMEX
+      - 3777-82
+     - MUFG Card Gold AMEX
+      - 3778-58
+     - AMEX GIFT CARD (Amex prepaid card)
+      - 3790-29
+   - 4-Banking and financial:
+     - CITIBANK Dollar VISA
+      - 4028-55
+     - BANK ONE - THE ONE Card (VISA check card)
+      - 4060-42
+     - Nikko Platinum Debit Card (VISA Debit)
+      - 4153-14
+     - AEON
+      - 4205-10
+     - AEON
+      - 4205-11
+     - AEON-GOLD-VISA
+      - 4205-11
+     - AEON-GOLD-VISA
+      - 4205-12
+     - AEON
+      - 4205-19
+     - AEON-VISA
+      - 4205-20
+     - AEON-VISA
+      - 4205-21
+     - AEON-VISA
+      - 4205-22
+     - AEON-VISA
+      - 4205-23
+     - AEON-VISA
+      - 4205-29
+     - AEON JMB VISA
+      - 4205-29
+     - AEON-Suica-VISA
+      - 4205-29
+     - AEON COSMO THE CARD Opus
+      - 4205-29
+     - AEON
+      - 4205-30
+     - Life-Life Card Gold VISA
+      - 4220-00
+     - Life-Life Card VISA
+      - 4220-02
+     - AEON-VISA
+      - 4505-90
+     - Suruga VISA Debit Card (VISA Debit)
+      - 4216-14
+     - Suruga VISA Debit Card (VISA Debit)
+      - 4216-15
+     - Banco BANTEC
+      - 4259-55
+     - V Preca (Virtual VISA Prepaid)
+      - 4284-85
+     - NEO MONEY (Saison VISA Prepaid)
+      - 4284-87
+     - Cocokara Club Card (VISA Prepaid)
+      - 4284-90
+     - Rakuten Card VISA
+      - 4297-69
+     - Rakuten Premium VISA
+      - 4297-70
+     - Sumitomo Mitsui International Cash Card
+      - 4311-26
+     - Wells Fargo Bank
+      - 4323-71
+     - SBI Card Plus Visa
+      - 4363-04
+     - Geo Ponta Visa
+      - 4363-04
+     - Banco BANTEC
+      - 4384-00
+     - Tokyo Mitsubishi Cash Card <International>
+      - 4391-02
+     - CALIFORNIA BANK & TRUST VISA
+      - 4470-57
+     - JACCS-VISA General
+      - 4525-81
+     - JACCS
+      - 4525-82
+     - JACCS VISA (switched from TSUTAYA partnership)
+      - 4525-84
+     - JACCS REX CARD Lite
+      - 4525-84
+     - JACCS-Yokohama Invitation Card-VISA
+      - 4525-85
+     - AEON-VISA
+      - 4525-90
+     - Yokohama Bank Bank Card (BC)-VISA
+      - 4531-38
+     - Fukuoka Bank-Bank Card-VISA
+      - 4531-77
+     - DC Card GOLD
+      - 4534-00
+     - DC Proper VISA (BTM withdrawal)
+      - 4534-12
+     - DC-VISA
+      - 4534-19
+     - DC Waseda VISA
+      - 4534-22
+     - DC JAF VISA
+      - 4534-26
+     - DC-VISA Japanese Senren
+      - 4534-29
+     - DC-VISA JAL
+      - 4534-36
+     - DC-Jizail
+      - 4534-38
+     - DC MSN Card
+      - 4534-39
+     - DC-G-VISA
+      - 4534-50
+     - DC Proper-VISA-Gold-VINGT (BTM withdrawal)
+      - 4534-50
+     - DC-VISA JAL CLUB-A GOLD
+      - 4534-50
+     - DC Japan Guide Dog Association Card General
+      - 4534-52
+     - DC NetMile VISA
+      - 4534-52
+     - Yupi JCB
+      - 4534-72
+     - DC Hirogin DC Card
+      - 4534-78
+     - DC Daishi Bank-DC-VISA General
+      - 4534-86
+     - DC Regional Bank DC Business Gold
+      - 4534-90
+     - NICOS VISA GOLD
+      - 4538-51
+     - NICOS VISA GOLD
+      - 4538-52
+     - NICOS VISA Drivers EDGE
+      - 4538-65
+     - NICOS VISA EDGE ON
+      - 4538-65
+     - NICOS VISA ENEOS Card
+      - 4538-65
+     - NICOS VISA
+      - 4538-65
+     - NICOS VIASO VISA
+      - 4538-65
+     - NICOS-DoCoMo-VISA
+      - 4538-65
+     - NICOS ebank
+      - 4538-65
+     - NICOS VISAS synergy
+      - 4538-65
+     - NICOS
+      - 4538-66
+     - NICOS VISA Soo
+      - 4538-68
+     - NICOS VISA Audrey
+      - 4538-68
+     - NICOS VISA WOWOW Pia
+      - 4538-68
+     - NICOS VISA BRIDGESTONE CARLIFE SUPPORT CARD
+      - 4538-68
+     - NICOS VISA Mitsubishi Estate Group
+      - 4538-70
+     - NICOS VISA Mitsubishi Estate Group Gold
+      - 4538-70
+     - Yahoo! JAPAN VISA
+      - 4538-87
+     - Yume Card VISA
+      - 4538-92
+     - GE-VISA (formerly issued by GC)
+      - 4538-93
+     - Takashimaya VISA
+      - 4538-97
+     - APLUS chobirich card
+      - 4538-98
+     - SAISON Postal Savings Check Card《Saison》(VISA check)
+      - 4541-10
+     - SAISON Mitsui Outlet Park Card VISA
+      - 4541-10
+     - SAISON Lawson Ponta Card Visa
+      - 4541-10
+     - SAISON LaOX Member's Card/VISA
+      - 4541-11
+     - SAISON MONEXVISA
+      - 4541-12
+     - SAISON-VISA (Ikebukuro Seibu)
+      - 4541-14
+     - SAISON CLUB ON card《Saison》 VISA
+      - 4541-15
+     - SAISON MONEX VISA
+      - 4541-15
+     - SAISON Shareholder Benefit VISA
+      - 4541-15
+     - SAISON LAWSON PASS VISA
+      - 4541-17
+     - SAISON
+      - 4541-22
+     - SAISON MONEX-VISA
+      - 4541-23
+     - SAISON Postal Savings《Saison》VISA
+      - 4541-23
+     - SAISON
+      - 4541-24
+     - SAISON Japan Post VISA
+      - 4541-25
+     - SAISON Sogo Millennium
+      - 4541-30
+     - SAISON Club On Card
+      - 4541-30
+     - SAISON-Four Beats
+      - 4541-30
+     - SAISON Gobankan (Hokkaido Seibu)
+      - 4541-31
+     - SAISON UA Airlines Mileage Plus
+      - 4541-31
+     - SAISON
+      - 4541-32
+     - SAISON UA
+      - 4541-33
+     - SAISON Postal savings check
+      - 4541-33
+     - SAISON JAF《Saison》VISA
+      - 4541-40
+     - SAISON-@nifty
+      - 4541-40
+     - SAISON-Postal Savings VISA
+      - 4541-41
+     - U.C.
+      - 4541-41
+     - SAISON-MONEX-VISA
+      - 4541-42
+     - SAISON-VISA
+      - 4541-43
+     - SAISON Mizuho Mileage Club Card Saison Suica
+      - 4541-50
+     - SAISON Card VISA/Hokkaido Seiyu
+      - 4541-51
+     - SAISON CLUB ON SAISON Card VISA
+      - 4541-51
+     - SAISON Postal Savings《Saison》VISA
+      - 4541-52
+     - SAISON
+      - 4541-53
+     - SAISON
+      - 4541-54
+     - SAISON
+      - 4541-55
+     - SAISON visa
+      - 4541-56
+     - SAISON Resona Card SAISON VISA
+      - 4541-58
+     - SAISON
+      - 4541-59
+     - SAISON-VISA
+      - 4541-61
+     - SAISON @nifty VISA
+      - 4541-65
+     - SAISON @nifty VISA
+      - 4541-66
+     - SAISON Microsoft VISA
+      - 4541-66
+     - SAISON VISA L.L.Bean Club
+      - 4541-66
+     - SAISON WOWOW-VISA
+      - 4541-67
+     - SAISON Postal Savings VISA
+      - 4541-71
+     - SAISON
+      - 4541-72
+     - SAISON
+      - 4541-73
+     - Takashimaya Card《Gold》
+      - 4541-90
+     - SAISON Resona SAISON VISA GOLD
+      - 4541-96
+     - EBANK Money Card CLASSIC (VISA Debit)
+      - 4542-02
+     - eBank Money Card GOLD (VISA Debit)
+      - 4542-03
+     - Resona VISA Debit Card <JMB> (VISA Debit)
+      - 4542-05
+     - UC Mizuho-G VISA
+      - 4542-14
+     - UC WWF VISA
+      - 4542-20
+     - UC Mizuho-VISA General
+      - 4542-20
+     - UC-VISA JAF
+      - 4542-24
+     - UC-VISA Nissan Card
+      - 4542-48
+     - UC-VISA Resona
+      - 4542-71
+     - U.C.
+      - 4542-72
+     - UC-VISA Honda C-card
+      - 4542-73
+     - UC-VISA Honda C-card (Resona Card)
+      - 4542-74
+     - UC-VISA DoCoMo
+      - 4542-75
+     - UC VISA Mizuho
+      - 4542-75
+     - UC Big Card International
+      - 4542-75
+     - VIEW JR East
+      - 4542-85
+     - VIEW-VISA
+      - 4542-85
+     - VIEW-VISA
+      - 4542-86
+     - VIEW-VISA My City Shinjuku Card
+      - 4542-86
+     - VIEW-Suica-VISA LUMINE
+      - 4542-87
+     - VIEW Mizuho Suica
+      - 4542-87
+     - VIEW Suica VISA
+      - 4542-87
+     - VIEW Atre Club View Suica Card
+      - 4542-87
+     - VIEW we view watermelon card
+      - 4542-87
+     - ROP Pawnkin V (Thailand)
+      - 4543-25
+     - Tokyu TOP&-VISA
+      - 4543-81
+     - Tokyu TOP&-VISA
+      - 4543-82
+     - Tokyu TOP&-VISA
+      - 4543-83
+     - MUFG-VISA
+      - 4566-00
+     - UFJ Card Premio VISA
+      - 4566-05
+     - UFJ One Pass VISA
+      - 4566-05
+     - MUFG Card Gold
+      - 4566-33
+     - Cedyna CF GOLD-VISA
+      - 4566-96
+     - able
+      - 4575-56
+     - TS3 CUBIC Lexus Card VISA Platinum
+      - 4685-12
+     - TS3-VISA teamTOYOTA
+      - 4685-17
+     - ISETAN-ICARD VISA
+      - 4691-10
+     - meitetsu-ICARD VISA
+      - 4691-10
+     - Daimaru loyal customer gold card (house, 11 digits)
+      - 4700-86
+     - Bank of China DREAMe W VISA
+      - 4708-01
+     - Yokohama Bank Card Suica Gold
+      - 4708-06
+     - Yokohama Bank Card Suica Young Gold
+      - 4708-06
+     - Yokohama Bank Card Suica
+      - 4708-07
+     - TOMIN CLUB CARD VISA (Tokyo Tomin Bank)
+      - 4708-35
+     - Tenmaya Card VISA
+      - 4708-36
+     - Japan Post Bank
+      - 4708-91
+     - CALIFORNIA BANK & TRUST (Cash card/VISA debit)
+      - 4730-63
+     - EPOS VISA
+      - 4897-83
+     - EPOS design card
+      - 4897-84
+     - EPOS SHIDAX
+      - 4897-84
+     - EPOS virtual card
+      - 4897-85
+     - EPOS Gold Card
+      - 4897-88
+     - EPOS Platinum Card
+      - 4897-89
+     - NW-CITI-VISA-Gold
+      - 4901-15
+     - Cedyna OMC-VISA
+      - 4901-20
+     - Cedyna OMC-VISA
+      - 4901-21
+     - Cedyna OMC GOLD VISA
+      - 4901-29
+     - Cedyna OMC-VISA
+      - 4901-29
+     - Mitsubishi Tokyo UFJ VISA GOLD PREMIUM
+      - 4906-43
+     - Mitsubishi Tokyo UFJ
+      - 4906-46
+     - Mitsubishi Tokyo UFJ
+      - 4906-47
+     - Citi-VISA NW
+      - 4907-14
+     - WQ
+      - 4907-14
+     - Citi-VISA student
+      - 4907-14
+     - Citi-VISA Amazon Credit Card
+      - 4907-14
+     - Citi Classic(A) VISA
+      - 4907-14
+     - NWA-Citi-WorldPerks-VISA-Gold
+      - 4907-15
+     - Citi VISA
+      - 4907-15
+     - Citi VISA ELITE
+      - 4907-15
+     - Citi VISA PLATINUM
+      - 4922-30
+     - Citi-VISA NW-CITI-VISA-Plt
+      - 4922-30
+     - NTT Group Card-VISA
+      - 4922-31
+     - 77 Card VISA
+      - 4922-32
+     - 77 Card VISA Gold
+      - 4922-33
+     - Sagin Moteka Card VISA
+      - 4922-42
+     - Hokkoku VISA Card
+      - 4922-53
+     - Tokyo VISA
+      - 4922-54
+     - Tokyo VISA GOLD
+      - 4922-55
+     - Northern VISA Gold
+      - 4922-56
+     - Gungin Card VISA
+      - 4922-57
+     - Gungin Card VISA Gold
+      - 4922-58
+     - Mie Silver Card VISA
+      - 4922-59
+     - Mie Silver Card VISA Gold
+      - 4922-60
+     - Sumishin VISA
+      - 4922-67
+     - Sumishin VISA Gold Card
+      - 4922-68
+     - Sumishin Road Service VISA-G
+      - 4922-68
+     - Asahi VISA
+      - 4922-69
+     - Asahi Delta VISA
+      - 4922-69
+     - Resona-VISA Toranoana
+      - 4922-69
+     - Resona
+      - 4922-69
+     - Resona Toyoko Inn 4 & 5
+      - 4922-69
+     - Resona
+      - 4922-71
+     - Resona Waseda Gold Card Alumni
+      - 4922-71
+     - Yamagin Credit VISA Gold
+      - 4922-73
+     - Shinkin VISA
+      - 4922-78
+     - Hokkaido Bank Card Hokkaido Bank VISA Card
+      - 4922-85
+     - Road Bank Card Road Bank VISA Gold Card
+      - 4922-86
+     - Fukuoka Bank arecore-VISA
+      - 4922-87
+     - NICOS-VISA
+      - 4923-13
+     - NICOS Postal Savings VISA
+      - 4923-13
+     - NICOS VISA Sakuraya
+      - 4923-13
+     - NICOS International Volunteer Savings Card-VISA
+      - 4923-13
+     - NICOS-VISA(ncom)
+      - 4923-14
+     - Whole day yellowtail
+      - 4923-39
+     - NICOS VISA Pia
+      - 4923-41
+     - NICOS VISA
+      - 4923-43
+     - NICOS VISA
+      - 4923-44
+     - NICOS VISA (Pia)
+      - 4923-46
+     - NICOS Postal Savings Joint Card-VISA
+      - 4923-46
+     - LIFE-VISA
+      - 4923-58
+     - NICOS-VISA It's card
+      - 4923-80
+     - NICOS-VISA Postal Savings Joint Card
+      - 4923-86
+     - NICOS Pia Card
+      - 4923-87
+     - NICOS VISA Ena
+      - 4923-90
+     - NICOS VISA Showa Shell X-CARD
+      - 4923-91
+     - Orico @nifty Power Orico VISA
+      - 4937-95
+     - Orico VISA
+      - 4937-95
+     - Orico Kojima
+      - 4937-95
+     - Yodobashi Gold Point IC eLIO VISA
+      - 4961-12
+     - SMC
+      - 4980-00
+     - SMC ANA VISA G
+      - 4980-00
+     - SMC ANA Super Flyers Card VISA GOLD
+      - 4980-00
+     - SMC Hilton HHonors VISA GOLD
+      - 4980-00
+     - Panasonic-VISA
+      - 4980-00
+     - SMC-VISA-GOLD
+      - 4980-00
+     - Sumitomo Mitsui VISA Gold (Young)
+      - 4980-00
+     - SMC-VISA-Tuo
+      - 4980-01
+     - ANA elio-VISA
+      - 4980-01
+     - SMC-VISA JNB
+      - 4980-01
+     - My Sony Card
+      - 4980-01
+     - SFC-ANA-VISA
+      - 4980-01
+     - SFC-VISA (plala card)
+      - 4980-01
+     - SMBC ANA-VISA
+      - 4980-01
+     - SMC unicef VISA
+      - 4980-01
+     - SMC-ANA-VISA-St
+      - 4980-01
+     - SMC-ANA-VISA-Suica
+      - 4980-01
+     - SMC-VISA
+      - 4980-01
+     - SMC-VISA Classic A
+      - 4980-01
+     - Sony Finance BeneficioCard (elio corporate partnership)
+      - 4980-01
+     - Sony Finance Marunouchi VISA
+      - 4980-01
+     - Keio Card -st
+      - 4980-01
+     - GOLD POINT CARD + VISA
+      - 4980-01
+     - SMC-ALPS VISA (Local Government Employees Life Plan Association)
+      - 4980-01
+     - SMC-VISA
+      - 4980-03
+     - SMC Classic A (Student) - VISA
+      - 4980-03
+     - Sumitomo Mitsui VISA mini classic card
+      - 4980-03
+     - Sumitomo Mitsui VISA Classic
+      - 4980-03
+     - Sumitomo Mitsui MJC-VISA
+      - 4980-05
+     - NKLDSAJK
+      - 4980-05
+     - Rakuten Card VISA
+      - 4980-05
+     - Sumitomo Mitsui VISA Appi
+      - 4980-05
+     - Sumitomo Mitsui VISA Wonder
+      - 4980-05
+     - Sumitomo Mitsui Card/MJC
+      - 4980-05
+     - Mitsukoshi VISA
+      - 4980-05
+     - Love Plusvisa card
+      - 4980-05
+     - iM@S VISA card
+      - 4980-05
+     - Sumitomo Mitsui HANA PLUS VISA
+      - 4980-06
+     - DCMX VISA
+      - 4980-07
+     - SMC VISA Platinum
+      - 4980-11
+     - JFR DAIMARU VISA
+      - 4980-13
+     - Sumitomo Mitsui VISA Business Card GOLD
+      - 4980-20
+     - SMC-VISA CORPORATE
+      - 4980-22
+     - Kyushu Card
+      - 4980-36
+     - Kyushu Card Kyushu VISA Card
+      - 4980-37
+     - NC Hokkai Specialty Store Association VISA
+      - 4980-60
+     - GECF-VISA
+      - 4980-61
+     - GECF-VISA JARL CARD/SMBC issued
+      - 4980-61
+     - NC Obihiro VISA
+      - 4980-61
+     - Daiichi Shinpan NC VISA
+      - 4980-61
+     - NC and Makomai
+      - 4980-62
+     - Sapporo credit sales VISA
+      - 4980-62
+     - Izumiya VISA card
+      - 4980-66
+     - pocket
+      - 4980-66
+     - Mycal VISA
+      - 4980-66
+     - Sumisho Card
+      - 4980-66
+     - Kyushu Card partnership
+      - 4980-73
+     - Kyushu Card Virtual Card
+      - 4980-73
+     - Kyushu Card Partnership Gold
+      - 4980-74
+     - visa card
+      - 4980-75
+     - Shinkin Credit Service Road Service Visa
+      - 4980-75
+     - Ito-Yokado VISA
+      - 4986-11
+     - Seven Card VISA
+      - 4986-12
+     - UFJ-VISA DoCoMo
+      - 4986-31
+     - UFJ-VISA au Jibun
+      - 4986-31
+     - UFJ-VISA APA-JRA
+      - 4986-32
+     - UFJ-VISA
+      - 4986-32
+     - UFJ-VISA K-power
+      - 4986-32
+     - UFJ all-one integrated type
+      - 4986-32
+     - UFJ-VISA Skymark
+      - 4986-32
+     - UFJ-FinancialOne-VISA
+      - 4986-51
+     - UFJ VISA J-WEST
+      - 4986-58
+     - UFJ
+      - 4986-60
+     - Cedyna CF-VISA
+      - 4986-94
+     - JR Tokai Express Card (Visa)
+      - 4986-94
+     - Cedyna EXPO Eco Money Green Card
+      - 4986-94
+   - 5-Banking and financial:
+     - Tokyu TOP White
+      - 5010-90
+     - Tokyu TOP (House)
+      - 5010-91
+     - Tokyu TOP QPoint
+      - 5010-98
+     - Mizuho Bank (formerly) M Town Branch/International Cash Card (Cirrus affiliated)
+      - 5045-72
+     - SBI
+      - 5127-80
+     - au Wallet/WebMoney Card
+      - 5166-45
+     - City National Bank of West Virginia - Gold Debit Matercard
+      - 5178-95
+     - Sedina Quark-Master
+      - 5183-80
+     - Aiful e-Machi Town PPC MasterCard
+      - 5186-91
+     - East☆Master
+      - 5201-75
+     - UFJ-Financial One-MasterCard
+      - 5208-09
+     - UFJ General Master
+      - 5208-09
+     - UFJ Skymark Master
+      - 5208-09
+     - UFJ DoCoMo UFJ Card Master
+      - 5208-31
+     - UCS-MasterCard (general)
+      - 5208-40
+     - UFJ Master
+      - 5208-48
+     - UFJ vodafone card Tokai
+      - 5208-49
+     - J-WEST Express Master
+      - 5208-58
+     - J-WEST Basic Master
+      - 5208-58
+     - UCS enta Master
+      - 5208-82
+     - UCS-MasterCard (Gold)
+      - 5208-82
+     - KC Card Master
+      - 5210-01
+     - Rakuten Card Master
+      - 5210-12
+     - Rakuten Card
+      - 5210-15
+     - Rakuten Card Master
+      - 5210-16
+     - NICOS ENEOS-MASTER
+      - 5214-65
+     - Yahoo! JAPAN Master
+      - 5214-87
+     - Yume Card youme-Master
+      - 5214-88
+     - Aplus Master Smile Personal
+      - 5214-98
+     - Cedyna CF-Master
+      - 5219-00
+     - JR Tokai Express Card (MasterCard)
+      - 5219-00
+     - Cedyna CF-Bridgestone Master
+      - 5219-13
+     - Cedyna CF-Naster (JR Tokai EXPRESS CARD)
+      - 5219-15
+     - Orico-Master FORCEA
+      - 5248-05
+     - ORICO-HUKU2PLUS card
+      - 5248-05
+     - Orico-(Najav Club)-MASTER
+      - 5248-05
+     - Orico-@nifty-Master
+      - 5248-05
+     - Orico-Animate-Master
+      - 5248-05
+     - Orico Trout TIPNESS
+      - 5248-05
+     - Orico Yahoo!Japan-Master
+      - 5248-05
+     - Orico iGold Master
+      - 5248-05
+     - Orico Living Forest Asclas Gold Master
+      - 5248-05
+     - Orico Club Alliance
+      - 5248-05
+     - Orico sun card
+      - 5248-05
+     - Orico-Master Futaba First
+      - 5248-05
+     - Orico-Master Yellowtail
+      - 5248-05
+     - Orico Skywalker(HIS)Gold CARD
+      - 5248-05
+     - Orico Gold Master Card UPty
+      - 5248-06
+     - Orico MasterCard UPty
+      - 5248-06
+     - Orico Lucky Star MasterCard UPty
+      - 5248-06
+     - Orico Puella Magi Madoka Magica MasterCard UPty
+      - 5248-06
+     - UC MIZUHO GOLD
+      - 5250-03
+     - UC-Master YamahaFeelingClub
+      - 5250-06
+     - UC Master Gold
+      - 5250-14
+     - UC JR UC BUSINESS Gold
+      - 5250-14
+     - UC mizuho master
+      - 5250-22
+     - UC-Master Gold (Mizuho Mileage)
+      - 5250-35
+     - UC-Master (Mizuho Mileage)
+      - 5250-36
+     - Mizuho Mileage Club (SELECT)
+      - 5250-36
+     - NISSAN CARD MASTER
+      - 5250-48
+     - UC Master
+      - 5250-48
+     - UC Master JTB
+      - 5250-69
+     - UC Master @nifty
+      - 5250-71
+     - UC Master DoCoMo
+      - 5250-72
+     - UC Master MIZUHO UC select
+      - 5250-72
+     - U.C.
+      - 5250-72
+     - UC WWF Select MASTER
+      - 5250-72
+     - UC Master Translucent
+      - 5250-72
+     - UC Master Mizuho
+      - 5250-72
+     - UC Master biccard-international
+      - 5250-72
+     - Ginza Beef Trout
+      - 5250-72
+     - UC Master Mitsukoshi
+      - 5250-72
+     - UC MileagePlus Select Master
+      - 5250-73
+     - VIEW-Master LUMINE
+      - 5250-87
+     - VIEW Suica MasterCard
+      - 5250-87
+     - NICOS MASTER Pia
+      - 5251-13
+     - NICOS-MASTER-CAMPUS
+      - 5251-13
+     - SAISON Master
+      - 5252-10
+     - SAISON UA College
+      - 5252-10
+     - SAISON Master
+      - 5252-12
+     - SAISON UA Master
+      - 5252-14
+     - SAISON
+      - 5252-15
+     - SAISON-MASTER
+      - 5252-15
+     - SAISON Club on Saison Master
+      - 5252-15
+     - SAISON -Master
+      - 5252-24
+     - SAISON Master
+      - 5252-31
+     - SAISON
+      - 5252-36
+     - SAISON Master Mitsui Outlet Park
+      - 5252-40- SAISON Idemitsu mydo plus Master
+      - 5252-59
+     - SAISON Master Vodafone
+      - 5252-65
+     - SAISON UA General
+      - 5252-65
+     - SAISON Master UA Card Gold
+      - 5252-90
+     - SAISON-MASTER SOGO-Millennium-GOLD
+      - 5252-91
+     - OMC-Mastercard
+      - 5257-01
+     - Tokyu TOP & GOLD DC Master
+      - 5279-16
+     - Tokyu TOP & DC Master
+      - 5279-16
+     - TOKYU TOP& GRANDBERRY DC Master
+      - 5279-18
+     - TOKYU TOP& TOKYU PLAZA CARD Plaza Plus Master
+      - 5279-18
+     - DC JALCard Master CLUB-A
+      - 5279-34
+     - DC JALCard Master General
+      - 5279-34
+     - DC Master GOLD
+      - 5279-35
+     - DC-Master Clubdon Pen Card
+      - 5279-39
+     - DC Mastercard Tokio Marine
+      - 5279-42
+     - DC GONZO Master GOLD
+      - 5279-51
+     - DC Master JAL CLUB-A Gold
+      - 5279-51
+     - DC Master JGC CLUB-A Gold
+      - 5279-51
+     - DC Master Japan Guide Dog Association Card Gold
+      - 5279-51
+     - DC
+      - 5279-70
+     - DoCoMo NTT-L Master
+      - 5283-71
+     - UC Master SCENE (NTT-L)
+      - 5283-71
+     - UC Chiba Kogin
+      - 5283-71
+     - UC Resona Card Master
+      - 5283-71
+     - Former Yamaichi Securities General (Transferred to direct control of UC due to closure of business)
+      - 5283-88
+     - Fukugin BANK CARD Master
+      - 5285-77
+     - MUFG-Master
+      - 5296-00
+     - UFJ Premio Card
+      - 5296-05
+     - HSBC PREMIER (World)
+      - 5296-59
+     - Sumitomo Mitsui MasterCard GOLD
+      - 5302-30
+     - SMC MasterGold Platinum
+      - 5302-31
+     - SMC ANA Master Gold
+      - 5302-32
+     - Sagin Moteka Card Master Gold
+      - 5302-58
+     - Resona OMNI-master
+      - 5306-60
+     - ion
+      - 5312-80
+     - ion
+      - 5312-81
+     - ion
+      - 5312-82
+     - ion
+      - 5312-83
+     - Aeon Master
+      - 5312-84
+     - ion
+      - 5312-86
+     - AEON MJC-AEON-Master
+      - 5312-89
+     - Aeon I love Daikanyama
+      - 5312-89
+     - JACCS Card-Master
+      - 5312-91
+     - JACCS Gold Card-Master
+      - 5312-91
+     - JACCS Hokkaido Nippon-Ham Fighters FC Card-Master
+      - 5312-91
+     - JACCS Sofmap
+      - 5312-91
+     - JACCS
+      - 5312-92
+     - JACCS-Kojima Card
+      - 5312-93
+     - JTB-master
+      - 5321-71
+     - SMC-Master Classic A
+      - 5334-90
+     - SMC-ANA-Master student card
+      - 5334-91
+     - SMC-ANA-Master General
+      - 5334-91
+     - SMC-Pastown MASTER
+      - 5334-91
+     - SMC-ALPS VISA (Local Government Employees Life Plan Association)
+      - 5334-91
+     - SMC-ANA-MASTER
+      - 5334-94
+     - SMC-Master
+      - 5334-96
+     - CITIBANK GOLD
+      - 5406-01
+     - UNION BANK OF CALIFORNIA (Master Debit)
+      - 5409-97
+     - JACCS-YOSAKOI NET CARD
+      - 5412-75
+     - DC Ryugin DC Partner VISA
+      - 5434-72
+     - ACOM-Master
+      - 5436-16
+     - Takefuji Master
+      - 5438-16
+     - Citi Clear-Master
+      - 5438-17
+     - Pocket Card Kuraraku Card Master
+      - 5442-51
+     - Pocket Card Master
+      - 5442-54
+     - Pocket Card Master Yellow
+      - 5442-54
+     - Mycal Blue MasterCard
+      - 5442-54
+     - Pocket card P-one card Master
+      - 5442-54
+     - Life AOYAMA CARD)
+      - 5452-85
+     - Life Dancing Large Scanning Line Master Card
+      - 5452-85
+     - Life-Master
+      - 5452-85
+     - TS3-M-G
+      - 5578-51
+     - TS3 Card [Business] MASTER General
+      - 5578-52
+     - Sonybank Moneykit Global (affiliated with JP Morgan Chase)
+      - 5610-18
+     - Citi Bank cash card
+      - 5889-02
+   - 6-Merchandizing and banking:
+     - Select Club Kuremu (JTB Benefit Welfare)
+      - 6000-53
+     - JTB TRAVEL POINT CARD
+      - 6101-90
+     - Mitsui Sumitomo UnionPay
+      - 6229-20
+     - Tokyu TOP (cash only)
+      - 6502-30
+     - TS3 TRBM (International Unbranded House Card)
+      - 6900-05
+     - PiTaPa Basic
+      - 6900-07
+     - Sumitomo Mitsui Card iD
+      - 6900-11
+     - DCMX mini
+      - 6900-11
+     - Marui's red card
+      - 6901-01
+     - Isetan iCard
+      - 6911-00
+     - Takashimaya Friendship Association (Rose Circle)
+      - 6911-31
+     - Takashimaya Gold Card
+      - 6922-00
+     - Sumitomo Mitsui UnionPay Card
+      - 6229-20
+     - ion proper
+      - 6930-50
+     - Nikkei BP NICOS
+      - 6950-01
+     - NICOS Proper for domestic use only
+      - 6950-02
+     - NICOS-JRA
+      - 6950-02
+     - Eneos Nikos
+      - 6950-17
+     - Nikos
+      - 6950-17
+     - NICOS Smart Plus (card type)
+      - 6950-20
+     - JACCS-Club Endeavor
+      - 6991-10
+     - ML card
+      - 6998-76
+   - 7-Petroleum:
+     - JCB ETC Suru~Card
+      - 7000-00
+     - Life ETC card
+      - 7060-21
+     - JACCS ETC card
+      - 7060-80
+     - GE CARD ETC
+      - 7061-80
+     - Pocket Card ETC
+      - 7070-20
+     - NICOS ETC-Plus (Parent card NICOS VISA)
+      - 7200-11
+     - you me ETC card
+      - 7250-30
+     - JCB EXXONMOBILL Corporate Plus
+      - 7500-00
+     - AEON ETC card
+      - 7611-27
+     - Sumitomo Mitsui Card ETC Card
+      - 7800-01
+     - Resona Card ETC
+      - 7800-16
+   - 8-Telecommunications and other industry assignments:
+     - Nissan Card (House)
+      - 8001-02
+     - UC ETC card
+      - 8003-75
+     - Exon Mobile (parent card JCB)
+      - 8300-88
+     - UFJ ETC card
+      - 8401-00
+     - JCB
+      - 8500-30
+     - SAISON ETC card
+      - 8601-00
+     - SAISON ETC card
+      - 8612-00
+     - ETC-OMC (no parent card relationship)
+      - 8800-12
+   - 9-National assignment:
+     - Citi ETC CARD
+      - 9005-00
+     - Orico ETC card
+      - 9100-00
+     - CFETC
+      - 9300-00

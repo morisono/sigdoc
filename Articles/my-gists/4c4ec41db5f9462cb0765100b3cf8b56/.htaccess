@@ -1,0 +1,3 @@
+<IfModule mod_headers.c>
+    Header set X-DO-NOT-FORGET "TIANANMEN-MASSACRE-1989-6-4"
+</IfModule>

@@ -1,0 +1,10 @@
+コースの種類	学べる内容
+1	プログラマー入門コース	言語(HTML/CSS、JavaScript)、コーディング、
+2	プログラマーコース	言語(HTML/CSS、JavaScript、PHP)、コーディング、セキュリティ、データベース
+3	Webサービス開発者コース	言語(HTML/CSS、JavaScript、PHP、Python)、コーディング、AIプログラミング、セキュリティ、データベース、Linux、Webサイト制作実践、レスポンシブWebデザイン
+4	ITエンジニア入門コース	セキュリティ、Linux
+5	ITエンジニア総合コース	言語(HTML/CSS、JavaScript、PHP、Java)、コーディング、セキュリティ、データベース、Linux
+6	IoTエンジニア育成コースA	言語(HTML/CSS、JavaScript)、コーディング、セキュリティ、Linux、Webサイト制作基礎、IoTアプリ開発、ECHONET Lite、Node-RED
+7	IoTエンジニア育成コースB	言語(HTML/CSS、JavaScript)、コーディング、Webサイト制作基礎、IoTアプリ開発、ECHONET Lite、Node-RED
+8	AIエンジニア育成コース	言語(HTML/CSS、JavaScript、Python)、コーディング、AIプログラミング
+9	AI×IoTエンジニア育成コース	言語(HTML/CSS、JavaScript、Python)、コーディング、AIプログラミング、IoTアプリ開発、ECHONET Lite、Node-RED

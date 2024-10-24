@@ -1,0 +1,5 @@
+# Hack from iPhone!
+
+## Prerequisites
+- iSH
+- https://github.com/finlandhl/kali-ios
