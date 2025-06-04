@@ -4,6 +4,7 @@
 
 - fish
 - fzf
+- 
 
 ## package manager
 

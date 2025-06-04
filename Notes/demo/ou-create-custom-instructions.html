@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>@font-face {
+  font-family: octicons-link;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body * {
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-link;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>.markdown-body {
+    font-size: 11px;
+}
+
+img.emoji-img.emoji {
+  max-width: 11px;
+  max-height: 11px;
+  vertical-align: middle;
+}
+</style><style>
+/**
+* import styles
+*/
+
+@import '';
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP');
+
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  background-color: #fff;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+/* logo */
+
+img[title="logo"] {
+  height: 80px;
+  width: auto;
+  position: relative;
+  top: -1em;
+  right: -46em;
+  margin-top: -4em;
+}
+
+body {
+  font-size: 10pt;
+  font-family: "Times New Roman", "Noto Serif JP", "Hiragino Mincho ProN", "游明朝", "MS PMincho", serif;
+  padding: 0 5px;
+}
+
+content.container {
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: auto;
+  height: 297mm;
+  width: 210mm;
+  padding: 20mm;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#write {
+  max-width: 60em;
+  padding: 5px;
+}
+
+/**
+* Block Elements
+*/
+
+h1 {
+    font: 'Noto Serif JP';
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    font-variant: small-caps;
+    border-bottom-width: 0.5px;
+    border-bottom-style: none;
+}
+
+/* p::first-letter {
+  font-size: 14pt;
+  color: darkred;
+} */
+
+h1 {
+  font-size: 14pt;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 12pt;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+h1, h2 {
+  margin-top: 20px;
+  padding: 0 0;
+}
+
+h3, h4{
+  font-size: 10pt;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+h5, h6 {
+  font-size: 8pt;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+h2, h4 {
+  font-weight: bold;
+}
+
+h1, em, .cm-keyword {
+    text-decoration: underline;
+    padding-bottom: 1px;
+    text-decoration-thickness: 0.5px;
+}
+
+blockquote, p, ul, ol, li, .cm-s-inner, .footnote-line, th, td, footer {
+  font-size: 8pt;
+  font: "Noto Serif JP";
+  margin: 0 0;
+}
+
+
+.title, .totalPages, .pageNumber {
+  font-size: 8pt;
+  font: "Noto Serif JP";
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+  table-layout: fixed;
+  border: 0.5px solid #333;
+  border-spacing: 0px;
+  margin-left:auto;
+  margin-right:auto;
+  empty-cells: show;
+}
+
+thead {
+  background-color: #eee;
+}
+
+th, td {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+}
+
+th {
+  font-weight: bold;
+  text-align: center;
+  border: 0.5px solid #333;
+  border-bottom: 0.5px double #333;
+}
+
+td {
+  border-bottom: none;
+  border-right: 0.5px solid #333;
+  word-wrap: break-word;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1px;
+}
+
+td:empty::after {
+  content: "\00a0";
+}
+
+ul {
+    list-style-type: disc;
+}
+
+
+blockquote, strong {
+    color: darkred;
+}
+
+blockquote {
+    background: none;
+    border-left: 1px solid #333;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-style: italic;
+}
+
+blockquote cite {
+
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+  color: #140;
+  font-size: 8pt;
+  font-weight: light;
+  border: 0.5px solid darkgray;
+  border-spacing: 2px;
+}
+
+/**
+* Inline Elements
+*/
+
+a, .footnote-line {
+    color: #333;
+}
+
+em, strong {
+    font-style: normal;
+}
+
+s, del, strike {
+  text-decoration: line-through;
+  text-decoration-style: double;
+  text-underline-offset: -3pt;
+}
+
+mark {
+  background-color: #dd3;
+}
+
+#footer p {
+    border-top: 0.5px solid #333;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+hr {
+  padding: 2rem;
+  border: none;
+}
+
+/* Codes */
+
+code {
+  font-size: 6pt;
+  line-height: 12pt;
+}
+
+.cm-s-inner {
+    border-left: 0.5px solid #333;
+    padding-left: 1em;
+    margin: 5px 0;
+}
+
+.cm-s-inner * {
+    color: #333 !important;
+}
+
+/* Numbering */
+h1 {
+    counter-reset: h2;
+}
+
+h2 {
+    counter-reset: h3;
+}
+
+#write h2:before {
+    counter-increment: h2;
+    content: counter(h2) ". ";
+}
+
+#write h3:before {
+    counter-increment: h3;
+    content: counter(h2) "." counter(h3) ". ";
+}
+
+/**
+* Diagrams
+*/
+
+/**
+* Source Code Mode
+*/
+
+/**
+* Control UI (optional)
+*/
+
+/* Custom Class */
+img {
+  white-space: nowrap;
+}
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+}
+
+.document-id, .timestamp, .from-group, .from-name, .from-mark, .closing-text, .closing, .signature {
+    text-align: right;
+}
+
+.subtitle, .memo-mark {
+    text-align: center;
+}
+
+caption {
+  background: none repeat scroll 0 0 #F5F5F5;
+  text-align: center;
+  padding: 1rem 1.4rem;
+  overflow: hidden;
+}
+
+.table-caption {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.table-caption p {
+  vertical-align: baseline;
+  border-bottom: none #333;
+  margin: 0;
+  padding: 0;
+}
+
+.table-caption-desc {
+  vertical-align: baseline;
+  font-size: 11px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.image-captions-figure {
+  background-color: white !important;
+}
+
+.image-captions-caption {
+  background-color: white !important;
+}
+
+.date {
+  text-align: center;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.unit {
+  text-align: right;
+  display: inline-block;
+}
+
+@media only screen and (min-width: 1400px) {
+  #write {
+    max-width: 1100px;
+  }
+}
+
+@media print {
+  .container {
+      page-break-after: always;
+    }
+    h1:first-of-type {
+      page-break-before: avoid;
+    }
+    h1 {
+      page-break-before: always;
+    }
+    h2, h3, h4, h5, h6 {
+      page-break-after: avoid;
+    }
+    /* optional */
+    .internal-embed {
+      page-break-after: avoid;
+      page-break-before: avoid;
+    }
+
+  h1, h2, h3, h4, h5, h6, p, ul, li, ol {
+    background: none !important;
+    outline: none !important;
+    border: none !important;
+    text-shadow: none !important;
+  }
+
+  table {
+    width: 100%;
+    border-spacing: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    empty-cells: show;
+  }
+
+  th, td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+    background: none !important;
+    outline: none !important;
+    text-shadow: none !important;
+    border: 0.5px solid darkgray !important;
+  }
+
+  td {
+    min-height: 80px;
+  }
+
+  a {
+    text-decoration: none !important;
+    text-decoration-thickness: auto;
+    outline: none !important;
+    text-shadow: none !important;
+    border: none !important;
+  }
+
+  /* a[aria-label]::after {
+    display: inline !important;
+    content: " (" attr(aria-label) ")" !important;
+    color: darkgray !important;
+    font-size: 70% !important;
+    text-decoration: none !important;
+  }
+ */
+
+ mark {
+  background-color: #dd3;
+}
+
+pre,
+  code span,
+  code {
+    /* color: black !important; */
+    background-color: white !important;
+  }
+
+  /* General code styling */
+  code {
+    border: 1px solid darkgray;
+    padding: 0 0.2em;
+    border-radius: 0;
+    color: black;
+  }
+
+  /* Styling for preformatted text */
+  pre {
+    border: 1px solid darkgray;
+    margin: 1em 0;
+    padding: 0.5em;
+    border-radius: 4px;
+    /* Uncomment if you want a shadow effect */
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px; */
+  }
+
+  /* Code block within preformatted text */
+  pre > code {
+    font-size: 10px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  /* Token (hljs) styling within code blocks */
+  pre > code .hljs-em { font-style: italic; }
+  pre > code .hljs-link { text-decoration: underline; }
+  pre > code .hljs-strikethrough { text-decoration: line-through; }
+  pre > code .hljs-{ color: #000; }
+  pre > code .hljs-keyword { color: #708; }
+  pre > code .hljs-number { color: #164; }
+  pre > code .hljs-variable { color: #c5a; }
+  pre > code .hljs-punctuation { color: inherit; }
+  pre > code .hljs-property { color: inherit; }
+  pre > code .hljs-operator { color: inherit; }
+  pre > code .hljs-def { color: #00f; }
+  pre > code .hljs-atom { color: #219; }
+  pre > code .hljs-variable-2 { color: #05a; }
+  pre > code .hljs-type { color: #085; }
+  pre > code .hljs-comment { color: #140; }
+  pre > code .hljs-string { color: #a11; }
+  pre > code .hljs-string-2 { color: #f50; }
+  pre > code .hljs-meta { color: #555; }
+  pre > code .hljs-qualifier { color: #555; }
+  pre > code .hljs-builtin { color: #30a; }
+  pre > code .hljs-bracket { color: #997; }
+  pre > code .hljs-tag { color: #a50; }
+  pre > code .hljs-attribute { color: #00c; }
+  pre > code .hljs-hr { color: #999; }
+  pre > code .hljs-link { color: #00c; }
+
+
+  img {
+    width: 100%;
+    max-height:  200px;
+    align-items: center;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+    white-space: nowrap;
+  }
+
+  .table-caption {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .table-caption p {
+    vertical-align: baseline;
+    border-bottom: none #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  .table-caption-desc {
+    vertical-align: baseline;
+    font-size: 11px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image-captions-figure {
+    background-color: white !important;
+  }
+
+  .image-captions-caption {
+    background-color: initial;
+  }
+
+}</style>
+
+        <!--<script src=""></script>-->
+    </head>
+    <body class="markdown-body">
+        <html><head></head><body><h1 id="coinmixing">CoinMixing</h1>
+<p>Here are examples of competition websites or similar services, or websites that I am based on:</p>
+<ul>
+<li><a href="https://www.bestchange.com/">https://www.bestchange.com/</a></li>
+<li><a href="https://www.athena-alpha.com/crypto-exchanges/compare/">https://www.athena-alpha.com/crypto-exchanges/compare/</a></li>
+<li><a href="https://www.cryptowisser.com/">https://www.cryptowisser.com/</a></li>
+<li><a href="https://swapzone.io/">https://swapzone.io/</a></li>
+</ul>
+<p>and this is awesome page for NO KYC lovers:</p>
+<ul>
+<li><p><a href="https://kycnot.me/">https://kycnot.me/</a></p></li>
+<li><p><a href="https://swap.cab/">https://swap.cab/</a></p></li>
+</ul>
+<h2 id="coinjoin">Coinjoin</h2>
+<ul>
+<li>Helix Light </li>
+<li>SmartMixer </li>
+<li>OnionWallet </li>
+</ul>
+<h2 id="monero">Monero</h2>
+<h2 id="wasabi-wallet">Wasabi Wallet</h2>
+<h2 id="drainers">Drainers</h2>
+<ul>
+<li><p><a href="https://www.kaspersky.com/blog/what-is-a-crypto-wallet-drainer/50490/">https://www.kaspersky.com/blog/what-is-a-crypto-wallet-drainer/50490/</a></p></li>
+- 
+</ul>
+<h2 id="ref">REF</h2>
+<ul>
+<li><p><a href="https://wasabiwallet.io/">https://wasabiwallet.io/</a></p></li>
+<li><p><a href="https://www.getmonero.org/">https://www.getmonero.org/</a></p></li>
+<li><p><a href="https://bitcoinmagazine.com/technical/a-comprehensive-bitcoin-coinjoin-guide">https://bitcoinmagazine.com/technical/a-comprehensive-bitcoin-coinjoin-guide</a></p></li>
+<li><p><a href="https://en.bitcoin.it/wiki/CoinJoin">https://en.bitcoin.it/wiki/CoinJoin</a></p></li>
+<li><p><a href="https://trezor.io/learn/a/what-is-coinjoin">https://trezor.io/learn/a/what-is-coinjoin</a></p></li>
+<li><p><a href="https://www.investopedia.com/terms/c/coinjoin.asp">https://www.investopedia.com/terms/c/coinjoin.asp</a></p></li>
+
+<li><p><a href="https://ensaimada.xyz/test/read.cgi/43044/1709117077/">https://ensaimada.xyz/test/read.cgi/43044/1709117077/</a></p></li>
+</ul>
+<pre><code class="hljs"><span class="hljs-number">1</span> ：[´･ω･｀] berlin01.tor-<span class="hljs-keyword">exit</span>.artikel10.org＠一般別荘保有者 ★：<span class="hljs-number">2024</span><span class="hljs-regexp">/02/</span><span class="hljs-number">28</span>(水) <span class="hljs-number">19</span>:<span class="hljs-number">44</span>:<span class="hljs-number">37.09</span> ID:TC9sWpfH0
+    ・Tor、Tails、Whonix、Qubes
+    ・VPNプロバイダ
+    ・匿名決済手段、暗号通貨そのものの仕組み、決済、送金の仕方
+    ・ミキシングの仕組み、匿名性を保つ方法
+    ・その他オンライン上でのセキュリティ
+    匿名化技術研究省<span class="hljs-keyword">in</span>マヨケー★<span class="hljs-number">5</span> https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1691403824</span>/
+    匿名化技術研究省<span class="hljs-keyword">in</span>マヨケー★<span class="hljs-number">4</span> https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1675516791</span>/
+    匿名化技術研究省<span class="hljs-keyword">in</span>マヨケー★<span class="hljs-number">3</span> https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1650466654</span>/
+    匿名化技術研究省<span class="hljs-keyword">in</span>マヨケー★<span class="hljs-number">2</span> https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1632380178</span>/
+    匿名化技術研究省<span class="hljs-keyword">in</span>マヨケー★<span class="hljs-number">1</span> https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1606232882</span>/
+
+<span class="hljs-number">2</span> ：[´･ω･｀] tor.node8.righttoprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/02/</span><span class="hljs-number">28</span>(水) <span class="hljs-number">19</span>:<span class="hljs-number">45</span>:<span class="hljs-number">26.98</span> ID:XWfp/TBR0
+    tor https:<span class="hljs-regexp">//</span>krsw-wiki.org<span class="hljs-regexp">/wiki/</span>Tor
+    VPN https:<span class="hljs-regexp">//</span>krsw-wiki.org<span class="hljs-regexp">/wiki/</span>VPN
+    Does your VPN Keep Logs? <span class="hljs-number">140</span> VPN Logging Policies Revealed https:<span class="hljs-regexp">//</span>www.comparitech.com<span class="hljs-regexp">/vpn/</span>vpn-logging-policies/
+    Which VPNs Keep Logs? The Truth About VPN Logging Policies (<span class="hljs-number">90</span>+ Tested) https:<span class="hljs-regexp">//</span>www.top10vpn.com<span class="hljs-regexp">/what-is-a-vpn/</span>vpn-logs/
+    スマホにTorを導入 https:<span class="hljs-regexp">//</span>web.archive.org<span class="hljs-regexp">/web/</span><span class="hljs-number">20210111131544</span><span class="hljs-regexp">/https:/</span><span class="hljs-regexp">/qiita.com/</span>c477us<span class="hljs-regexp">/items/</span>be89e64ec792bc9a7991
+    Android上でVPN-over-Torを構築https:<span class="hljs-regexp">//</span>web.archive.org<span class="hljs-regexp">/web/</span><span class="hljs-number">20210131104151</span><span class="hljs-regexp">/https:/</span><span class="hljs-regexp">/qiita.com/</span>c477us<span class="hljs-regexp">/items/</span><span class="hljs-number">972825</span>eea5ee0491d05f
+    ChromebookでTailsを使う方法 ChromebookでLinuxなどの別のOSを起動する方法 https:<span class="hljs-regexp">//</span>web.archive.org<span class="hljs-regexp">/web/</span><span class="hljs-number">20220121114851</span><span class="hljs-regexp">/https:/</span><span class="hljs-regexp">/qiita.com/</span>Codex340<span class="hljs-regexp">/items/</span>b806d51a3c17a67386bf
+    Chromebookで.imgや.isoのディスクイメージを書き込む方法 https:<span class="hljs-regexp">//</span>web.archive.org<span class="hljs-regexp">/web/</span><span class="hljs-number">20210906075408</span><span class="hljs-regexp">/https:/</span><span class="hljs-regexp">/qiita.com/</span>Codex340<span class="hljs-regexp">/items/</span><span class="hljs-number">33</span>d88f22937a27d1a0fa
+    画像でわかりやすいWhonixの設定方法 https:<span class="hljs-regexp">//</span>archive.vn/<span class="hljs-number">50</span>Huh
+    Tails上で他のOSが使える画像でわかりやすいHiddenVMの使い方 https:<span class="hljs-regexp">//</span>archive.vn/<span class="hljs-number">49</span>BRP
+
+<span class="hljs-number">3</span> ：[´･ω･｀] tor.node8.righttoprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/02/</span><span class="hljs-number">28</span>(水) <span class="hljs-number">19</span>:<span class="hljs-number">46</span>:<span class="hljs-number">08.50</span> ID:XWfp/TBR0
+    国セコ対策省 https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1620816277</span>/
+    財務省 https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1698730323</span>/
+    武器製造 https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1692935562</span>/
+    脆弱性開拓省 https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1694136242</span>/
+    ゲーム路線 https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1629522589</span>/
+    防弾サーバーhttps:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1670756633</span>/
+    外務省 https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1613802760</span>/
+    防衛省 https:<span class="hljs-regexp">//</span>ensaimada.xyz<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1610937890</span>/
+    スバケー匿名化技術研究省★<span class="hljs-number">2</span> https:<span class="hljs-regexp">//</span>sayedandsayed.com<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1567342391</span><span class="hljs-regexp">/ (https:/</span><span class="hljs-regexp">/archive.vn/</span>SoQb3 )
+    スバケー匿名化技術研究省★<span class="hljs-number">1</span> https:<span class="hljs-regexp">//</span>sayedandsayed.com<span class="hljs-regexp">/test/</span>read.cgi<span class="hljs-regexp">/43044/</span><span class="hljs-number">1554168316</span><span class="hljs-regexp">/ (https:/</span><span class="hljs-regexp">/archive.vn/</span>w32Eb )
+
+<span class="hljs-number">4</span> ：[´･ω･｀] tor.node8.righttoprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/02/</span><span class="hljs-number">28</span>(水) <span class="hljs-number">19</span>:<span class="hljs-number">46</span>:<span class="hljs-number">57.47</span> ID:XWfp/TBR0
+    内閣サイバー(注意・警戒情報) https:<span class="hljs-regexp">//</span>twitter.com/nisc_forecast
+    NISC内閣サイバーセキュリティセンター https:<span class="hljs-regexp">//</span>twitter.com/cas_nisc
+    IPA（情報処理推進機構）https:<span class="hljs-regexp">//</span>twitter.com/IPAjp
+    IPA（情報セキュリティ安心相談窓口）https:<span class="hljs-regexp">//</span>twitter.com/IPA_anshin
+    IPA（MyJVN）https:<span class="hljs-regexp">//</span>twitter.com/MyJVN
+    IPA（ICATalerts）https:<span class="hljs-regexp">//</span>twitter.com/ICATalerts
+    IPA（JVNiPedia）https:<span class="hljs-regexp">//</span>twitter.com/JVNiPedia
+    警視庁サイバーセキュリティ対策本部 https:<span class="hljs-regexp">//</span>twitter.com/MPD_cybersec
+    情報通信研究機構 https:<span class="hljs-regexp">//</span>twitter.com/NICT_Publicity
+    ラック公式 https:<span class="hljs-regexp">//</span>twitter.com/lac_security
+
+<span class="hljs-number">5</span> ：[´･ω･｀] tor.node8.righttoprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/02/</span><span class="hljs-number">28</span>(水) <span class="hljs-number">19</span>:<span class="hljs-number">47</span>:<span class="hljs-number">28.73</span> ID:XWfp/TBR0
+    JPCERTコーディネーションセンター https:<span class="hljs-regexp">//</span>twitter.com/jpcert
+    Analysis Center https:<span class="hljs-regexp">//</span>twitter.com/jpcert_ac
+    JNSA https:<span class="hljs-regexp">//</span>twitter.com/jnsa
+    フィッシング対策協議会 https:<span class="hljs-regexp">//</span>twitter.com/antiphishing_jp
+    国立情報学研究所(NII) https:<span class="hljs-regexp">//</span>twitter.com/jouhouken
+    JVN 脆弱性レポートhttps:<span class="hljs-regexp">//</span>twitter.com/jvnjp
+    Edward Snowden https:<span class="hljs-regexp">//</span>twitter.com/Snowden
+    The Hacker News https:<span class="hljs-regexp">//</span>twitter.com/TheHackersNews
+
+
+<span class="hljs-number">12</span> ：[´･ω･｀] <span class="hljs-number">35</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/02/</span><span class="hljs-number">29</span>(木) <span class="hljs-number">11</span>:<span class="hljs-number">03</span>:<span class="hljs-number">38.23</span> ID:/ZvMqx+i0
+    Windows使ってる芋は少ないと思うが一応BitLockerの安全性についての記事を見つけたのでどうぞ
+    Bitlockerドライブに攻撃する手法も丁寧に解説している
+    https:<span class="hljs-regexp">//</span>blog.elcomsoft.com<span class="hljs-regexp">/2020/</span><span class="hljs-number">05</span><span class="hljs-regexp">/unlocking-bitlocker-can-you-break-that-password/</span>
+    LUKSドライブの安全性と攻撃手法も載せておきます
+    https:<span class="hljs-regexp">//</span>blog.elcomsoft.com<span class="hljs-regexp">/2020/</span><span class="hljs-number">08</span><span class="hljs-regexp">/breaking-luks-encryption/</span>
+
+
+<span class="hljs-number">15</span> ：[´･ω･｀] <span class="hljs-number">22</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/02/</span><span class="hljs-number">29</span>(木) <span class="hljs-number">11</span>:<span class="hljs-number">34</span>:<span class="hljs-number">50.64</span> ID:piqgjTU20
+    Mullvadブラウザで.onionに接続する方法
+
+    アドレスバーに「about:config」と打ち込み、警告を確認後「設定名を検索」から「network.dns.blockDotOnion」と検索する。（Onionと打つだけですぐ出てくる）
+    設定をTrueからFalseに変更することでMullvadブラウザーが.onionドメインの名前解決をしてくれるようになりますを
+
+    デフォルトだとDNSの問題で.onionにアクセスする前に警告が表示されてしまうので、
+    警告画面で「このサイトは常に続行する」を選択する、或いは設定からDoHを無効にするといいですを
+
+    Whonix芋で二重Torを防ぎたい方はやってみて、どうぞ 
+
+
+
+
+
+<span class="hljs-number">907</span> ：[´･ω･｀] <span class="hljs-number">185.195</span>.<span class="hljs-number">71.216</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">14</span>(木) <span class="hljs-number">17</span>:<span class="hljs-number">06</span>:<span class="hljs-number">43.88</span> ID:SFSYYvO0I
+贈り物用クレカにお困りの教徒にお勧め
+本当か不明なためカラッキング芋には試してほしいナリを
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/dlsstanford/</span>Walbot
+
+<span class="hljs-number">908</span> ：[´･ω･｀] <span class="hljs-number">185.195</span>.<span class="hljs-number">71.216</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">14</span>(木) <span class="hljs-number">17</span>:<span class="hljs-number">10</span>:<span class="hljs-number">02.34</span> ID:SFSYYvO0I
+追加 スクリプトキディ行為になってしまうが
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/tommydangerous/</span>skimreads
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/RichHank/</span>Image-Generator-Web-Skim
+
+
+<span class="hljs-number">87</span> ：[´･ω･｀] <span class="hljs-number">194.26</span>.<span class="hljs-number">192.77</span>.powered.by.rdp.sh：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">21</span>(木) <span class="hljs-number">10</span>:<span class="hljs-number">06</span>:<span class="hljs-number">23.11</span> ID:<span class="hljs-number">9</span>iEX9af+<span class="hljs-number">0</span>
+    当職新芋
+    テレグラムのSMS認証を無料でやれるサイトはありまふか？ 
+
+<span class="hljs-number">89</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-hermes.greektor.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">21</span>(木) <span class="hljs-number">22</span>:<span class="hljs-number">57</span>:<span class="hljs-number">06.49</span> ID:Ssg177J80
+    &gt;&gt;<span class="hljs-number">87</span>
+    https:<span class="hljs-regexp">//</span>sms24.me/
+    が使えると思いまふが、恒心内の活動であれば当職が<span class="hljs-number">5</span>simで認証を代行しても構いません
+    何せここで作るには争奪戦が激しいせいでずっと張り付いていないといけないし面倒なので社会人教徒には厳しいです
+
+
+<span class="hljs-number">91</span> ：xLost：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">24</span>(日) <span class="hljs-number">20</span>:<span class="hljs-number">20</span>:<span class="hljs-number">33.38</span> ID:bW8Tb6nU0
+    当職はMullvad VPN→Whonix Gateway→Proxyで通信を保護してるナリ
+
+    まあブラウザを使うだけなら Mullvad VPN → Mullvad Browser Extensionをつけてプロキシ接続したFirefoxからアクセスすれば良いナリネ
+
+    PCの暗号化はBitlocker→Vera Crypt→Vera Cryptの<span class="hljs-number">3</span>重防御を使ってるナリ。(ただの自己満)
+
+    Windows10はdebloatして使ってますを 
+
+
+
+<span class="hljs-number">96</span> ：[´･ω･｀] this-is-a-tor-<span class="hljs-keyword">exit</span>-node-hviv124.hviv.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">27</span>(水) <span class="hljs-number">02</span>:<span class="hljs-number">39</span>:<span class="hljs-number">59.29</span> ID:ZfwiSsrT0
+    T orのBridgeについてお話するナリ
+    まず、T orのブリッジはいずれの方式であっても、パケットキャプチャを使えばT orのブリッジであることは容易に判別可能ナリ
+    これは知識さえあればWiresharkで誰でもできるナリ
+    つまり、国営セコムがT or使用罪の疑いをかけた際には何の役にも立たないナリ
+    ではどういうときに役立つかというと、ファイアウォールでT orがブロックされているが、T orを使っていることがバレても訴追されない環境にいる場合に、ファイアウォール突破用として使えるナリ
+
+    国営セコムやISPからT orを使っていることを隠したい場合は、素直にVPNを契約することをおすすめするナリ
+    VPNとT orブリッジの併用は基本的には<span class="hljs-string">"ほぼ"</span>無意味ナリ
+
+    NSA並の高度な解析者の場合、PC→VPN→Tor→InternetをしていてもT orを使っていることを判別できることが（理論上は）不可能ではないナリ
+    このような敵を想定する場合に限って、PC→VPN→Obfs4→Tor→Internetが効果あるかもしれないナリ
+    Obfs4は通信をランダムデータにするので、解析がしにくくなるナリ
+    Obfs4以外のBridgeは無力ナリ
+
+
+<span class="hljs-number">909</span> ：[´･ω･｀] <span class="hljs-number">185.195</span>.<span class="hljs-number">71.216</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">14</span>(木) <span class="hljs-number">17</span>:<span class="hljs-number">19</span>:<span class="hljs-number">38.82</span> ID:SFSYYvO0I
+フィッシングサイトでクレカを入手しよう
+Amazonとかお勧めナリ
+SMSとかメーラーで勧誘メール送って
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/tsukemono-shirumono/</span>how_to_make_fishing
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/vostapenko/</span>fishing
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/Madhav-MKNC/</span>secureyourself
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/ThomasNJordan/</span>PhishingExercise
+
+<span class="hljs-number">910</span> ：[´･ω･｀] <span class="hljs-number">69.47</span>.<span class="hljs-number">167.72</span>.host.secureserver.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">14</span>(木) <span class="hljs-number">17</span>:<span class="hljs-number">22</span>:<span class="hljs-number">43.82</span> ID:BUCpA9dj0
+&gt;&gt;<span class="hljs-number">905</span>
+電気街の展示品のパソコンの大半は普通にカラケー繋がるしフィルタリングもない
+大きい店なら店員が来ないほぼ死角にあったりする
+
+
+<span class="hljs-number">911</span> ：[´･ω･｀] <span class="hljs-number">185.195</span>.<span class="hljs-number">71.216</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">14</span>(木) <span class="hljs-number">17</span>:<span class="hljs-number">31</span>:<span class="hljs-number">33.04</span> ID:SFSYYvO0I
+SMSスパムメール
+https:<span class="hljs-regexp">//</span>www.texttasy.com/ja?gad_source=<span class="hljs-number">1</span>&amp;gclid=EAIaIQobChMI66PlqKnzhAMVpqaDBx3MFAhcEAAYAyAAEgIeT_D_BwE
+https:<span class="hljs-regexp">//</span>fastsms.co.uk/
+https:<span class="hljs-regexp">//</span>sendpulse.com<span class="hljs-regexp">/knowledge-base/</span>sms-service
+https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/sinoobie/</span>SpamSms
+
+
+
+<span class="hljs-number">122</span> ：[´･ω･｀] snowden.tor-<span class="hljs-keyword">exit</span>.calyxinstitute.org：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">30</span>(土) <span class="hljs-number">01</span>:<span class="hljs-number">49</span>:<span class="hljs-number">44.88</span> ID:tW/m5qOj0
+    MoneroはGPUではなくCPUマイニング（一応GPUも使えるがあまり効率は良くない）
+    XMRigを使うのが一般的だと思う
+    https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/xmrig/</span>xmrig
+
+
+<span class="hljs-number">157</span> ：一般カタルーニャ人：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">01</span>(月) <span class="hljs-number">04</span>:<span class="hljs-number">10</span>:<span class="hljs-number">30.35</span> ID:UlQwPzHo0
+    LTCのMimbleWimbleって匿名性はどんなもんなんですかね。また日本の取引所はそれに対応してないのでどこかでMimbleWimble対応のものに換金するなどはできますかね 
+
+
+<span class="hljs-number">158</span> ：[´･ω･｀] tor1.quintex.com：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">01</span>(月) <span class="hljs-number">06</span>:<span class="hljs-number">28</span>:<span class="hljs-number">19.23</span> ID:k5+<span class="hljs-number">9</span>bjH+<span class="hljs-number">0</span>
+    MainnetとMWEBは互いに送金できるので
+    わざわざMWEB用のLTCを用意する必要はない
+    取引所に入出金する時はMainnetを使えばいいだけ
+
+    匿名性はどう？みたいな曖昧な質問に関しては答えようがないが
+    どこに送ってるかはわからないにしろ
+    アドレスがPeg-In,Peg-Outしてる事自体はトランザクションみたら丸わかり
+
+    人に聞く前にTestnetで触ってみろ 
+
+
+<span class="hljs-number">161</span> ：[´･ω･｀] this-is-a-tor-<span class="hljs-keyword">exit</span>-node-hviv124.hviv.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">02</span>(火) <span class="hljs-number">19</span>:<span class="hljs-number">06</span>:<span class="hljs-number">21.96</span> ID:uGbnlJ6d0
+    mullvadのLinux版クライアントの現在の接続先を示してる画面でいつの間にか「量子セキュア保護接続」って出るようになってるんだけどなんじゃこりゃと思ったらリリースノート見ると量子コンピュータ対策がデフォルトでONになったのか
+    https:<span class="hljs-regexp">//gi</span>thub.com<span class="hljs-regexp">/mullvad/mu</span>llvadvpn-app<span class="hljs-regexp">/releases/</span>tag/<span class="hljs-number">2024.1</span>
+
+    そんな機能あったとは知らんかった
+    https:<span class="hljs-regexp">//mu</span>llvad.net<span class="hljs-regexp">/en/</span>blog/stable-quantum-resistant-tunnels-<span class="hljs-keyword">in</span>-the-app
+
+    iOS版は最新のでも「SECURE CONNECTION」でまだ実装されてないっぽい 
+
+
+<span class="hljs-number">170</span> ：[´･ω･｀] <span class="hljs-number">103.251</span>.<span class="hljs-number">167.20</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">04</span>(木) <span class="hljs-number">13</span>:<span class="hljs-number">02</span>:<span class="hljs-number">24.41</span> ID:<span class="hljs-number">4</span>e8td0Cz0
+    敢えて変なやり方をしようとしてスレで質問しまくるくらいなら
+    普通にVirtualBoxやKVMでWhonix使えばいいのに 
+
+
+
+<span class="hljs-number">187</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-anonymizer.appliedprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">07</span>(日) <span class="hljs-number">14</span>:<span class="hljs-number">43</span>:<span class="hljs-number">07.64</span> ID:Awd8NZMI0
+    <span class="hljs-number">5</span>chに代理で書き込みできるサイト作ったけどどう？
+    https:<span class="hljs-regexp">//</span><span class="hljs-number">5</span>chproxy.streamlit.app/
+
+
+
+<span class="hljs-number">200</span> ：xLost：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">12</span>(金) <span class="hljs-number">23</span>:<span class="hljs-number">24</span>:<span class="hljs-number">27.94</span> ID:XFYyq9jB0
+    匿名化技術研究省などセキュリティ系のスレが過疎っているので
+
+    浮上率の高い方を集めて新たにSessionグループを作ろうと思います良ければ参加してください！
+
+    参加希望者は私のSession idにフレンド申請を送っていただいて DMで一言声をかけていただけると助かります。
+
+    私のSession id - <span class="hljs-number">05</span>e26b9fa104b5d26664e25f76ef97813bfaaac0d2d9258008c925e7bb581ad726
+
+    Sessionはすべての通信をLokinet(Torのようなもの)で保護してくれる 匿名性の高いチャットアプリです
+
+    詳しくは公式サイトをご覧ください https:<span class="hljs-regexp">//</span>chanosan.github.io<span class="hljs-regexp">/loki-japanese/</span> https:<span class="hljs-regexp">//g</span>etsession.org/
+
+
+
+<span class="hljs-number">202</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-anonymizer.appliedprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">13</span>(土) <span class="hljs-number">02</span>:<span class="hljs-number">48</span>:<span class="hljs-number">50.70</span> ID:<span class="hljs-number">2</span>L5Atwo10
+    Moneroのマイニング方法についてまとめておきます。参考にどうぞ
+    ※Moneroの場合、使うのはグラボではなくCPU。CPUのスペックが重要
+    <span class="hljs-number">0</span>.Moneroのアドレスを取得
+    適当なウォレットをダウンロード
+    <span class="hljs-number">1</span>.XMrigをダウンロード
+    https:<span class="hljs-regexp">//</span>xmrig.com/download
+    ここから各OS向けのものをダウンロードする。解凍したら中に実行ファイルがある
+    <span class="hljs-number">2</span>.プールを選ぶ
+    https:<span class="hljs-regexp">//mi</span>ningpoolstats.stream/monero
+    ここで上位のプールのどれかを選べば良い
+    (p2poolだけ特殊なのでそれ以外)
+    そのページに行って、プールのアドレスとポートを確認する
+    <span class="hljs-number">3</span>.実行
+    ターミナルで、実行ファイルのあるディレクトリに移動
+    sudo ./xmrig --user [ウォレットのアドレス] -p x --url [プールのアドレス]:[ポート]
+    これを実行。あとは待つだけ
+    ※サーバがTLS/SSLに対応している場合は、--tls　を追加
+    ※Torを通したいなら、--proxy=localhost:<span class="hljs-number">9050</span>　を追加
+
+
+<span class="hljs-number">209</span> ：[´･ω･｀] <span class="hljs-number">194.114</span>.<span class="hljs-number">136.108</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">16</span>(火) <span class="hljs-number">19</span>:<span class="hljs-number">16</span>:<span class="hljs-number">46.36</span> ID:/x7zFqnC0
+    P2PoolでMoneroマイニングをしたら儲けが少なすぎてとてもやっていられないと思ったのですが、P2Poolはそういうものなのでしょうか？普通のプールでマイニングすれば儲かりますか？ 
+
+
+
+<span class="hljs-number">57</span> ：[´･ω･｀] tor.node2.shadowbrokers.eu：<span class="hljs-number">2024</span><span class="hljs-regexp">/03/</span><span class="hljs-number">06</span>(水) <span class="hljs-number">14</span>:<span class="hljs-number">26</span>:<span class="hljs-number">17.83</span> ID:TRAGC8gS0
+    GrapheneOSのフォレンジック対策についてです
+    当職はCellebrite UFEDでGrapeheOSのPixelからデータを抽出したことがありません
+    しかしいくつか役に立ちそうな情報を書いておきます
+    (<span class="hljs-number">1</span>)UFEDはGrapheneOSのFFS抽出(完全なファイルシステム抽出)をサポートしていない可能性が高いです
+    UFEDのユーザーガイドやリリースノートにはGrapheneOSのサポート状況が記載されていなかった思います。またGrapheneOSは多くの方式のデータ抽出をブロックするよう設計されてきました。
+    UFEDはGrapheneOSのPixelから論理抽出と呼ばれる方式でデータを抽出するしかないと思います
+    PixelのOSがストックOSの場合はUFEDを使用してSmart FlowやTensor Live等のFFS抽出を実行することが可能です。
+    (<span class="hljs-number">2</span>)UFEDのようなフォレンジックソフトウェアはパスワードが分からない場合所有者プロファイル以外をデータ抽出することができない
+    MSAB社の一部のツールはGrapheneOSに対してFFS抽出をサポートしているそうですがそれでも所有者プロファイル以外は保護されていますと思います
+    GrapheneOSのプロファイルはそれぞれ異なる暗号化キーで保護されているからです
+    例えばUFEDでセカンダリプロファイルからデータを抽出する場合は、セカンダリプロファイルのパスワードを入手してセカンダリプロフ
+
+
+<span class="hljs-number">283</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">8</span>.zbau.f3netze.de：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">29</span>(月) <span class="hljs-number">05</span>:<span class="hljs-number">29</span>:<span class="hljs-number">55.40</span> ID:LRHzcbgd0
+    クラウドストレージは、どこを使うにしても自前で暗号化するのが必須
+    逆に、暗号化さえしておけばどこでも良いような気もします
+
+
+<span class="hljs-number">286</span> ：[´･ω･｀] <span class="hljs-number">204.8</span>.<span class="hljs-number">96.114</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">29</span>(月) <span class="hljs-number">19</span>:<span class="hljs-number">43</span>:<span class="hljs-number">32.55</span> ID:AVhsd/zS0
+    &gt;&gt;<span class="hljs-number">282</span>
+    クラウドはなんでもいいからcryptomatorやencfsで自前の暗号化通せ
+    暗号化した上でパスワードは暗記・アカウント作成は匿名で作ったメアド・常時VPNTor経由にすればたとえdropboxだろうとgoogledriveだろうと最馬鹿にバレることはない
+    もちろん自前で防弾VPS借りるのがベストなのは明白 
+
+
+<span class="hljs-number">288</span> ：[´･ω･｀] <span class="hljs-number">103.251</span>.<span class="hljs-number">167.20</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/04/</span><span class="hljs-number">29</span>(月) <span class="hljs-number">22</span>:<span class="hljs-number">03</span>:<span class="hljs-number">16.09</span> ID:fKoQ+QLw0
+    Mullvadにタイ・インドネシア・チリ・スロベニアのサーバーが追加されたナリね
+    サーバー所在国が多様化するのはプラスよ 
+
+<span class="hljs-number">296</span> ：[´･ω･｀] <span class="hljs-number">9</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/05/</span><span class="hljs-number">02</span>(木) <span class="hljs-number">01</span>:<span class="hljs-number">21</span>:<span class="hljs-number">48.21</span> ID:<span class="hljs-number">5</span>isjOLSe0
+    ロシアのFSB(旧KGB)本部で従事している職員がWindows10ProやAstraLinuxがインストールされているPCで国家機密に指定されているファイルを取り扱っているという話を以前関係者から聞いた
+    話が本当かどうかは分からないがもしFSBの職員がWindows10Proで国家機密を取り扱ったらNSAに漏れないのかなと思う
+    ロシアの諜報機関より恒心教徒の方が匿名化技術が優れていてマヨ
+    ちなみに恒心教徒の皆さんはどのOSを使ってますか
+    教徒のQubes使用率も気になる
+
+<span class="hljs-number">297</span> ：[´･ω･｀] <span class="hljs-number">24</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/05/</span><span class="hljs-number">02</span>(木) <span class="hljs-number">13</span>:<span class="hljs-number">20</span>:<span class="hljs-number">39.98</span> ID:SAKbgTAX0
+    当職はUSBメモリにDebianをインストールして、そこにインストールしたVirtualBoxの上でWhonixを使っていまふ
+    本当はQubesを使いたいのですが、Qubes（というより派生元のFedora）のブートローダーが特殊で、UEFI+リムーバブルメディアの環境にインストールする方法が分からないんですよね
+
+    GRUBでいうところのgrub-install --target=x86_64-efi --efi-directory=/hoge --removable に相当するインストールの仕方がわからない 
+
+
+
+当方Cellebrite UFEDやEncaseぐらいしか知らない弱芋なので
+各機材がどの程度の能力があるのか、BitlockerやLUKSが各フォレンジックツールに対してどの程度安全か詳しく解説していただけませんか 
+
+
+<span class="hljs-number">305</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">4</span>.zbau.f3netze.de：<span class="hljs-number">2024</span><span class="hljs-regexp">/05/</span><span class="hljs-number">04</span>(土) <span class="hljs-number">00</span>:<span class="hljs-number">30</span>:<span class="hljs-number">42.41</span> ID:Feo/JDZl0
+    【朗報】
+    「スマホで匿名化なんて無理」という主張が正しかったことが証明される
+    DNS traffic can leak outside the VPN tunnel on Android
+    https:<span class="hljs-regexp">//mu</span>llvad.net<span class="hljs-regexp">/ja/</span>blog/dns-traffic-can-leak-outside-the-vpn-tunnel-on-android
+
+
+
+<span class="hljs-number">357</span> ：[´･ω･｀] tor.node14.shadowbrokers.eu：<span class="hljs-number">2024</span><span class="hljs-regexp">/05/</span><span class="hljs-number">09</span>(木) <span class="hljs-number">23</span>:<span class="hljs-number">58</span>:<span class="hljs-number">34.91</span> ID:vQRMD8o30
+    Kicksecureを導入したのでいくつか感じたことを
+    当職の環境ではメモリスワップ停止はKicksecure導入後だと出来ず、導入前のdebianの状態でないとできませんでした
+    また仮想環境でWhonix通す場合、Tor→Torでアプデが終わるのであくまでメインOS用だと思いますを 
+
+
+
+<span class="hljs-number">381</span> ：[´･ω･｀] tor-exit1-terrahost08.tuxli.org：<span class="hljs-number">2024</span><span class="hljs-regexp">/05/</span><span class="hljs-number">19</span>(日) <span class="hljs-number">21</span>:<span class="hljs-number">28</span>:<span class="hljs-number">40.51</span> ID:hFJC0Bh/<span class="hljs-number">0</span>
+    今回はSimpleXという比較的新しいメッセージアプリとSession,Signalを避けたほうがいい理由について書きました
+    https:<span class="hljs-regexp">//</span>ameblo.jp<span class="hljs-regexp">/vpn53049/</span>entry-<span class="hljs-number">12852836589</span>.html 
+
+
+<span class="hljs-number">403</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-read-me.dfri.se：<span class="hljs-number">2024</span><span class="hljs-regexp">/05/</span><span class="hljs-number">31</span>(金) <span class="hljs-number">23</span>:<span class="hljs-number">11</span>:<span class="hljs-number">31.02</span> ID:NpPtOpaF0
+    私の姪のDMM Bitcoin、<span class="hljs-number">4502.9</span>BTCがヌッスされたとの第一報
+    STU師がMonappyからMonacoinをヌッスして書類送検されたのが昨日のよう 
+
+
+<span class="hljs-number">407</span> ：[´･ω･｀] tor95.quintex.com：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">01</span>(土) <span class="hljs-number">19</span>:<span class="hljs-number">57</span>:<span class="hljs-number">30.92</span> ID:<span class="hljs-number">3</span>YGJuBat0
+    まだ安定版じゃないけどkicksecureにISOが出た模様
+    https:<span class="hljs-regexp">//</span>www.kicksecure.com<span class="hljs-regexp">/wiki/</span>ISO
+
+
+<span class="hljs-number">408</span> ：[´･ω･｀] tor.node11.shadowbrokers.eu：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">01</span>(土) <span class="hljs-number">21</span>:<span class="hljs-number">18</span>:<span class="hljs-number">59.11</span> ID:<span class="hljs-number">1</span>ZrjRg/<span class="hljs-number">60</span>
+    安定版じゃないなら使えないな
+    そういやDebianに乗っける時にxfceのままやるのとKicksecure独自GUIのxfce入れるの、どっちがいいんでしょうね
+
+
+<span class="hljs-number">413</span> ：[´･ω･｀] <span class="hljs-number">185.241</span>.<span class="hljs-number">208.243</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">04</span>(火) <span class="hljs-number">20</span>:<span class="hljs-number">44</span>:<span class="hljs-number">35.25</span> ID:tWj84aCL0
+    非EU圏のVPNをとりとり
+    BolehVPN
+    国:マレーシア
+    特徴:VPN over Tor通信をサポート
+    https:<span class="hljs-regexp">//</span>www.bolehvpn.net/
+
+    Boxpn
+    国:トルコ
+    特徴:安価 DASHやMonero対応
+    https:<span class="hljs-regexp">//</span>boxpn.com
+
+    CactusVPN
+    国: モルドバ
+    https:<span class="hljs-regexp">//</span>www.cactusvpn.com/
+
+    Easy Hide IP
+    国: セーシェル
+    https:<span class="hljs-regexp">//</span>easy-hide-ip.com/
+
+    nVPN
+    国: ボスニア
+    https:<span class="hljs-regexp">//</span>nvpn.net/
+
+<span class="hljs-number">414</span> ：[´･ω･｀] LuxembourgTorNew9.Quetzalcoatl-relays.org：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">04</span>(火) <span class="hljs-number">20</span>:<span class="hljs-number">50</span>:<span class="hljs-number">05.68</span> ID:<span class="hljs-number">13</span>klig+r0
+    続
+    PrivadoVPN
+    国: スイス
+    https:<span class="hljs-regexp">//</span>privadovpn.com/
+
+    Trust.Zone
+    国: セーシェル
+    https:<span class="hljs-regexp">//</span>trust.zone/
+
+    Anonymous VPN
+    国: セーシェル
+    https:<span class="hljs-regexp">//</span>www.anonymousvpn.org
+
+
+<span class="hljs-number">416</span> ：[´･ω･｀] tor.httpx.pl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">04</span>(火) <span class="hljs-number">22</span>:<span class="hljs-number">38</span>:<span class="hljs-number">50.83</span> ID:UPkYLgm80
+    防弾鯖会社が運営してるVPN
+    Perfect Quality Hosting
+    https:<span class="hljs-regexp">//</span>pq.hosting<span class="hljs-regexp">/en/</span>v-wg
+    SWISSLAYER
+    https:<span class="hljs-regexp">//</span>swisslayer.com/vpn.html
+    Swiss Made Host
+    https:<span class="hljs-regexp">//</span>swissmade.host<span class="hljs-regexp">/en/</span>vpn-switzerland
+    Shinjiru
+    https:<span class="hljs-regexp">//</span>www.shinjiru.com<span class="hljs-regexp">/offshore-web-hosting/</span>virtual-private-network/
+    CCIHosting
+    https:<span class="hljs-regexp">//</span>www.ccihosting.com/anonymous-vpn.html
+    AlexHost
+    https:<span class="hljs-regexp">//</span>alexhost.com<span class="hljs-regexp">/vpn-servers/</span>
+
+
+<span class="hljs-number">420</span> ：[´･ω･｀] <span class="hljs-number">33</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">06</span>(木) <span class="hljs-number">09</span>:<span class="hljs-number">30</span>:<span class="hljs-number">10.96</span> ID:<span class="hljs-number">8</span>tVonPQi0
+    VPN over TorをサポートしてるVPN会社
+    Mullvad
+    https:<span class="hljs-regexp">//mu</span>llvad.net<span class="hljs-regexp">/ja/</span>help/tor-and-mullvad-vpn
+    AirVPN
+    https:<span class="hljs-regexp">//</span>airvpn.org<span class="hljs-regexp">/tor/</span>
+    BolehVPN
+    https:<span class="hljs-regexp">//</span>www.bolehvpn.net<span class="hljs-regexp">/configuration-of-program/</span>
+
+
+<span class="hljs-number">422</span> ：[´･ω･｀] <span class="hljs-number">45</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">08</span>(土) <span class="hljs-number">08</span>:<span class="hljs-number">51</span>:<span class="hljs-number">40.43</span> ID:<span class="hljs-number">06</span>b97cLa0
+    レジデンシャルプロキシはbrightdata位しかわからん
+    https:<span class="hljs-regexp">//</span>brightdata.com<span class="hljs-regexp">/proxy-types/</span>residential-proxies
+
+
+<span class="hljs-number">433</span> ：[´･ω･｀] vps-<span class="hljs-number">80</span>ef0a76.vps.ovh.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">10</span>(月) <span class="hljs-number">07</span>:<span class="hljs-number">30</span>:<span class="hljs-number">54.21</span> ID:ZrTvczsa0
+    メモ
+    無料枠で使えるサーバーのまとめ
+    Rnderってのが気になる
+    https:<span class="hljs-regexp">//</span>www.publickey1.jp<span class="hljs-regexp">/blog/</span><span class="hljs-number">24</span>/free_tierweb2024.html
+
+<span class="hljs-number">434</span> ：[´･ω･｀] bucarest02.tor-<span class="hljs-keyword">exit</span>.artikel10.org：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">10</span>(月) <span class="hljs-number">08</span>:<span class="hljs-number">43</span>:<span class="hljs-number">34.49</span> ID:OEdtNhqb0
+    ただTorでアクセスできないサイトを見るだけなら無料のSSH鯖借りてtorsocksとポートフォワーディングでTor→SSHという形で見れば出口ノードの通信は暗号化できるで
+
+
+<span class="hljs-number">436</span> ：[´･ω･｀] <span class="hljs-number">23</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">12</span>(水) <span class="hljs-number">02</span>:<span class="hljs-number">41</span>:<span class="hljs-number">26.68</span> ID:<span class="hljs-number">1</span>VYO5/GG0
+    Hola VPNってTor→VPNとして使うには結構有用なんですよね 筑波もそうですが
+    Tor→VPN用のVPNは無料で使えて住宅用IPであれば望ましい
+
+    VPN→Torでは絶対に使わないこと、大人しくMullvadに課金しよう 
+
+
+<span class="hljs-number">440</span> ：[´･ω･｀] <span class="hljs-number">1</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">13</span>(木) <span class="hljs-number">12</span>:<span class="hljs-number">12</span>:<span class="hljs-number">14.68</span> ID:/Gtg+Hld0
+    串会社をみつけたのでとりとり
+    https:<span class="hljs-regexp">//</span>proxyline.net<span class="hljs-regexp">/en/</span>
+    https:<span class="hljs-regexp">//</span>proxymz.com
+    https:<span class="hljs-regexp">//</span>www.customproxysolutions.com<span class="hljs-regexp">/amember/</span>login
+    https:<span class="hljs-regexp">//</span>hexproxy.com
+
+
+<span class="hljs-number">444</span> ：[´･ω･｀] tor5e3.digitale-gesellschaft.ch：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">13</span>(木) <span class="hljs-number">20</span>:<span class="hljs-number">58</span>:<span class="hljs-number">33.74</span> ID:YE6hCEA90
+    &gt;&gt;<span class="hljs-number">443</span>
+    DuckDuckGoみたいな検索サイトで「Free SSH」って検索すればメアド無しでも契約できる所が出てくるで
+
+<span class="hljs-number">450</span> ：[´･ω･｀] <span class="hljs-number">30</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">15</span>(土) <span class="hljs-number">02</span>:<span class="hljs-number">12</span>:<span class="hljs-number">12.68</span> ID:rRUiEOTP0
+    匿名でGoogleアカウントを作成・運用する場合のTips
+    ・初期化直後のAndroidスマホを用意し、Playストア以外からVPNアプリをインストールする。キルスイッチも有効にする。SIMは刺さない。（電話権限を与えていないマルチユーザーでも可）設定からアカウントを作成すれば電話番号は要求されない。
+    ・Torでのログインは非推奨。適当なノーログVPNからアクセスする。
+    ・アカウントの<span class="hljs-number">2</span>要素認証を必ず有効にする。有効にすることで、ある日突然アカウントがロックされてSMS認証が要求されることを回避できる。TOTPがおすすめ。YubiKeyやパスキーは避ける。 
+
+
+
+<span class="hljs-number">463</span> ：[´･ω･｀] tor5e3.digitale-gesellschaft.ch：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">22</span>(土) <span class="hljs-number">10</span>:<span class="hljs-number">35</span>:<span class="hljs-number">59.19</span> ID:qez/dgU30
+    Outline VPN
+    https:<span class="hljs-regexp">//g</span>etoutline.org<span class="hljs-regexp">/ja/</span>
+    https:<span class="hljs-regexp">//</span>outlinekeys.com
+    https:<span class="hljs-regexp">//</span>outlinekeys.com<span class="hljs-regexp">/download/</span>
+
+<span class="hljs-number">464</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-anonymizer.appliedprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">22</span>(土) <span class="hljs-number">11</span>:<span class="hljs-number">00</span>:<span class="hljs-number">37.27</span> ID:OWsqW1xe0
+    Stark Industries Solutions LTD
+    https:<span class="hljs-regexp">//</span>stark-industries.solutions
+    https:<span class="hljs-regexp">//</span>bgp.tools<span class="hljs-regexp">/as/</span><span class="hljs-number">44477</span>
+
+    Stark Industries Solutions: An Iron Hammer <span class="hljs-keyword">in</span> the Cloud
+    https:<span class="hljs-regexp">//</span>krebsonsecurity.com<span class="hljs-regexp">/2024/</span><span class="hljs-number">05</span><span class="hljs-regexp">/stark-industries-solutions-an-iron-hammer-in-the-cloud/</span>
+
+    Perfect Quality Hosting
+    https:<span class="hljs-regexp">//</span>pq.hosting<span class="hljs-regexp">/en/</span>
+
+<span class="hljs-number">465</span> ：[´･ω･｀] dedicated.vsys.host：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">22</span>(土) <span class="hljs-number">11</span>:<span class="hljs-number">17</span>:<span class="hljs-number">28.60</span> ID:plT3HDBV0
+    FranTech Solutions
+    https:<span class="hljs-regexp">//</span>frantech.ca/
+    https:<span class="hljs-regexp">//</span>bgp.tools<span class="hljs-regexp">/as/</span><span class="hljs-number">53667</span>
+
+    Privex
+    https:<span class="hljs-regexp">//</span>www.privex.io/
+    http:<span class="hljs-regexp">//</span>privex3guvvasyer6pxz2fqcgy56auvw5egkir6ykwpptferdcb5toad.onion/
+    https:<span class="hljs-regexp">//</span>bgp.tools<span class="hljs-regexp">/as/</span><span class="hljs-number">210083</span>
+
+    Phanes Cloud
+    https:<span class="hljs-regexp">//</span>phanes.cloud
+    https:<span class="hljs-regexp">//</span>bgp.tools<span class="hljs-regexp">/as/</span><span class="hljs-number">64425</span>
+
+<span class="hljs-number">470</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-anonymizer.appliedprivacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">27</span>(木) <span class="hljs-number">23</span>:<span class="hljs-number">12</span>:<span class="hljs-number">13.43</span> ID:gGFCrtES0
+    home <span class="hljs-number">5</span>gとTailsの間にVPNルータを起きたいのですがGL.iNet GL-SFT1200 (Opal) でもいいですか
+    ASUSが人気らしいのですが・・・・ 
+
+
+<span class="hljs-number">468</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">47</span>.<span class="hljs-keyword">for</span>-privacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">27</span>(木) <span class="hljs-number">15</span>:<span class="hljs-number">07</span>:<span class="hljs-number">21.56</span> ID:AP2jwXO/<span class="hljs-number">0</span>
+    tailsのtorブラウザについて
+    リファラって送っててもいいの？
+    フィンガープリントってprotectionがデフォでfalseだけど変えなくていいの？
+    おしえてください 
+
+
+<span class="hljs-number">475</span> ：[´･ω･｀] <span class="hljs-number">185.107</span>.<span class="hljs-number">57.66</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">28</span>(金) <span class="hljs-number">21</span>:<span class="hljs-number">41</span>:<span class="hljs-number">16.46</span> ID:JLa/Qvcf0
+    海外でもBTC購入はKYCが主流になってきた
+    http:<span class="hljs-regexp">//</span>darkwebentyk2elhhh6okholnrookap7zfbun2is7ouspzxcpkqjxxad.onion<span class="hljs-regexp">/blog/</span>how-to-buy-bitcoin-with-debit-card
+
+
+
+<span class="hljs-number">474</span> ：[´･ω･｀] <span class="hljs-number">194.114</span>.<span class="hljs-number">136.119</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">28</span>(金) <span class="hljs-number">18</span>:<span class="hljs-number">30</span>:<span class="hljs-number">56.95</span> ID:t84p1ief0
+    当職はbtcをxmrに両替するサービスを知りたいですを 
+
+<span class="hljs-number">476</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-read-me.dfri.se：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">29</span>(土) <span class="hljs-number">23</span>:<span class="hljs-number">20</span>:<span class="hljs-number">50.76</span> ID:kSmhtwAe0
+    &gt;&gt;<span class="hljs-number">474</span>
+    https:<span class="hljs-regexp">//</span>www.bitswitch.io/
+    https:<span class="hljs-regexp">//</span>changelly.com/
+    https:<span class="hljs-regexp">//</span>changenow.io/ja
+    https:<span class="hljs-regexp">//</span>exch.pw/
+    https:<span class="hljs-regexp">//</span>exolix.com/
+    https:<span class="hljs-regexp">//</span>fixedfloat.com/
+    https:<span class="hljs-regexp">//</span>flyp.me<span class="hljs-regexp">/en/</span><span class="hljs-comment">#/</span>
+    https:<span class="hljs-regexp">//g</span>odex.io/ja
+    https:<span class="hljs-regexp">//</span>letsexchange.io/
+    https:<span class="hljs-regexp">//m</span>ajesticbank.sc/
+    https:<span class="hljs-regexp">//</span>simpleswap.io/ja
+    https:<span class="hljs-regexp">//</span>stealthex.io/
+    https:<span class="hljs-regexp">//</span>swapswop.io/
+    https:<span class="hljs-regexp">//</span>www.wizardswap.io/
+    https:<span class="hljs-regexp">//</span>xchange.me/
+
+<span class="hljs-number">477</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">1</span>.zbau.f3netze.de：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">29</span>(土) <span class="hljs-number">23</span>:<span class="hljs-number">26</span>:<span class="hljs-number">22.99</span> ID:iKLjT9uR0
+    https:<span class="hljs-regexp">//</span>swapspace.co/
+    https:<span class="hljs-regexp">//</span>swapzone.io/
+    https:<span class="hljs-regexp">//</span>swapzone.io/
+
+    複数の交換所の価格を比較してくれるサービス
+    当職のおすすめはswapspaceナリ 
+
+
+<span class="hljs-number">478</span> ：[´･ω･｀] <span class="hljs-number">9</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">29</span>(土) <span class="hljs-number">23</span>:<span class="hljs-number">27</span>:<span class="hljs-number">39.13</span> ID:+XzLSH0m0
+    &gt;&gt;<span class="hljs-number">474</span>
+    ないナリ
+    KYCありの国内取引所(bitflyerかbitbank)でBCHを買い、CashFusionしてSwapspaceでXMRにするのがおすすめ
+
+<span class="hljs-number">479</span> ：[´･ω･｀] <span class="hljs-number">9</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">29</span>(土) <span class="hljs-number">23</span>:<span class="hljs-number">28</span>:<span class="hljs-number">38.46</span> ID:+XzLSH0m0
+    ちなみにCashFusionはミキシングやCoinJoinの類にしては手数料が爆安ナリ
+    気が済むまで混ぜ混ぜしよう
+
+<span class="hljs-number">481</span> ：[´･ω･｀] <span class="hljs-number">9</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">29</span>(土) <span class="hljs-number">23</span>:<span class="hljs-number">36</span>:<span class="hljs-number">12.92</span> ID:+XzLSH0m0
+    日本国内でコンビニで買えるギフトカードとかで仮想通貨買えるサービスないのですか？
+    Vプリカは一応VISAのプリペイドだから
+    海外サービスでも使えそう？自主規制掛けている臭いが
+
+    国際ブランド使える取引所はOOKMとSTUの狩り場になるから当然KYC必須になるのも分かる
+
+    当職が昔登録した国内の取引所追加の書類提出を求められて詰んでいるナリ
+    登録が古すぎてDBバグって運営に連絡しないと提出できない
+
+
+<span class="hljs-number">482</span> ：[´･ω･｀] ip.<span class="hljs-number">204</span>-<span class="hljs-number">137</span>-<span class="hljs-number">14</span>-<span class="hljs-number">106</span>.atomicnetworks.co：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">29</span>(土) <span class="hljs-number">23</span>:<span class="hljs-number">39</span>:<span class="hljs-number">12.13</span> ID:d2dO4T2J0
+    &gt;&gt;<span class="hljs-number">481</span>
+    KYCする手間を嫌がる匿名重視芋は手間賃と考えてマイニングした方がいいかもしれない
+    投資費用と掘るまで馬鹿みたいに時間がかかるが
+    大昔安いGTシリーズのグラボでマイニングしたMonacoinをSTUに盗られたナリ どうせ数百円にもならない糞効率コインやけど
+    防弾鯖でもマイニング禁止とか多いから自前が必須だね
+    ホテルに一週間泊まって機材持ち込んでやりたいナリよ 
+
+
+<span class="hljs-number">483</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">107</span>.digitalcourage.de：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">29</span>(土) <span class="hljs-number">23</span>:<span class="hljs-number">52</span>:<span class="hljs-number">53.74</span> ID:CdfcVbvR0
+    &gt;&gt;<span class="hljs-number">481</span>
+    KYC不要でクレカでBTC買えるサービス
+    Vプリカギフトが使えるかは知らんけど
+    https:<span class="hljs-regexp">//</span>changehero.io/
+    https:<span class="hljs-regexp">//</span>changenow.io/ja
+    https:<span class="hljs-regexp">//</span>simpleswap.io/ja
+    https:<span class="hljs-regexp">//</span>xcoins.com<span class="hljs-regexp">/en/</span>
+
+<span class="hljs-number">504</span> ：[´･ω･｀] berlin01.tor-<span class="hljs-keyword">exit</span>.artikel10.org：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">03</span>(水) <span class="hljs-number">14</span>:<span class="hljs-number">56</span>:<span class="hljs-number">34.98</span> ID:wSMrKVFV0
+    &gt;&gt;<span class="hljs-number">483</span>
+    そのへんはVプリカギフトでもバニラVISAでも買えないぞ 
+
+<span class="hljs-number">488</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-read-me.dfri.se：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">30</span>(日) <span class="hljs-number">14</span>:<span class="hljs-number">01</span>:<span class="hljs-number">02.96</span> ID:GUhWii+<span class="hljs-number">30</span>
+    著作権を侵害する悪いものたちに人気の鯖会社とアップローダー
+    https:<span class="hljs-regexp">//</span>dirtywarez.org<span class="hljs-regexp">/cat/</span>web_hosting
+    https:<span class="hljs-regexp">//</span>dirtywarez.org<span class="hljs-regexp">/cat/</span>filehost
+
+<span class="hljs-number">489</span> ：[´･ω･｀] hostedby.privatelayer.com：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">30</span>(日) <span class="hljs-number">14</span>:<span class="hljs-number">09</span>:<span class="hljs-number">45.65</span> ID:Ey5bZDkQ0
+    ノーログVPNはパスワードを平文で保管する頭唐澤な会社もあるから注意するナリ
+
+    BTGuard
+    https:<span class="hljs-regexp">//</span>proprivacy.com<span class="hljs-regexp">/vpn/</span>review/btguard
+    https:<span class="hljs-regexp">//</span>securitygladiators.com<span class="hljs-regexp">/btguard-review/</span>
+    https:<span class="hljs-regexp">//</span>www.reddit.com<span class="hljs-regexp">/r/</span>VPN<span class="hljs-regexp">/comments/</span><span class="hljs-number">1</span>ixrlc<span class="hljs-regexp">/btguard_stores_passwords_in_plain_text/</span>
+
+
+<span class="hljs-number">491</span> ：[´･ω･｀] hostedby.privatelayer.com：<span class="hljs-number">2024</span><span class="hljs-regexp">/06/</span><span class="hljs-number">30</span>(日) <span class="hljs-number">21</span>:<span class="hljs-number">20</span>:<span class="hljs-number">11.64</span> ID:Ey5bZDkQ0
+    世界で最強な防弾鯖
+    恐らくトップ<span class="hljs-number">10</span>位には入る
+    政府もガチってくるようなコンテンツをホストする際におすすめ
+    https:<span class="hljs-regexp">//</span>xor.sc
+    https:<span class="hljs-regexp">//</span>solarcom.ch<span class="hljs-regexp">/en/</span>home
+
+
+<span class="hljs-number">494</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">02</span>.<span class="hljs-keyword">for</span>-privacy.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">01</span>(月) <span class="hljs-number">15</span>:<span class="hljs-number">46</span>:<span class="hljs-number">54.26</span> ID:oxzMLMko0
+    仮想通貨を匿名化するにはbtcを購入→そのままミキシング→Moneroに変換するのが一番なのですか？
+
+<span class="hljs-number">495</span> ：[´･ω･｀] <span class="hljs-number">45</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">01</span>(月) <span class="hljs-number">17</span>:<span class="hljs-number">53</span>:<span class="hljs-number">47.40</span> ID:+<span class="hljs-number">7</span>j/<span class="hljs-number">6</span>E2t0
+    &gt;&gt;<span class="hljs-number">494</span>
+    いいえ。BTCの（伝統的な、狭義の）ミキシングはミキサーに持ち逃げされるリスクがありまふ CoinJoinは持ち逃げリスクはありませんが手数料が高額です
+
+    BCHでCashFusionがおすすめです
+
+
+<span class="hljs-number">502</span> ：[´･ω･｀] tor4e3.digitale-gesellschaft.ch：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">02</span>(火) <span class="hljs-number">18</span>:<span class="hljs-number">26</span>:<span class="hljs-number">07.92</span> ID:CTA7ej1x0
+    BUZZHEAVIERとUkrainian Data Networkのウェブデザインが酷似してるけどこれってBUZZHEAVIERの運営にUkrainian Data Networkが関わってるってこと?
+    https:<span class="hljs-regexp">//</span>buzzheavier.com
+    https:<span class="hljs-regexp">//</span>www.urdn.com.ua
+
+
+
+<span class="hljs-number">521</span> ：[´･ω･｀] <span class="hljs-number">105.18</span>.<span class="hljs-number">35.193</span>.pfcloud.io：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">06</span>(土) <span class="hljs-number">18</span>:<span class="hljs-number">56</span>:<span class="hljs-number">20.43</span> ID:<span class="hljs-number">1</span>BaKpsH40
+    防弾ホスティング業者EuroHosterが運営するEuroVPN
+    https:<span class="hljs-regexp">//</span>eurovpn.org/
+
+
+<span class="hljs-number">543</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-nl1.privex.cc：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">08</span>(月) <span class="hljs-number">19</span>:<span class="hljs-number">23</span>:<span class="hljs-number">57.79</span> ID:RdFg4EvZ0
+    携帯電話のIMEIと車の車台番号は世界共通で盗品を判別したりローン未払いだとSIM変えても接続できなくなるので要注意ナリよ
+
+    インポは盗難携帯と盗難車の追跡にガチになっている
+    海外のドキュメンタリーと海外ニュースで見た情報でソースが思い出せないが
+    盗まれてIMEI偽装で南米で売られている携帯を押収の上インポのラボで復元して米国で盗まれた物と特定している
+    盗難車もアフリカの小国で検問して日本で盗まれた車だとも特定したのを昔見た
+
+<span class="hljs-number">544</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-nl1.privex.cc：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">08</span>(月) <span class="hljs-number">19</span>:<span class="hljs-number">25</span>:<span class="hljs-number">20.75</span> ID:RdFg4EvZ0
+    IMEIは偽装できるツールがあるらしい
+    ゲーム機もシリアルナンバーを偽装して出荷前のゲーム機に偽装して新品で買っても本体BANとか昔あったな 今はクリーンなジャンクから番号を取ってくるらしいが 
+
+<span class="hljs-number">550</span> ：[´･ω･｀] <span class="hljs-number">103.251</span>.<span class="hljs-number">167.20</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">09</span>(火) <span class="hljs-number">02</span>:<span class="hljs-number">15</span>:<span class="hljs-number">07.32</span> ID:N1OeZiZx0
+    そもそもIntel CPUの場合、OSからシリアルナンバーを取得する方法ってあるの？
+    &gt;&gt;<span class="hljs-number">546</span>が言ってるPentium3にはあったけど、批判されまくって廃止されてそれっきりでは？ 
+` sudo dmidecode -t processor | grep <span class="hljs-string">'ID'</span> `
+
+
+<span class="hljs-number">558</span> ：[´･ω･｀] berlin01.tor-<span class="hljs-keyword">exit</span>.artikel10.org：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">10</span>(水) <span class="hljs-number">14</span>:<span class="hljs-number">32</span>:<span class="hljs-number">54.28</span> ID:tuvwTKHp0
+    同じく&gt;&gt;<span class="hljs-number">556</span>です
+    連投になりすいません
+    ①Proton→Whonix→Clouflare WRAPにしたいがどうすれば良いか
+
+    ②WhonixでCloudflare WRAPを噛ますことはできるのか(ゲストosは普通にworkstationを使う予定です)
+
+    ③ ①、②をやるために新しくUbnutuをUSBに焼く予定なのですがダウンロードのリンクとやり方、同じくUbuntuでのVirtual Boxのダウンロードの仕方、リンク
+
+    を教えて頂きたいです。質問多くて恐縮です。 
+
+
+<span class="hljs-number">560</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">174</span>.relayon.org：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">10</span>(水) <span class="hljs-number">18</span>:<span class="hljs-number">08</span>:<span class="hljs-number">31.99</span> ID:Bf18UMvt0
+    Tor over VPNはやっても意味ないと公式でも言われてるのになぜやろうとする人が絶えないのか
+    エンドポイントを特定のIPにしたいからTorに串を設定するならわかるが
+
+<span class="hljs-number">565</span> ：[´･ω･｀] ns3126614.ip-<span class="hljs-number">37</span>-<span class="hljs-number">187</span>-<span class="hljs-number">5</span>.eu：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">11</span>(木) <span class="hljs-number">15</span>:<span class="hljs-number">30</span>:<span class="hljs-number">46.73</span> ID:Myftg8wY0
+    VPNのポートフォワーディングを利用してウェブサイトやるなら
+    別に自宅鯖使わないといけない理由がない
+    むしろ匿名で借りた防弾鯖でやれば更に防御力上がる 
+
+<span class="hljs-number">566</span> ：[´･ω･｀] tor-<span class="hljs-keyword">exit</span>-<span class="hljs-number">4</span>.all.de：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">11</span>(木) <span class="hljs-number">15</span>:<span class="hljs-number">32</span>:<span class="hljs-number">17.32</span> ID:gz968QUj0
+    censysとか見てるとIP漏らしてるonion鯖は割とある 
+
+
+<span class="hljs-number">567</span> ：[´･ω･｀] <span class="hljs-number">204.27</span>.<span class="hljs-number">64.10</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">11</span>(木) <span class="hljs-number">22</span>:<span class="hljs-number">18</span>:<span class="hljs-number">17.21</span> ID:eAWMnsBS0
+    whonix workstationのcli版にcloudflared入れてcloudflare tunnel(argo tunnel)経由でウェブサイト公開するといい
+    お漏らししないしonionアドレスも簡単に割り当てられる
+
+    少し前からcloudflare tunnelの利用にはクレカ必須になったけど 
+
+
+<span class="hljs-number">568</span> ：[´･ω･｀] vps-d19ace40.vps.ovh.net：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">11</span>(木) <span class="hljs-number">22</span>:<span class="hljs-number">57</span>:<span class="hljs-number">44.90</span> ID:eUHF363T0
+    Whonixでのonion鯖公開の方法はここに書いてありますね
+    https:<span class="hljs-regexp">//</span>www.whonix.org<span class="hljs-regexp">/wiki/</span>Hidden_Services
+    TailsならOnionShareを使うのが簡単
+
+<span class="hljs-number">581</span> ：[´･ω･｀] <span class="hljs-number">7</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">12</span>(金) <span class="hljs-number">20</span>:<span class="hljs-number">37</span>:<span class="hljs-number">59.37</span> ID:nJQjhKi50
+    ロシアのサーバー会社でビットコイン払いができてかつ英語での問い合わせが難しい所を見つけたのでとりとり
+    https:<span class="hljs-regexp">//</span>ntx.ru
+
+
+<span class="hljs-number">584</span> ：[´･ω･｀] <span class="hljs-number">217.146</span>.<span class="hljs-number">2.41</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">13</span>(土) <span class="hljs-number">13</span>:<span class="hljs-number">22</span>:<span class="hljs-number">54.59</span> ID:<span class="hljs-number">9</span>VxH4nVS0
+    恒心教で使われた主要な防弾ホスティング
+
+    YourServer - スウェーデン/ラトビア
+    サイバー部<span class="hljs-regexp">/サヒケー(前期)/</span>ゃ界<span class="hljs-regexp">/クヒケー(一時)/</span>チャンケーが利用
+    Abuseには屈することは無かった
+    https:<span class="hljs-regexp">//y</span>ourserver.se/
+
+    HostKey - ロシア<span class="hljs-regexp">/アイスランド/</span>オランダ<span class="hljs-regexp">/ドイツ/</span>アメリカ/トルコ
+    サヒケー(末期)<span class="hljs-regexp">/クヒケー/</span>唐澤貴洋Wiki(<span class="hljs-number">3</span>代目)が利用
+    Abuseには屈さなかった
+    https:<span class="hljs-regexp">//</span>hostkey.com/
+
+    Inferno Solutions - 世界各国(日本も含む)
+    サイバー部/Kalaksが利用
+    ダークウェブで運用するのに向いてる
+    https:<span class="hljs-regexp">//i</span>nferno.name/
+
+    Njalla - スウェーデン
+    スバケー(一時期)で利用
+    比較的高価
+    https:<span class="hljs-regexp">//</span>njal.la<span class="hljs-regexp">/servers/</span>
+
+<span class="hljs-number">586</span> ：[´･ω･｀] this-is-hosted-by.pulsedmedia.com：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">14</span>(日) <span class="hljs-number">14</span>:<span class="hljs-number">54</span>:<span class="hljs-number">28.65</span> ID:/AtLqrMm0
+    レジデンシャルプロキシを売ってる業者を纏めたサイト
+    https:<span class="hljs-regexp">//g</span>ologin.com<span class="hljs-regexp">/proxies/</span>residential-proxies/
+
+
+<span class="hljs-number">590</span> ：[´･ω･｀] <span class="hljs-number">18</span>.tor-<span class="hljs-keyword">exit</span>.nothingtohide.nl：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">16</span>(火) <span class="hljs-number">00</span>:<span class="hljs-number">32</span>:<span class="hljs-number">29.52</span> ID:Eu4hMQh/<span class="hljs-number">0</span>
+    &gt;&gt;<span class="hljs-number">580</span>
+    いやいやDASHは無意味
+    ブロックチェーンのトランザクションが公開されているのでDASHの匿名性はビットコインと変わらない
+    つまりDASHの匿名化機能はビットコインのCoinJoinと同じ
+
+    ZCashはMonero同様トランザクション非公開
+
+
+<span class="hljs-number">591</span> ：[´･ω･｀] <span class="hljs-number">107.189</span>.<span class="hljs-number">4.209</span>：<span class="hljs-number">2024</span><span class="hljs-regexp">/07/</span><span class="hljs-number">16</span>(火) <span class="hljs-number">00</span>:<span class="hljs-number">40</span>:<span class="hljs-number">30.84</span> ID:rEwl8ruT0
+    &gt;&gt;<span class="hljs-number">570</span>
+    鯖屋やドメイン屋でもないのに防弾性という言葉を使う意味が分からないけど、法執行機関や民事訴訟の開示請求をどうしているのかという意味なら公になっている実績がないので不明
+    Mullvadみたいにガサが来たが（合法的に）追い払っただとか、鯖を押収されたがログがなかったといった実績はない
+
+    外部の監査でノーログが証明されている数少ないVPNではあるし、サーバー一覧を公開する・クライアントがFLOSS・個人情報が不要という点では信頼できる
+    しかしIVPNのGitHubのIssuesから垣間見えるが、技術者の能力が不足している感が否めない　クライアントアプリも安定しているMullvadと比べればバグが多い
+
+    ちなみにMullvadはノーログは証明されていない（クライアントアプリにバグがあるかどうかの外部監査を受け入れたことはあるが、ノーログ証明の外部監査が行われたことはない） </code></pre>
+<p><a href="https://pastebin.com/raw/AYcYDgDq">https://pastebin.com/raw/AYcYDgDq</a></p></body></html>
+    </body>
+</html>

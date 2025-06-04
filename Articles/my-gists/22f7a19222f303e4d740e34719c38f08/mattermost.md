@@ -19,3 +19,30 @@ Mattermostはオープンソースのチームコミュニケーションプラ�
 
 以上がMattermostの導入の基本的な手順です。詳細な情報やトラブルシューティングについては、公式ウェブサイトの[ドキュメンテーション](https://mattermost.com/)を参照してください。
 
+
+### AI
+- [AI innovation meets unparalleled data control](https://mattermost.com/copilot/)
+- [Mattermost AI Copilot: Accelerating the conversation with LLMs - Mattermost](https://mattermost.com/blog/mattermost-ai-copilot-accelerating-the-conversation-with-llms/)
+
+### Playbooks
+### Community
+- [Mattermost](https://community.mattermost.com/)
+
+## [security](security.md)
+
+
+
+
+## See also
+
+
+### Getting started
+
+- [Mattermost Recipe: How to sync existing chat systems with Mattermost](https://mattermost.com/blog/sync-chat-systems-with-mattermost/)
+
+### Hosting
+- [Host Mattermost on Your Own Infrastructure](https://mattermost.com/download/)
+
+### Bot
+- [How to create your ChatOps bot - Mattermost](https://mattermost.com/blog/how-to-create-your-chatops-bot/)
+- [Fetching Title#pojv](https://developers.mattermost.com/integrate/reference/bot-accounts/)

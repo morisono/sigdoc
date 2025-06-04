@@ -41,10 +41,11 @@ console.log("Hello, Deno!");
 deno run hello.ts
 ```
 
+## Astro
 
-## 総括
+- [Deploy your Astro Site to Netlify | Docs](https://docs.astro.build/en/guides/deploy/netlify/)
+- [Deploy your Astro Site to Deno | Docs](https://docs.astro.build/en/guides/deploy/deno/)
 
-Denoは、モダンなJavaScriptおよびTypeScriptのランタイム環境で、セキュリティとモジュールシステムの面で優れた特徴を備えています。Node.jsと比較して新しいエコシステムではありますが、急速に成長しており、多くの開発者によって支持されています。
 
 Next: 
 -  https://fresh.deno.dev/docs/getting-started

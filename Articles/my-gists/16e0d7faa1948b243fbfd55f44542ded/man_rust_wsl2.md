@@ -35,3 +35,11 @@ export PATH="$HOME/.cargo/bin:$PATH" >> ~/.bashrc
 echo 'set -gx PATH "$HOME/.cargo/bin:$PATH"' >> ~/.config/fish/config.fish
 ```
 
+- Vscode Fish　の補完が見えない問題
+  - Themeをdefault以外に変える
+```bash
+fish_config theme list
+fish_config theme choose 'Old School'
+fish_config theme save 'Old School'
+```
+- https://fishshell.com/docs/current/cmds/fish_config.html

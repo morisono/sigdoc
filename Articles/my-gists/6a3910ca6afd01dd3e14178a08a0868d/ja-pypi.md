@@ -131,3 +131,28 @@ set pkg python-demo
 set url https://test.pypi.org/simple/$pkg
 pip install --index-url $url
 ```
+
+## See also
+
+[pip-tools · PyPI](https://pypi.org/project/pip-tools/)
+[Using pip-compile to manage dependencies in your Python packages | by Christopher Davies | Packagr | Medium](https://medium.com/packagr/using-pip-compile-to-manage-dependencies-in-your-python-packages-8451b21a949e)
+[GitHub - tox-dev/pipdeptree: A command line utility to display dependency tree of the installed Python packages](https://github.com/tox-dev/pipdeptree)
+[How I fixed a pip-compile dependency resolution error](https://medium.com/@RyanHiebert/how-i-fixed-a-pip-compile-dependency-resolution-error-c09305e107e2)
+   - 依存関係の自動解決
+   - [Best way to create requirements.txt](https://dev.to/sajidurshajib/best-way-to-create-requirementstxt-5co9)
+   - [How I fixed a pip-compile dependency resolution error](https://medium.com/@RyanHiebert/how-i-fixed-a-pip-compile-dependency-resolution-error-c09305e107e2)
+   - [GitHub - raimon49/pip-licenses: Dump the license list of packages installed with pip.](https://github.com/raimon49/pip-licenses)
+   - [GitHub - pilosus/pip-license-checker: Check license types for third-party dependencies: permissive, copyleft, proprietory, etc.](https://github.com/pilosus/pip-license-checker)
+```
+poetry init
+pipreqs . --force --savepath=requirements.in
+pip-compile -o requirements.txt --upgrade pyproject.toml
+pip-compile --extra dev -o dev-requirements.txt pyproject.toml 
+gh api licenses/Apache-2.0 > Apache-2.0.json; jq -r '.body' Apache-2.0.json > LICENSE
+
+# venv
+virtualenv venv && source venv/bin/activate
+pip-licenses --summary --from=mixed --fail-on="MIT License;BSD License" --output-file=licenses.csv --order=license --with-system --format=csv --with-authors --with-urls --with-description
+
+cat requirements.txt | xargs poetry update
+```

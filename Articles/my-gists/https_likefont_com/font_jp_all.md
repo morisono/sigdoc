@@ -70,7 +70,7 @@
 
     1. [**Shippori Mincho**](https://www.google.com/search?q=font+Shippori+Mincho) : 日本語フォントでの使いやすさを追求したフォント。
 
-    1. [**Shippori Mincho B1**](https://www.google.com/search?q=font+Shippori+Mincho+B1) : 大きなテキストでも鮮明に表示されるフォント。
+    1. [**Shippori Mincho B1**](https://www.google.com/search?q=font+Shippori+Mincho+B1) : 大きなテキストでも鮮明に表示されるフォント。 
 
     1. [**Shizuru**](https://www.google.com/search?q=font+Shizuru) : シンプルで美しい手書き風フォント。
 

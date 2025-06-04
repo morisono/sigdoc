@@ -24,6 +24,10 @@ parent:: [[Fleeting MOC]]
 - [Just a moment...](https://forum.obsidian.md/t/how-to-make-okrs-and-monitor-their-progress-on-a-dashboard/61885)
 - [GitHub - nicolevanderhoeven/obsidian-okrs: Templates for setting OKRs/goals in Obsidian](https://github.com/nicolevanderhoeven/obsidian-okrs)
 
+## Whats PARA
+
+- [The Ultimate Folder System: A quixotic journey to ACE - Knowledge management - Obsidian Forum](https://forum.obsidian.md/t/the-ultimate-folder-system-a-quixotic-journey-to-ace/63483)
+
 ## Ref
 
 Link: 
@@ -222,3 +226,13 @@ FOCA is primarily used for analyzing metadata from various file types, including
 
 FOCA provides a graphical interface and can show various metadata like authors, software used, creation dates, etc.
 ```
+
+
+Omnisearch が日本語対応していない。
+タグに基づいてファイルを移動したり、信頼性の高い方法でタグを統合したりする機能がありません。.
+
+https://marketplace.visualstudio.com/items?itemName=kortina.vscode-markdown-notes
+https://marketplace.visualstudio.com/items?itemName=tchayen.markdown-links
+https://marketplace.visualstudio.com/items?itemName=ivangabriele.vscode-git-add-and-commit
+
+[MarkdownとVSCodeで毎日メモを取りたいときに使える拡張機能 - kotoha sensorium](https://kotohasensorium.com/markdown-vscode-extensions-for-dailymemo/)

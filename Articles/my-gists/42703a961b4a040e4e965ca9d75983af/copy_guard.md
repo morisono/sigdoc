@@ -1,35 +1,37 @@
-```
+# セキュアなウェブサイトの構築
+
+```html
 <body onCopy="return false;">サイト全体をコピーさせたくない。</body>
 ```
 
-```
+```html
 <h2 onCopy="return false;">特定のコンテンツをコピーさせたくない。</h2>
 ```
 
-```
-<div style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">コピーさせたくないコンテンツを記述 </div>
+```html
+<div style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">DO NOT COPY </div>
 ```
 
-```
+```js
 document.body.oncopy = function(event) { 
   event.preventDefault(); 
 }
 ```
 
-```
-<div onCopy="alert('ここだけコピーしちゃだめ。'); return false;">コピーさせたくないコンテンツ。</div>
+```html
+<div onCopy="alert('DO NOT COPY'); return false;">DO NOT COPY</div>
 ```
 
-```
+```html
 <body onContextmenu="return false;">右クリックしちゃだめ。</body>
 ```
 
 
-```
+```html
 <body onMouseDown="return false;" onSelectStart="return false">
 ```
 
-```
+```html
 <script>
 /*<![CDATA[*/
   document.ondragstart = function(){return false;};
@@ -37,13 +39,13 @@ document.body.oncopy = function(event) {
 </script>
 ```
 
-```
+```css
 img {
   pointer-events: none;
 }
 ```
 
-```
+```css
 .protect{
   position:relative;
   disply:block;
@@ -59,11 +61,11 @@ img {
 }
 ```
 
-```
+```html
 <div class="protect"><img src="画像のURL" alt=""></div>
 ```
 
-```
+```css
 .protect{
   pointer-events:none;
   -webkit-touch-callout:none;
@@ -75,12 +77,12 @@ img {
 }
 ```
 
-```
+```html
 <div class="protect"><img src="画像のURL" alt=""></div>
 ```
 
-```
+```html
 <meta http-equiv="imagetoolbar" content="no" />
 ```
-
-- https://nanimonaikedo.jp/coding/406/
+**Ref.**: 
+- [WEBサイトのテキスト・画像のコピー・キャプチャ防止策まとめ | 何もないけどヨロシク。](https://nanimonaikedo.jp/coding/406/)

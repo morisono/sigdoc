@@ -26,3 +26,4 @@ if __name__ == "__main__":
     destination_ip = "example.com"  # Set the destination IP or domain
     trace_route(destination_ip)
 ```
+

@@ -11,7 +11,7 @@ Generator機能は生成方法によって2種類に分類することができ�
    - bruteforceやDictionary Attackを行うツール
    - 代表的なツールとしてgobusterがあります。
    ```sh
-   $ gobuster -u <URL> -w <wordlist>
+   $ gobuster -u <URL> -w <wordlist>mggyuugy 
    ```
 
 - **sitemap-scanner**

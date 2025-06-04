@@ -72,3 +72,12 @@ hugo server -D
 ```
 hugo
 ```
+
+
+- [Front-end interfaces | Hugo](https://gohugo.io/tools/front-ends/)
+- [The Markdown CMS | Tina](https://tina.io/)
+- [Home - Quiqr](https://quiqr.org/)
+- [The visual CMS that gives content teams full autonomy | CloudCannon](https://cloudcannon.com/)
+https://www.hokuscms.com/
+- [The State of Web Frameworks on Deno](https://deno.com/blog/web-frameworks-on-deno)
+- [Using HTMX with Astro](https://www.simonbukin.com/blog/htmx-and-astro)

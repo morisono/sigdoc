@@ -92,3 +92,8 @@
     - 学術論文や研究成果を検索するためのGoogleのサービスで、多くの論文がオープンアクセスで提供されています。
 
 これらのサービスは、異なる学術分野や研究対象に焦点を当てており、研究者が最新の情報を入手し、研究成果を共有するのに役立ちます。研究者はこれらのプレプリントサーバーやオープンアクセスリポジトリを活用して、科学の進歩に貢献することができます。
+
+
+## Paper Interpreter
+
+- [ChatGPT - Paper Interpreter (Japanese)](https://chatgpt.com/g/g-hxDOCBQrs-paper-interpreter-japanese)

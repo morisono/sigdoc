@@ -170,3 +170,9 @@ Mime タイプ: application/x-sqlite3
 - **foo:** fooアダプターを有効にします。
 - **bar:** barアダプターを有効にします。
 ```
+
+- [GitHub - vivainio/RoughGrep: Fast, brutalist UI on top of RipGrep](https://github.com/vivainio/RoughGrep)
+
+### Sort by metadata
+
+- [Sorting Images Using the Creation Date in EXIF Data | Baeldung on Linux](https://www.baeldung.com/linux/images-sort-exif-creation-date)

@@ -1,13 +1,13 @@
-# oathtoolを使用した2FA (Two-Factor Authentication) の解除方法
+# OAthtoolを使用した2FAの解除方法
 
 この記事では、`oathtool`を使用して2FA (Two-Factor Authentication) を解除する方法を詳しく説明します。この手法はセキュリティ的な理由から慎重に行う必要があり、2FAを有効にしているアカウントのアクセスを回復する場合などに使用できます。
 
-## 必要なもの
+### 準備
 
 - **oathtool**: 2FAコードを生成するためのコマンドラインツール。
 - **2FA設定情報**: 2FAを有効にしているアカウントの秘密鍵やパスキーなど。
 
-## 1. oathtoolを使用して2FAコードを生成
+### 1. oathtoolを使用して2FAコードを生成
 
 まず、`oathtool`を使用して2FAコードを生成します。以下はPythonスクリプトを使用する例です。
 

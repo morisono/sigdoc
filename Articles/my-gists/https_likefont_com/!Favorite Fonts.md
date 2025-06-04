@@ -6,51 +6,66 @@
 
     1. [**Noto Sans**](https://www.google.com/search?q=font+Noto+Sans) : Googleによって開発されたオープンソースのフォントファミリー。多言語および多文字セットサポート。
 
-1. ## **Modern**
+1. [**Helvetica**](https://www.google.com/search?q=font+Helvetica) : 
+1. [**Futura**](https://www.google.com/search?q=font+Futura) : 
+1. [**Garamond**](https://www.google.com/search?q=font+Garamond) : 
+1. [**Garamond**](https://www.google.com/search?q=font+Garamond) : 
+1. [**Frutiger**](https://www.google.com/search?q=font+Frutiger) : 
+1. [**Bodoni**](https://www.google.com/search?q=font+Bodoni) : 
+1. [**Univers**](https://www.google.com/search?q=font+Univers) : 
+1. [**Gill Sans**](https://www.google.com/search?q=font+Gill+Sans) : 
+1. [**Akzidenz-Grotesk**](https://www.google.com/search?q=font+Akzidenz+Grotesk) : 
+1. [**Avenir**](https://www.google.com/search?q=font+Avenir) : 幾何学的な形と人間的な
+1. [**Montserrat**](https://www.google.com/search?q=font+Montserrat) : 現代的で丸みのあるフォントで、フレンドリーでモダンな印象を与えるため、ロゴや見出しに適している。
+
+1. [**Ryumin**](https://www.google.com/search?q=font+Ryumin) : リュウミンは、一番有名な明朝体フォントと言われています。
+1. [**Gothic MB101**](https://www.google.com/search?q=font+Gothic+MB101) : 
+
+7. ## **Modern**
 
     1. [**Become**](https://www.google.com/search?q=font+Become) : モダンで洗練された書体。読みやすく、見出しやタイトルに適しています。
 
-    1. [**Cayano**](https://www.google.com/search?q=font+Cayano) : シンプルでモダンなデザインのフォントファミリー。均等な文字配置。
+    2. [**Cayano**](https://www.google.com/search?q=font+Cayano) : シンプルでモダンなデザインのフォントファミリー。均等な文字配置。
 
-    1. [**Covanro**](https://www.google.com/search?q=font+Covanro) : 洗練された書体で、テキストの読みやすさに焦点。クラシックなスタイルとモダンな要素の組み合わせ。
+    3. [**Covanro**](https://www.google.com/search?q=font+Covanro) : 洗練された書体で、テキストの読みやすさに焦点。クラシックなスタイルとモダンな要素の組み合わせ。
 
-    1. [**gadies**](https://www.google.com/search?q=font+gadies) : 視覚的に魅力的なデザインのフォント。ユニークな外観を持ちます。
+    4. [**gadies**](https://www.google.com/search?q=font+gadies) : 視覚的に魅力的なデザインのフォント。ユニークな外観を持ちます。
 
-    1. [**Limelight**](https://www.google.com/search?q=font+Limelight) : クリエイティブなプロジェクトに適した手書き風のフォント。アーティスティックな要素があります。
+    5. [**Limelight**](https://www.google.com/search?q=font+Limelight) : クリエイティブなプロジェクトに適した手書き風のフォント。アーティスティックな要素があります。
 
-    1. [**magison**](https://www.google.com/search?q=font+magison) : クラシックで読みやすい書体。多目的に使用可能です。
+    6. [**magison**](https://www.google.com/search?q=font+magison) : クラシックで読みやすい書体。多目的に使用可能です。
 
-    1. [**Nura**](https://www.google.com/search?q=font+Nura) : シンプルでクリーンなフォント。文字の鮮明さが特徴です。
+    7. [**Nura**](https://www.google.com/search?q=font+Nura) : シンプルでクリーンなフォント。文字の鮮明さが特徴です。
 
-    1. [**Pacifico**](https://www.google.com/search?q=font+Pacifico) : フレンドリーで遊び心のある書体。タイトルやロゴに適しています。
+    8. [**Pacifico**](https://www.google.com/search?q=font+Pacifico) : フレンドリーで遊び心のある書体。タイトルやロゴに適しています。
 
-    1. [**Righteous**](https://www.google.com/search?q=font+Righteous) : モダンでシャープなデザインのフォント。強調したテキストに使用するのに最適です。
+    9. [**Righteous**](https://www.google.com/search?q=font+Righteous) : モダンでシャープなデザインのフォント。強調したテキストに使用するのに最適です。
 
-1. ## **Futuristic**
+8. ## **Futuristic**
 
     1. [**Cruiser**](https://www.google.com/search?q=font+Cruiser) : 未来的なデザインのフォント。先進的なプロジェクトに最適です。
 
-    1. [**EXCRATCH**](https://www.google.com/search?q=font+EXCRATCH) : ユニークで斬新な書体。タイトルやヘッダーに使用するのに適しています。
+    2. [**EXCRATCH**](https://www.google.com/search?q=font+EXCRATCH) : ユニークで斬新な書体。タイトルやヘッダーに使用するのに適しています。
 
-    1. [**Lastica**](https://www.google.com/search?q=font+Lastica) : 先進的でモダンな外観のフォント。テクノロジー関連のコンテンツに適しています。
+    3. [**Lastica**](https://www.google.com/search?q=font+Lastica) : 先進的でモダンな外観のフォント。テクノロジー関連のコンテンツに適しています。
 
-    1. [**MBF**](https://www.google.com/search?q=font+MBF) : クリーンで読みやすいフォント。文書やプレゼンテーションに使用できます。
+    4. [**MBF**](https://www.google.com/search?q=font+MBF) : クリーンで読みやすいフォント。文書やプレゼンテーションに使用できます。
 
-    1. [**Prospec**](https://www.google.com/search?q=font+Prospec) : 未来志向のデザインに合ったフォント。グラフィカルな要素に最適です。
+    5. [**Prospec**](https://www.google.com/search?q=font+Prospec) : 未来志向のデザインに合ったフォント。グラフィカルな要素に最適です。
 
-    1. [**Rosnoc**](https://www.google.com/search?q=font+Rosnoc) : 先進的で洗練された書体。テクノロジーやイノベーションに関連するプロジェクトに使用できます。
+    6. [**Rosnoc**](https://www.google.com/search?q=font+Rosnoc) : 先進的で洗練された書体。テクノロジーやイノベーションに関連するプロジェクトに使用できます。
 
-1. ## **Retro**
+9. ## **Retro**
 
     1. [**Brenson Charlotte**](https://www.google.com/search?q=font+Brenson+Charlotte) : レトロな雰囲気のフォント。ヴィンテージデザインやクラシックなテーマに適しています。
 
-    1. [**Hello Rodeo**](https://www.google.com/search?q=font+Hello+Rodeo) : レトロな手書き風のフォント。ポスターやウェブサイトのヘッダーに使用するのに最適です。
+    2. [**Hello Rodeo**](https://www.google.com/search?q=font+Hello+Rodeo) : レトロな手書き風のフォント。ポスターやウェブサイトのヘッダーに使用するのに最適です。
 
-    1. [**RetroTypewriter**](https://www.google.com/search?q=font+RetroTypewriter) : レトロなタイプライタースタイルのフォント。ユーザーインターフェースやデザインプロジェクトに適しています。
+    3. [**RetroTypewriter**](https://www.google.com/search?q=font+RetroTypewriter) : レトロなタイプライタースタイルのフォント。ユーザーインターフェースやデザインプロジェクトに適しています。
 
-    1. [**Sevenfold**](https://www.google.com/search?q=font+Sevenfold) : レトロな外観の多様なスタイルを提供するフォント。プロジェクトに個性を加えます。
+    4. [**Sevenfold**](https://www.google.com/search?q=font+Sevenfold) : レトロな外観の多様なスタイルを提供するフォント。プロジェクトに個性を加えます。
 
-    1. [**Texas Cowboy**](https://www.google.com/search?q=font+Texas+Cowboy) : テキサスカウボーイの雰囲気を持つレトロなフォント。ポスターや看板に適しています。
+    5. [**Texas Cowboy**](https://www.google.com/search?q=font+Texas+Cowboy) : テキサスカウボーイの雰囲気を持つレトロなフォント。ポスターや看板に適しています。
 
 
 1. ## **Cursive**

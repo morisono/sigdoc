@@ -66,15 +66,15 @@ HttpOnly属性を使用して、JavaScriptからの不正なアクセスを制�
 
 ### SameSite: Strictでも攻撃が成功するケース
 
-#### 例1: スキームだけ違うケース
+#### スキームだけ違うケース
 同じドメインでもスキーム（HTTP/HTTPS）が異なる場合、SameSite: Strictでも攻撃が成功する可能性がある。
 
-#### 例2: サブドメイン
+#### サブドメイン
 サブドメインが異なる場合もSameSite: Strictでも攻撃が可能な場合がある。
 
 ## SameSite属性の使用例
 
-### 1. SameSite属性の設定方法
+### 設定方法
 
 ```html
 Set-Cookie: myCookie=myValue; SameSite=Lax;
@@ -82,16 +82,12 @@ Set-Cookie: myCookie=myValue; SameSite=Lax;
 
 上記のように、Set-CookieヘッダーにSameSite属性を指定することで、Cookieの挙動を制御できます。
 
-同一サイト内のみでのリクエストが必要な場合はSameSite: Strictを、外部ドメインからも受け入れる場合はSameSite: Noneを検討する。必要に応じてSecure属性も追加する。
-
-### 2. SameSite属性の設定方法
-
+同一サイト内のみでのリクエストが必要な場合はSameSite: Strictを、
 ```html
 Set-Cookie: myCookie=myValue; SameSite=Strict;
 ```
 
-### 3. Noneモードの使用例
-
+外部ドメインからも受け入れる場合はSameSite: Noneを検討する。必要に応じてSecure属性も追加する。
 ```html
 Set-Cookie: myCookie=myValue; SameSite=None; Secure;
 ```

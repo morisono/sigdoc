@@ -60,7 +60,10 @@ To get the ID of a server or a channel:
 ## ref
 
 - https://discordhelp.net/discord-token
-
+- [Discord Lookup](https://discord.id/)
+- [GitHub - hugonun/discordid2date: Turns a Discord ID (channel, server, user or message) into the creation date.](https://github.com/hugonun/discordid2date)
+- [How to Check Discord Account Age – TechCult](https://techcult.com/how-to-check-discord-account-age/)
+[Site Unreachable](https://hugo.moe/discord/discord-id-creation-date.html)
 ## i.e.
 
 ```sh

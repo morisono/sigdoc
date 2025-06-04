@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>.markdown-body {
+    font-size: 11px;
+}
+
+img.emoji-img.emoji {
+  max-width: 11px;
+  max-height: 11px;
+  vertical-align: middle;
+}
+</style><style>@page {
+  size: 8.5in 11in;
+  margin: 0.75in 0.75in 1in 0.75in;
+  
+  @footnotes {
+    columns: 2;
+    margin-top: 2em;
+    border-top: 0.5px solid #000000;
+    padding-top: 1em;
+  }
+}
+body {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: balance;
+  -moz-column-gap: balance;
+  column-gap: balance;
+  -webkit-column-gap: 0.33in;
+  -moz-column-gap: 0.33in;
+  column-gap: 0.33in;
+}
+.footnote {
+  float: prince-column-footnote;
+}
+caption {
+  caption-side: top;
+}
+html {
+  font-size: 9pt;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  hyphens: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-column-break-after: avoid;
+  column-break-after: avoid;
+  break-after: avoid;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  hyphens: none;
+}
+h1:not(.counter-skip):before,
+h2:not(.counter-skip):before,
+h3:not(.counter-skip):before,
+h4:not(.counter-skip):before,
+h5:not(.counter-skip):before,
+h6:not(.counter-skip):before {
+  margin-right: 0.5em;
+}
+h1 {
+  font-size: 1.33333333em;
+}
+h2 {
+  font-size: 1.33333333em;
+}
+h3 {
+  font-size: 1.22222222em;
+}
+h4 {
+  font-size: 1.22222222em;
+}
+h5 {
+  font-size: 1.22222222em;
+}
+h6 {
+  font-size: 1.22222222em;
+}
+p {
+  margin: 0 0 0.5em;
+  line-height: 1.17;
+  text-indent: 0;
+}
+small {
+  font-size: 0.77777778em;
+}
+code {
+  font-family: Courier, monospace;
+  font-size: 0.88888889em;
+  font-weight: 400;
+  white-space: nowrap;
+}
+q:before {
+  content: "“";
+}
+q:after {
+  content: "”";
+}
+q > q:before {
+  content: "‘";
+}
+q > q:after {
+  content: "’";
+}
+table {
+  width: 100%;
+  margin: 1.667em 0 1em;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 0.333em;
+  border: 0.5px solid #000000;
+  text-align: center;
+}
+caption {
+  margin: 0 0 4pt;
+  font-weight: bold;
+}
+figure {
+  margin: 1.333em 0 2.333em;
+  text-align: center;
+}
+figcaption {
+  font-weight: bold;
+}
+.footnote {
+  margin-left: 0.333em;
+  padding-left: 0.667em;
+}
+.footnote::footnote-call {
+  vertical-align: super;
+  line-height: none;
+  font-size: 66%;
+}
+.footnote::footnote-marker {
+  font-size: 66%;
+  footnote-style-position: inside;
+}
+cite {
+  display: block;
+  position: relative;
+  margin-left: 2.5em;
+  -webkit-column-break-inside: avoid;
+  column-break-inside: avoid;
+  break-inside: avoid;
+  font-style: normal;
+  text-align: left;
+}
+cite:before {
+  position: absolute;
+  display: inline-block;
+  margin-left: -2.5em;
+}
+cite a {
+  text-decoration: none;
+}
+a[href^="#"] {
+  color: inherit;
+  text-decoration: none;
+}
+@page {
+  
+}
+body > :first-child {
+  counter-reset: page 1;
+}
+h1:not(.counter-skip) {
+  counter-increment: section;
+}
+h2:not(.counter-skip) {
+  counter-increment: subsection;
+}
+h3:not(.counter-skip) {
+  counter-increment: subsubsection;
+}
+h4:not(.counter-skip) {
+  counter-increment: subsubsection;
+}
+h5:not(.counter-skip) {
+  counter-increment: subsubsubsection;
+}
+h6:not(.counter-skip) {
+  counter-increment: subsubsubsubsection;
+}
+h1.counter-reset {
+  counter-reset: section;
+}
+h2.counter-reset {
+  counter-reset: subsection;
+}
+h3.counter-reset {
+  counter-reset: subsubsection;
+}
+h4.counter-reset {
+  counter-reset: subsubsection;
+}
+h5.counter-reset {
+  counter-reset: subsubsubsection;
+}
+h6.counter-reset {
+  counter-reset: subsubsubsubsection;
+}
+ h1:not(.counter-skip):before {
+  content: ""  counter(section, decimal) "";
+}
+ h2:not(.counter-skip):before {
+  content: ""  counter(section, decimal) '.' counter(subsection, decimal) "";
+}
+ h3:not(.counter-skip):before {
+  content: ""  counter(section, decimal) '.' counter(subsection, decimal) '.' counter(subsubsection, decimal) "";
+}
+ h4:not(.counter-skip):before {
+  content: ""  counter(section, decimal) '.' counter(subsection, decimal) '.' counter(subsubsection, decimal) '.' counter(subsubsection, decimal) "";
+}
+ h5:not(.counter-skip):before {
+  content: ""  counter(section, decimal) '.' counter(subsection, decimal) '.' counter(subsubsection, decimal) '.' counter(subsubsection, decimal) '.' counter(subsubsubsection, decimal) "";
+}
+ h6:not(.counter-skip):before {
+  content: ""  counter(section, decimal) '.' counter(subsection, decimal) '.' counter(subsubsection, decimal) '.' counter(subsubsection, decimal) '.' counter(subsubsubsection, decimal) '.' counter(subsubsubsubsection, decimal) "";
+}
+table {
+  counter-increment: table;
+}
+caption:before {
+  content: "Table " counter(table) ". ";
+}
+figure {
+  counter-increment: figure;
+}
+figcaption:before {
+  content: "Figure " counter(figure) ". ";
+}
+.footnote {
+  counter-increment: footnote;
+}
+.footnote::footnote-call {
+  content: counter(footnote);
+}
+.footnote::footnote-marker {
+  content: counter(footnote);
+}
+a[href^="#"] {
+  content: target-counter(attr(href, url), reference);
+}
+a[href^="#"]:before {
+  content: "[";
+}
+a[href^="#"]:after {
+  content: "]";
+}
+a[href^="#"].section {
+  content: target-counter(attr(href, url), section);
+}
+a[href^="#"].section:before {
+  content: "";
+}
+a[href^="#"].section:after {
+  content: "";
+}
+a[href^="#"].subsection {
+  content: target-counter(attr(href, url), section) "." target-counter(attr(href, url), subsection);
+}
+a[href^="#"].subsection:before {
+  content: "";
+}
+a[href^="#"].subsection:after {
+  content: "";
+}
+a[href^="#"].subsubsection {
+  content: target-counter(attr(href, url), section) "." target-counter(attr(href, url), subsection) "." target-counter(attr(href, url), subsubsection);
+}
+a[href^="#"].subsubsection:before {
+  content: "";
+}
+a[href^="#"].subsubsection:after {
+  content: "";
+}
+a[href^="#"].subsubsubsection {
+  content: target-counter(attr(href, url), section) "." target-counter(attr(href, url), subsection) "." target-counter(attr(href, url), subsubsection) "." target-counter(attr(href, url), subsubsubsection);
+}
+a[href^="#"].subsubsubsection:before {
+  content: "";
+}
+a[href^="#"].subsubsubsection:after {
+  content: "";
+}
+a[href^="#"].figure {
+  content: target-counter(attr(href, url), figure);
+}
+a[href^="#"].figure:before {
+  content: "Figure ";
+}
+a[href^="#"].figure:after {
+  content: "";
+}
+a[href^="#"].table {
+  content: target-counter(attr(href, url), table);
+}
+a[href^="#"].table:before {
+  content: "Table ";
+}
+a[href^="#"].table:after {
+  content: "";
+}
+.cites > :not(:first-child):before {
+  content: none;
+}
+.cites > :not(:last-child):after {
+  content: ", ";
+}
+cite {
+  counter-increment: reference;
+}
+cite:before {
+  content: "[" counter(reference) "]";
+}
+.col-1 {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+}
+.col-2 {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+.col-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+.col-4 {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+}
+.col-span {
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
+}
+.page-break-after {
+  -webkit-column-break-after: always;
+  column-break-after: always;
+  break-after: always;
+}
+.page-break-before {
+  -webkit-column-break-after: always;
+  column-break-after: always;
+  break-after: always;
+}
+.col-break-after {
+  -webkit-column-break-after: always;
+  column-break-after: always;
+  break-after: always;
+}
+.col-break-before {
+  -webkit-column-break-after: always;
+  column-break-after: always;
+  break-after: always;
+}
+.counter-skip h1:before,
+.counter-skip h2:before,
+.counter-skip h3:before,
+.counter-skip h4:before,
+.counter-skip h5:before,
+.counter-skip h6:before,
+.counter-skip:before {
+  margin-right: 0 !important;
+  content: "" !important;
+}
+h1,
+h2 {
+  margin: 1.33333333em 0 0 0;
+}
+h1 {
+  text-transform: uppercase;
+}
+h1:not(.counter-skip):before {
+  content: "" counter(section) ".";
+}
+h1 + h2,
+h1 + * > h2:first-child {
+  margin-top: 0;
+}
+h3,
+h4 {
+  margin: 1.33333333em 0 0 0;
+  font-style: italic;
+  font-weight: normal;
+}
+header {
+  column-span: all;
+  margin-bottom: 4em;
+  font-family: Helvetica, sans-serif;
+}
+header h2 {
+  margin: 2em 0;
+  font-size: 1.333em;
+  font-weight: normal;
+  text-align: center;
+}
+.title {
+  margin: 0 0 0.333em;
+  font-family: Helvetica, sans-serif;
+  font-size: 18pt;
+  text-align: center;
+  text-transform: none;
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
+}
+.authors {
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+}
+.authors + .authors {
+  margin-top: 6pt;
+}
+.author {
+  -webkit-column-break-inside: avoid;
+  column-break-inside: avoid;
+  break-inside: avoid;
+  -webkit-column-break-after: always;
+  column-break-after: always;
+  break-after: always;
+  text-align: center;
+  font-size: 10pt;
+}
+.author a {
+  color: inherit;
+  text-decoration: none;
+}
+.author > :first-child,
+.author > :last-child {
+  font-size: 12pt;
+}
+.copyright {
+  height: 1.5in;
+  float: column-bottom;
+  font-size: 8pt;
+}
+.copyright > * {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 3.333in;
+}
+cite {
+  margin-bottom: 0.333em;
+  text-align: left;
+}
+cite a {
+  text-decoration: none;
+}
+.appendix {
+  counter-reset: section;
+}
+.appendix h1:not(.counter-skip):before {
+  content: "" counter(section, upper-alpha) "";
+}
+.appendix h2:not(.counter-skip):before {
+  content: "" counter(section, upper-alpha) '.' counter(subsection, decimal) "";
+}
+.appendix h3:not(.counter-skip):before {
+  content: "" counter(section, upper-alpha) '.' counter(subsection, decimal) '.' counter(subsubsection, decimal) "";
+}
+.equation {
+  margin: 3pt 0;
+  text-align: center;
+}
+.equation:not(.displaymath) {
+  position: relative;
+  counter-increment: equation;
+}
+.equation:not(.displaymath):after {
+  content: "(" counter(equation) ")";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  bottom: 50%;
+  line-height: 0;
+}
+.theorem,
+.proof,
+.definition {
+  margin: 12pt 0;
+}
+.theorem:before,
+.proof:before,
+.definition:before {
+  margin-left: 9pt;
+}
+.theorem {
+  font-style: italic;
+}
+.theorem:before {
+  counter-increment: theorem;
+  content: "Theorem " counter(theorem) ". ";
+  font-style: normal;
+  font-variant: small-caps;
+}
+.proof:before {
+  counter-increment: proof;
+  content: "Proof " counter(proof) ". ";
+  font-style: normal;
+  font-variant: small-caps;
+}
+.definition:before {
+  counter-increment: definition;
+  content: "Definition " counter(definition) ". ";
+  font-style: italic;
+}
+@media screen {
+  .authors {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+  .copyright {
+    display: none;
+  }
+}
+</style>
+
+        <!--<script src=""></script>-->
+    </head>
+    <body class="markdown-body">
+        <html><head></head><body><h1 id="rclone">Rclone</h1>
+<p>rclone は強力なクラウドストレージ管理ツールです。以下に、最もよく使用されるrcloneコマンドとその説明をまとめました。</p>
+<h2 id="用例">用例</h2>
+<ul>
+<li>encrypt files/folders and its name, backup =&gt; Rclone</li>
+<li>ignore filter, on-demand, password, zip compress =&gt; Need scripting</li>
+<li>chunker -&gt; crypt -&gt; union</li>
+<li>combine -&gt; hasher -&gt; crypt -&gt; drive</li>
+</ul>
+<h2 id="方法">方法</h2>
+<h3 id="0-基本">0. 基本</h3>
+<p>次の構文が基本形となります。</p>
+<pre><code class="hljs">rclone <span class="hljs-tag">&lt;<span class="hljs-name">command</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-name">remote_bucket</span>&gt;</span>:<span class="hljs-tag">&lt;<span class="hljs-name">remote</span>&gt;</span> ...</code></pre>
+<p>ドキュメントにおける<code>remote</code>とは、遠隔のクラウド上のデータいずれかの対象を指します。</p>
+<p>基本のコマンド</p>
+<pre><code class="hljs">rclone <span class="hljs-built_in">mkdir</span> remote:<span class="hljs-built_in">path</span> # 新しいディレクトリをクラウド上に作成します。
+rclone lsl remote:<span class="hljs-built_in">path</span> # ファイルのサイズ、変更日時とともに詳細なリストを表示します。
+rclone <span class="hljs-built_in">copy</span> src:<span class="hljs-built_in">path</span> dest:<span class="hljs-built_in">path</span> # src -&gt; dest へコピーします。</code></pre>
+<p>活用例</p>
+<p>ほとんどのコマンドに役立つ重要な<a href="https://rclone.org/flags/">フラグ</a>:</p>
+<pre><code class="hljs">  -n, --dry-<span class="hljs-built_in">run</span>         <span class="hljs-keyword">Do</span> a trial <span class="hljs-built_in">run</span> with <span class="hljs-literal">no</span> permanent changes
+  -i, --interactive     <span class="hljs-built_in">Enable</span> interactive mode
+  -v, --verbose count   <span class="hljs-built_in">Print</span> lots more stuff (repeat <span class="hljs-keyword">for</span> more)
+  -vv</code></pre>
+<p>その他のフラグ一覧は<a href="https://rclone.org/commands/rclone/">こちら</a>。</p>
+<p>シェル補完を設定します。</p>
+<pre><code class="hljs"><span class="hljs-built_in">sudo</span> rclone genautocomplete fish</code></pre>
+<h3 id="1-設定">1. 設定</h3>
+<pre><code class="hljs bash language-bash">rclone config <span class="hljs-comment"># 対話的に設定を行う</span>
+rclone config redacted <span class="hljs-comment"># 現在の設定状況を確認できます</span></code></pre>
+<p>新しいリモートを追加したり、既存の設定を変更したりするための対話式セットアップを開始します。</p>
+<p>設定先: <code>~/.config/rclone/rclone.conf</code></p>
+<h4 id="注意">注意</h4>
+<ul>
+<li><code>~/config/rclone/rclone.conf</code>設定ファイルは、バックアップをとり厳重に取り扱ってください。</li>
+<li>紛失した場合暗号化済ファイルも元に戻せず、第三者に流失した場合、セキュリティ脅威となります。</li>
+<li>後述するコンフィグファイルの暗号化も必要に応じて行うとよいでしょう。</li>
+</ul>
+<h3 id="2-リスト表示">2. リスト表示</h3>
+<pre><code class="hljs bash language-bash">rclone <span class="hljs-built_in">ls</span> remote:path</code></pre>
+<p>指定したパスのファイルとディレクトリを一覧表示します。</p>
+<pre><code class="hljs bash language-bash">rclone lsd remote:path</code></pre>
+<p>ディレクトリのみを一覧表示します。</p>
+<h3 id="3-コピー-アップロード">3. コピー (アップロード)</h3>
+<pre><code class="hljs bash language-bash">rclone copy /local/path remote:path --progress</code></pre>
+<p>ローカルからリモートへコピーします。逆も可能です。</p>
+<pre><code class="hljs bash language-bash"><span class="hljs-comment"># 既存のファイルを上書きせず、新しいファイルのみをコピーします。</span>
+rclone copy --ignore-existing /local/path remote:path --dry-run </code></pre>
+<pre><code class="hljs">rclone <span class="hljs-keyword">copy</span> . --<span class="hljs-keyword">include</span> <span class="hljs-string">"*.[pdf|md|txt]"</span> proton:<span class="hljs-regexp">/docs/</span> -v 
+rclone <span class="hljs-keyword">copy</span> . --<span class="hljs-keyword">include</span> <span class="hljs-string">"*.zip"</span> proton:<span class="hljs-regexp">/releases/</span> -v 
+
+rclone <span class="hljs-keyword">copy</span> --create-empty-src-dirs . proton:/  # ディレクトリ構造を維持</code></pre>
+<p>ツリーの統合にはcombineを使いましょう</p>
+<pre><code class="hljs">rclone tree s3:files
+rclone tree drive:important/files
+
+[remote]<span class="hljs-built_in">
+type </span>= combine
+upstreams = <span class="hljs-attribute">images</span>=s3:imagesbucket <span class="hljs-attribute">files</span>=drive:important/files</code></pre>
+<h3 id="4-同期">4. 同期</h3>
+<pre><code class="hljs bash language-bash">rclone <span class="hljs-built_in">sync</span> /local/path remote:path </code></pre>
+<p>ソースの状態をデスティネーションに完全に反映させます。</p>
+<h3 id="5-移動">5. 移動</h3>
+<pre><code class="hljs bash language-bash">rclone move /local/path remote:path</code></pre>
+<p>ファイルを移動（コピー後に元のファイルを削除）します。</p>
+<h3 id="6-削除">6. 削除</h3>
+<pre><code class="hljs bash language-bash">rclone delete remote:path/file</code></pre>
+<p>指定したファイルを削除します。</p>
+<pre><code class="hljs bash language-bash">rclone purge remote:path</code></pre>
+<p>指定したディレクトリとその中身をすべて削除します。</p>
+<pre><code class="hljs">rclone dedupe remote:path/<span class="hljs-built_in">file</span> <span class="hljs-comment">--dedupe-mode newest</span></code></pre>
+<p>重複ファイルのみをすべて削除します。<br>
+同一のファイルを削除し、最新のファイルを保持します。</p>
+<h3 id="7-チェック">7. チェック</h3>
+<pre><code class="hljs bash language-bash">rclone check /local/path remote:path</code></pre>
+<p>2つの場所のファイルを比較し、違いを報告します。</p>
+<h3 id="8-サイズ確認">8. サイズ確認</h3>
+<pre><code class="hljs bash language-bash">rclone size remote:path</code></pre>
+<p>指定したパスの合計サイズと、ファイルとディレクトリの数を表示します。</p>
+<h3 id="9-マウント">9. マウント</h3>
+<pre><code class="hljs bash language-bash">rclone mount remote:path /local/mountpoint</code></pre>
+<p>リモートストレージをローカルファイルシステムにマウントします。</p>
+<h3 id="10-双方向同期">10. 双方向同期</h3>
+<pre><code class="hljs bash language-bash">rclone bisync /local/path remote:path</code></pre>
+<p>2つの場所間で双方向同期を行います。</p>
+<pre><code class="hljs"><span class="hljs-comment">rclone bisync remote1:path1 remote2:path2</span> <span class="hljs-literal">--</span><span class="hljs-comment">create</span><span class="hljs-literal">-</span><span class="hljs-comment">empty</span><span class="hljs-literal">-</span><span class="hljs-comment">src</span><span class="hljs-literal">-</span><span class="hljs-comment">dirs</span> <span class="hljs-literal">--</span><span class="hljs-comment">compare size</span><span class="hljs-string">,</span><span class="hljs-comment">modtime</span><span class="hljs-string">,</span><span class="hljs-comment">checksum</span> <span class="hljs-literal">--</span><span class="hljs-comment">slow</span><span class="hljs-literal">-</span><span class="hljs-comment">hash</span><span class="hljs-literal">-</span><span class="hljs-comment">sync</span><span class="hljs-literal">-</span><span class="hljs-comment">only</span> <span class="hljs-literal">--</span><span class="hljs-comment">resilient</span> <span class="hljs-literal">-</span><span class="hljs-comment">MvP</span> <span class="hljs-literal">--</span><span class="hljs-comment">drive</span><span class="hljs-literal">-</span><span class="hljs-comment">skip</span><span class="hljs-literal">-</span><span class="hljs-comment">gdocs</span> <span class="hljs-literal">--</span><span class="hljs-comment">fix</span><span class="hljs-literal">-</span><span class="hljs-comment">case</span> <span class="hljs-literal">--</span><span class="hljs-comment">resync</span> <span class="hljs-literal">--</span><span class="hljs-comment">dry</span><span class="hljs-literal">-</span><span class="hljs-comment">run</span></code></pre>
+<p>Triggerなしの自動双方向同期は現時点ではありません。<br>
+しかし、<a href="https://cloudcross.mastersoft24.ru/">CloudCross</a> , InsyncやOdriveなどの外部ソリューションを使用できます。</p>
+<h3 id="11-フィルタリング">11. フィルタリング</h3>
+<p>すべてのコマンドで <code>--include</code>, <code>--exclude</code> フラグを使用してファイルをフィルタリングできます。</p>
+<pre><code class="hljs bash language-bash">rclone copy /local/path remote:path --include <span class="hljs-string">"*.jpg"</span> --exclude <span class="hljs-string">"*.tmp"</span></code></pre>
+<h3 id="12-同期">12. 同期</h3>
+<p><code>--dry-run</code> フラグを使用すると、実際の変更を行わずに操作をシミュレートできます。</p>
+<pre><code class="hljs bash language-bash">rclone <span class="hljs-built_in">sync</span> /local/path remote:path --dry-run
+rclone <span class="hljs-built_in">sync</span> --interactive /local/path remote:path <span class="hljs-comment"># 削除前に確認を表示</span>
+
+rclone <span class="hljs-built_in">sync</span> /local/path remote:path --dry-run --bwlimit 1M --update --exclude <span class="hljs-string">"*.mp4"</span> --retries 3</code></pre>
+<p>ignore fileを指定して無視するには</p>
+<p><code>--drive-use-trash</code> : ファイルを削除する際にゴミ箱に移動させる</p>
+<h3 id="13-ダウンロードリンク">13. ダウンロードリンク</h3>
+<pre><code class="hljs bash language-bash">rclone <span class="hljs-built_in">link</span> protondrive:path/to/folder --expire 7d --password mysecretpassword</code></pre>
+<ul>
+<li>If you want to get links for multiple files, you can use a loop in bash. Here's an example:</li>
+</ul>
+<pre><code class="hljs bash language-bash">rclone lsf protondrive:path/to/directory | <span class="hljs-keyword">while</span> <span class="hljs-built_in">read</span> -r file; <span class="hljs-keyword">do</span>
+  <span class="hljs-built_in">echo</span> <span class="hljs-string">"<span class="hljs-variable">$file</span>: <span class="hljs-subst">$(rclone link protondrive:path/to/directory/<span class="hljs-string">"<span class="hljs-variable">$file</span>"</span>)</span>"</span>
+<span class="hljs-keyword">done</span> &gt; download_links.txt</code></pre>
+<ul>
+<li>If you want to generate a random password, you can use the openssl command in combination with rclone:</li>
+</ul>
+<pre><code class="hljs bash language-bash">password=$(openssl rand -<span class="hljs-built_in">base64</span> 12)
+<span class="hljs-built_in">link</span>=$(rclone <span class="hljs-built_in">link</span> protondrive:path/to/folder --expire 7d --password <span class="hljs-string">"<span class="hljs-variable">$password</span>"</span>)
+<span class="hljs-built_in">echo</span> <span class="hljs-string">"Link: <span class="hljs-variable">$link</span>"</span>
+<span class="hljs-built_in">echo</span> <span class="hljs-string">"Password: <span class="hljs-variable">$password</span>"</span></code></pre>
+<ul>
+<li>If you want to do this for multiple folders, you can use a loop:</li>
+</ul>
+<pre><code class="hljs bash language-bash">rclone lsf protondrive:path/to/parent_folder -R | grep <span class="hljs-string">'/$'</span> | <span class="hljs-keyword">while</span> <span class="hljs-built_in">read</span> -r folder; <span class="hljs-keyword">do</span>
+    password=$(openssl rand -<span class="hljs-built_in">base64</span> 12)
+    <span class="hljs-built_in">link</span>=$(rclone <span class="hljs-built_in">link</span> protondrive:<span class="hljs-string">"<span class="hljs-variable">$folder</span>"</span> --expire 7d --password <span class="hljs-string">"<span class="hljs-variable">$password</span>"</span>)
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Folder: <span class="hljs-variable">$folder</span>"</span>
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Link: <span class="hljs-variable">$link</span>"</span>
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"Password: <span class="hljs-variable">$password</span>"</span>
+    <span class="hljs-built_in">echo</span> <span class="hljs-string">"------------------------"</span>
+<span class="hljs-keyword">done</span></code></pre>
+<h3 id="14-暗号化httpsrcloneorgcrypt">14. <a href="https://rclone.org/crypt/">暗号化</a></h3>
+<p>remote全体を暗号化および復号化します。これは、暗号化用remoteを新たに作成して通信をWrapすることで成立します。</p>
+<p>名前入力は任意(e.g. <code>proton-encrypt</code>)、ストレージ種別設定で<code>Encrypt/Decrypt a remote</code>を選択することで、設定できます。</p>
+<pre><code class="hljs"><span class="hljs-type">name</span>&gt; proton-encrypt
+
+<span class="hljs-keyword">Storage</span>&gt; <span class="hljs-number">13</span></code></pre>
+<p>構成ファイルには、以下の設定が追加されます。</p>
+<pre><code class="hljs">[proton-encrypt]
+<span class="hljs-keyword">type</span> = crypt
+remote = remote:<span class="hljs-type">path</span>
+<span class="hljs-keyword">password</span> = *** <span class="hljs-keyword">ENCRYPTED</span> ***
+password2 = *** <span class="hljs-keyword">ENCRYPTED</span> ***</code></pre>
+<p>passwordが生成されます。<br>
+必要に応じてsalt, pepper付加して暗号化します。</p>
+<p>passwordは、手動で生成・管理することも可能です。</p>
+<pre><code class="hljs bash language-bash">openssl rand -<span class="hljs-built_in">base64</span> 36</code></pre>
+<pre><code class="hljs bash language-bash">Storage&gt; crypt
+remote&gt; proton-remote:share <span class="hljs-comment"># remote:path</span>
+file_encryption&gt; 1 <span class="hljs-comment"># 1:ファイルタイプ, 2:ファイル名のみ, 3:オフ</span>
+directory_name_encryption&gt; 1 <span class="hljs-comment"># 1:すべてのフォルダ名, 2:オフ</span>
+generate_random_password&gt; g <span class="hljs-comment"># パスワードを自動生成</span>
+Bits&gt; 128 <span class="hljs-comment"># Password strength in bits</span>
+password or phrase <span class="hljs-keyword">for</span> salt &gt; n <span class="hljs-comment"># 2h番目のパスワードを自動生成</span></code></pre>
+<p>暗号化が完了するとパスワードを変更できません。<br>
+後は通常のアップロード手順と同じように利用できます。</p>
+<pre><code class="hljs bash language-bash"><span class="hljs-comment"># Uploading</span>
+<span class="hljs-comment"># rclone mkdir proton-remote:share</span>
+rclone -q copy tmp.json proton-crypt:share
+
+
+<span class="hljs-comment"># Error the wrong remote name</span>
+<span class="hljs-comment"># 2024/09/02 18:57:46 Failed to create file system for "proton-encrypt:": didn't find section in config file</span>
+
+<span class="hljs-comment"># Error: the dir not exist</span>
+<span class="hljs-comment"># 2024/09/02 18:57:54 Failed to create file system for "proton-crypt:": failed to make remote "proton-drive:share" to wrap: didn't find section in config file</span>
+
+<span class="hljs-comment"># Error: traffic blocked</span>
+<span class="hljs-comment"># 2024/09/02 19:03:57.474276 ERROR RESTY 422 POST https://mail.proton.me/api/auth/v4: We are detecting potentially abusive traffic coming from your network and have temporarily blocked logins. If you believe this is in error, please contact us here: https://proton.me/support/appeal-abuse (Code=2028, Status=422)</span></code></pre>
+<p>チェック</p>
+<pre><code class="hljs">rclone cryptcheck remote:<span class="hljs-built_in">path</span> encryptedremote:<span class="hljs-built_in">path</span> <span class="hljs-comment">--one-way</span>
+# 宛先内にない追加のファイルがあることを意味します
+
+rclone cryptcheck remote:<span class="hljs-built_in">path</span> encryptedremote:<span class="hljs-built_in">path</span>　<span class="hljs-comment">--combined</span>
+# Result : =は同一, -は宛先でのみ, +はソースでのみ, *は存在していたが異なる, !はエラー</code></pre>
+<p>&nbsp;<br>
+復号化</p>
+<pre><code class="hljs"><span class="hljs-attribute">rclone cryptdecode encryptedremote</span><span class="hljs-punctuation">:</span> <span class="hljs-string">encryptedfilename1 encryptedfilename2</span>
+
+<span class="hljs-attribute">rclone cryptdecode --reverse encryptedremote</span><span class="hljs-punctuation">:</span> <span class="hljs-string">filename1 filename2</span></code></pre>
+<p>暗号化されていないファイル名を返します。</p>
+<p>さらに、<a href="https://rclone.org/docs/#configuration-encryption">構成暗号化</a>を必要に応じて行います。</p>
+<pre><code class="hljs">&gt;rclone<span class="hljs-built_in"> config
+</span>Current remotes:
+
+e) <span class="hljs-built_in">Edit</span> existing remote
+n) New remote
+d) Delete remote
+s) <span class="hljs-built_in">Set</span> configuration password *</code></pre>
+<p>リモート全体を暗号化として設定することは可能ですが、クラウド ストレージ プロバイダーは、暗号化されたルート フォルダーを処理できない場合があります</p>
+<p>メタデータがサポート</p>
+<p>テスト方法:</p>
+<pre><code class="hljs">rclone -v <span class="hljs-keyword">copy</span> <span class="hljs-regexp">/your/</span>local<span class="hljs-regexp">/file/</span>here<span class="hljs-regexp">/ remotename:/</span>the<span class="hljs-regexp">/remote/</span>location/
+rclone lsf remotename:/</code></pre>
+<h3 id="15-細分化--結合">15. 細分化 / 結合</h3>
+<p>大きなファイルを小さなチャンクに透過的に分割します</p>
+<p>dg</p>
+<pre><code class="hljs"><span class="hljs-section">[overlay]</span>
+<span class="hljs-attr">type</span> = chunker
+<span class="hljs-attr">remote</span> = remote:bucket
+<span class="hljs-attr">chunk_size</span> = <span class="hljs-number">100</span>M
+<span class="hljs-attr">hash_type</span> = md5</code></pre>
+<p>rcloneがファイルのアップロードを開始すると、チャンカーはファイルサイズをチェックします。<br>
+複合ファイルのダウンロードが要求された場合、チャンカーは透過的に データチャンクを順番に連結して組み立てます。<code>--chunker-fail-hard</code>&nbsp;コマンドを中止するフラグを設定することができます。<code>--min-size</code> 多くのファイルがチャンクのしきい値を下回っている場合、不要なAPI呼び出しを回避するために用います。スペースの無駄が発生するため、<a href="https://rclone.org/union/"><code>union</code></a>で集約します。<br>
+問題は、ハッシュdbをrcloneを使用するマシン全体で維持する必要があることです。</p>
+<pre><code class="hljs"><span class="hljs-section">[remote]</span>
+<span class="hljs-attr">type</span> = union
+<span class="hljs-attr">upstreams</span> = remote1:dir1 remote2:dir2 remote3:dir3</code></pre>
+<h3 id="16-ハッシュ化httpsrcloneorghasher">16. <a href="https://rclone.org/hasher/">ハッシュ化</a></h3>
+<pre><code class="hljs"><span class="hljs-section">[Hasher1]</span>
+<span class="hljs-attr">type</span> = hasher
+<span class="hljs-attr">remote</span> = myRemote:path
+<span class="hljs-attr">hashes</span> = md5
+<span class="hljs-attr">max_age</span> = <span class="hljs-literal">off</span>
+
+<span class="hljs-section">[Hasher2]</span>
+<span class="hljs-attr">type</span> = hasher
+<span class="hljs-attr">remote</span> = /local/path
+<span class="hljs-attr">hashes</span> = dropbox,sha1
+<span class="hljs-attr">max_age</span> = <span class="hljs-number">24</span>h</code></pre>
+<p>これは本質的に、「暗号化」のアプローチの逆です(ソースを再暗号化するのではなく, これはdestを復号化します)これは、ソースがない場合でも機能することを意味します(2つの異なるクリプトリモコンを異なるパスワードで比較する場合など)。<br>
+&nbsp;<code>--hasher-max-age 0</code>でデータベース機能を使用せずにHasherを使用することは可能です。<br>
+&nbsp;</p>
+<p>パス内のすべてのオブジェクトの<a href="https://rclone.org/commands/rclone_md5sum/">md5sum</a>ファイルを生成します。</p>
+<pre><code class="hljs">rclone hashsum MD5 remote:path <span class="hljs-comment"># 更新を強制</span>
+rclone md5sum remote:path  <span class="hljs-comment"># 上記と同値</span>
+
+rclone hashsum sha256 remote:path <span class="hljs-operator">-f</span> <span class="hljs-literal">--max-age</span> <span class="hljs-number">1</span> <span class="hljs-built_in">h</span> <span class="hljs-comment"># 1時間以内のパスのSHA256</span></code></pre>
+<h3 id="17-難読化">17. 難読化</h3>
+<p>cryptがremoteデータを暗号化するのに対し、obscureはパスワードを暗号化(難読化)します。</p>
+<pre><code class="hljs bash language-bash">rclone obscure [pass]
+rclone obscure [salt]
+
+rclone copyto file.txt.bin file.txt -v \
+--crypt-remote=lc: \
+--crypt-filename-encryption=off \
+--crypt-directory-name-encryption=<span class="hljs-literal">false</span> \
+--crypt-password=[obscured pass] \
+--crypt-password2=[obscured salt]</code></pre>
+<h3 id="18-マウント">18. マウント</h3>
+<p>FUSEでエクスプローラに表示可能な、見せかけのファイルシステムを作成します。</p>
+<pre><code class="hljs sh language-sh">rclone nfsmount remote:path/to/files * <span class="hljs-comment"># 自動</span>
+rclone nfsmount remote:path/to/files X: <span class="hljs-comment"># 特定のドライブ文字</span>
+rclone nfsmount remote:path/to/files C:\mount : <span class="hljs-comment"># relPath</span>
+rclone nfsmount remote:path/to/files \\cloud\remote <span class="hljs-comment"># network drive</span>
+
+
+<span class="hljs-comment">#バックグラウンドモードで実行する場合、ユーザーは手動でマウントを停止する必要があります:</span>
+<span class="hljs-comment"># Linux</span>
+fusermount -u /path/to/local/mount
+<span class="hljs-comment"># OS X</span>
+umount /path/to/local/mount</code></pre>
+<p>上り速度は保証されない（バックグラウンドでストリーミング処理する）ため、<br>
+専ら閲覧・下り用途に用いるべきです。</p>
+<pre><code class="hljs">rclone nfsmount remote:path/<span class="hljs-built_in">to</span>/<span class="hljs-built_in">files</span> \mount X: <span class="hljs-comment"># relPath</span></code></pre>
+<p>rcloneメタデータストアで非常に役立ちます。リモートがこれらをサポートしていない場合でも、ファイルの作成、変更、またはアクセス時間を格納します。</p>
+<p>信頼性がより必要な場合、<a href="https://rclone.org/commands/rclone_mount/#vfs-file-caching">VFS File caching</a> を検討してください。これは、変更と同時にファイルに書き込みます。</p>
+<pre><code class="hljs">--cache-dir string                     Directory rclone will <span class="hljs-keyword">use</span> for caching.
+--vfs-cache-mode CacheMode             Cache mode off|minimal|writes|full (<span class="hljs-keyword">default</span> off)
+--vfs-cache-<span class="hljs-built_in">max</span>-age duration           <span class="hljs-built_in">Max</span> time since last <span class="hljs-keyword">access</span> of objects <span class="hljs-keyword">in</span> the cache (<span class="hljs-keyword">default</span> <span class="hljs-number">1</span>h0m0s)
+--vfs-cache-<span class="hljs-built_in">max</span>-<span class="hljs-built_in">size</span> SizeSuffix        <span class="hljs-built_in">Max</span> total <span class="hljs-built_in">size</span> of objects <span class="hljs-keyword">in</span> the cache (<span class="hljs-keyword">default</span> off)
+--vfs-cache-<span class="hljs-built_in">min</span>-<span class="hljs-keyword">free</span>-space SizeSuffix  <span class="hljs-keyword">Target</span> minimum <span class="hljs-keyword">free</span> space on the disk containing the cache (<span class="hljs-keyword">default</span> off)
+--vfs-cache-poll-interval duration     Interval to poll the cache for stale objects (<span class="hljs-keyword">default</span> <span class="hljs-number">1</span>m0s)
+--vfs-<span class="hljs-built_in">write</span>-back duration              Time to writeback files after last <span class="hljs-keyword">use</span> when using cache (<span class="hljs-keyword">default</span> <span class="hljs-number">5</span>s)</code></pre>
+<h3 id="19-エイリアス">19. エイリアス</h3>
+<p>エイリアスを作成すると、以下２つは同一の対象を指します。</p>
+<pre><code class="hljs">rclone <span class="hljs-built_in">mkdir</span> backup:desktop 
+rclone <span class="hljs-built_in">mkdir</span> mydrive:private/backup/desktop <span class="hljs-comment"># Alias</span></code></pre>
+<h3 id="22-メタデータ">22. メタデータ</h3>
+<p><a href="https://rclone.org/commands/rclone_settier/#synopsis">settier</a>は、リモート内のオブジェクトのストレージクラス/階層を変更します。</p>
+<pre><code class="hljs">rclone --<span class="hljs-keyword">include</span> <span class="hljs-string">"*.txt"</span> settier Hot remote:path/<span class="hljs-keyword">dir</span></code></pre>
+<h3 id="23-git-annexhttpsrcloneorgcommandsrclone_gitannex">23. <a href="https://rclone.org/commands/rclone_gitannex/">Git Annex</a></h3>
+<p><a href="https://git-annex.branchable.com/">git-annex</a>&nbsp;コンテンツを保存および取得します。</p>
+<pre><code class="hljs sh language-sh"><span class="hljs-comment"># Create the helper symlink in "$HOME/bin".</span>
+<span class="hljs-built_in">ln</span> -s <span class="hljs-string">"<span class="hljs-subst">$(realpath rclone)</span>"</span> <span class="hljs-string">"<span class="hljs-variable">$HOME</span>/bin/git-annex-remote-rclone-builtin"</span>
+
+<span class="hljs-comment"># Verify the new symlink is on your PATH.</span>
+<span class="hljs-built_in">which</span> git-annex-remote-rclone-builtin</code></pre>
+<pre><code class="hljs sh language-sh"><span class="hljs-comment"># If you skipped step 1:</span>
+git annex initremote MyRemote <span class="hljs-built_in">type</span>=rclone --whatelse
+
+<span class="hljs-comment"># If you created a symlink in step 1:</span>
+git annex initremote MyRemote <span class="hljs-built_in">type</span>=external externaltype=rclone-builtin --whatelse</code></pre>
+<h3 id="キャッシュ">キャッシュ</h3>
+<pre><code class="hljs"><span class="hljs-keyword">Storage</span>&gt; <span class="hljs-keyword">cache</span></code></pre>
+<h3 id="圧縮">圧縮</h3>
+<pre><code class="hljs">Storage&gt; <span class="hljs-built_in">compress</span></code></pre>
+<h3 id="連結-combine">連結 (Combine)</h3>
+<h3 id="ftpcifs">FTP/CIFS</h3>
+<h3 id="http">HTTP</h3>
+<h3 id="smb">SMB</h3>
+<h3 id="sshsftp">SSH/SFTP</h3>
+<h3 id="webdav">WebDAV</h3>
+<h3 id="in-memory">In Memory</h3>
+<h3 id="localdisk">Localdisk</h3>
+<h3 id="misc">MISC</h3>
+<ul>
+<li>Streaming</li>
+</ul>
+<pre><code class="hljs">tar | <span class="hljs-type">gzip</span> | <span class="hljs-type">aes</span> &gt;s3_mount/file</code></pre>
+<ul>
+<li><a href="https://rclone.org/gui/">GUI</a></li>
+</ul>
+<pre><code class="hljs sh language-sh">rclone rcd --rc-web-gui --rc-user x --rc-pass x
+rclone rcd --rc-web-gui --rc-web-gui-no-open-browser</code></pre>
+<h3 id="third-party-tools">Third party tools</h3>
+<ul>
+<li><a href="https://github.com/dimitrov-adrian/RcloneTray">https://github.com/dimitrov-adrian/RcloneTray</a></li>
+<li><a href="https://github.com/kapitainsky/RcloneBrowser">https://github.com/kapitainsky/RcloneBrowser</a></li>
+</ul>
+<h3 id="scripting">Scripting</h3>
+<p>30分ごと(または任意の期間)に実行される“連続”同期を作成する</p>
+<pre><code class="hljs bash language-bash"><span class="hljs-meta">#!/bin/bash</span>
+<span class="hljs-comment"># Get config path from rclone</span>
+config=$(rclone config file)
+<span class="hljs-comment"># Remove everything except the path</span>
+RCLONE_CONFIG=<span class="hljs-string">"/<span class="hljs-variable">${config#*/}</span>"</span>
+<span class="hljs-built_in">export</span> RCLONE_CONFIG
+
+<span class="hljs-comment"># Exit if rclone running</span>
+<span class="hljs-keyword">if</span> [[ <span class="hljs-string">"<span class="hljs-subst">$(pidof -x $(basename $0)</span> -o %PPID)"</span> ]]; <span class="hljs-keyword">then</span> <span class="hljs-built_in">exit</span>; <span class="hljs-keyword">fi</span>
+
+<span class="hljs-comment"># Sync files to the cloud</span>
+/usr/bin/rclone <span class="hljs-built_in">sync</span> [SOURCE_PATH] remote:[REMOTE_PATH] 
+    --log-file /opt/rclone_upload.log 
+    --verbose </code></pre>
+<pre><code class="hljs">*<span class="hljs-regexp">/30 * * * * /</span>home<span class="hljs-regexp">/nl/</span>cloudsync.sh</code></pre>
+<ul>
+<li><a href="https://www.reddit.com/r/rclone/comments/1d2pm6p/rclone_blocked_by_proton_drive_it_seems/?share_id=E7Wk9x_YtWoDoTOjBkvSE&amp;utm_content=1&amp;utm_medium=android_app&amp;utm_name=androidcss&amp;utm_source=share&amp;utm_term=1">https://www.reddit.com/r/rclone/comments/1d2pm6p/rclone_blocked_by_proton_drive_it_seems/?share_id=E7Wk9x_YtWoDoTOjBkvSE&amp;utm_content=1&amp;utm_medium=android_app&amp;utm_name=androidcss&amp;utm_source=share&amp;utm_term=1</a></li>
+</ul>
+<h3 id="proxy　">Proxy　</h3>
+<ul>
+<li><a href="https://rclone.org/faq/#can-i-use-rclone-with-an-http-proxy">https://rclone.org/faq/#can-i-use-rclone-with-an-http-proxy</a></li>
+</ul>
+<h3 id="無限ストレージの活用">無限ストレージの活用</h3>
+<ul>
+<li><a href="http://d.hatena.ne.jp/keyword/github">github</a>&nbsp;<a href="http://d.hatena.ne.jp/keyword/LFS">LFS</a>&nbsp;, 1GB/day</li>
+<li><a href="http://d.hatena.ne.jp/keyword/dropbox">dropbox</a>&nbsp;enterprise 2000 yen / month</li>
+<li><a href="http://d.hatena.ne.jp/keyword/google%20drive">google drive</a>&nbsp;enterprise 2500 yen / month</li>
+<li><a href="http://d.hatena.ne.jp/keyword/google%20drive">google drive</a>&nbsp;bussiness standard 1300x5 user / month</li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>rcloneは素早い処理に有効なツールですが、セキュリティ監査されておりません。<br>
+そのため、予期しないエラーや通信のスタックに対面することもあるでしょう。<br>
+足りない機能を補完するには、Cryptomatorや PGPZip、Resticなどとの併用を検討するとよいでしょう。</p>
+<ul>
+<li><a href="https://github.com/restic/restic">https://github.com/restic/restic</a></li>
+<li><a href="https://github.com/syncthing/syncthing">syncthing</a></li>
+<li><a href="http://www.secfs.net/winfsp/">http://www.secfs.net/winfsp/</a></li>
+<li><a href="https://nssm.cc/">https://nssm.cc/</a></li>
+</ul>
+<h3 id="faq">FAQ</h3>
+<ul>
+<li><p><a href="https://linuxpip.org/rclone-examples#rclone-copy-examples-copying-data-between-cloud-storage-services">https://linuxpip.org/rclone-examples#rclone-copy-examples-copying-data-between-cloud-storage-services</a></p></li>
+<li><p><a href="https://forum.rclone.org/t/crypt-remote-hash-and-other-metadata/43885/6">https://forum.rclone.org/t/crypt-remote-hash-and-other-metadata/43885/6</a></p></li>
+<li><p><a href="https://contentsviewer.work/Master/software/ci-cd/ftp-with-rclone-on-github-actions/article">rcloneを用いてFTPによるファイルのアップロードとダウンロードをGitHub Actions上で行う | CI-CD</a></p></li>
+<li><p><a href="https://github.com/cupcakearmy/autorestic">GitHub - cupcakearmy/autorestic: Config driven, easy backup cli for restic.</a></p></li>
+<li><p><a href="https://github.com/xyou365/AutoRclone">GitHub - xyou365/AutoRclone: AutoRclone: rclone copy/move/sync (automatically) with thousands of service accounts</a></p></li>
+<li><p><a href="https://nucleovisual.com/ja/macrium-Reflect-%E3%81%A7%E5%B7%AE%E5%88%86%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%81%A8%E5%A2%97%E5%88%86%E3%83%90%E3%83%83%E3%82%AF%E3%82%A2%E3%83%83%E3%83%97%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/">Macrium Reflect で差分バックアップと増分バックアップを使用するにはどうすればよいですか? ▷➡️視覚核▷➡️</a></p></li>
+</ul></body></html>
+    </body>
+</html>

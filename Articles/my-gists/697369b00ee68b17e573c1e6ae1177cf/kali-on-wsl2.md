@@ -2,6 +2,7 @@
 
 ### Install
 ```pwsh
+wsl -l -o
 wsl --install -d kali-linux
 wsl -d kali-linux kex --wtstart -s -m
 ```

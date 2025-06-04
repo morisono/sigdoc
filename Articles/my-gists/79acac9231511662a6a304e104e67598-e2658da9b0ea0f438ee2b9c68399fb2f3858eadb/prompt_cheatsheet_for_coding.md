@@ -12,7 +12,7 @@ Propose an algorithm that satisfies the following constraints.
 
 #### 3
 Code review.
-Give an example.
+And give some examples.
 
 
 #### 4

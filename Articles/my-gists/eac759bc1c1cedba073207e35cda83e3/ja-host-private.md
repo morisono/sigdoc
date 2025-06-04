@@ -22,3 +22,22 @@
 
 
 1. https://github.com/mikeroyal/Self-Hosting-Guide
+2. https://medium.com/@rishabhlakhotia/setting-up-tor-hidden-service-8af1875921c6
+3. https://medium.com/@jasonrigden/how-to-host-a-site-on-the-dark-web-38edf00996bf
+4. https://forum.torproject.org/t/self-hosting-the-tor-project-users-forum/7914/8
+
+1. Buy VPS and setup VPN
+2. Cloudflare tunnel
+3. https://riseup.net/en/security/network-security/tor/onionservices-best-practices
+4. https://discuss.privacyguides.net/t/how-to-host-onion-services-securely/15890
+5. https://sacredground.click/howto
+
+### See also
+
+- [selfh.st - Self-hosted content and software](https://selfh.st/)
+- [Self-Hosted Applications and Alternatives](https://selfh.st/apps/?)
+- [Self Hosting 101 - A Beginner's Guide](https://ente.io/blog/self-hosting-101/?ref=selfh.st)
+## How to host
+
+- [What's the difference between Docker Compose and Kubernetes? - Stack Overflow](https://stackoverflow.com/questions/47536536/whats-the-difference-between-docker-compose-and-kubernetes)
+- [Glasskube vs Helm Comparison | Glasskube](https://glasskube.dev/docs/comparisons/helm/)

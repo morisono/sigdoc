@@ -23,3 +23,13 @@ pip show proton-client
 ```
 from proton.api import Session, ProtonError
 ```
+
+### Use Temp mail
+[Temp Mail: free temporary disposable email generator. One-time 'fake-like' private secure emails](https://adguard.com/en/adguard-temp-mail/overview.html)
+- [Maildrop - Free Disposable Email Address](https://maildrop.cc/)
+    - Free
+    - May be flagged or blocked by anti-spam.
+- [SimpleLogin | Open source anonymous email service](https://simplelogin.io/)
+    - Free
+    - Registration, or Login with Proton.
+    - Limited number of aliases, or delete after use.

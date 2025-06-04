@@ -12,6 +12,7 @@
 - ボットのプログラミング言語を選択します。Python（discord.pyライブラリを使用）やJavaScript（discord.jsライブラリを使用）などが一般的です。
 - 選んだ言語のパッケージマネージャー（Pythonの場合はpip、JavaScriptの場合はnpmなど）を使用して、必要なライブラリをインストールします。
 
+[�ېŁE�����R��Ɋւ�����̒񋟁b���Œ�](https://www.nta.go.jp/suggestion/johoteikyo/input_form.html)
 
 ```bash
 python3 -m pip install -U discord.py
@@ -31,7 +32,7 @@ Applicationページに移動し、「New Application」ボタンをクリック
 「Bot」タブに移動して、必要に応じてPublic Botにチェックを入れます。
 トークンをコピーして保存しておきます。このトークンはあなたのボットの識別と認証に使用されます。他人と共有しないように注意してください。
 
-https://discord.com/developers/applications
+[Discord Developer Portal](https://discord.com/developers/applications)
 
 
 ## 3. Botのコーディング
@@ -85,3 +86,9 @@ https://blog.bridgey.dev/2023/01/29/discord-py/
 
 https://github.com/kkrypt0nn/Python-Discord-Bot-Template
 
+- [How to host your Discord bot 24/7 on an Android Device - Glitch Tutorials - Glitch Community Forum](https://support.glitch.com/t/how-to-host-your-discord-bot-24-7-on-an-android-device/28735)
+termux を一日中実行し続け、終了した場合に tmux に再度開く そして、そのコマンドを bash プロファイルまたは cron ジョブとして実行
+[Just a moment...](https://www.apkmirror.com/apk/fredrik-fornwall/termux-fdroid-version/variant-%7B%22minapi_slug%22%3A%22minapi-24%22%7D/)
+- [Ultimate Guide to Termux Commands: Complete List](https://www.darkhackerworld.com/2020/07/termux-commands-list.html)
+- [OwO selfbot for both mobile(Termux) and Desktop. : r/Discord\_selfbots](https://www.reddit.com/r/Discord_selfbots/comments/1cmrwjq/owo_selfbot_for_both_mobiletermux_and_desktop/)
+- [How to Install Ngrok in Termux: A Step-by-Step Guide - DEV Community](https://dev.to/fazilchengapra/how-to-install-ngrok-in-termux-a-step-by-step-guide-4dnk)

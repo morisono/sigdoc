@@ -1,10 +1,37 @@
----
-lastmod: 2023-10-17
----
 
-# GitHub Advanced Search Tips
+# GitHub 高度な検索ガイド
 
-以下は[GitHub Advanced Search](https://github.com/search/advanced)の使い方に関する高度なヒントとガイダンスです。
+GitHub Advanced Search は、リポジトリ、コード、イシュー、プルリクエストなどを効率的に検索するための強力なツールです。本ガイドでは、GitHub の高度な検索機能を活用するための詳細な方法を解説します。
+
+## 目次
+1. [基本検索](#基本検索)
+2. [コード検索](#コード検索)
+3. [リポジトリ検索](#リポジトリ検索)
+4. [イシュー検索](#イシュー検索)
+5. [コミット検索](#コミット検索)
+6. [制限事項](#制限事項)
+7. [参考資料](#参考資料)
+
+## Why Use GitHub Advanced Search?
+
+- Find specific code patterns across millions of repositories
+- Locate relevant issues and pull requests
+- Discover trending projects in specific languages
+- Research coding patterns and best practices
+- Identify security vulnerabilities
+- Find examples of API usage
+
+## Getting Started
+
+To access GitHub Advanced Search:
+1. Visit [https://github.com/search/advanced](https://github.com/search/advanced)
+2. Use the command palette (Cmd+K/Ctrl+K) for quick access
+3. Directly use search modifiers in the main search bar
+
+### Basic Search Tips
+- Use quotes for exact matches: `"react hooks"`
+- Combine modifiers with AND/OR: `language:javascript AND stars:>1000`
+- Use parentheses for complex queries: `(react OR vue) AND stars:>500`
 
 ## Command Pallet
 
@@ -12,27 +39,6 @@ github.com 上で `Cmd + K`(macOS), `Ctrl + K` (Windows) を入力すること�
 
 ## Search target
 
-- issues / Pull Requests
-- Code
-- Repos
-- Users
-- Commits
-- Discussions
-- Wikis
-- Forks
-- Topics
-- Packages
-
-### Basic Syntax
-
-- **<**, **<=**, **>**, **>=**: 値の比較
-- **n..***, ***..n**, **n..n**: 範囲の比較（ISOフォーマット）
-- **@me**: 自分のアカウントに一致させるためのUSERNAMEの代わりとして使用可能
-- **NOT**: 特定の検索結果の除外
-
-### Code
-
-1. **in:** 特定の領域でキーワードを検索します。たとえば、キーワードをreadmeファイルで検索するには、`in:readme`を使用します。(Q: title, body, comments, name, descri­ption, readme)
 1. **in:file,path octocat** ファイルの内容またはパスに「octocat」が表示されるコードとマッチします。
 1. **language:** 特定のプログラミング言語で書かれたリポジトリを検索します。たとえば、`language:python`とします。
 1. **user:** 特定のユーザーが所有するリポジトリを見つけます。例: `user:octocat`。
@@ -200,8 +206,3 @@ github.com 上で `Cmd + K`(macOS), `Ctrl + K` (Windows) を入力すること�
 
 - https://traviswimer.com/blog/github-search-cheatsheet#search-syntax-(other-sections-depend-on-understanding-this)
 
-[^1]: https://github.blog/changelog/2021-10-27-command-palette-beta/ [^1]
-[^2]: https://docs.github.com/ja/github/searching-for-information-on-github/ understanding-the-search-syntax [^2]
-[^3]: https://docs.github.com/ja/search-github/searching-on-github/searching-code [^3]
-[^4]: https://docs.github.com/ja/search-github/github-code-search/about-github-code-search#limitations [^4]
-[^5]: https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories#search-by-topic [^5]

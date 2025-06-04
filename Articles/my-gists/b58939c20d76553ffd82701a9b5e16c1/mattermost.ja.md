@@ -58,3 +58,4 @@ Mattermostを試して、チームのコミュニケーションとコラボレ�
 [^2]: [Self-hosted] (https://docs.mattermost.com/guides/deployment.html#server-installation)
 [^3]: [Apps Download] (https://mattermost.com/download/#desktop)
 
+

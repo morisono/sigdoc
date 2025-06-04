@@ -10,7 +10,7 @@
 
 ### Instagram
 
-- https://github.com/evildevill/instahack
+- [GitHub - evildevill/instahack](https://github.com/evildevill/instahack)
 
 ### MT4/MT5
 
@@ -19,7 +19,7 @@
 
 ## 転売
 
-- https://priceplus.jp/product/game_account/%E3%81%9F/2668?page=2314&sort=created&direction=asc
+- [Twitter(X)のアカウント販売・RMTの価格相場（2314ページ目） | 転売アイテム情報サイト PricePlus](https://priceplus.jp/product/game_account/%E3%81%9F/2668?page=2314&sort=created&direction=asc)
 - https://elrincondelantropologo.com/buy-twitter-account/
 - https://rmt.club/post_list?title=16648&search_word=&deal_type_id=1&price_lower=&price_upper=&is_search=1&sort=view
 

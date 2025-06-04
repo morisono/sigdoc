@@ -129,3 +129,8 @@ Nitterをセルフホストすることで、Twitterの軽量で高速なフロ�
 
 [^1]: https://matoken.org/blog/2021/02/17/self-hosting-the-lightweight-twitter-front-end-nitter/
 [^2]: https://matoken.org/blog/2022/03/11/nitter-upgrade-note2022-03/
+
+- [Instances · zedeus/nitter Wiki · GitHub](https://github.com/zedeus/nitter/wiki/Instances)
+
+[View Twitter Without Account | TweeteDelete](https://tweetdelete.net/resources/view-twitter-without-account-3-solutions-that-still-work/)
+- [Twitter Proxy - The Top 10 Tools and Services — RapidSeedbox](https://www.rapidseedbox.com/blog/twitter-proxy-services-tools)

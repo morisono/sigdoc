@@ -2,6 +2,9 @@
 
 Chrome拡張機能を利用してウェブページの動作をカスタマイズするために、Greasemonkey、Tampermonkey、Violentmonkeyなどのスクリプトマネージャーが人気です。それぞれのツールには独自の特徴があり、使用状況に応じて最適な選択肢を見つけることが重要です。以下では、これらの拡張機能を機能面で比較します。
 
+## 概要
+
+こだわりがなければ、Tampermonkeyを選びましょう。
 ## [Greasemonkey](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/)
 
 **特徴:**
@@ -60,3 +63,4 @@ Chrome拡張機能を利用してウェブページの動作をカスタマイ�
 - 他のツールと比較して、スクリプトの管理や編集機能が限られています。
 
 - https://github.com/nakajmg/ScriptAutoRunner
+

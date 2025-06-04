@@ -24,11 +24,11 @@
 1. No coding solution
 
 
-## ドメイン検索
+## ドメイン
 
 希望のドメイン名が使用可能かチェックしておきましょう。
 
-http://namecheckup.com/
+- [NameCheckup - Find Available Username](http://namecheckup.com/)
 
 ## GitHub Actions
 
@@ -36,9 +36,8 @@ http://namecheckup.com/
 
 ## 広告収益
 
-[GA4] パブリッシャー広告レポート
-https://support.google.com/analytics/answer/12925552?hl=ja
+- [GA4 パブリッシャー広告レポート](https://support.google.com/analytics/answer/12925552?hl=ja)
 
 ## SEO 
 
-https://ogp.me/
+- [The Open Graph protocol](https://ogp.me/)

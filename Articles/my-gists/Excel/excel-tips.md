@@ -5,15 +5,7 @@
 入力フォーム作成
 統計分析
 マクロ・VBAによる定型作業の自動化
-
-## Excelにできないこと・不向きなこと
-大容量のデータ処理
-複数人による同時編集
-更新のリアルタイム反映
-複数データの統合
-バージョン管理
-アクセス権限管理
-印刷前提のレイアウト
+RG
 
 ## 差分管理 (.bas, .cls, .dcm) bin配下にエクセルファイルを配置する。
 https://github.com/vbaidiot/ariawase/blob/master/vbac.wsf
@@ -30,6 +22,7 @@ https://github.com/takeruko/extract_vba_source
 
 - WinMerge > Plugins > Automatic Extract True, CompareMSFiles > Compare Formulas
 - https://tech.robotpayment.co.jp/entry/2023/03/23/070000
+
 ## 回帰分析
 ```
 回帰分析をExcelで行うには、以下の手順に従ってください。
